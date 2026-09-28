@@ -198,15 +198,50 @@
    "left": 1.0,
    "pnl_sum": 0.0,
    "parts": []
+  },
+  {
+   "sym": "ATOMUSDT",
+   "dir": "LONG",
+   "entry": 1.884,
+   "sl": 1.854,
+   "tp": 1.9439999999999995,
+   "grade": "B",
+   "volX": 0.89,
+   "strategy": "sweep",
+   "risk": 0.029999999999999805,
+   "risk_inr": 8115.0,
+   "qty": 270500.0,
+   "t_open": "2026-09-28 05:31",
+   "bars": 0,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": []
   }
  ],
  "equity": 162300.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "ATOMUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 1.884,
+   "sl": 1.854,
+   "tp": 1.9439999999999995,
+   "volX": 0.89,
+   "buyPct": 54.9,
+   "t": "2026-09-28 05:31"
+  }
+ ],
  "qml": {
   "history": [],
   "open": [],
   "equity": 200000.0,
   "signals": []
  },
- "updated": "2026-09-28 05:31:56.309693+05:30"
+ "updated": "2026-09-28 05:31:57.752902+05:30"
 }
