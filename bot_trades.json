@@ -232,9 +232,7 @@
    "resultR": -1.0,
    "pnl": -8115.0,
    "exitTime": "2026-09-28 09:31"
-  }
- ],
- "open": [
+  },
   {
    "sym": "ETHUSDT",
    "dir": "SHORT",
@@ -248,15 +246,21 @@
    "risk_inr": 7912.12,
    "qty": 151.4282,
    "t_open": "2026-09-28 09:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7912.12,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 2702.98,
+   "resultR": -1.0,
+   "pnl": -7912.0,
+   "exitTime": "2026-09-28 12:31"
   },
   {
    "sym": "BNBUSDT",
@@ -271,15 +275,21 @@
    "risk_inr": 7912.12,
    "qty": 561.9407,
    "t_open": "2026-09-28 09:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7912.12,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 784.95,
+   "resultR": -1.0,
+   "pnl": -7912.0,
+   "exitTime": "2026-09-28 12:31"
   },
   {
    "sym": "DOGEUSDT",
@@ -294,15 +304,21 @@
    "risk_inr": 7912.12,
    "qty": 2082138.1579,
    "t_open": "2026-09-28 09:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7912.12,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 0.09782,
+   "resultR": -1.0,
+   "pnl": -7912.0,
+   "exitTime": "2026-09-28 12:31"
   },
   {
    "sym": "ADAUSDT",
@@ -317,15 +333,21 @@
    "risk_inr": 7912.12,
    "qty": 1001534.8101,
    "t_open": "2026-09-28 09:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7912.12,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 0.258,
+   "resultR": -1.0,
+   "pnl": -7912.0,
+   "exitTime": "2026-09-28 12:31"
   },
   {
    "sym": "ATOMUSDT",
@@ -340,80 +362,39 @@
    "risk_inr": 7912.12,
    "qty": 106920.6081,
    "t_open": "2026-09-28 09:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7912.12,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 1.893,
+   "resultR": -1.0,
+   "pnl": -7912.0,
+   "exitTime": "2026-09-28 12:31"
   }
  ],
- "equity": 158242.5,
- "sweep_signals": [
-  {
-   "sym": "ETHUSDT",
-   "dir": "SHORT",
-   "grade": "A+",
-   "entry": 2650.73,
-   "sl": 2702.98,
-   "tp": 2546.23,
-   "volX": 2.05,
-   "buyPct": 42.7,
-   "t": "2026-09-28 09:31"
-  },
-  {
-   "sym": "BNBUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 770.87,
-   "sl": 784.95,
-   "tp": 742.7099999999999,
-   "volX": 2.0,
-   "buyPct": 48.2,
-   "t": "2026-09-28 09:31"
-  },
-  {
-   "sym": "DOGEUSDT",
-   "dir": "SHORT",
-   "grade": "A+",
-   "entry": 0.09402,
-   "sl": 0.09782,
-   "tp": 0.08642000000000001,
-   "volX": 1.89,
-   "buyPct": 44.1,
-   "t": "2026-09-28 09:31"
-  },
-  {
-   "sym": "ADAUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.2501,
-   "sl": 0.258,
-   "tp": 0.23429999999999995,
-   "volX": 1.45,
-   "buyPct": 47.3,
-   "t": "2026-09-28 09:31"
-  },
-  {
-   "sym": "ATOMUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 1.819,
-   "sl": 1.893,
-   "tp": 1.6709999999999998,
-   "volX": 1.71,
-   "buyPct": 46.4,
-   "t": "2026-09-28 09:31"
-  }
- ],
+ "open": [],
+ "equity": 118681.90000000002,
+ "sweep_signals": [],
  "qml": {
   "history": [],
   "open": [],
   "equity": 200000.0,
   "signals": []
  },
- "updated": "2026-09-28 12:18:34.044595+05:30"
+ "market": {
+  "rows": [],
+  "t": "2026-09-28 12:31"
+ },
+ "liq": {
+  "setups": [],
+  "t": "2026-09-28 12:31"
+ },
+ "updated": "2026-09-28 12:31:34.904301+05:30"
 }
