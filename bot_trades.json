@@ -173,9 +173,7 @@
    "resultR": -1.0,
    "pnl": -10000.0,
    "exitTime": "2026-09-27 21:31"
-  }
- ],
- "open": [
+  },
   {
    "sym": "XRPUSDT",
    "dir": "SHORT",
@@ -189,15 +187,22 @@
    "risk_inr": 8115.0,
    "qty": 271404.6823,
    "t_open": "2026-09-27 21:31",
-   "bars": 2,
-   "p1": false,
+   "bars": 3,
+   "p1": true,
    "p2": false,
-   "be": false,
+   "be": true,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": 0.5,
+   "left": 0.0,
+   "pnl_sum": 4057.5,
+   "parts": [
+    "+1.0R x 0.5",
+    "+0.00R x 0.5"
+   ],
+   "exit": 1.5158,
+   "resultR": 0.5,
+   "pnl": 4058.0,
+   "exitTime": "2026-09-28 09:31"
   },
   {
    "sym": "ATOMUSDT",
@@ -212,18 +217,25 @@
    "risk_inr": 8115.0,
    "qty": 270500.0,
    "t_open": "2026-09-28 05:31",
-   "bars": 0,
+   "bars": 1,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -8115.0,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 1.854,
+   "resultR": -1.0,
+   "pnl": -8115.0,
+   "exitTime": "2026-09-28 09:31"
   }
  ],
- "equity": 162300.0,
+ "open": [],
+ "equity": 158242.5,
  "sweep_signals": [
   {
    "sym": "ATOMUSDT",
@@ -243,5 +255,5 @@
   "equity": 200000.0,
   "signals": []
  },
- "updated": "2026-09-28 09:18:17.077515+05:30"
+ "updated": "2026-09-28 09:31:12.153316+05:30"
 }
