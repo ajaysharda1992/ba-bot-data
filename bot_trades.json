@@ -468,9 +468,7 @@
    "resultR": -1.0,
    "pnl": -8543.0,
    "exitTime": "2026-09-28 23:34"
-  }
- ],
- "open": [
+  },
   {
    "sym": "AVAXUSDT",
    "dir": "SHORT",
@@ -484,16 +482,24 @@
    "risk_inr": 7253.79,
    "qty": 18410.6269,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
+   "bars": 3,
    "p1": false,
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
-  },
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -7253.79,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
+   "exit": 10.724,
+   "resultR": -1.0,
+   "pnl": -7254.0,
+   "exitTime": "2026-09-29 09:31"
+  }
+ ],
+ "open": [
   {
    "sym": "DOTUSDT",
    "dir": "SHORT",
@@ -507,7 +513,7 @@
    "risk_inr": 7253.79,
    "qty": 128158.7809,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
+   "bars": 3,
    "p1": false,
    "p2": false,
    "be": false,
@@ -530,15 +536,17 @@
    "risk_inr": 7253.79,
    "qty": 2924.9141,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
-   "p1": false,
+   "bars": 3,
+   "p1": true,
    "p2": false,
-   "be": false,
+   "be": true,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": 0.5,
+   "left": 0.5,
+   "pnl_sum": 3626.895,
+   "parts": [
+    "+1.0R x 0.5"
+   ]
   },
   {
    "sym": "NEARUSDT",
@@ -553,7 +561,7 @@
    "risk_inr": 7253.79,
    "qty": 20205.5348,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
+   "bars": 3,
    "p1": false,
    "p2": false,
    "be": false,
@@ -576,7 +584,7 @@
    "risk_inr": 7253.79,
    "qty": 91820.0886,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
+   "bars": 3,
    "p1": false,
    "p2": false,
    "be": false,
@@ -599,18 +607,20 @@
    "risk_inr": 7253.79,
    "qty": 733446.6127,
    "t_open": "2026-09-28 23:34",
-   "bars": 2,
-   "p1": false,
+   "bars": 3,
+   "p1": true,
    "p2": false,
-   "be": false,
+   "be": true,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": []
+   "r_acc": 0.5,
+   "left": 0.5,
+   "pnl_sum": 3626.895,
+   "parts": [
+    "+1.0R x 0.5"
+   ]
   }
  ],
- "equity": 145075.74,
+ "equity": 145075.73999999996,
  "sweep_signals": [
   {
    "sym": "AVAXUSDT",
@@ -864,7 +874,7 @@
     "f240": 44.368958598711984
    }
   ],
-  "t": "2026-09-29 09:18"
+  "t": "2026-09-29 09:31"
  },
  "liq": {
   "setups": [
@@ -929,7 +939,7 @@
     "rr": 0.88
    }
   ],
-  "t": "2026-09-29 09:18"
+  "t": "2026-09-29 09:31"
  },
- "updated": "2026-09-29 09:18:34.857526+05:30"
+ "updated": "2026-09-29 09:31:44.456430+05:30"
 }
