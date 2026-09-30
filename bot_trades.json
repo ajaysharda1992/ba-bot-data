@@ -812,9 +812,7 @@
     "resultR": -1.0,
     "pnl": -10000.0,
     "exitTime": "2026-09-30 21:48"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "PHAUSDT",
     "dir": "SHORT",
@@ -828,17 +826,22 @@
     "risk_inr": 10000.0,
     "qty": 11816978.6349,
     "t_open": "2026-09-30 21:18",
-    "bars": 1,
+    "bars": 2,
     "p1": true,
     "p2": false,
     "be": true,
     "trail": false,
     "r_acc": 0.5,
-    "left": 0.5,
+    "left": 0.0,
     "pnl_sum": 5000.0,
     "parts": [
-     "+1.0R x 0.5"
-    ]
+     "+1.0R x 0.5",
+     "+0.00R x 0.5"
+    ],
+    "exit": 0.07547,
+    "resultR": 0.5,
+    "pnl": 5000.0,
+    "exitTime": "2026-09-30 22:03"
    },
    {
     "sym": "PUMPUSDT",
@@ -853,15 +856,23 @@
     "risk_inr": 12562.5,
     "qty": 1061201216.4218,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.375,
+    "left": 0.0,
+    "pnl_sum": 17273.4375,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+2.00R x 0.25"
+    ],
+    "exit": 0.0057,
+    "resultR": 1.38,
+    "pnl": 17273.0,
+    "exitTime": "2026-09-30 22:03"
    },
    {
     "sym": "SOLUSDT",
@@ -876,16 +887,26 @@
     "risk_inr": 12562.5,
     "qty": 78574.5559,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.125,
+    "left": 0.0,
+    "pnl_sum": 14132.8125,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+1.00R x 0.25"
+    ],
+    "exit": 119.68012000000003,
+    "resultR": 1.12,
+    "pnl": 14133.0,
+    "exitTime": "2026-09-30 22:03"
+   }
+  ],
+  "open": [
    {
     "sym": "NEARUSDT",
     "dir": "SHORT",
@@ -899,7 +920,7 @@
     "risk_inr": 12562.5,
     "qty": 99331.8574,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -922,7 +943,7 @@
     "risk_inr": 12562.5,
     "qty": 514605.5817,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -945,7 +966,7 @@
     "risk_inr": 12562.5,
     "qty": 105172.1684,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -968,7 +989,7 @@
     "risk_inr": 12562.5,
     "qty": 1639.0331,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -991,18 +1012,20 @@
     "risk_inr": 12562.5,
     "qty": 6154.9203,
     "t_open": "2026-09-30 21:48",
-    "bars": 0,
-    "p1": false,
+    "bars": 1,
+    "p1": true,
     "p2": false,
-    "be": false,
+    "be": true,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "r_acc": 0.5,
+    "left": 0.5,
+    "pnl_sum": 6281.25,
+    "parts": [
+     "+1.0R x 0.5"
+    ]
    }
   ],
-  "equity": 251250.0,
+  "equity": 288937.5,
   "signals": [
    {
     "sym": "PUMPUSDT",
@@ -1413,7 +1436,7 @@
     "f240": 47.164321170928645
    }
   ],
-  "t": "2026-09-30 21:48"
+  "t": "2026-09-30 22:03"
  },
  "liq": {
   "setups": [
@@ -1466,11 +1489,11 @@
     "rr": 0.89
    }
   ],
-  "t": "2026-09-30 21:48"
+  "t": "2026-09-30 22:03"
  },
  "day_r": 0.0,
  "cur_day": "2026-09-30",
- "qml_day_r": 5.125,
+ "qml_day_r": 8.125,
  "qml_cur_day": "2026-09-30",
- "updated": "2026-09-30 21:48:48.349809+05:30"
+ "updated": "2026-09-30 22:03:38.247645+05:30"
 }
