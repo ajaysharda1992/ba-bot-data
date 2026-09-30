@@ -904,6 +904,66 @@
     "resultR": 1.12,
     "pnl": 14133.0,
     "exitTime": "2026-09-30 22:03"
+   },
+   {
+    "sym": "LINKUSDT",
+    "dir": "SHORT",
+    "entry": 14.342,
+    "sl": 14.461446999999998,
+    "tp": 14.176,
+    "grade": "A",
+    "volX": 2.48,
+    "strategy": "qml",
+    "risk": 0.11944699999999742,
+    "risk_inr": 12562.5,
+    "qty": 105172.1684,
+    "t_open": "2026-09-30 21:48",
+    "bars": 2,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": -1.0,
+    "left": 0.0,
+    "pnl_sum": -12562.5,
+    "parts": [
+     "-1.00R x 1.0"
+    ],
+    "exit": 14.461446999999998,
+    "resultR": -1.0,
+    "pnl": -12562.0,
+    "exitTime": "2026-09-30 22:18"
+   },
+   {
+    "sym": "METAUSDT",
+    "dir": "SHORT",
+    "entry": 739.75,
+    "sl": 741.7910499999999,
+    "tp": 736.72,
+    "grade": "B",
+    "volX": 1.45,
+    "strategy": "qml",
+    "risk": 2.0410499999999274,
+    "risk_inr": 12562.5,
+    "qty": 6154.9203,
+    "t_open": "2026-09-30 21:48",
+    "bars": 2,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.125,
+    "left": 0.0,
+    "pnl_sum": 14132.8125,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+1.00R x 0.25"
+    ],
+    "exit": 737.7089500000001,
+    "resultR": 1.12,
+    "pnl": 14133.0,
+    "exitTime": "2026-09-30 22:18"
    }
   ],
   "open": [
@@ -920,7 +980,7 @@
     "risk_inr": 12562.5,
     "qty": 99331.8574,
     "t_open": "2026-09-30 21:48",
-    "bars": 1,
+    "bars": 2,
     "p1": false,
     "p2": false,
     "be": false,
@@ -943,30 +1003,7 @@
     "risk_inr": 12562.5,
     "qty": 514605.5817,
     "t_open": "2026-09-30 21:48",
-    "bars": 1,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "LINKUSDT",
-    "dir": "SHORT",
-    "entry": 14.342,
-    "sl": 14.461446999999998,
-    "tp": 14.176,
-    "grade": "A",
-    "volX": 2.48,
-    "strategy": "qml",
-    "risk": 0.11944699999999742,
-    "risk_inr": 12562.5,
-    "qty": 105172.1684,
-    "t_open": "2026-09-30 21:48",
-    "bars": 1,
+    "bars": 2,
     "p1": false,
     "p2": false,
     "be": false,
@@ -989,7 +1026,7 @@
     "risk_inr": 12562.5,
     "qty": 1639.0331,
     "t_open": "2026-09-30 21:48",
-    "bars": 1,
+    "bars": 2,
     "p1": false,
     "p2": false,
     "be": false,
@@ -998,31 +1035,6 @@
     "left": 1.0,
     "pnl_sum": 0.0,
     "parts": []
-   },
-   {
-    "sym": "METAUSDT",
-    "dir": "SHORT",
-    "entry": 739.75,
-    "sl": 741.7910499999999,
-    "tp": 736.72,
-    "grade": "B",
-    "volX": 1.45,
-    "strategy": "qml",
-    "risk": 2.0410499999999274,
-    "risk_inr": 12562.5,
-    "qty": 6154.9203,
-    "t_open": "2026-09-30 21:48",
-    "bars": 1,
-    "p1": true,
-    "p2": false,
-    "be": true,
-    "trail": false,
-    "r_acc": 0.5,
-    "left": 0.5,
-    "pnl_sum": 6281.25,
-    "parts": [
-     "+1.0R x 0.5"
-    ]
    },
    {
     "sym": "DOTUSDT",
@@ -1037,7 +1049,7 @@
     "risk_inr": 14446.88,
     "qty": 1065183.8116,
     "t_open": "2026-09-30 22:03",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -1048,7 +1060,7 @@
     "parts": []
    }
   ],
-  "equity": 288937.5,
+  "equity": 284226.5625,
   "signals": [
    {
     "sym": "PUMPUSDT",
@@ -1459,7 +1471,7 @@
     "f240": 48.664717551134444
    }
   ],
-  "t": "2026-09-30 22:14"
+  "t": "2026-09-30 22:18"
  },
  "liq": {
   "setups": [
@@ -1512,11 +1524,11 @@
     "rr": 0.89
    }
   ],
-  "t": "2026-09-30 22:14"
+  "t": "2026-09-30 22:18"
  },
  "day_r": 0.0,
  "cur_day": "2026-09-30",
- "qml_day_r": 8.125,
+ "qml_day_r": 7.75,
  "qml_cur_day": "2026-09-30",
- "updated": "2026-09-30 22:14:45.034972+05:30"
+ "updated": "2026-09-30 22:18:32.512752+05:30"
 }
