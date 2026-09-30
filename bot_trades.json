@@ -559,9 +559,45 @@
    "exitTime": "2026-09-29 11:35"
   }
  ],
- "open": [],
+ "open": [
+  {
+   "sym": "LINKUSDT",
+   "dir": "SHORT",
+   "entry": 14.242,
+   "sl": 14.805,
+   "tp": 13.116000000000003,
+   "grade": "B",
+   "volX": 1.48,
+   "strategy": "sweep",
+   "risk": 0.5629999999999988,
+   "risk_inr": 8531.85,
+   "qty": 15154.2629,
+   "t_open": "2026-09-30 21:31",
+   "bars": 0,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": []
+  }
+ ],
  "equity": 170637.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "LINKUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 14.242,
+   "sl": 14.805,
+   "tp": 13.116000000000003,
+   "volX": 1.48,
+   "buyPct": 46.9,
+   "t": "2026-09-30 21:31"
+  }
+ ],
  "qml": {
   "history": [],
   "open": [
@@ -1171,5 +1207,5 @@
  "cur_day": "2026-09-30",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-09-30",
- "updated": "2026-09-30 21:31:43.476481+05:30"
+ "updated": "2026-09-30 21:31:45.015891+05:30"
 }
