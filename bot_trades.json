@@ -1144,6 +1144,35 @@
     "resultR": 1.38,
     "pnl": 19187.0,
     "exitTime": "2026-09-30 23:18"
+   },
+   {
+    "sym": "NIGHTUSDT",
+    "dir": "SHORT",
+    "entry": 0.03793,
+    "sl": 0.038538499999999996,
+    "tp": 0.03594,
+    "grade": "A",
+    "volX": 3.48,
+    "strategy": "qml",
+    "risk": 0.0006084999999999979,
+    "risk_inr": 15601.25,
+    "qty": 25638865.3451,
+    "t_open": "2026-09-30 23:18",
+    "bars": 1,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": -1.0,
+    "left": 0.0,
+    "pnl_sum": -15601.25,
+    "parts": [
+     "-1.00R x 1.0"
+    ],
+    "exit": 0.038538499999999996,
+    "resultR": -1.0,
+    "pnl": -15601.0,
+    "exitTime": "2026-09-30 23:48"
    }
   ],
   "open": [
@@ -1160,7 +1189,7 @@
     "risk_inr": 12562.5,
     "qty": 99331.8574,
     "t_open": "2026-09-30 21:48",
-    "bars": 5,
+    "bars": 6,
     "p1": false,
     "p2": false,
     "be": false,
@@ -1183,15 +1212,17 @@
     "risk_inr": 12562.5,
     "qty": 514605.5817,
     "t_open": "2026-09-30 21:48",
-    "bars": 5,
-    "p1": false,
+    "bars": 6,
+    "p1": true,
     "p2": false,
-    "be": false,
+    "be": true,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "r_acc": 0.5,
+    "left": 0.5,
+    "pnl_sum": 6281.25,
+    "parts": [
+     "+1.0R x 0.5"
+    ]
    },
    {
     "sym": "TAOUSDT",
@@ -1206,7 +1237,7 @@
     "risk_inr": 12562.5,
     "qty": 1639.0331,
     "t_open": "2026-09-30 21:48",
-    "bars": 5,
+    "bars": 6,
     "p1": false,
     "p2": false,
     "be": false,
@@ -1229,7 +1260,7 @@
     "risk_inr": 14446.88,
     "qty": 1065183.8116,
     "t_open": "2026-09-30 22:03",
-    "bars": 4,
+    "bars": 5,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1254,7 +1285,7 @@
     "risk_inr": 13056.66,
     "qty": 1713.787,
     "t_open": "2026-09-30 22:48",
-    "bars": 2,
+    "bars": 3,
     "p1": false,
     "p2": false,
     "be": false,
@@ -1277,15 +1308,17 @@
     "risk_inr": 13056.66,
     "qty": 371.1092,
     "t_open": "2026-09-30 22:48",
-    "bars": 2,
-    "p1": false,
+    "bars": 3,
+    "p1": true,
     "p2": false,
-    "be": false,
+    "be": true,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "r_acc": 0.5,
+    "left": 0.5,
+    "pnl_sum": 6528.33,
+    "parts": [
+     "+1.0R x 0.5"
+    ]
    },
    {
     "sym": "DASHUSDT",
@@ -1300,7 +1333,7 @@
     "risk_inr": 13056.66,
     "qty": 10500.5168,
     "t_open": "2026-09-30 22:48",
-    "bars": 2,
+    "bars": 3,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1311,32 +1344,9 @@
     "parts": [
      "+1.0R x 0.5"
     ]
-   },
-   {
-    "sym": "NIGHTUSDT",
-    "dir": "SHORT",
-    "entry": 0.03793,
-    "sl": 0.038538499999999996,
-    "tp": 0.03594,
-    "grade": "A",
-    "volX": 3.48,
-    "strategy": "qml",
-    "risk": 0.0006084999999999979,
-    "risk_inr": 15601.25,
-    "qty": 25638865.3451,
-    "t_open": "2026-09-30 23:18",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
    }
   ],
-  "equity": 312024.9912500001,
+  "equity": 309233.3212500001,
   "signals": [
    {
     "sym": "NIGHTUSDT",
@@ -1747,7 +1757,7 @@
     "f240": 48.47767264213461
    }
   ],
-  "t": "2026-09-30 23:44"
+  "t": "2026-09-30 23:48"
  },
  "liq": {
   "setups": [
@@ -1812,11 +1822,11 @@
     "rr": 0.89
    }
   ],
-  "t": "2026-09-30 23:44"
+  "t": "2026-09-30 23:48"
  },
  "day_r": 0.0,
  "cur_day": "2026-09-30",
  "qml_day_r": 9.875,
  "qml_cur_day": "2026-09-30",
- "updated": "2026-09-30 23:44:08.277935+05:30"
+ "updated": "2026-09-30 23:48:36.442082+05:30"
 }
