@@ -1878,6 +1878,68 @@
     "resultR": -1.0,
     "pnl": -43679.0,
     "exitTime": "2026-10-01 08:18"
+   },
+   {
+    "sym": "QNTUSDT",
+    "dir": "SHORT",
+    "entry": 302.27,
+    "sl": 306.68638,
+    "tp": 289.89,
+    "grade": "A",
+    "volX": 1.59,
+    "strategy": "qml",
+    "risk": 4.416380000000004,
+    "risk_inr": 41702.31,
+    "qty": 9442.6456,
+    "t_open": "2026-10-01 08:18",
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.375,
+    "left": 0.0,
+    "pnl_sum": 57340.67625,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+2.00R x 0.25"
+    ],
+    "exit": 289.89,
+    "resultR": 1.38,
+    "pnl": 57341.0,
+    "exitTime": "2026-10-01 08:48"
+   },
+   {
+    "sym": "ADAUSDT",
+    "dir": "SHORT",
+    "entry": 0.2493,
+    "sl": 0.25025,
+    "tp": 0.2465,
+    "grade": "A",
+    "volX": 3.33,
+    "strategy": "qml",
+    "risk": 0.0009499999999999786,
+    "risk_inr": 41702.31,
+    "qty": 43897169.7368,
+    "t_open": "2026-10-01 08:18",
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.125,
+    "left": 0.0,
+    "pnl_sum": 46915.09875,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+1.00R x 0.25"
+    ],
+    "exit": 0.24835000000000002,
+    "resultR": 1.12,
+    "pnl": 46915.0,
+    "exitTime": "2026-10-01 08:48"
    }
   ],
   "open": [
@@ -1894,7 +1956,7 @@
     "risk_inr": 13056.66,
     "qty": 1713.787,
     "t_open": "2026-09-30 22:48",
-    "bars": 29,
+    "bars": 30,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1919,7 +1981,7 @@
     "risk_inr": 13056.66,
     "qty": 371.1092,
     "t_open": "2026-09-30 22:48",
-    "bars": 29,
+    "bars": 30,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1944,7 +2006,7 @@
     "risk_inr": 16524.66,
     "qty": 395.1677,
     "t_open": "2026-10-01 00:03",
-    "bars": 25,
+    "bars": 26,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1969,7 +2031,7 @@
     "risk_inr": 23338.36,
     "qty": 185153.0908,
     "t_open": "2026-10-01 01:18",
-    "bars": 21,
+    "bars": 22,
     "p1": true,
     "p2": false,
     "be": true,
@@ -1994,15 +2056,17 @@
     "risk_inr": 26650.65,
     "qty": 23337.4307,
     "t_open": "2026-10-01 02:03",
-    "bars": 19,
-    "p1": false,
+    "bars": 20,
+    "p1": true,
     "p2": false,
-    "be": false,
+    "be": true,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "r_acc": 0.5,
+    "left": 0.5,
+    "pnl_sum": 13325.325,
+    "parts": [
+     "+1.0R x 0.5"
+    ]
    },
    {
     "sym": "NVDAUSDT",
@@ -2017,53 +2081,7 @@
     "risk_inr": 43678.98,
     "qty": 12841.0933,
     "t_open": "2026-10-01 06:48",
-    "bars": 5,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "QNTUSDT",
-    "dir": "SHORT",
-    "entry": 302.27,
-    "sl": 306.68638,
-    "tp": 289.89,
-    "grade": "A",
-    "volX": 1.59,
-    "strategy": "qml",
-    "risk": 4.416380000000004,
-    "risk_inr": 41702.31,
-    "qty": 9442.6456,
-    "t_open": "2026-10-01 08:18",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "ADAUSDT",
-    "dir": "SHORT",
-    "entry": 0.2493,
-    "sl": 0.25025,
-    "tp": 0.2465,
-    "grade": "A",
-    "volX": 3.33,
-    "strategy": "qml",
-    "risk": 0.0009499999999999786,
-    "risk_inr": 41702.31,
-    "qty": 43897169.7368,
-    "t_open": "2026-10-01 08:18",
-    "bars": 0,
+    "bars": 6,
     "p1": false,
     "p2": false,
     "be": false,
@@ -2074,7 +2092,7 @@
     "parts": []
    }
   ],
-  "equity": 834046.2249999997,
+  "equity": 951627.3249999997,
   "signals": [
    {
     "sym": "ETHUSDT",
@@ -2485,7 +2503,7 @@
     "f240": 46.31867969385984
    }
   ],
-  "t": "2026-10-01 08:44"
+  "t": "2026-10-01 08:48"
  },
  "liq": {
   "setups": [
@@ -2562,11 +2580,11 @@
     "rr": 0.89
    }
   ],
-  "t": "2026-10-01 08:44"
+  "t": "2026-10-01 08:48"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-01",
- "qml_day_r": 22.455,
+ "qml_day_r": 25.455,
  "qml_cur_day": "2026-10-01",
- "updated": "2026-10-01 08:44:26.551610+05:30"
+ "updated": "2026-10-01 08:48:43.848393+05:30"
 }
