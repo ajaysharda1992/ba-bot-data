@@ -2682,6 +2682,99 @@
     "resultR": 1.12,
     "pnl": 79135.0,
     "exitTime": "2026-10-01 12:48"
+   },
+   {
+    "sym": "SOXSUSDT",
+    "dir": "SHORT",
+    "entry": 33.7,
+    "sl": 33.77374,
+    "tp": 33.28,
+    "grade": "B",
+    "volX": 0.43,
+    "strategy": "qml",
+    "risk": 0.0737399999999937,
+    "risk_inr": 94332.11,
+    "qty": 1279252.8748,
+    "t_open": "2026-10-01 12:48",
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.375,
+    "left": 0.0,
+    "pnl_sum": 129706.65125,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+2.00R x 0.25"
+    ],
+    "exit": 33.28,
+    "resultR": 1.38,
+    "pnl": 129707.0,
+    "exitTime": "2026-10-01 13:03"
+   },
+   {
+    "sym": "AMDUSDT",
+    "dir": "LONG",
+    "entry": 610.05,
+    "sl": 608.5908000000001,
+    "tp": 613.5,
+    "grade": "B",
+    "volX": 0.4,
+    "strategy": "qml",
+    "risk": 1.4591999999998961,
+    "risk_inr": 94332.11,
+    "qty": 64646.4549,
+    "t_open": "2026-10-01 12:48",
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.375,
+    "left": 0.0,
+    "pnl_sum": 129706.65125,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+2.00R x 0.25"
+    ],
+    "exit": 613.5,
+    "resultR": 1.38,
+    "pnl": 129707.0,
+    "exitTime": "2026-10-01 13:03"
+   },
+   {
+    "sym": "CBRSUSDT",
+    "dir": "SHORT",
+    "entry": 193.52,
+    "sl": 193.79359999999997,
+    "tp": 192.07,
+    "grade": "B",
+    "volX": 1.03,
+    "strategy": "qml",
+    "risk": 0.2735999999999592,
+    "risk_inr": 94332.11,
+    "qty": 344781.0928,
+    "t_open": "2026-10-01 12:48",
+    "bars": 1,
+    "p1": true,
+    "p2": true,
+    "be": true,
+    "trail": true,
+    "r_acc": 1.375,
+    "left": 0.0,
+    "pnl_sum": 129706.65125,
+    "parts": [
+     "+1.0R x 0.5",
+     "+1.5R x 0.25",
+     "+2.00R x 0.25"
+    ],
+    "exit": 192.07,
+    "resultR": 1.38,
+    "pnl": 129707.0,
+    "exitTime": "2026-10-01 13:03"
    }
   ],
   "open": [
@@ -2698,87 +2791,20 @@
     "risk_inr": 53993.76,
     "qty": 173722.3076,
     "t_open": "2026-10-01 09:18",
-    "bars": 10,
-    "p1": false,
+    "bars": 11,
+    "p1": true,
     "p2": false,
-    "be": false,
+    "be": true,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "SOXSUSDT",
-    "dir": "SHORT",
-    "entry": 33.7,
-    "sl": 33.77374,
-    "tp": 33.28,
-    "grade": "B",
-    "volX": 0.43,
-    "strategy": "qml",
-    "risk": 0.0737399999999937,
-    "risk_inr": 94332.11,
-    "qty": 1279252.8748,
-    "t_open": "2026-10-01 12:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "AMDUSDT",
-    "dir": "LONG",
-    "entry": 610.05,
-    "sl": 608.5908000000001,
-    "tp": 613.5,
-    "grade": "B",
-    "volX": 0.4,
-    "strategy": "qml",
-    "risk": 1.4591999999998961,
-    "risk_inr": 94332.11,
-    "qty": 64646.4549,
-    "t_open": "2026-10-01 12:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
-   },
-   {
-    "sym": "CBRSUSDT",
-    "dir": "SHORT",
-    "entry": 193.52,
-    "sl": 193.79359999999997,
-    "tp": 192.07,
-    "grade": "B",
-    "volX": 1.03,
-    "strategy": "qml",
-    "risk": 0.2735999999999592,
-    "risk_inr": 94332.11,
-    "qty": 344781.0928,
-    "t_open": "2026-10-01 12:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": []
+    "r_acc": 0.5,
+    "left": 0.5,
+    "pnl_sum": 26996.88,
+    "parts": [
+     "+1.0R x 0.5"
+    ]
    }
   ],
-  "equity": 1886642.139799999,
+  "equity": 2302758.973549999,
   "signals": [
    {
     "sym": "NIGHTUSDT",
@@ -3189,7 +3215,7 @@
     "f240": 53.406898857770635
    }
   ],
-  "t": "2026-10-01 12:48"
+  "t": "2026-10-01 13:03"
  },
  "liq": {
   "setups": [
@@ -3254,11 +3280,11 @@
     "rr": 0.89
    }
   ],
-  "t": "2026-10-01 12:48"
+  "t": "2026-10-01 13:03"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-01",
- "qml_day_r": 41.165,
+ "qml_day_r": 45.79,
  "qml_cur_day": "2026-10-01",
- "updated": "2026-10-01 12:48:28.606458+05:30"
+ "updated": "2026-10-01 13:03:19.111957+05:30"
 }
