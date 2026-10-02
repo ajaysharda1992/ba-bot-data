@@ -4548,38 +4548,6 @@
     "resultR": -1.0,
     "pnl": -10.0,
     "exitTime": "2026-10-02 08:48"
-   }
-  ],
-  "open": [
-   {
-    "sym": "BNBUSDT",
-    "dir": "LONG",
-    "entry": 776.12,
-    "sl": 774.2449799999999,
-    "tp": 779.3,
-    "grade": "A",
-    "volX": 1.49,
-    "strategy": "qml",
-    "risk": 1.8750200000000632,
-    "risk_inr": 10.0,
-    "qty": 5.3333,
-    "t_open": "2026-10-02 14:48",
-    "bars": 2,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "live_oid": "7e75a633-040d-40e8-ad4c-b90bdc1fb609",
-    "client_order_id": "ba-2a4c1afb9eb8438a8df1",
-    "live_pending": false,
-    "pending_scans": 1,
-    "margin_req": 75.75
    },
    {
     "sym": "LTCUSDT",
@@ -4599,17 +4567,55 @@
     "p2": false,
     "be": false,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
+    "r_acc": -0.4097241190931508,
+    "left": 0.0,
+    "pnl_sum": -4.097241190931508,
+    "parts": [
+     "synced -0.41R x 1.0"
+    ],
     "live": true,
     "bmode": "LIVE",
     "live_oid": "146acbbf-c844-4ebf-b7c2-f59d798d61ee",
     "client_order_id": "ba-2f548c823aee45aca389",
     "live_pending": false,
     "pending_scans": 1,
-    "margin_req": 75.98
+    "margin_req": 75.98,
+    "exit": 69.72,
+    "resultR": -0.41,
+    "pnl": -4.0,
+    "exitTime": "2026-10-02 16:04"
+   }
+  ],
+  "open": [
+   {
+    "sym": "BNBUSDT",
+    "dir": "LONG",
+    "entry": 776.12,
+    "sl": 774.2449799999999,
+    "tp": 779.3,
+    "grade": "A",
+    "volX": 1.49,
+    "strategy": "qml",
+    "risk": 1.8750200000000632,
+    "risk_inr": 10.0,
+    "qty": 5.3333,
+    "t_open": "2026-10-02 14:48",
+    "bars": 3,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "live_oid": "7e75a633-040d-40e8-ad4c-b90bdc1fb609",
+    "client_order_id": "ba-2a4c1afb9eb8438a8df1",
+    "live_pending": false,
+    "pending_scans": 1,
+    "margin_req": 75.75
    },
    {
     "sym": "TRUMPUSDT",
@@ -4624,7 +4630,7 @@
     "risk_inr": 10.0,
     "qty": 203.3678,
     "t_open": "2026-10-02 15:19",
-    "bars": 0,
+    "bars": 1,
     "p1": false,
     "p2": false,
     "be": false,
@@ -6527,7 +6533,7 @@
     "f240": 46.25095680534746
    }
   ],
-  "t": "2026-10-02 15:49"
+  "t": "2026-10-02 16:04"
  },
  "liq": {
   "setups": [
@@ -6772,17 +6778,17 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-02 15:49"
+  "t": "2026-10-02 16:04"
  },
  "day_r": -7.5,
  "cur_day": "2026-10-02",
  "qml_day_r": 2.0,
  "qml_cur_day": "2026-10-02",
  "live": {
-  "equity": 400.0,
-  "day": 0.0,
+  "equity": 395.9027588090685,
+  "day": -0.4097241190931508,
   "cur_day": "2026-10-02",
   "day_r": 0.0
  },
- "updated": "2026-10-02 15:49:31.552448+05:30"
+ "updated": "2026-10-02 16:04:44.963504+05:30"
 }
