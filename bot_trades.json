@@ -4100,9 +4100,7 @@
     "resultR": -0.12,
     "pnl": -255.0,
     "exitTime": "2026-10-02 05:03"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "1000PEPEUSDT",
     "dir": "SHORT",
@@ -4116,52 +4114,30 @@
     "risk_inr": 10.0,
     "qty": 550906.5167,
     "t_open": "2026-10-02 07:48",
-    "bars": 1,
+    "bars": 2,
     "p1": false,
     "p2": false,
     "be": false,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
+    "r_acc": -1.0,
+    "left": 0.0,
+    "pnl_sum": -10.0,
+    "parts": [
+     "-1.00R x 1.0"
+    ],
     "live": true,
     "bmode": "LIVE",
     "live_oid": "5a172ca3-6c9f-4a40-8104-d7e4f567b611",
     "client_order_id": "ba-22d9fbb279554010892c",
     "live_pending": false,
-    "pending_scans": 1
-   },
-   {
-    "sym": "ONDOUSDT",
-    "dir": "SHORT",
-    "entry": 0.4989,
-    "sl": 0.5008002999999999,
-    "tp": 0.493,
-    "grade": "A",
-    "volX": 2.13,
-    "strategy": "qml",
-    "risk": 0.0019002999999998549,
-    "risk_inr": 10.0,
-    "qty": 5262.327,
-    "t_open": "2026-10-02 07:48",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "live_oid": "a6433f70-bb58-464f-8315-96c1f49fc8cf",
-    "client_order_id": "ba-734b72824a2c4381af04",
-    "live_pending": true,
-    "pending_scans": 2
+    "pending_scans": 1,
+    "exit": 0.0044563519,
+    "resultR": -1.0,
+    "pnl": -10.0,
+    "exitTime": "2026-10-02 08:48"
    }
   ],
+  "open": [],
   "equity": 7456758.0,
   "signals": [
    {
@@ -4573,7 +4549,7 @@
     "f240": 52.833274850455226
    }
   ],
-  "t": "2026-10-02 08:44"
+  "t": "2026-10-02 08:48"
  },
  "liq": {
   "setups": [
@@ -4626,16 +4602,17 @@
     "rr": 0.88
    }
   ],
-  "t": "2026-10-02 08:44"
+  "t": "2026-10-02 08:48"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-02",
  "qml_day_r": 2.0,
  "qml_cur_day": "2026-10-02",
  "live": {
-  "equity": 200.0,
-  "day": 0.0,
-  "cur_day": "2026-10-02"
+  "equity": 190.0,
+  "day": -1.0,
+  "cur_day": "2026-10-02",
+  "day_r": -1.0
  },
- "updated": "2026-10-02 08:44:24.412069+05:30"
+ "updated": "2026-10-02 08:48:33.266130+05:30"
 }
