@@ -4584,9 +4584,7 @@
     "resultR": -0.41,
     "pnl": -4.0,
     "exitTime": "2026-10-02 16:04"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "BNBUSDT",
     "dir": "LONG",
@@ -4605,18 +4603,26 @@
     "p2": false,
     "be": false,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
+    "r_acc": 1.5573167219548916,
+    "left": 0.0,
+    "pnl_sum": 15.573167219548916,
+    "parts": [
+     "synced +1.56R x 1.0"
+    ],
     "live": true,
     "bmode": "LIVE",
     "live_oid": "7e75a633-040d-40e8-ad4c-b90bdc1fb609",
     "client_order_id": "ba-2a4c1afb9eb8438a8df1",
     "live_pending": false,
     "pending_scans": 1,
-    "margin_req": 75.75
-   },
+    "margin_req": 75.75,
+    "exit": 779.04,
+    "resultR": 1.56,
+    "pnl": 16.0,
+    "exitTime": "2026-10-02 17:04"
+   }
+  ],
+  "open": [
    {
     "sym": "TRUMPUSDT",
     "dir": "SHORT",
@@ -4630,7 +4636,7 @@
     "risk_inr": 10.0,
     "qty": 203.3678,
     "t_open": "2026-10-02 15:19",
-    "bars": 3,
+    "bars": 4,
     "p1": false,
     "p2": false,
     "be": false,
@@ -4646,66 +4652,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "margin_req": 17.35
-   },
-   {
-    "sym": "SOLUSDT",
-    "dir": "LONG",
-    "entry": 121.46,
-    "sl": 120.90897,
-    "tp": 122.1,
-    "grade": "A",
-    "volX": 2.15,
-    "strategy": "qml",
-    "risk": 0.5510299999999972,
-    "risk_inr": 9.9,
-    "qty": 17.9619,
-    "t_open": "2026-10-02 16:04",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "live_oid": "22a59ff9-9a6e-406f-a9dc-7c584af21e39",
-    "client_order_id": "ba-41ed0abad30c4e858983",
-    "live_pending": true,
-    "pending_scans": 2,
-    "margin_req": 75.99
-   },
-   {
-    "sym": "ZECUSDT",
-    "dir": "SHORT",
-    "entry": 1401.63,
-    "sl": 1414.8634499999998,
-    "tp": 1376.51,
-    "grade": "A",
-    "volX": 1.6,
-    "strategy": "qml",
-    "risk": 13.23344999999972,
-    "risk_inr": 9.9,
-    "qty": 0.7479,
-    "t_open": "2026-10-02 16:04",
-    "bars": 0,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "live_oid": "878234e4-4135-43d2-b78c-101c7238b66b",
-    "client_order_id": "ba-631eb444ba5a42a5b506",
-    "live_pending": true,
-    "pending_scans": 2,
-    "margin_req": 41.49
    },
    {
     "sym": "ENAUSDT",
@@ -4734,7 +4680,7 @@
     "live_oid": "d30b42c9-59a4-425e-914c-8ee10d0b209b",
     "client_order_id": "ba-ff8cacf49f88462bbe20",
     "live_pending": true,
-    "pending_scans": 0,
+    "pending_scans": 1,
     "margin_req": 36.58
    }
   ],
@@ -6623,7 +6569,7 @@
     "f240": 49.14010633633719
    }
   ],
-  "t": "2026-10-02 16:49"
+  "t": "2026-10-02 17:04"
  },
  "liq": {
   "setups": [
@@ -6868,17 +6814,17 @@
     "rr": 0.92
    }
   ],
-  "t": "2026-10-02 16:49"
+  "t": "2026-10-02 17:04"
  },
  "day_r": -7.5,
  "cur_day": "2026-10-02",
  "qml_day_r": 2.0,
  "qml_cur_day": "2026-10-02",
  "live": {
-  "equity": 395.9027588090685,
-  "day": -0.4097241190931508,
+  "equity": 411.4759260286174,
+  "day": 1.1475926028617407,
   "cur_day": "2026-10-02",
   "day_r": 0.0
  },
- "updated": "2026-10-02 16:49:04.017832+05:30"
+ "updated": "2026-10-02 17:04:27.961626+05:30"
 }
