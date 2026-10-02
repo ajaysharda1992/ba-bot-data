@@ -897,9 +897,163 @@
    "exitTime": "2026-10-02 13:14"
   }
  ],
- "open": [],
+ "open": [
+  {
+   "sym": "CATIUSDT",
+   "dir": "LONG",
+   "entry": 0.06336,
+   "sl": 0.061,
+   "tp": 0.06808,
+   "grade": "A+",
+   "volX": 2.9,
+   "strategy": "sweep",
+   "risk": 0.002360000000000001,
+   "risk_inr": 5078.3,
+   "qty": 2151822.0339,
+   "t_open": "2026-10-02 20:20",
+   "bars": 0,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": [],
+   "live": false,
+   "bmode": "PAPER"
+  },
+  {
+   "sym": "UAIUSDT",
+   "dir": "SHORT",
+   "entry": 0.2901,
+   "sl": 0.3888,
+   "tp": 0.09270000000000012,
+   "grade": "B",
+   "volX": 13.72,
+   "strategy": "sweep",
+   "risk": 0.09869999999999995,
+   "risk_inr": 5078.3,
+   "qty": 51451.8744,
+   "t_open": "2026-10-02 20:20",
+   "bars": 0,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": [],
+   "live": false,
+   "bmode": "PAPER"
+  },
+  {
+   "sym": "XPLUSDT",
+   "dir": "LONG",
+   "entry": 0.09833,
+   "sl": 0.09581,
+   "tp": 0.10336999999999999,
+   "grade": "B",
+   "volX": 1.42,
+   "strategy": "sweep",
+   "risk": 0.0025199999999999945,
+   "risk_inr": 5078.3,
+   "qty": 2015198.4127,
+   "t_open": "2026-10-02 20:20",
+   "bars": 0,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": [],
+   "live": false,
+   "bmode": "PAPER"
+  }
+ ],
  "equity": 101566.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "1000RATSUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.04123,
+   "sl": 0.04018,
+   "tp": 0.04333000000000001,
+   "volX": 0.54,
+   "buyPct": 59.8,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "BTRUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.0502,
+   "sl": 0.04943,
+   "tp": 0.05174,
+   "volX": 0.62,
+   "buyPct": 52.3,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "CATIUSDT",
+   "dir": "LONG",
+   "grade": "A+",
+   "entry": 0.06336,
+   "sl": 0.061,
+   "tp": 0.06808,
+   "volX": 2.9,
+   "buyPct": 68.7,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "KAITOUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.3533,
+   "sl": 0.3495,
+   "tp": 0.36090000000000005,
+   "volX": 0.7,
+   "buyPct": 51.8,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "MELANIAUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.10818,
+   "sl": 0.10642,
+   "tp": 0.1117,
+   "volX": 0.94,
+   "buyPct": 55.1,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "UAIUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.2901,
+   "sl": 0.3888,
+   "tp": 0.09270000000000012,
+   "volX": 13.72,
+   "buyPct": 46.1,
+   "t": "2026-10-02 20:20"
+  },
+  {
+   "sym": "XPLUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.09833,
+   "sl": 0.09581,
+   "tp": 0.10336999999999999,
+   "volX": 1.42,
+   "buyPct": 49.7,
+   "t": "2026-10-02 20:20"
+  }
+ ],
  "qml": {
   "history": [
    {
@@ -4867,5 +5021,5 @@
   "cur_day": "2026-10-02",
   "day_r": 0.0
  },
- "updated": "2026-10-02 20:20:24.756973+05:30"
+ "updated": "2026-10-02 20:20:26.639364+05:30"
 }
