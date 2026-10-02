@@ -4565,9 +4565,7 @@
     "resultR": 1.56,
     "pnl": 16.0,
     "exitTime": "2026-10-02 17:04"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "TRUMPUSDT",
     "dir": "SHORT",
@@ -4586,18 +4584,26 @@
     "p2": false,
     "be": false,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
+    "r_acc": -0.9151549662409488,
+    "left": 0.0,
+    "pnl_sum": -9.151549662409488,
+    "parts": [
+     "synced -0.92R x 1.0"
+    ],
     "live": true,
     "bmode": "LIVE",
     "live_oid": "f25948ee-f390-48f8-b212-cf53bc6a92db",
     "client_order_id": "ba-9859291b532f4770a8fc",
     "live_pending": false,
     "pending_scans": 1,
-    "margin_req": 17.35
-   },
+    "margin_req": 17.35,
+    "exit": 2.17,
+    "resultR": -0.92,
+    "pnl": -9.0,
+    "exitTime": "2026-10-02 19:49"
+   }
+  ],
+  "open": [
    {
     "sym": "ENAUSDT",
     "dir": "SHORT",
@@ -4625,7 +4631,7 @@
     "live_oid": "d30b42c9-59a4-425e-914c-8ee10d0b209b",
     "client_order_id": "ba-ff8cacf49f88462bbe20",
     "live_pending": true,
-    "pending_scans": 1,
+    "pending_scans": 2,
     "margin_req": 36.58
    },
    {
@@ -4655,7 +4661,7 @@
     "live_oid": "73f1be93-544d-4636-b4f8-2f8bbafb3987",
     "client_order_id": "ba-92528f312ff34612aa01",
     "live_pending": true,
-    "pending_scans": 0,
+    "pending_scans": 1,
     "margin_req": 75.99
    }
   ],
@@ -4664,20 +4670,261 @@
  },
  "market": {
   "rows": [],
-  "t": "2026-10-02 19:40"
+  "t": "2026-10-02 19:49"
  },
  "liq": {
-  "setups": [],
-  "t": "2026-10-02 19:40"
+  "setups": [
+   {
+    "sym": "NIGHTUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 9.22,
+    "nc": 5,
+    "volX": 1.54,
+    "entry": 0.04789,
+    "sl": 0.04571133,
+    "tp": 0.05,
+    "rr": 0.97
+   },
+   {
+    "sym": "AKEUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 6.7,
+    "nc": 5,
+    "volX": 1.75,
+    "entry": 0.0322965,
+    "sl": 0.031203125,
+    "tp": 0.033343,
+    "rr": 0.96
+   },
+   {
+    "sym": "CYSUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 8.15,
+    "nc": 5,
+    "volX": 8.76,
+    "entry": 0.1737,
+    "sl": 0.16664965,
+    "tp": 0.1805,
+    "rr": 0.96
+   },
+   {
+    "sym": "SPKUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 6.64,
+    "nc": 5,
+    "volX": 3.23,
+    "entry": 0.02645,
+    "sl": 0.025561600000000004,
+    "tp": 0.0273,
+    "rr": 0.96
+   },
+   {
+    "sym": "GALAUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.21,
+    "nc": 5,
+    "volX": 1.71,
+    "entry": 0.00268,
+    "sl": 0.0026080820000000003,
+    "tp": 0.002748,
+    "rr": 0.95
+   },
+   {
+    "sym": "ILVUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.32,
+    "nc": 4,
+    "volX": 1.57,
+    "entry": 4.170999999999999,
+    "sl": 4.0569055,
+    "tp": 4.279,
+    "rr": 0.95
+   },
+   {
+    "sym": "LIGHTUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.27,
+    "nc": 5,
+    "volX": 2.59,
+    "entry": 0.19069999999999998,
+    "sl": 0.1855213,
+    "tp": 0.1956,
+    "rr": 0.95
+   },
+   {
+    "sym": "MAGICUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 6.36,
+    "nc": 5,
+    "volX": 2.0,
+    "entry": 0.060865,
+    "sl": 0.058901515,
+    "tp": 0.06274,
+    "rr": 0.95
+   },
+   {
+    "sym": "MARSCOINUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 6.34,
+    "nc": 5,
+    "volX": 1.51,
+    "entry": 0.126515,
+    "sl": 0.12244605500000001,
+    "tp": 0.1304,
+    "rr": 0.95
+   },
+   {
+    "sym": "OPENUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.5,
+    "nc": 5,
+    "volX": 6.47,
+    "entry": 0.13275,
+    "sl": 0.12900620000000002,
+    "tp": 0.1363,
+    "rr": 0.95
+   },
+   {
+    "sym": "PHAUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.22,
+    "nc": 5,
+    "volX": 1.7,
+    "entry": 0.075235,
+    "sl": 0.07321002,
+    "tp": 0.07715,
+    "rr": 0.95
+   },
+   {
+    "sym": "WLDUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 6.3,
+    "nc": 5,
+    "volX": 1.96,
+    "entry": 0.57155,
+    "sl": 0.55326885,
+    "tp": 0.589,
+    "rr": 0.95
+   },
+   {
+    "sym": "ZKUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.75,
+    "nc": 5,
+    "volX": 2.16,
+    "entry": 0.013431499999999999,
+    "sl": 0.013036416,
+    "tp": 0.013807,
+    "rr": 0.95
+   },
+   {
+    "sym": "1000BONKUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.6,
+    "nc": 5,
+    "volX": 2.41,
+    "entry": 0.0038925,
+    "sl": 0.0037992925,
+    "tp": 0.00398,
+    "rr": 0.94
+   },
+   {
+    "sym": "AZTECUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.55,
+    "nc": 5,
+    "volX": 6.23,
+    "entry": 0.018000000000000002,
+    "sl": 0.0175736,
+    "tp": 0.0184,
+    "rr": 0.94
+   },
+   {
+    "sym": "ETHFIUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.0,
+    "nc": 5,
+    "volX": 2.01,
+    "entry": 0.7551,
+    "sl": 0.7355949500000001,
+    "tp": 0.7735,
+    "rr": 0.94
+   },
+   {
+    "sym": "GUNUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.0,
+    "nc": 5,
+    "volX": 1.73,
+    "entry": 0.00328,
+    "sl": 0.0031952000000000005,
+    "tp": 0.00336,
+    "rr": 0.94
+   },
+   {
+    "sym": "MITOUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.4,
+    "nc": 5,
+    "volX": 2.53,
+    "entry": 0.01625,
+    "sl": 0.015876150000000002,
+    "tp": 0.0166,
+    "rr": 0.94
+   },
+   {
+    "sym": "MONUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.83,
+    "nc": 5,
+    "volX": 1.89,
+    "entry": 0.034955,
+    "sl": 0.034078805000000004,
+    "tp": 0.03578,
+    "rr": 0.94
+   },
+   {
+    "sym": "PTBUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.64,
+    "nc": 5,
+    "volX": 2.15,
+    "entry": 0.00097615,
+    "sl": 0.000952569,
+    "tp": 0.0009983,
+    "rr": 0.94
+   }
+  ],
+  "t": "2026-10-02 19:49"
  },
  "day_r": -7.5,
  "cur_day": "2026-10-02",
  "qml_day_r": 2.0,
  "qml_cur_day": "2026-10-02",
  "live": {
-  "equity": 411.4759260286174,
-  "day": 1.1475926028617407,
+  "equity": 402.3243763662079,
+  "day": 0.23243763662079187,
   "cur_day": "2026-10-02"
  },
- "updated": "2026-10-02 19:40:44.046898+05:30"
+ "updated": "2026-10-02 19:49:36.413881+05:30"
 }
