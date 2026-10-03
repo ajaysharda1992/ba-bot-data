@@ -2467,7 +2467,7 @@
     "risk_inr": 8.85,
     "qty": 663.3116,
     "t_open": "2026-10-04 02:03",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1791059399999,
     "atr": 0.0132857143,
     "corr": 0.22881480902871257,
@@ -2487,40 +2487,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-47736802f9db"
-   },
-   {
-    "sym": "BTWUSDT",
-    "dir": "LONG",
-    "entry": 1.4657,
-    "sl": 1.4610375,
-    "tp": 1.475025,
-    "grade": "A",
-    "volX": 4.49,
-    "strategy": "qml",
-    "risk": 0.004662500000000014,
-    "risk_inr": 8.85,
-    "qty": 1897.5335,
-    "t_open": "2026-10-04 02:18",
-    "bars": 0,
-    "_candle_ts": 1791060299999,
-    "atr": 0.06385,
-    "corr": -0.06278942636461132,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 111.25,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-2f157b717dd8"
    }
   ],
   "equity": 199953.89,
@@ -4564,7 +4530,7 @@
     "f240": 48.20184904808799
    }
   ],
-  "t": "2026-10-04 02:45"
+  "t": "2026-10-04 02:48"
  },
  "liq": {
   "setups": [
@@ -4809,7 +4775,7 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-04 02:45"
+  "t": "2026-10-04 02:48"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-04",
@@ -4909,8 +4875,8 @@
   "gate_cooldown": 1,
   "gate_existing_position": 1,
   "gate_exec_thin": 1,
-  "orders_cancelled": 1,
-  "gate_expired_at_rest": 1
+  "orders_cancelled": 2,
+  "gate_expired_at_rest": 2
  },
  "pairs": [
   "0GUSDT",
@@ -5420,5 +5386,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-04 02:45:49.076675+05:30"
+ "updated": "2026-10-04 02:48:41.100640+05:30"
 }
