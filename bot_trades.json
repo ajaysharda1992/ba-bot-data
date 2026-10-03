@@ -5593,38 +5593,6 @@
     "resultR": -1.0,
     "pnl": -11.0,
     "exitTime": "2026-10-03 05:18"
-   }
-  ],
-  "open": [
-   {
-    "sym": "ICPUSDT",
-    "dir": "SHORT",
-    "entry": 3.321,
-    "sl": 3.352349,
-    "tp": 3.27,
-    "grade": "B",
-    "volX": 1.43,
-    "strategy": "qml",
-    "risk": 0.03134899999999963,
-    "risk_inr": 9.8,
-    "qty": 312.5015,
-    "t_open": "2026-10-03 05:48",
-    "bars": 3,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "live_oid": "bed84d23-9105-4e29-8b01-e2d9c3b58b02",
-    "client_order_id": "ba-bc2bffaff24d4bd7b242",
-    "live_pending": false,
-    "pending_scans": 1,
-    "margin_req": 41.98
    },
    {
     "sym": "INJUSDT",
@@ -5644,17 +5612,55 @@
     "p2": false,
     "be": false,
     "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
+    "r_acc": -0.806404028086477,
+    "left": 0.0,
+    "pnl_sum": -7.902759475247476,
+    "parts": [
+     "synced -0.81R x 1.0"
+    ],
     "live": true,
     "bmode": "LIVE",
     "live_oid": "e50c9c2e-976b-4941-ac0a-ba5c5c1f218c",
     "client_order_id": "ba-a811f28df2d547c9ba30",
     "live_pending": false,
     "pending_scans": 1,
-    "margin_req": 29.15
+    "margin_req": 29.15,
+    "exit": 7.674,
+    "resultR": -0.81,
+    "pnl": -8.0,
+    "exitTime": "2026-10-03 07:18"
+   }
+  ],
+  "open": [
+   {
+    "sym": "ICPUSDT",
+    "dir": "SHORT",
+    "entry": 3.321,
+    "sl": 3.352349,
+    "tp": 3.27,
+    "grade": "B",
+    "volX": 1.43,
+    "strategy": "qml",
+    "risk": 0.03134899999999963,
+    "risk_inr": 9.8,
+    "qty": 312.5015,
+    "t_open": "2026-10-03 05:48",
+    "bars": 4,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "live_oid": "bed84d23-9105-4e29-8b01-e2d9c3b58b02",
+    "client_order_id": "ba-bc2bffaff24d4bd7b242",
+    "live_pending": false,
+    "pending_scans": 1,
+    "margin_req": 41.98
    }
   ],
   "equity": 7456751.0,
@@ -7542,7 +7548,7 @@
     "f240": 48.152688457557204
    }
   ],
-  "t": "2026-10-03 07:16"
+  "t": "2026-10-03 07:18"
  },
  "liq": {
   "setups": [
@@ -7787,17 +7793,17 @@
     "rr": 0.95
    }
   ],
-  "t": "2026-10-03 07:16"
+  "t": "2026-10-03 07:18"
  },
  "day_r": -2.0,
  "cur_day": "2026-10-03",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-03",
  "live": {
-  "equity": 391.86438672221306,
-  "day": -2.837673229802375,
+  "equity": 383.9616272469656,
+  "day": -3.644077257888852,
   "cur_day": "2026-10-03",
   "day_r": 0.0
  },
- "updated": "2026-10-03 07:16:10.085939+05:30"
+ "updated": "2026-10-03 07:18:48.454378+05:30"
 }
