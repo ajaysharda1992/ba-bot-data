@@ -2284,9 +2284,7 @@
     "exit": 0.4912,
     "exit_kind": "TP",
     "exitTime": "2026-10-03 21:03"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "NEARUSDT",
     "dir": "SHORT",
@@ -2300,7 +2298,7 @@
     "risk_inr": 8.83,
     "qty": 1012.1217,
     "t_open": "2026-10-03 22:48",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1791047699999,
     "atr": 0.027,
     "corr": 0.3525208597615743,
@@ -2319,10 +2317,16 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-e2c6eff529d5"
+    "live_oid": "sim-e2c6eff529d5",
+    "resultR": 2.0,
+    "pnl": 17.66,
+    "exit": 4.702552,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-03 23:18"
    }
   ],
-  "equity": 199953.19,
+  "open": [],
+  "equity": 199970.85,
   "signals": [
    {
     "sym": "SKHYNIXUSDT",
@@ -4363,7 +4367,7 @@
     "f240": 46.51487048785095
    }
   ],
-  "t": "2026-10-03 23:15"
+  "t": "2026-10-03 23:18"
  },
  "liq": {
   "setups": [
@@ -4608,11 +4612,11 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-03 23:15"
+  "t": "2026-10-03 23:18"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": -1.7300000000000002,
+ "qml_day_r": 0.2699999999999998,
  "qml_cur_day": "2026-10-03",
  "live": {
   "equity": 374.16162724696557,
@@ -4620,8 +4624,8 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 353.18999999999994,
-  "day": 0.0,
+  "equity": 370.84999999999997,
+  "day": 2.0,
   "cur_day": "2026-10-03"
  },
  "report": {},
@@ -4640,7 +4644,7 @@
   "gate_score": 42,
   "shadow_opened": 131,
   "shadow_closed": 119,
-  "exits_win": 5,
+  "exits_win": 6,
   "orders_filled": 13,
   "gate_exec_listed": 11,
   "exits_loss": 6,
@@ -5161,5 +5165,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 23:15:55.687629+05:30"
+ "updated": "2026-10-03 23:18:54.875666+05:30"
 }
