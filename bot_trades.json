@@ -6196,42 +6196,7 @@
     "exitTime": "2026-10-03 15:03"
    }
   ],
-  "open": [
-   {
-    "sym": "FILUSDT",
-    "dir": "SHORT",
-    "entry": 1.0577,
-    "sl": 1.0678667999999998,
-    "tp": 1.0463,
-    "grade": "A",
-    "volX": 1.71,
-    "strategy": "qml",
-    "risk": 0.010166799999999698,
-    "risk_inr": 10.04,
-    "qty": 987.8723,
-    "t_open": "2026-10-03 14:48",
-    "bars": 0,
-    "_candle_ts": 1791018899999,
-    "atr": 0.0052285714,
-    "corr": 0.6430655299590278,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 41.79,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-42c841d3a83d"
-   }
-  ],
+  "open": [],
   "equity": 7456711.76,
   "signals": [
    {
@@ -8553,7 +8518,9 @@
   "exits_win": 1,
   "orders_filled": 1,
   "gate_exec_listed": 1,
-  "exits_loss": 1
+  "exits_loss": 1,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9063,5 +9030,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 15:03:45.699064+05:30"
+ "updated": "2026-10-03 15:03:48.382870+05:30"
 }
