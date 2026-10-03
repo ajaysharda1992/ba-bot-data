@@ -6115,9 +6115,7 @@
     "exit": 1.4403966,
     "exit_kind": "TP",
     "exitTime": "2026-10-03 14:03"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "QNTUSDT",
     "dir": "SHORT",
@@ -6131,7 +6129,7 @@
     "risk_inr": 9.51,
     "qty": 1.6503,
     "t_open": "2026-10-03 12:48",
-    "bars": 4,
+    "bars": 5,
     "_candle_ts": 1791011699999,
     "atr": 3.8578571429,
     "corr": 0.2552931407009909,
@@ -6150,8 +6148,15 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-316a93a2fb5c"
-   },
+    "live_oid": "sim-316a93a2fb5c",
+    "resultR": 1.26,
+    "pnl": 11.98,
+    "exit": 257.62,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-03 14:48"
+   }
+  ],
+  "open": [
    {
     "sym": "ICPUSDT",
     "dir": "SHORT",
@@ -6187,7 +6192,7 @@
     "live_oid": "sim-2f0422246b84"
    }
   ],
-  "equity": 7456711.76,
+  "equity": 7456723.74,
   "signals": [
    {
     "sym": "VELVETUSDT",
@@ -8228,7 +8233,7 @@
     "f240": 56.213274753640896
    }
   ],
-  "t": "2026-10-03 14:45"
+  "t": "2026-10-03 14:48"
  },
  "liq": {
   "setups": [
@@ -8473,11 +8478,11 @@
     "rr": 0.95
    }
   ],
-  "t": "2026-10-03 14:45"
+  "t": "2026-10-03 14:48"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": -1.0,
+ "qml_day_r": 0.26,
  "qml_cur_day": "2026-10-03",
  "live": {
   "equity": 374.16162724696557,
@@ -8485,8 +8490,8 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 389.76,
-  "day": -1.0,
+  "equity": 401.74,
+  "day": 0.26,
   "cur_day": "2026-10-03"
  },
  "report": {},
@@ -8504,7 +8509,8 @@
   "orders_submitted": 1,
   "gate_score": 1,
   "shadow_opened": 4,
-  "shadow_closed": 4
+  "shadow_closed": 4,
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9014,5 +9020,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 14:45:51.417963+05:30"
+ "updated": "2026-10-03 14:48:36.748656+05:30"
 }
