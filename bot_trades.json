@@ -4367,7 +4367,7 @@
     "f240": 46.51487048785095
    }
   ],
-  "t": "2026-10-03 23:48"
+  "t": "2026-10-04 00:03"
  },
  "liq": {
   "setups": [
@@ -4612,12 +4612,12 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-03 23:48"
+  "t": "2026-10-04 00:03"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": 0.2699999999999998,
- "qml_cur_day": "2026-10-03",
+ "qml_day_r": 0.0,
+ "qml_cur_day": "2026-10-04",
  "live": {
   "equity": 374.16162724696557,
   "day": -4.644077257888852,
@@ -4625,37 +4625,74 @@
  },
  "sim": {
   "equity": 370.84999999999997,
-  "day": 2.0,
-  "cur_day": "2026-10-03"
+  "day": 0.0,
+  "cur_day": "2026-10-04"
  },
- "report": {},
+ "report": {
+  "date": "2026-10-04",
+  "funnel": {
+   "_day": "2026-10-03",
+   "raw_qml": 2171,
+   "st_ARMED": 1518,
+   "score_ge4": 1943,
+   "score_ge5": 1601,
+   "score_ge6": 784,
+   "st_STALE": 469,
+   "st_RETEST": 184,
+   "gate_exec_basis": 15,
+   "gate_rr_low": 46,
+   "orders_submitted": 19,
+   "gate_score": 44,
+   "shadow_opened": 135,
+   "shadow_closed": 124,
+   "exits_win": 6,
+   "orders_filled": 13,
+   "gate_exec_listed": 11,
+   "exits_loss": 6,
+   "orders_cancelled": 6,
+   "gate_expired_at_rest": 6,
+   "gate_exec_thin": 9,
+   "gate_corr_dir_cap": 8,
+   "gate_direction_cap": 17,
+   "gate_cooldown": 1,
+   "gate_existing_position": 3,
+   "gate_daily_breaker": 11
+  },
+  "models": {
+   "D": {
+    "n": 151,
+    "win_pct": 70.2,
+    "avg_r": 0.37,
+    "fill_pct": 100.0
+   },
+   "A": {
+    "n": 147,
+    "win_pct": 61.2,
+    "avg_r": 0.1,
+    "fill_pct": 100.0
+   },
+   "B": {
+    "n": 146,
+    "win_pct": 58.2,
+    "avg_r": 0.1,
+    "fill_pct": 100.0
+   },
+   "C": {
+    "n": 151,
+    "win_pct": 61.6,
+    "avg_r": 0.06,
+    "fill_pct": 100.0
+   },
+   "L": {
+    "n": 125,
+    "win_pct": 70.4,
+    "avg_r": 0.11,
+    "fill_pct": 100.0
+   }
+  }
+ },
  "funnel": {
-  "_day": "2026-10-03",
-  "raw_qml": 2171,
-  "st_ARMED": 1518,
-  "score_ge4": 1943,
-  "score_ge5": 1601,
-  "score_ge6": 784,
-  "st_STALE": 469,
-  "st_RETEST": 184,
-  "gate_exec_basis": 15,
-  "gate_rr_low": 46,
-  "orders_submitted": 19,
-  "gate_score": 44,
-  "shadow_opened": 135,
-  "shadow_closed": 124,
-  "exits_win": 6,
-  "orders_filled": 13,
-  "gate_exec_listed": 11,
-  "exits_loss": 6,
-  "orders_cancelled": 6,
-  "gate_expired_at_rest": 6,
-  "gate_exec_thin": 9,
-  "gate_corr_dir_cap": 8,
-  "gate_direction_cap": 17,
-  "gate_cooldown": 1,
-  "gate_existing_position": 3,
-  "gate_daily_breaker": 11
+  "_day": "2026-10-04"
  },
  "pairs": [
   "0GUSDT",
@@ -5165,5 +5202,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 23:48:32.611008+05:30"
+ "updated": "2026-10-04 00:03:32.278290+05:30"
 }
