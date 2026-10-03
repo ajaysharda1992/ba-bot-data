@@ -2088,40 +2088,6 @@
   "history": [],
   "open": [
    {
-    "sym": "VIRTUALUSDT",
-    "dir": "SHORT",
-    "entry": 0.7869,
-    "sl": 0.7893885999999999,
-    "tp": 0.7819228,
-    "grade": "A",
-    "volX": 1.26,
-    "strategy": "qml",
-    "risk": 0.002488599999999841,
-    "risk_inr": 10.0,
-    "qty": 4018.3236,
-    "t_open": "2026-10-03 19:03",
-    "bars": 0,
-    "_candle_ts": 1791034199999,
-    "atr": 0.0052571429,
-    "corr": 0.6470472006419081,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 126.48,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 1,
-    "live_oid": "sim-b1a1de87fb54"
-   },
-   {
     "sym": "TIAUSDT",
     "dir": "SHORT",
     "entry": 0.4632,
@@ -2151,8 +2117,8 @@
     "bmode": "SIM",
     "margin_req": 78.34,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-e39e35b7d597"
    },
    {
@@ -2185,8 +2151,8 @@
     "bmode": "SIM",
     "margin_req": 78.37,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-9beea0c79985"
    }
   ],
@@ -4231,7 +4197,7 @@
     "f240": 52.88786048093217
    }
   ],
-  "t": "2026-10-03 19:45"
+  "t": "2026-10-03 19:48"
  },
  "liq": {
   "setups": [
@@ -4476,7 +4442,7 @@
     "rr": 0.95
    }
   ],
-  "t": "2026-10-03 19:45"
+  "t": "2026-10-03 19:48"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
@@ -4509,11 +4475,11 @@
   "shadow_opened": 77,
   "shadow_closed": 62,
   "exits_win": 4,
-  "orders_filled": 7,
+  "orders_filled": 9,
   "gate_exec_listed": 8,
   "exits_loss": 2,
-  "orders_cancelled": 3,
-  "gate_expired_at_rest": 3,
+  "orders_cancelled": 4,
+  "gate_expired_at_rest": 4,
   "gate_exec_thin": 5,
   "gate_corr_dir_cap": 3,
   "gate_direction_cap": 6,
@@ -5028,5 +4994,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 19:45:39.817476+05:30"
+ "updated": "2026-10-03 19:48:54.988453+05:30"
 }
