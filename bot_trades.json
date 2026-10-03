@@ -2125,9 +2125,7 @@
     "exit": 0.46677557,
     "exit_kind": "SL",
     "exitTime": "2026-10-03 20:03"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "APTUSDT",
     "dir": "SHORT",
@@ -2141,7 +2139,7 @@
     "risk_inr": 10.0,
     "qty": 2434.1561,
     "t_open": "2026-10-03 19:18",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1791035099999,
     "atr": 0.0054357143,
     "corr": 0.43049718237619167,
@@ -2160,8 +2158,16 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-9beea0c79985"
-   },
+    "live_oid": "sim-9beea0c79985",
+    "slip": 0.00176754,
+    "resultR": -1.43,
+    "pnl": -14.3,
+    "exit": 0.81077574,
+    "exit_kind": "SL",
+    "exitTime": "2026-10-03 20:03"
+   }
+  ],
+  "open": [
    {
     "sym": "INJUSDT",
     "dir": "SHORT",
@@ -2197,7 +2203,7 @@
     "live_oid": "sim-24ae84f2a564"
    }
   ],
-  "equity": 199984.9,
+  "equity": 199970.6,
   "signals": [
    {
     "sym": "INJUSDT",
@@ -4487,7 +4493,7 @@
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": 1.5799999999999998,
+ "qml_day_r": 0.1499999999999999,
  "qml_cur_day": "2026-10-03",
  "live": {
   "equity": 374.16162724696557,
@@ -4495,8 +4501,8 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 384.9,
-  "day": -1.51,
+  "equity": 370.59999999999997,
+  "day": -2.94,
   "cur_day": "2026-10-03"
  },
  "report": {},
@@ -4518,7 +4524,7 @@
   "exits_win": 4,
   "orders_filled": 9,
   "gate_exec_listed": 8,
-  "exits_loss": 3,
+  "exits_loss": 4,
   "orders_cancelled": 4,
   "gate_expired_at_rest": 4,
   "gate_exec_thin": 5,
@@ -5035,5 +5041,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 20:03:28.796084+05:30"
+ "updated": "2026-10-03 20:03:31.500170+05:30"
 }
