@@ -6250,7 +6250,7 @@
     "risk_inr": 9.74,
     "qty": 411.1774,
     "t_open": "2026-10-03 15:18",
-    "bars": 1,
+    "bars": 2,
     "_candle_ts": 1791020699999,
     "atr": 0.0066928571,
     "corr": 0.6889659542156235,
@@ -6270,40 +6270,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-a9ceafce3ed7"
-   },
-   {
-    "sym": "ENAUSDT",
-    "dir": "SHORT",
-    "entry": 0.2357,
-    "sl": 0.23624600999999998,
-    "tp": 0.23460798,
-    "grade": "A",
-    "volX": 2.23,
-    "strategy": "qml",
-    "risk": 0.0005460099999999857,
-    "risk_inr": 9.27,
-    "qty": 16980.4582,
-    "t_open": "2026-10-03 15:48",
-    "bars": 0,
-    "_candle_ts": 1791022499999,
-    "atr": 0.001175,
-    "corr": 0.46619354126622053,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 160.09,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 1,
-    "live_oid": "sim-14cb444b912b"
    },
    {
     "sym": "APTUSDT",
@@ -6335,8 +6301,8 @@
     "bmode": "SIM",
     "margin_req": 174.99,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-d485c368c477"
    },
    {
@@ -6369,8 +6335,8 @@
     "bmode": "SIM",
     "margin_req": 37.82,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-525747046e92"
    }
   ],
@@ -8415,7 +8381,7 @@
     "f240": 32.42643910576088
    }
   ],
-  "t": "2026-10-03 16:16"
+  "t": "2026-10-03 16:18"
  },
  "liq": {
   "setups": [
@@ -8660,7 +8626,7 @@
     "rr": 0.95
    }
   ],
-  "t": "2026-10-03 16:16"
+  "t": "2026-10-03 16:18"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
@@ -8693,11 +8659,11 @@
   "shadow_opened": 35,
   "shadow_closed": 30,
   "exits_win": 1,
-  "orders_filled": 3,
+  "orders_filled": 5,
   "gate_exec_listed": 2,
   "exits_loss": 2,
-  "orders_cancelled": 1,
-  "gate_expired_at_rest": 1,
+  "orders_cancelled": 2,
+  "gate_expired_at_rest": 2,
   "gate_exec_thin": 4,
   "gate_corr_dir_cap": 3,
   "gate_direction_cap": 2
@@ -9210,5 +9176,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 16:16:14.151909+05:30"
+ "updated": "2026-10-03 16:18:47.548900+05:30"
 }
