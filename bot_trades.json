@@ -6273,6 +6273,45 @@
     "exit": 0.8014884,
     "exit_kind": "TP",
     "exitTime": "2026-10-03 16:48"
+   },
+   {
+    "sym": "VVVUSDT",
+    "dir": "SHORT",
+    "entry": 28.037,
+    "sl": 28.124095999999998,
+    "tp": 27.862808,
+    "grade": "A",
+    "volX": 1.61,
+    "strategy": "qml",
+    "risk": 0.08709599999999895,
+    "risk_inr": 9.74,
+    "qty": 111.7732,
+    "t_open": "2026-10-03 17:04",
+    "bars": 2,
+    "_candle_ts": 1791026999999,
+    "atr": 0.1648571429,
+    "corr": 0.3505692149059006,
+    "sim": true,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": false,
+    "bmode": "SIM",
+    "margin_req": 125.35,
+    "lev": 25,
+    "live_pending": false,
+    "pending_scans": 1,
+    "live_oid": "sim-320756dc18c0",
+    "resultR": 2.0,
+    "pnl": 19.48,
+    "exit": 27.862808,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-03 18:03"
    }
   ],
   "open": [
@@ -6289,7 +6328,7 @@
     "risk_inr": 9.74,
     "qty": 411.1774,
     "t_open": "2026-10-03 15:18",
-    "bars": 6,
+    "bars": 7,
     "_candle_ts": 1791020699999,
     "atr": 0.0066928571,
     "corr": 0.6889659542156235,
@@ -6323,7 +6362,7 @@
     "risk_inr": 9.27,
     "qty": 778.9147,
     "t_open": "2026-10-03 16:03",
-    "bars": 4,
+    "bars": 5,
     "_candle_ts": 1791023399999,
     "atr": 0.0101571429,
     "corr": 0.1317180814342855,
@@ -6343,40 +6382,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-525747046e92"
-   },
-   {
-    "sym": "VVVUSDT",
-    "dir": "SHORT",
-    "entry": 28.037,
-    "sl": 28.124095999999998,
-    "tp": 27.862808,
-    "grade": "A",
-    "volX": 1.61,
-    "strategy": "qml",
-    "risk": 0.08709599999999895,
-    "risk_inr": 9.74,
-    "qty": 111.7732,
-    "t_open": "2026-10-03 17:04",
-    "bars": 1,
-    "_candle_ts": 1791026999999,
-    "atr": 0.1648571429,
-    "corr": 0.3505692149059006,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 125.35,
-    "lev": 25,
-    "live_pending": false,
-    "pending_scans": 1,
-    "live_oid": "sim-320756dc18c0"
    },
    {
     "sym": "ETCUSDT",
@@ -6413,7 +6418,7 @@
     "live_oid": "sim-c27370ec3524"
    }
   ],
-  "equity": 7456711.399999999,
+  "equity": 7456730.88,
   "signals": [
    {
     "sym": "CHZUSDT",
@@ -8454,7 +8459,7 @@
     "f240": 52.872597180173784
    }
   ],
-  "t": "2026-10-03 17:48"
+  "t": "2026-10-03 18:03"
  },
  "liq": {
   "setups": [
@@ -8699,11 +8704,11 @@
     "rr": 0.95
    }
   ],
-  "t": "2026-10-03 17:48"
+  "t": "2026-10-03 18:03"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": -0.9100000000000001,
+ "qml_day_r": 1.0899999999999999,
  "qml_cur_day": "2026-10-03",
  "live": {
   "equity": 374.16162724696557,
@@ -8711,8 +8716,8 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 389.40000000000003,
-  "day": -0.9100000000000001,
+  "equity": 408.88000000000005,
+  "day": 1.0899999999999999,
   "cur_day": "2026-10-03"
  },
  "report": {},
@@ -8731,7 +8736,7 @@
   "gate_score": 12,
   "shadow_opened": 50,
   "shadow_closed": 44,
-  "exits_win": 2,
+  "exits_win": 3,
   "orders_filled": 7,
   "gate_exec_listed": 2,
   "exits_loss": 2,
@@ -9250,5 +9255,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 17:48:41.093537+05:30"
+ "updated": "2026-10-03 18:03:40.954462+05:30"
 }
