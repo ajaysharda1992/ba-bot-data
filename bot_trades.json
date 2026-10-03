@@ -6076,9 +6076,7 @@
     "exit": 549.02848,
     "exit_kind": "SL",
     "exitTime": "2026-10-03 13:03"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "BTWUSDT",
     "dir": "SHORT",
@@ -6092,7 +6090,7 @@
     "risk_inr": 9.51,
     "qty": 2235.8704,
     "t_open": "2026-10-03 12:48",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1791011699999,
     "atr": 0.0112071429,
     "corr": 0.01900091712189293,
@@ -6111,8 +6109,15 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-c93d5b2f2cf9"
-   },
+    "live_oid": "sim-c93d5b2f2cf9",
+    "resultR": 2.0,
+    "pnl": 19.02,
+    "exit": 1.4403966,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-03 14:03"
+   }
+  ],
+  "open": [
    {
     "sym": "QNTUSDT",
     "dir": "SHORT",
@@ -6148,20 +6153,20 @@
     "live_oid": "sim-316a93a2fb5c"
    }
   ],
-  "equity": 7456692.74,
+  "equity": 7456711.76,
   "signals": []
  },
  "market": {
   "rows": [],
-  "t": "2026-10-03 13:54"
+  "t": "2026-10-03 14:03"
  },
  "liq": {
   "setups": [],
-  "t": "2026-10-03 13:54"
+  "t": "2026-10-03 14:03"
  },
  "day_r": -10.020000000000003,
  "cur_day": "2026-10-03",
- "qml_day_r": -3.0,
+ "qml_day_r": -1.0,
  "qml_cur_day": "2026-10-03",
  "live": {
   "equity": 374.16162724696557,
@@ -6169,13 +6174,14 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 370.74,
-  "day": -3.0,
+  "equity": 389.76,
+  "day": -1.0,
   "cur_day": "2026-10-03"
  },
  "report": {},
  "funnel": {
-  "_day": "2026-10-03"
+  "_day": "2026-10-03",
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -6685,5 +6691,5 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "updated": "2026-10-03 13:54:30.866190+05:30"
+ "updated": "2026-10-03 14:03:33.036473+05:30"
 }
