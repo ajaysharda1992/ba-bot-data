@@ -2162,9 +2162,7 @@
    "pnl": -2046.0,
    "exitTime": "2026-10-04 12:32",
    "exit_kind": "SL"
-  }
- ],
- "open": [
+  },
   {
    "sym": "1INCHUSDT",
    "dir": "LONG",
@@ -2178,21 +2176,30 @@
    "risk_inr": 2153.96,
    "qty": 1183496.4011,
    "t_open": "2026-10-04 01:32",
-   "bars": 5,
+   "bars": 6,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
    "sim": false,
-   "p1": false,
-   "p2": false,
-   "be": false,
-   "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "p1": true,
+   "p2": true,
+   "be": true,
+   "trail": true,
+   "r_acc": 1.125,
+   "left": 0.0,
+   "pnl_sum": 2423.205,
+   "parts": [
+    "+1.0R x 0.5",
+    "+1.5R x 0.25",
+    "+1.00R x 0.25"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 0.10610999999999998,
+   "resultR": 1.12,
+   "pnl": 2423.0,
+   "exitTime": "2026-10-04 13:32",
+   "exit_kind": "SL"
   },
   {
    "sym": "ATUSDT",
@@ -2207,7 +2214,7 @@
    "risk_inr": 2153.96,
    "qty": 119003.5055,
    "t_open": "2026-10-04 01:32",
-   "bars": 5,
+   "bars": 6,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2216,12 +2223,19 @@
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "r_acc": -0.38,
+   "left": 0.0,
+   "pnl_sum": -818.5048,
+   "parts": [
+    "-0.38R x 1.0"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 0.1321,
+   "resultR": -0.38,
+   "pnl": -819.0,
+   "exitTime": "2026-10-04 13:32",
+   "exit_kind": "TIME_STOP"
   },
   {
    "sym": "LABUSDT",
@@ -2236,7 +2250,7 @@
    "risk_inr": 2153.96,
    "qty": 812816.3962,
    "t_open": "2026-10-04 01:32",
-   "bars": 5,
+   "bars": 6,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2245,15 +2259,23 @@
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "r_acc": -0.02,
+   "left": 0.0,
+   "pnl_sum": -43.0792,
+   "parts": [
+    "-0.02R x 1.0"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 0.0505,
+   "resultR": -0.02,
+   "pnl": -43.0,
+   "exitTime": "2026-10-04 13:32",
+   "exit_kind": "TIME_STOP"
   }
  ],
- "equity": 30695.0,
+ "open": [],
+ "equity": 32256.621000000003,
  "sweep_signals": [
   {
    "sym": "AIOTUSDT",
@@ -5099,13 +5121,13 @@
     "f240": 48.664241840241694
    }
   ],
-  "t": "2026-10-04 13:18"
+  "t": "2026-10-04 13:32"
  },
  "liq": {
   "setups": [],
-  "t": "2026-10-04 13:18"
+  "t": "2026-10-04 13:32"
  },
- "day_r": -6.0,
+ "day_r": -5.2749999999999995,
  "cur_day": "2026-10-04",
  "qml_day_r": 2.55,
  "qml_cur_day": "2026-10-04",
@@ -5658,5 +5680,5 @@
  ],
  "pairs_live": true,
  "liq_shadow": {},
- "updated": "2026-10-04 13:18:39.989225+05:30"
+ "updated": "2026-10-04 13:32:52.406422+05:30"
 }
