@@ -2885,7 +2885,7 @@
     "risk_inr": 8.96,
     "qty": 5.6945,
     "t_open": "2026-10-04 06:03",
-    "bars": 15,
+    "bars": 16,
     "_candle_ts": 1791073799999,
     "atr": 0.5757142857,
     "corr": 0.3029850245654478,
@@ -2905,40 +2905,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-fabe81e58f0a"
-   },
-   {
-    "sym": "NEARUSDT",
-    "dir": "SHORT",
-    "entry": 4.876,
-    "sl": 4.9028979999999995,
-    "tp": 4.822204,
-    "grade": "A",
-    "volX": 2.01,
-    "strategy": "qml",
-    "risk": 0.0268979999999992,
-    "risk_inr": 9.11,
-    "qty": 338.8635,
-    "t_open": "2026-10-04 11:18",
-    "bars": 0,
-    "_candle_ts": 1791092699999,
-    "atr": 0.0285,
-    "corr": 0.19306978844374978,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 66.09,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-91bbdc2838d5"
    },
    {
     "sym": "TRUMPUSDT",
@@ -2971,7 +2937,7 @@
     "margin_req": 147.87,
     "lev": 25,
     "live_pending": true,
-    "pending_scans": 0,
+    "pending_scans": 1,
     "live_oid": "sim-fcd0f7bb2d61"
    }
   ],
@@ -5016,7 +4982,7 @@
     "f240": 51.51391331010245
    }
   ],
-  "t": "2026-10-04 11:46"
+  "t": "2026-10-04 11:48"
  },
  "liq": {
   "setups": [
@@ -5261,7 +5227,7 @@
     "rr": 0.94
    }
   ],
-  "t": "2026-10-04 11:46"
+  "t": "2026-10-04 11:48"
  },
  "day_r": -1.0,
  "cur_day": "2026-10-04",
@@ -5299,8 +5265,8 @@
   "gate_cooldown": 4,
   "gate_existing_position": 3,
   "gate_exec_thin": 22,
-  "orders_cancelled": 9,
-  "gate_expired_at_rest": 9,
+  "orders_cancelled": 10,
+  "gate_expired_at_rest": 10,
   "gate_direction_cap": 9,
   "gate_daily_breaker": 12,
   "exits_win": 3,
@@ -5821,5 +5787,5 @@
   "total_r": 14.2,
   "open": 123
  },
- "updated": "2026-10-04 11:46:20.438039+05:30"
+ "updated": "2026-10-04 11:48:51.038285+05:30"
 }
