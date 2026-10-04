@@ -3130,6 +3130,47 @@
     "exit": 0.23138177,
     "exit_kind": "SL",
     "exitTime": "2026-10-04 15:18"
+   },
+   {
+    "sym": "DOTUSDT",
+    "dir": "SHORT",
+    "entry": 1.2005,
+    "sl": 1.2037024999999997,
+    "tp": 1.194095,
+    "grade": "A",
+    "volX": 6.1,
+    "strategy": "qml",
+    "risk": 0.003202499999999775,
+    "risk_inr": 9.49,
+    "qty": 2962.7635,
+    "t_open": "2026-10-04 15:48",
+    "bars": 1,
+    "_candle_ts": 1791108899999,
+    "atr": 0.0063071429,
+    "corr": -0.0057925239425721505,
+    "sim": true,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": false,
+    "bmode": "SIM",
+    "margin_req": 142.27,
+    "lev": 25,
+    "live_pending": false,
+    "pending_scans": 1,
+    "live_oid": "sim-52808c3f66a1",
+    "mgmt_state": "locked",
+    "lock_px": 1.1972975000000001,
+    "resultR": 2.0,
+    "pnl": 18.98,
+    "exit": 1.194095,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-04 16:18"
    }
   ],
   "open": [
@@ -3146,7 +3187,7 @@
     "risk_inr": 8.96,
     "qty": 5.6945,
     "t_open": "2026-10-04 06:03",
-    "bars": 30,
+    "bars": 31,
     "_candle_ts": 1791073799999,
     "atr": 0.5757142857,
     "corr": 0.3029850245654478,
@@ -3166,43 +3207,9 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-fabe81e58f0a"
-   },
-   {
-    "sym": "DOTUSDT",
-    "dir": "SHORT",
-    "entry": 1.2005,
-    "sl": 1.2037024999999997,
-    "tp": 1.194095,
-    "grade": "A",
-    "volX": 6.1,
-    "strategy": "qml",
-    "risk": 0.003202499999999775,
-    "risk_inr": 9.49,
-    "qty": 2962.7635,
-    "t_open": "2026-10-04 15:48",
-    "bars": 0,
-    "_candle_ts": 1791108899999,
-    "atr": 0.0063071429,
-    "corr": -0.0057925239425721505,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 142.27,
-    "lev": 25,
-    "live_pending": false,
-    "pending_scans": 1,
-    "live_oid": "sim-52808c3f66a1"
    }
   ],
-  "equity": 199979.53,
+  "equity": 199998.51,
   "signals": [
    {
     "sym": "GTCUSDT",
@@ -5243,7 +5250,7 @@
     "f240": 50.49845099728005
    }
   ],
-  "t": "2026-10-04 16:16"
+  "t": "2026-10-04 16:18"
  },
  "liq": {
   "setups": [
@@ -5488,11 +5495,11 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-04 16:16"
+  "t": "2026-10-04 16:18"
  },
  "day_r": -5.2749999999999995,
  "cur_day": "2026-10-04",
- "qml_day_r": 1.3399999999999996,
+ "qml_day_r": 3.34,
  "qml_cur_day": "2026-10-04",
  "live": {
   "equity": 374.16162724696557,
@@ -5500,8 +5507,8 @@
   "cur_day": "2026-10-03"
  },
  "sim": {
-  "equity": 379.53,
-  "day": 1.3399999999999996,
+  "equity": 398.51,
+  "day": 3.34,
   "cur_day": "2026-10-04"
  },
  "report": {},
@@ -5530,7 +5537,7 @@
   "gate_expired_at_rest": 10,
   "gate_direction_cap": 21,
   "gate_daily_breaker": 12,
-  "exits_win": 6,
+  "exits_win": 7,
   "liq_shadow_opened": 332,
   "gate_liq_vol": 9
  },
@@ -6049,5 +6056,5 @@
   "total_r": -17.9,
   "open": 138
  },
- "updated": "2026-10-04 16:16:01.803584+05:30"
+ "updated": "2026-10-04 16:18:44.586272+05:30"
 }
