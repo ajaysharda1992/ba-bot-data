@@ -6777,46 +6777,6 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-06 00:31"
-   }
-  ],
-  "open": [
-   {
-    "sym": "USELESSUSDT",
-    "dir": "SHORT",
-    "entry": 0.23436,
-    "sl": 0.23947,
-    "tp": 0.22891,
-    "grade": "A",
-    "volX": 1.66,
-    "strategy": "qml",
-    "risk": 0.005109999999999976,
-    "risk_inr": 4.65,
-    "qty": 909.0,
-    "t_open": "2026-10-06 00:16",
-    "bars": 3,
-    "_candle_ts": 1791225899999,
-    "atr": 0.0025928571,
-    "corr": 0.6819327205400548,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "2271892342",
-    "client_order_id": "ba-388378f48c9746538969",
-    "bin_order_id": 2271892342,
-    "margin_req": 8.52,
-    "live_pending": false,
-    "pending_scans": 1,
-    "sl_oid": 3000002233830452,
-    "tp_oid": 3000002233830449
    },
    {
     "sym": "TAOUSDT",
@@ -6856,7 +6816,52 @@
     "sl_oid": 3000002233876444,
     "tp_oid": 3000002233863526,
     "t1_locked": true,
-    "lock_px": 303.64
+    "lock_px": 303.64,
+    "resultR": 0.0,
+    "pnl": 0.0,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-06 01:31"
+   }
+  ],
+  "open": [
+   {
+    "sym": "USELESSUSDT",
+    "dir": "SHORT",
+    "entry": 0.23436,
+    "sl": 0.23947,
+    "tp": 0.22891,
+    "grade": "A",
+    "volX": 1.66,
+    "strategy": "qml",
+    "risk": 0.005109999999999976,
+    "risk_inr": 4.65,
+    "qty": 909.0,
+    "t_open": "2026-10-06 00:16",
+    "bars": 4,
+    "_candle_ts": 1791225899999,
+    "atr": 0.0025928571,
+    "corr": 0.6819327205400548,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "2271892342",
+    "client_order_id": "ba-388378f48c9746538969",
+    "bin_order_id": 2271892342,
+    "margin_req": 8.52,
+    "live_pending": false,
+    "pending_scans": 1,
+    "sl_oid": 3000002233830452,
+    "tp_oid": 3000002233830449
    }
   ],
   "equity": 200032.7,
@@ -8900,7 +8905,7 @@
     "f240": 52.08450290279495
    }
   ],
-  "t": "2026-10-06 01:16"
+  "t": "2026-10-06 01:31"
  },
  "liq": {
   "setups": [
@@ -9145,7 +9150,7 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-06 01:16"
+  "t": "2026-10-06 01:31"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-06",
@@ -9179,7 +9184,7 @@
   "gate_score": 10,
   "shadow_opened": 23,
   "shadow_closed": 17,
-  "exits_loss": 2,
+  "exits_loss": 3,
   "orders_cancelled": 1,
   "gate_expired_at_rest": 1,
   "gate_exec_guard": 3,
@@ -9703,5 +9708,5 @@
   "total_r": -107.6,
   "open": 225
  },
- "updated": "2026-10-06 01:16:18.082422+05:30"
+ "updated": "2026-10-06 01:31:25.768986+05:30"
 }
