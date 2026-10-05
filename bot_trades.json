@@ -6033,8 +6033,10 @@
     "client_order_id": "ba-62de04908c534638bbc1",
     "bin_order_id": 20730844218,
     "margin_req": 35.34,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 1,
+    "sl_oid": 3000002233733221,
+    "tp_oid": 3000002233733230
    },
    {
     "sym": "LITUSDT",
@@ -6070,7 +6072,7 @@
     "bin_order_id": 1992250652,
     "margin_req": 14.35,
     "live_pending": true,
-    "pending_scans": 0
+    "pending_scans": 1
    }
   ],
   "equity": 200032.7,
@@ -8159,7 +8161,7 @@
   "gate_exec_basis": 9,
   "gate_exec_thin": 5,
   "orders_submitted": 9,
-  "orders_filled": 1,
+  "orders_filled": 2,
   "gate_exec_listed": 1,
   "exits_win": 1,
   "gate_corr_dir_cap": 10,
@@ -8675,5 +8677,5 @@
  ],
  "pairs_live": true,
  "liq_shadow": {},
- "updated": "2026-10-05 23:16:21.964545+05:30"
+ "updated": "2026-10-05 23:16:26.445869+05:30"
 }
