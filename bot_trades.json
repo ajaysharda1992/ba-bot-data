@@ -2272,9 +2272,7 @@
    "pnl": -43.0,
    "exitTime": "2026-10-04 13:32",
    "exit_kind": "TIME_STOP"
-  }
- ],
- "open": [
+  },
   {
    "sym": "ALCHUSDT",
    "dir": "SHORT",
@@ -2288,7 +2286,7 @@
    "risk_inr": 1612.83,
    "qty": 707382.0395,
    "t_open": "2026-10-05 01:33",
-   "bars": 4,
+   "bars": 5,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2297,12 +2295,19 @@
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -1612.83,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 0.05179,
+   "resultR": -1.0,
+   "pnl": -1613.0,
+   "exitTime": "2026-10-05 13:33",
+   "exit_kind": "SL"
   },
   {
    "sym": "FIDAUSDT",
@@ -2317,7 +2322,7 @@
    "risk_inr": 1612.83,
    "qty": 8488584.4737,
    "t_open": "2026-10-05 01:33",
-   "bars": 4,
+   "bars": 5,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2326,12 +2331,19 @@
    "p2": false,
    "be": false,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "r_acc": -1.0,
+   "left": 0.0,
+   "pnl_sum": -1612.83,
+   "parts": [
+    "-1.00R x 1.0"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 0.02159,
+   "resultR": -1.0,
+   "pnl": -1613.0,
+   "exitTime": "2026-10-05 13:33",
+   "exit_kind": "SL"
   },
   {
    "sym": "NEARUSDT",
@@ -2346,22 +2358,70 @@
    "risk_inr": 1612.83,
    "qty": 10472.9289,
    "t_open": "2026-10-05 01:33",
-   "bars": 4,
+   "bars": 5,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
    "sim": false,
-   "p1": false,
-   "p2": false,
-   "be": false,
-   "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "p1": true,
+   "p2": true,
+   "be": true,
+   "trail": true,
+   "r_acc": 1.125,
+   "left": 0.0,
+   "pnl_sum": 1814.43375,
+   "parts": [
+    "+1.0R x 0.5",
+    "+1.5R x 0.25",
+    "+1.00R x 0.25"
+   ],
    "live": false,
-   "bmode": "PAPER"
+   "bmode": "PAPER",
+   "exit": 5.115,
+   "resultR": 1.12,
+   "pnl": 1814.0,
+   "exitTime": "2026-10-05 13:33",
+   "exit_kind": "SL"
   },
+  {
+   "sym": "TAUSDT",
+   "dir": "SHORT",
+   "entry": 0.04998,
+   "sl": 0.05054,
+   "tp": 0.04885999999999999,
+   "grade": "A+",
+   "volX": 2.04,
+   "strategy": "sweep",
+   "risk": 0.0005600000000000049,
+   "risk_inr": 1612.83,
+   "qty": 2880055.4464,
+   "t_open": "2026-10-05 09:32",
+   "bars": 1,
+   "_candle_ts": null,
+   "atr": null,
+   "corr": null,
+   "sim": false,
+   "p1": true,
+   "p2": false,
+   "be": true,
+   "trail": false,
+   "r_acc": 0.5,
+   "left": 0.0,
+   "pnl_sum": 806.415,
+   "parts": [
+    "+1.0R x 0.5",
+    "+0.00R x 0.5"
+   ],
+   "live": false,
+   "bmode": "PAPER",
+   "exit": 0.04998,
+   "resultR": 0.5,
+   "pnl": 806.0,
+   "exitTime": "2026-10-05 13:33",
+   "exit_kind": "SL"
+  }
+ ],
+ "open": [
   {
    "sym": "ORCAUSDT",
    "dir": "LONG",
@@ -2375,7 +2435,7 @@
    "risk_inr": 1612.83,
    "qty": 8104.6786,
    "t_open": "2026-10-05 01:33",
-   "bars": 4,
+   "bars": 5,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2404,7 +2464,7 @@
    "risk_inr": 1612.83,
    "qty": 46080.8871,
    "t_open": "2026-10-05 09:32",
-   "bars": 0,
+   "bars": 1,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2433,7 +2493,7 @@
    "risk_inr": 1612.83,
    "qty": 336006.4688,
    "t_open": "2026-10-05 09:32",
-   "bars": 0,
+   "bars": 1,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2462,36 +2522,7 @@
    "risk_inr": 1612.83,
    "qty": 1221841.7045,
    "t_open": "2026-10-05 09:32",
-   "bars": 0,
-   "_candle_ts": null,
-   "atr": null,
-   "corr": null,
-   "sim": false,
-   "p1": false,
-   "p2": false,
-   "be": false,
-   "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
-   "live": false,
-   "bmode": "PAPER"
-  },
-  {
-   "sym": "TAUSDT",
-   "dir": "SHORT",
-   "entry": 0.04998,
-   "sl": 0.05054,
-   "tp": 0.04885999999999999,
-   "grade": "A+",
-   "volX": 2.04,
-   "strategy": "sweep",
-   "risk": 0.0005600000000000049,
-   "risk_inr": 1612.83,
-   "qty": 2880055.4464,
-   "t_open": "2026-10-05 09:32",
-   "bars": 0,
+   "bars": 1,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2520,7 +2551,7 @@
    "risk_inr": 1612.83,
    "qty": 15968624.2574,
    "t_open": "2026-10-05 09:32",
-   "bars": 0,
+   "bars": 1,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -2537,7 +2568,7 @@
    "bmode": "PAPER"
   }
  ],
- "equity": 32256.621000000003,
+ "equity": 31651.809750000004,
  "sweep_signals": [
   {
    "sym": "1000CATUSDT",
@@ -5701,7 +5732,7 @@
     "f240": 52.21661880062916
    }
   ],
-  "t": "2026-10-05 13:31"
+  "t": "2026-10-05 13:33"
  },
  "liq": {
   "setups": [
@@ -5946,9 +5977,9 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-05 13:31"
+  "t": "2026-10-05 13:33"
  },
- "day_r": 0.0,
+ "day_r": -0.375,
  "cur_day": "2026-10-05",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-05",
@@ -6506,5 +6537,5 @@
   "total_r": -129.5,
   "open": 103
  },
- "updated": "2026-10-05 13:31:32.066485+05:30"
+ "updated": "2026-10-05 13:33:10.689951+05:30"
 }
