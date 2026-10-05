@@ -5997,9 +5997,7 @@
     "resultR": 1.08,
     "pnl": 10.0,
     "exitTime": "2026-10-05 12:01"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "OPUSDT",
     "dir": "SHORT",
@@ -6036,8 +6034,15 @@
     "live_pending": false,
     "pending_scans": 1,
     "sl_oid": 3000002233733221,
-    "tp_oid": 3000002233733230
-   },
+    "tp_oid": 3000002233733230,
+    "resultR": 0.0,
+    "pnl": 0.0,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-05 23:31"
+   }
+  ],
+  "open": [
    {
     "sym": "LITUSDT",
     "dir": "SHORT",
@@ -6072,7 +6077,7 @@
     "bin_order_id": 1992250652,
     "margin_req": 14.35,
     "live_pending": true,
-    "pending_scans": 1
+    "pending_scans": 2
    },
    {
     "sym": "ORCAUSDT",
@@ -6107,8 +6112,10 @@
     "client_order_id": "ba-5d8e337ba7ef48eb9589",
     "bin_order_id": 2155685557,
     "margin_req": 35.34,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 1,
+    "sl_oid": 3000002233753331,
+    "tp_oid": 3000002233753347
    }
   ],
   "equity": 200032.7,
@@ -8152,11 +8159,11 @@
     "f240": 47.326089840622245
    }
   ],
-  "t": "2026-10-05 23:16"
+  "t": "2026-10-05 23:31"
  },
  "liq": {
   "setups": [],
-  "t": "2026-10-05 23:16"
+  "t": "2026-10-05 23:31"
  },
  "day_r": -59.364999999999995,
  "cur_day": "2026-10-05",
@@ -8197,12 +8204,13 @@
   "gate_exec_basis": 9,
   "gate_exec_thin": 5,
   "orders_submitted": 10,
-  "orders_filled": 2,
+  "orders_filled": 3,
   "gate_exec_listed": 1,
   "exits_win": 1,
   "gate_corr_dir_cap": 10,
   "gate_direction_cap": 3,
-  "gate_exec_guard": 1
+  "gate_exec_guard": 1,
+  "exits_loss": 1
  },
  "pairs": [
   "0GUSDT",
@@ -8713,5 +8721,5 @@
  ],
  "pairs_live": true,
  "liq_shadow": {},
- "updated": "2026-10-05 23:16:31.610635+05:30"
+ "updated": "2026-10-05 23:31:11.327435+05:30"
 }
