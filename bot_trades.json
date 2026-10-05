@@ -6083,9 +6083,7 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-05 23:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "ARBUSDT",
     "dir": "SHORT",
@@ -6122,44 +6120,15 @@
     "live_pending": false,
     "pending_scans": 1,
     "sl_oid": 3000002233790431,
-    "tp_oid": 3000002233790442
-   },
-   {
-    "sym": "INJUSDT",
-    "dir": "SHORT",
-    "entry": 7.588,
-    "sl": 7.642,
-    "tp": 7.519,
-    "grade": "A",
-    "volX": 2.64,
-    "strategy": "qml",
-    "risk": 0.05400000000000027,
-    "risk_inr": 4.65,
-    "qty": 86.1,
-    "t_open": "2026-10-05 23:46",
-    "bars": 0,
-    "_candle_ts": 1791224099999,
-    "atr": 0.0584285714,
-    "corr": 0.4489600130771925,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "13624289918",
-    "client_order_id": "ba-d47570b07c604304bda4",
-    "bin_order_id": 13624289918,
-    "margin_req": 26.13,
-    "live_pending": true,
-    "pending_scans": 1
-   },
+    "tp_oid": 3000002233790442,
+    "resultR": 0.0,
+    "pnl": 0.0,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-06 00:16"
+   }
+  ],
+  "open": [
    {
     "sym": "UNIUSDT",
     "dir": "SHORT",
@@ -8238,7 +8207,7 @@
     "f240": 53.43602323776906
    }
   ],
-  "t": "2026-10-06 00:15"
+  "t": "2026-10-06 00:16"
  },
  "liq": {
   "setups": [
@@ -8483,7 +8452,7 @@
     "rr": 0.94
    }
   ],
-  "t": "2026-10-06 00:15"
+  "t": "2026-10-06 00:16"
  },
  "day_r": -59.364999999999995,
  "cur_day": "2026-10-05",
@@ -8583,7 +8552,10 @@
   "gate_direction_cap": 2,
   "gate_score": 1,
   "shadow_opened": 3,
-  "shadow_closed": 4
+  "shadow_closed": 4,
+  "exits_loss": 1,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9100,5 +9072,5 @@
   "total_r": -91.2,
   "open": 217
  },
- "updated": "2026-10-06 00:15:47.943254+05:30"
+ "updated": "2026-10-06 00:16:21.579970+05:30"
 }
