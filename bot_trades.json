@@ -8343,8 +8343,11 @@
     "bin_order_id": 18910118983,
     "margin_req": 20.41,
     "open_ms": 1791308774965,
-    "live_pending": true,
-    "pending_scans": 1
+    "live_pending": false,
+    "pending_scans": 1,
+    "fill_ts": 1791309718,
+    "sl_oid": 3000002235551663,
+    "tp_oid": 3000002235551668
    }
   ],
   "equity": 200020.42,
@@ -10460,11 +10463,252 @@
     "f240": 45.52467637353407
    }
   ],
-  "t": "2026-10-06 23:31"
+  "t": "2026-10-06 23:45"
  },
  "liq": {
-  "setups": [],
-  "t": "2026-10-06 23:31"
+  "setups": [
+   {
+    "sym": "LSKUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 9.3,
+    "nc": 5,
+    "volX": 9.99,
+    "entry": 0.25793,
+    "sl": 0.246100295,
+    "tp": 0.26939,
+    "rr": 0.97
+   },
+   {
+    "sym": "SYNUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 8.57,
+    "nc": 5,
+    "volX": 2.66,
+    "entry": 0.18628,
+    "sl": 0.17836205500000002,
+    "tp": 0.19393,
+    "rr": 0.97
+   },
+   {
+    "sym": "ARPAUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 7.73,
+    "nc": 5,
+    "volX": 2.16,
+    "entry": 0.0123265,
+    "sl": 0.011850198000000001,
+    "tp": 0.012785,
+    "rr": 0.96
+   },
+   {
+    "sym": "ETHFIUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 8.0,
+    "nc": 5,
+    "volX": 5.3,
+    "entry": 0.7646,
+    "sl": 0.7340972,
+    "tp": 0.794,
+    "rr": 0.96
+   },
+   {
+    "sym": "GWEIUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 7.84,
+    "nc": 5,
+    "volX": 14.71,
+    "entry": 0.020110000000000003,
+    "sl": 0.020961395,
+    "tp": 0.01929,
+    "rr": 0.96
+   },
+   {
+    "sym": "METUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 8.09,
+    "nc": 5,
+    "volX": 1.66,
+    "entry": 0.33304999999999996,
+    "sl": 0.31961985000000004,
+    "tp": 0.346,
+    "rr": 0.96
+   },
+   {
+    "sym": "SUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 7.32,
+    "nc": 5,
+    "volX": 5.9,
+    "entry": 0.043734999999999996,
+    "sl": 0.042126715,
+    "tp": 0.04528,
+    "rr": 0.96
+   },
+   {
+    "sym": "BTWUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 5.75,
+    "nc": 5,
+    "volX": 3.29,
+    "entry": 1.1917,
+    "sl": 1.2288405000000002,
+    "tp": 1.1564,
+    "rr": 0.95
+   },
+   {
+    "sym": "FRAXUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.92,
+    "nc": 5,
+    "volX": 2.53,
+    "entry": 0.32184999999999997,
+    "sl": 0.3121311,
+    "tp": 0.3311,
+    "rr": 0.95
+   },
+   {
+    "sym": "MARSCOINUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.72,
+    "nc": 5,
+    "volX": 1.86,
+    "entry": 0.11263999999999999,
+    "sl": 0.109345735,
+    "tp": 0.11577,
+    "rr": 0.95
+   },
+   {
+    "sym": "UMAUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 5.58,
+    "nc": 5,
+    "volX": 2.47,
+    "entry": 0.44930000000000003,
+    "sl": 0.4628933,
+    "tp": 0.4364,
+    "rr": 0.95
+   },
+   {
+    "sym": "VELVETUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.55,
+    "nc": 5,
+    "volX": 2.77,
+    "entry": 0.07278499999999999,
+    "sl": 0.07071377,
+    "tp": 0.07475,
+    "rr": 0.95
+   },
+   {
+    "sym": "ALPINEUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 4.48,
+    "nc": 5,
+    "volX": 1.69,
+    "entry": 0.37775000000000003,
+    "sl": 0.38697960000000003,
+    "tp": 0.3691,
+    "rr": 0.94
+   },
+   {
+    "sym": "CLOUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.89,
+    "nc": 5,
+    "volX": 2.88,
+    "entry": 0.06246,
+    "sl": 0.060878545000000006,
+    "tp": 0.06395,
+    "rr": 0.94
+   },
+   {
+    "sym": "CTSIUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.8,
+    "nc": 5,
+    "volX": 2.99,
+    "entry": 0.031149999999999997,
+    "sl": 0.03037437,
+    "tp": 0.03188,
+    "rr": 0.94
+   },
+   {
+    "sym": "FARTCOINUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 4.97,
+    "nc": 5,
+    "volX": 4.15,
+    "entry": 0.17445,
+    "sl": 0.17916835,
+    "tp": 0.17,
+    "rr": 0.94
+   },
+   {
+    "sym": "FLOWUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.75,
+    "nc": 5,
+    "volX": 1.63,
+    "entry": 0.033375,
+    "sl": 0.0325511,
+    "tp": 0.03415,
+    "rr": 0.94
+   },
+   {
+    "sym": "LABUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.4,
+    "nc": 5,
+    "volX": 4.88,
+    "entry": 0.049965,
+    "sl": 0.048816665,
+    "tp": 0.05104,
+    "rr": 0.94
+   },
+   {
+    "sym": "LUMIAUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.73,
+    "nc": 5,
+    "volX": 7.27,
+    "entry": 0.09228,
+    "sl": 0.090014775,
+    "tp": 0.09441,
+    "rr": 0.94
+   },
+   {
+    "sym": "QNTUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.73,
+    "nc": 5,
+    "volX": 1.54,
+    "entry": 260.775,
+    "sl": 254.36787500000003,
+    "tp": 266.8,
+    "rr": 0.94
+   }
+  ],
+  "t": "2026-10-06 23:45"
  },
  "day_r": -20.5,
  "cur_day": "2026-10-06",
@@ -10497,7 +10741,7 @@
  "report": {},
  "funnel": {
   "_day": "2026-10-06",
-  "orders_filled": 17,
+  "orders_filled": 18,
   "raw_qml": 6552,
   "st_ARMED": 4691,
   "score_ge4": 5940,
@@ -10518,7 +10762,7 @@
   "gate_exec_guard": 49,
   "gate_cooldown": 6,
   "gate_rr_low": 116,
-  "liq_shadow_opened": 739,
+  "liq_shadow_opened": 773,
   "gate_corr_dir_cap": 26,
   "gate_tg_pause": 35,
   "gate_rel_mom": 7,
@@ -11033,6 +11277,12 @@
   "ZRXUSDT"
  ],
  "pairs_live": true,
- "liq_shadow": {},
- "updated": "2026-10-06 23:31:32.601289+05:30"
+ "liq_shadow": {
+  "n": 500,
+  "wins": 223,
+  "avg_r": -0.21,
+  "total_r": -106.3,
+  "open": 156
+ },
+ "updated": "2026-10-06 23:45:54.505144+05:30"
 }
