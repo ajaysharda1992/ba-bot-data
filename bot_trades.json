@@ -7083,6 +7083,49 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-06 05:46"
+   },
+   {
+    "sym": "FETUSDT",
+    "dir": "SHORT",
+    "entry": 0.2558,
+    "sl": 0.2562,
+    "tp": 0.255,
+    "grade": "A",
+    "volX": 1.27,
+    "strategy": "qml",
+    "risk": 0.00039999999999995595,
+    "risk_inr": 4.65,
+    "qty": 3453.0,
+    "t_open": "2026-10-06 05:46",
+    "bars": 0,
+    "_candle_ts": 1791245699999,
+    "atr": 0.0014357143,
+    "corr": 0.3265372366704274,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "13645041887",
+    "client_order_id": "ba-dffcabaa0b9c440e84d6",
+    "bin_order_id": 13645041887,
+    "margin_req": 35.33,
+    "live_pending": false,
+    "pending_scans": 0,
+    "sl_oid": 3000002234164772,
+    "tp_oid": 3000002234164779,
+    "resultR": 0.0,
+    "pnl": 0.0,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-06 06:01"
    }
   ],
   "open": [
@@ -7120,43 +7163,7 @@
     "bin_order_id": 4584440497,
     "margin_req": 35.34,
     "live_pending": true,
-    "pending_scans": 0
-   },
-   {
-    "sym": "FETUSDT",
-    "dir": "SHORT",
-    "entry": 0.2558,
-    "sl": 0.2562,
-    "tp": 0.255,
-    "grade": "A",
-    "volX": 1.27,
-    "strategy": "qml",
-    "risk": 0.00039999999999995595,
-    "risk_inr": 4.65,
-    "qty": 3453.0,
-    "t_open": "2026-10-06 05:46",
-    "bars": 0,
-    "_candle_ts": 1791245699999,
-    "atr": 0.0014357143,
-    "corr": 0.3265372366704274,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "13645041887",
-    "client_order_id": "ba-dffcabaa0b9c440e84d6",
-    "bin_order_id": 13645041887,
-    "margin_req": 35.33,
-    "live_pending": true,
-    "pending_scans": 0
+    "pending_scans": 1
    }
   ],
   "equity": 200032.7,
@@ -9200,7 +9207,7 @@
     "f240": 38.60210622666434
    }
   ],
-  "t": "2026-10-06 05:46"
+  "t": "2026-10-06 06:01"
  },
  "liq": {
   "setups": [
@@ -9445,7 +9452,7 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-06 05:46"
+  "t": "2026-10-06 06:01"
  },
  "day_r": -1.75,
  "cur_day": "2026-10-06",
@@ -9464,7 +9471,7 @@
  "report": {},
  "funnel": {
   "_day": "2026-10-06",
-  "orders_filled": 8,
+  "orders_filled": 9,
   "raw_qml": 1714,
   "st_ARMED": 1237,
   "score_ge4": 1583,
@@ -9479,7 +9486,7 @@
   "gate_score": 24,
   "shadow_opened": 59,
   "shadow_closed": 59,
-  "exits_loss": 8,
+  "exits_loss": 9,
   "orders_cancelled": 2,
   "gate_expired_at_rest": 2,
   "gate_exec_guard": 32,
@@ -10003,5 +10010,5 @@
   "total_r": -177.5,
   "open": 213
  },
- "updated": "2026-10-06 05:46:17.267982+05:30"
+ "updated": "2026-10-06 06:01:24.598307+05:30"
 }
