@@ -7203,8 +7203,10 @@
     "client_order_id": "ba-55b6f8c6a30d4e6696ae",
     "bin_order_id": 3524749474,
     "margin_req": 11.33,
-    "live_pending": true,
-    "pending_scans": 1
+    "live_pending": false,
+    "pending_scans": 1,
+    "sl_oid": 3000002234280372,
+    "tp_oid": 3000002234280380
    }
   ],
   "equity": 200032.7,
@@ -9248,44 +9250,32 @@
     "f240": 40.23297322096319
    }
   ],
-  "t": "2026-10-06 07:31"
+  "t": "2026-10-06 07:45"
  },
  "liq": {
   "setups": [
    {
-    "sym": "2ZUSDT",
-    "dir": "SHORT",
+    "sym": "UMAUSDT",
+    "dir": "LONG",
     "state": "ACTIVE",
-    "chg": 9.63,
+    "chg": 9.5,
     "nc": 5,
-    "volX": 9.25,
-    "entry": 0.04249,
-    "sl": 0.044706960000000004,
-    "tp": 0.04034,
+    "volX": 29.14,
+    "entry": 0.4323,
+    "sl": 0.41208095000000006,
+    "tp": 0.4519,
     "rr": 0.97
    },
    {
     "sym": "AINUSDT",
     "dir": "SHORT",
     "state": "ACTIVE",
-    "chg": 7.12,
-    "nc": 3,
-    "volX": 1.59,
-    "entry": 0.055029999999999996,
-    "sl": 0.05714559,
+    "chg": 8.02,
+    "nc": 4,
+    "volX": 1.62,
+    "entry": 0.05531,
+    "sl": 0.05770643,
     "tp": 0.053,
-    "rr": 0.96
-   },
-   {
-    "sym": "AKTUSDT",
-    "dir": "LONG",
-    "state": "ACTIVE",
-    "chg": 6.83,
-    "nc": 5,
-    "volX": 2.19,
-    "entry": 0.7937,
-    "sl": 0.76634875,
-    "tp": 0.8199,
     "rr": 0.96
    },
    {
@@ -9294,46 +9284,22 @@
     "state": "ACTIVE",
     "chg": 7.26,
     "nc": 5,
-    "volX": 10.04,
+    "volX": 11.31,
     "entry": 0.149765,
     "sl": 0.14430322,
     "tp": 0.15501,
     "rr": 0.96
    },
    {
-    "sym": "CTUSDT",
-    "dir": "SHORT",
+    "sym": "LSKUSDT",
+    "dir": "LONG",
     "state": "ACTIVE",
-    "chg": 6.73,
+    "chg": 6.51,
     "nc": 5,
-    "volX": 2.08,
-    "entry": 0.386915,
-    "sl": 0.40098057000000004,
-    "tp": 0.37345,
-    "rr": 0.96
-   },
-   {
-    "sym": "MARSCOINUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 7.01,
-    "nc": 5,
-    "volX": 4.7,
-    "entry": 0.1043,
-    "sl": 0.10825213500000001,
-    "tp": 0.10051,
-    "rr": 0.96
-   },
-   {
-    "sym": "ORCAUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 7.76,
-    "nc": 5,
-    "volX": 1.83,
-    "entry": 2.3520000000000003,
-    "sl": 2.4506705,
-    "tp": 2.257,
+    "volX": 2.46,
+    "entry": 0.26116,
+    "sl": 0.252550605,
+    "tp": 0.26939,
     "rr": 0.96
    },
    {
@@ -9342,23 +9308,11 @@
     "state": "ACTIVE",
     "chg": 6.81,
     "nc": 4,
-    "volX": 26.62,
+    "volX": 34.07,
     "entry": 0.035394999999999996,
     "sl": 0.034178654999999995,
     "tp": 0.03656,
     "rr": 0.96
-   },
-   {
-    "sym": "C98USDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 5.43,
-    "nc": 5,
-    "volX": 4.64,
-    "entry": 0.017375,
-    "sl": 0.017886790000000003,
-    "tp": 0.01689,
-    "rr": 0.95
    },
    {
     "sym": "CHRUSDT",
@@ -9366,22 +9320,10 @@
     "state": "ACTIVE",
     "chg": 6.13,
     "nc": 5,
-    "volX": 14.95,
+    "volX": 13.24,
     "entry": 0.02246,
     "sl": 0.023204755,
     "tp": 0.02175,
-    "rr": 0.95
-   },
-   {
-    "sym": "EDUUSDT",
-    "dir": "LONG",
-    "state": "ACTIVE",
-    "chg": 5.51,
-    "nc": 4,
-    "volX": 1.77,
-    "entry": 0.06099500000000001,
-    "sl": 0.059270960000000004,
-    "tp": 0.06263,
     "rr": 0.95
    },
    {
@@ -9390,10 +9332,22 @@
     "state": "ACTIVE",
     "chg": 5.82,
     "nc": 5,
-    "volX": 6.29,
+    "volX": 7.28,
     "entry": 0.0055715,
     "sl": 0.005405879000000001,
     "tp": 0.005729,
+    "rr": 0.95
+   },
+   {
+    "sym": "NEARUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 5.42,
+    "nc": 5,
+    "volX": 1.63,
+    "entry": 5.232,
+    "sl": 5.086359000000001,
+    "tp": 5.37,
     "rr": 0.95
    },
    {
@@ -9402,10 +9356,22 @@
     "state": "ACTIVE",
     "chg": 6.23,
     "nc": 5,
-    "volX": 5.14,
+    "volX": 4.94,
     "entry": 0.00228605,
     "sl": 0.0023631394,
     "tp": 0.0022125,
+    "rr": 0.95
+   },
+   {
+    "sym": "ORCAUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 5.25,
+    "nc": 5,
+    "volX": 1.57,
+    "entry": 2.374,
+    "sl": 2.441657,
+    "tp": 2.31,
     "rr": 0.95
    },
    {
@@ -9414,43 +9380,31 @@
     "state": "ACTIVE",
     "chg": 6.06,
     "nc": 5,
-    "volX": 2.02,
+    "volX": 2.06,
     "entry": 0.384,
     "sl": 0.37214094999999997,
     "tp": 0.3953,
     "rr": 0.95
    },
    {
-    "sym": "PUMPUSDT",
-    "dir": "LONG",
-    "state": "ACTIVE",
-    "chg": 5.92,
-    "nc": 5,
-    "volX": 1.96,
-    "entry": 0.006506,
-    "sl": 0.0063095215,
-    "tp": 0.006693,
-    "rr": 0.95
-   },
-   {
-    "sym": "AIOUSDT",
+    "sym": "ZROUSDT",
     "dir": "SHORT",
     "state": "ACTIVE",
-    "chg": 4.43,
+    "chg": 5.48,
     "nc": 5,
-    "volX": 8.86,
-    "entry": 0.04284,
-    "sl": 0.043875715,
-    "tp": 0.04187,
-    "rr": 0.94
+    "volX": 1.71,
+    "entry": 2.10145,
+    "sl": 2.16394105,
+    "tp": 2.0422,
+    "rr": 0.95
    },
    {
     "sym": "ARXUSDT",
     "dir": "LONG",
     "state": "ACTIVE",
     "chg": 4.92,
-    "nc": 4,
-    "volX": 1.52,
+    "nc": 5,
+    "volX": 1.65,
     "entry": 0.2915,
     "sl": 0.28407325,
     "tp": 0.2985,
@@ -9462,7 +9416,7 @@
     "state": "ACTIVE",
     "chg": 4.36,
     "nc": 5,
-    "volX": 3.6,
+    "volX": 4.42,
     "entry": 0.10159499999999999,
     "sl": 0.10401579,
     "tp": 0.09933,
@@ -9474,7 +9428,7 @@
     "state": "ACTIVE",
     "chg": 4.47,
     "nc": 5,
-    "volX": 8.81,
+    "volX": 8.79,
     "entry": 0.02101,
     "sl": 0.021522235,
     "tp": 0.02053,
@@ -9486,14 +9440,62 @@
     "state": "ACTIVE",
     "chg": 4.36,
     "nc": 5,
-    "volX": 4.2,
+    "volX": 5.02,
     "entry": 0.0088275,
     "sl": 0.0086260415,
     "tp": 0.009016,
     "rr": 0.94
+   },
+   {
+    "sym": "CARVUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.95,
+    "nc": 3,
+    "volX": 1.53,
+    "entry": 0.05093,
+    "sl": 0.04962545,
+    "tp": 0.05216,
+    "rr": 0.94
+   },
+   {
+    "sym": "PHAUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 5.09,
+    "nc": 5,
+    "volX": 3.56,
+    "entry": 0.071435,
+    "sl": 0.07340995,
+    "tp": 0.06957,
+    "rr": 0.94
+   },
+   {
+    "sym": "PROMUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.39,
+    "nc": 5,
+    "volX": 2.05,
+    "entry": 6.2155000000000005,
+    "sl": 6.072877,
+    "tp": 6.349,
+    "rr": 0.94
+   },
+   {
+    "sym": "STXUSDT",
+    "dir": "LONG",
+    "state": "ACTIVE",
+    "chg": 4.89,
+    "nc": 5,
+    "volX": 8.09,
+    "entry": 0.3814,
+    "sl": 0.37174155000000003,
+    "tp": 0.3905,
+    "rr": 0.94
    }
   ],
-  "t": "2026-10-06 07:31"
+  "t": "2026-10-06 07:45"
  },
  "day_r": -1.75,
  "cur_day": "2026-10-06",
@@ -9512,7 +9514,7 @@
  "report": {},
  "funnel": {
   "_day": "2026-10-06",
-  "orders_filled": 10,
+  "orders_filled": 11,
   "raw_qml": 2296,
   "st_ARMED": 1679,
   "score_ge4": 2097,
@@ -9533,7 +9535,7 @@
   "gate_exec_guard": 40,
   "gate_cooldown": 6,
   "gate_rr_low": 45,
-  "liq_shadow_opened": 284,
+  "liq_shadow_opened": 316,
   "gate_corr_dir_cap": 16
  },
  "pairs": [
@@ -10046,10 +10048,10 @@
  "pairs_live": true,
  "liq_shadow": {
   "n": 500,
-  "wins": 186,
-  "avg_r": -0.36,
-  "total_r": -182.3,
-  "open": 202
+  "wins": 162,
+  "avg_r": -0.46,
+  "total_r": -232.1,
+  "open": 167
  },
- "updated": "2026-10-06 07:31:19.111145+05:30"
+ "updated": "2026-10-06 07:45:42.468727+05:30"
 }
