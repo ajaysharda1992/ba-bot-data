@@ -8171,6 +8171,51 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-06 13:46"
+   },
+   {
+    "sym": "ZECUSDT",
+    "dir": "SHORT",
+    "entry": 1353.89,
+    "sl": 1361.34,
+    "tp": 1338.99,
+    "grade": "A",
+    "volX": 3.44,
+    "strategy": "qml",
+    "risk": 7.449999999999818,
+    "risk_inr": 3.57,
+    "qty": 0.479,
+    "t_open": "2026-10-06 14:46",
+    "bars": 0,
+    "_candle_ts": 1791278099999,
+    "atr": 7.3528571429,
+    "corr": 0.6181345526807582,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "808784630760",
+    "client_order_id": "ba-0dfe61ebefbe4349bc5b",
+    "bin_order_id": 808784630760,
+    "margin_req": 25.94,
+    "open_ms": 1791278191450,
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791278400,
+    "sl_oid": 3000002234785701,
+    "tp_oid": 3000002234785705,
+    "resultR": -1.03,
+    "pnl": -3.69,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-06 15:01"
    }
   ],
   "open": [
@@ -8209,44 +8254,7 @@
     "margin_req": 10.54,
     "open_ms": 1791274585447,
     "live_pending": true,
-    "pending_scans": 1
-   },
-   {
-    "sym": "ZECUSDT",
-    "dir": "SHORT",
-    "entry": 1353.89,
-    "sl": 1361.34,
-    "tp": 1338.99,
-    "grade": "A",
-    "volX": 3.44,
-    "strategy": "qml",
-    "risk": 7.449999999999818,
-    "risk_inr": 3.57,
-    "qty": 0.479,
-    "t_open": "2026-10-06 14:46",
-    "bars": 0,
-    "_candle_ts": 1791278099999,
-    "atr": 7.3528571429,
-    "corr": 0.6181345526807582,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "808784630760",
-    "client_order_id": "ba-0dfe61ebefbe4349bc5b",
-    "bin_order_id": 808784630760,
-    "margin_req": 25.94,
-    "open_ms": 1791278191450,
-    "live_pending": true,
-    "pending_scans": 0
+    "pending_scans": 2
    },
    {
     "sym": "SAGAUSDT",
@@ -8283,7 +8291,7 @@
     "margin_req": 7.0,
     "open_ms": 1791278193758,
     "live_pending": true,
-    "pending_scans": 0
+    "pending_scans": 1
    }
   ],
   "equity": 200027.61,
@@ -8700,7 +8708,7 @@
  },
  "market": {
   "rows": [],
-  "t": "2026-10-06 14:46"
+  "t": "2026-10-06 15:01"
  },
  "liq": {
   "setups": [
@@ -8945,16 +8953,22 @@
     "rr": 0.94
    }
   ],
-  "t": "2026-10-06 14:46"
+  "t": "2026-10-06 15:01"
  },
  "day_r": -20.5,
  "cur_day": "2026-10-06",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-06",
  "live": {
-  "equity": 142.90972005,
-  "day": -1.384234893283747,
-  "cur_day": "2026-10-06"
+  "equity": 139.22142005,
+  "day": -2.4173721481857076,
+  "cur_day": "2026-10-06",
+  "streak": [
+   [
+    11.25,
+    -1.0331372549019608
+   ]
+  ]
  },
  "sim": {
   "equity": 410.7,
@@ -8964,7 +8978,7 @@
  "report": {},
  "funnel": {
   "_day": "2026-10-06",
-  "orders_filled": 14,
+  "orders_filled": 15,
   "raw_qml": 4007,
   "st_ARMED": 2942,
   "score_ge4": 3597,
@@ -8979,9 +8993,9 @@
   "gate_score": 60,
   "shadow_opened": 136,
   "shadow_closed": 129,
-  "exits_loss": 14,
-  "orders_cancelled": 6,
-  "gate_expired_at_rest": 6,
+  "exits_loss": 15,
+  "orders_cancelled": 7,
+  "gate_expired_at_rest": 7,
   "gate_exec_guard": 41,
   "gate_cooldown": 6,
   "gate_rr_low": 74,
@@ -9505,5 +9519,5 @@
   "total_r": -208.3,
   "open": 155
  },
- "updated": "2026-10-06 14:46:35.279717+05:30"
+ "updated": "2026-10-06 15:01:16.306993+05:30"
 }
