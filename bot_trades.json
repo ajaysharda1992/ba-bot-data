@@ -8118,8 +8118,11 @@
     "bin_order_id": 103822217601,
     "margin_req": 35.34,
     "open_ms": 1791273699947,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791273709,
+    "sl_oid": 3000002234688985,
+    "tp_oid": 3000002234688993
    },
    {
     "sym": "TAOUSDT",
@@ -8155,8 +8158,11 @@
     "bin_order_id": 12722365524,
     "margin_req": 35.33,
     "open_ms": 1791273700928,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791273711,
+    "sl_oid": 3000002234689011,
+    "tp_oid": 3000002234689018
    }
   ],
   "equity": 200032.7,
@@ -10224,11 +10230,11 @@
     "f240": 46.053433764217544
    }
   ],
-  "t": "2026-10-06 13:31"
+  "t": "2026-10-06 13:32"
  },
  "liq": {
   "setups": [],
-  "t": "2026-10-06 13:31"
+  "t": "2026-10-06 13:32"
  },
  "day_r": -20.5,
  "cur_day": "2026-10-06",
@@ -10253,7 +10259,7 @@
  "report": {},
  "funnel": {
   "_day": "2026-10-06",
-  "orders_filled": 12,
+  "orders_filled": 14,
   "raw_qml": 3890,
   "st_ARMED": 2874,
   "score_ge4": 3491,
@@ -10788,5 +10794,5 @@
  ],
  "pairs_live": true,
  "liq_shadow": {},
- "updated": "2026-10-06 13:31:41.656800+05:30"
+ "updated": "2026-10-06 13:32:41.174796+05:30"
 }
