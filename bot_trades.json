@@ -10785,45 +10785,7 @@
  ],
  "qml": {
   "history": [],
-  "open": [
-   {
-    "sym": "INJUSDT",
-    "dir": "SHORT",
-    "entry": 7.577,
-    "sl": 7.611,
-    "tp": 7.526,
-    "grade": "A+",
-    "volX": 0.68,
-    "strategy": "qml",
-    "risk": 0.03399999999999981,
-    "risk_inr": 3.15,
-    "qty": 78.9,
-    "t_open": "2026-10-07 14:16",
-    "bars": 0,
-    "_candle_ts": 1791362699999,
-    "atr": 0.0649285714,
-    "corr": 0.5181239493454054,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "13635051800",
-    "client_order_id": "ba-3db00ec872ff4f169706",
-    "bin_order_id": 13635051800,
-    "margin_req": 23.91,
-    "open_ms": 1791362785883,
-    "live_pending": true,
-    "pending_scans": 1
-   }
-  ],
+  "open": [],
   "equity": 200000.0,
   "signals": [
    {
@@ -13250,7 +13212,9 @@
   "struct_allow": 143,
   "struct_block": 27,
   "orders_submitted": 1,
-  "gate_existing_position": 1
+  "gate_existing_position": 1,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -13767,5 +13731,5 @@
   "total_r": -89.5,
   "open": 223
  },
- "updated": "2026-10-07 14:46:04.572661+05:30"
+ "updated": "2026-10-07 14:46:20.023684+05:30"
 }
