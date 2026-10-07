@@ -1262,140 +1262,170 @@
    "exit_kind": "SL"
   }
  ],
- "open": [],
+ "open": [
+  {
+   "sym": "OPNUSDT",
+   "dir": "SHORT",
+   "entry": 0.05715,
+   "sl": 0.06096,
+   "tp": 0.04953,
+   "grade": "A+",
+   "volX": 2.59,
+   "strategy": "sweep",
+   "risk": 0.003810000000000001,
+   "risk_inr": 10001.7,
+   "qty": 2625118.1102,
+   "t_open": "2026-10-07 21:33",
+   "bars": 0,
+   "_candle_ts": null,
+   "atr": null,
+   "corr": null,
+   "sim": false,
+   "p1": false,
+   "p2": false,
+   "be": false,
+   "trail": false,
+   "r_acc": 0.0,
+   "left": 1.0,
+   "pnl_sum": 0.0,
+   "parts": [],
+   "live": false,
+   "bmode": "PAPER"
+  }
+ ],
  "equity": 200034.0,
  "sweep_signals": [
   {
-   "sym": "1000BONKUSDT",
+   "sym": "ATUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.003437,
-   "sl": 0.003548,
-   "tp": 0.003215,
-   "volX": 1.21,
-   "buyPct": 42.2,
-   "t": "2026-10-07 21:28"
+   "entry": 0.1322,
+   "sl": 0.1355,
+   "tp": 0.12560000000000002,
+   "volX": 0.47,
+   "buyPct": 48.9,
+   "t": "2026-10-07 21:33"
   },
   {
-   "sym": "1000FLOKIUSDT",
+   "sym": "BRUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.02672,
-   "sl": 0.02763,
-   "tp": 0.024900000000000005,
-   "volX": 1.15,
-   "buyPct": 44.3,
-   "t": "2026-10-07 21:28"
+   "entry": 0.53017,
+   "sl": 0.59786,
+   "tp": 0.3947900000000002,
+   "volX": 1.52,
+   "buyPct": 49.7,
+   "t": "2026-10-07 21:33"
   },
   {
-   "sym": "1000SATSUSDT",
+   "sym": "CLUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 1.162e-05,
-   "sl": 1.201e-05,
-   "tp": 1.0840000000000001e-05,
-   "volX": 1.48,
-   "buyPct": 46.4,
-   "t": "2026-10-07 21:28"
+   "entry": 88.95,
+   "sl": 90.88,
+   "tp": 85.09000000000002,
+   "volX": 1.78,
+   "buyPct": 48.9,
+   "t": "2026-10-07 21:33"
   },
   {
-   "sym": "2ZUSDT",
-   "dir": "SHORT",
+   "sym": "FLUIDUSDT",
+   "dir": "LONG",
    "grade": "B",
-   "entry": 0.03871,
-   "sl": 0.03994,
-   "tp": 0.03625,
-   "volX": 0.79,
-   "buyPct": 45.8,
-   "t": "2026-10-07 21:28"
+   "entry": 1.922,
+   "sl": 1.843,
+   "tp": 2.08,
+   "volX": 0.16,
+   "buyPct": 53.3,
+   "t": "2026-10-07 21:33"
   },
   {
-   "sym": "ACHUSDT",
+   "sym": "FLUXUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.005682,
-   "sl": 0.005791,
-   "tp": 0.005464000000000001,
-   "volX": 0.7,
-   "buyPct": 33.9,
-   "t": "2026-10-07 21:28"
+   "entry": 0.07921,
+   "sl": 0.08139,
+   "tp": 0.07485,
+   "volX": 0.53,
+   "buyPct": 54.1,
+   "t": "2026-10-07 21:33"
   },
   {
-   "sym": "ADAUSDT",
+   "sym": "HANAUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.01265,
+   "sl": 0.01188,
+   "tp": 0.01419,
+   "volX": 2.73,
+   "buyPct": 52.2,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "JSTUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.14041,
+   "sl": 0.1383,
+   "tp": 0.14463,
+   "volX": 1.67,
+   "buyPct": 45.2,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "LABUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.05055,
+   "sl": 0.04927,
+   "tp": 0.05310999999999999,
+   "volX": 1.14,
+   "buyPct": 48.9,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "MOVRUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 1.9758,
+   "sl": 1.8055,
+   "tp": 2.3164,
+   "volX": 0.89,
+   "buyPct": 48.8,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "NAORISUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.2535,
-   "sl": 0.2589,
-   "tp": 0.24269999999999997,
-   "volX": 0.76,
+   "entry": 0.03118,
+   "sl": 0.03197,
+   "tp": 0.0296,
+   "volX": 0.8,
+   "buyPct": 45.4,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "OGUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 2.818,
+   "sl": 2.954,
+   "tp": 2.546,
+   "volX": 7.45,
+   "buyPct": 49.6,
+   "t": "2026-10-07 21:33"
+  },
+  {
+   "sym": "OPNUSDT",
+   "dir": "SHORT",
+   "grade": "A+",
+   "entry": 0.05715,
+   "sl": 0.06096,
+   "tp": 0.04953,
+   "volX": 2.59,
    "buyPct": 44.8,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "AEVOUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.02451,
-   "sl": 0.02496,
-   "tp": 0.023610000000000003,
-   "volX": 2.29,
-   "buyPct": 46.8,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "AIXBTUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.02061,
-   "sl": 0.02103,
-   "tp": 0.01977,
-   "volX": 1.3,
-   "buyPct": 44.2,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "AKTUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.697,
-   "sl": 0.7374,
-   "tp": 0.6161999999999997,
-   "volX": 0.38,
-   "buyPct": 37.6,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "APRUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.1176,
-   "sl": 0.1213,
-   "tp": 0.11019999999999998,
-   "volX": 1.18,
-   "buyPct": 39.2,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "ARKMUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.1262,
-   "sl": 0.1286,
-   "tp": 0.12140000000000004,
-   "volX": 1.19,
-   "buyPct": 46.9,
-   "t": "2026-10-07 21:28"
-  },
-  {
-   "sym": "ARUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 4.258,
-   "sl": 4.316,
-   "tp": 4.142,
-   "volX": 1.16,
-   "buyPct": 49.9,
-   "t": "2026-10-07 21:28"
+   "t": "2026-10-07 21:33"
   }
  ],
  "qml": {
@@ -1990,10 +2020,23 @@
  },
  "sweepsim": {
   "equity": 500.0,
-  "positions": [],
+  "positions": [
+   {
+    "sym": "OPNUSDT",
+    "dir": "SHORT",
+    "entry": 0.05715,
+    "sl": 0.06096,
+    "tp": 0.04953,
+    "sl_hard": 0.06308142857142857,
+    "risk_usdt": 12.5,
+    "ts": 1791388799999,
+    "bars": 0,
+    "t_open": "2026-10-07 21:33"
+   }
+  ],
   "history": [],
   "day": 0.0,
   "cur_day": "2026-10-07"
  },
- "updated": "2026-10-07 21:33:21.160173+05:30"
+ "updated": "2026-10-07 21:33:22.981779+05:30"
 }
