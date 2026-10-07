@@ -6659,7 +6659,7 @@
    "risk_inr": -0.2,
    "qty": -33333.3333,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6688,7 +6688,7 @@
    "risk_inr": -0.2,
    "qty": -50.8906,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6717,7 +6717,7 @@
    "risk_inr": -0.2,
    "qty": -60.6061,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6746,7 +6746,7 @@
    "risk_inr": -0.2,
    "qty": -212.766,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6775,7 +6775,7 @@
    "risk_inr": -0.2,
    "qty": -4.3478,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6804,7 +6804,7 @@
    "risk_inr": -0.2,
    "qty": -238.0952,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6833,7 +6833,7 @@
    "risk_inr": -0.2,
    "qty": -56.4972,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6862,7 +6862,7 @@
    "risk_inr": -0.2,
    "qty": -0.134,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6891,19 +6891,21 @@
    "risk_inr": -0.2,
    "qty": -172.4138,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
    "sim": false,
-   "p1": false,
+   "p1": true,
    "p2": false,
-   "be": false,
+   "be": true,
    "trail": false,
-   "r_acc": 0.0,
-   "left": 1.0,
-   "pnl_sum": 0.0,
-   "parts": [],
+   "r_acc": 0.5,
+   "left": 0.5,
+   "pnl_sum": -0.1,
+   "parts": [
+    "+1.0R x 0.5"
+   ],
    "live": false,
    "bmode": "PAPER"
   },
@@ -6920,7 +6922,7 @@
    "risk_inr": -0.2,
    "qty": -2409.6386,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6949,7 +6951,7 @@
    "risk_inr": -0.2,
    "qty": -8.5106,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6978,7 +6980,7 @@
    "risk_inr": -0.2,
    "qty": -0.7299,
    "t_open": "2026-10-07 00:11",
-   "bars": 1,
+   "bars": 2,
    "_candle_ts": null,
    "atr": null,
    "corr": null,
@@ -6995,7 +6997,7 @@
    "bmode": "PAPER"
   }
  ],
- "equity": -4.199999999999999,
+ "equity": -4.299999999999999,
  "sweep_signals": [
   {
    "sym": "AUSDT",
@@ -11012,7 +11014,7 @@
     "f240": 52.737647696610956
    }
   ],
-  "t": "2026-10-07 05:31"
+  "t": "2026-10-07 05:32"
  },
  "liq": {
   "setups": [
@@ -11257,9 +11259,9 @@
     "rr": 0.93
    }
   ],
-  "t": "2026-10-07 05:31"
+  "t": "2026-10-07 05:32"
  },
- "day_r": 1.0,
+ "day_r": 1.5,
  "cur_day": "2026-10-07",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-07",
@@ -11825,5 +11827,5 @@
   "total_r": -87.6,
   "open": 186
  },
- "updated": "2026-10-07 05:31:13.772787+05:30"
+ "updated": "2026-10-07 05:32:42.200683+05:30"
 }
