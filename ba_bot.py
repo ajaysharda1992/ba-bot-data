@@ -26,8 +26,12 @@ LIVE_ARMED = "/root/LIVE_ARMED"   # safety: file must exist for MODE=LIVE to pla
 MAX_BASIS_PCT = 0.75         # skip trade if |Binance entry vs CoinDCX price| exceeds this
 MIN_COINDCX_VOL = 1500000.0  # min CoinDCX 24h quote volume (USDT) - kills micro-cap books only
 MIN_NOTIONAL_USDT = 12.0     # skip if position notional below exchange minimum
-QML_SCORE_V2_MIN = 7         # FOUNDER SCORE v2 (2026-10-06, scale /16): <7 skip - 7-8 valid -
-                             # 9-10 strong - 11+ A+. (old /8 scale: 6 ~= new 9; replay-validated before live use)
+QML_SCORE_V2_MIN = 6         # FOUNDER SCORE v2 (2026-10-06, scale /16), floor relaxed 7->6 on 2026-10-07:
+                             # replay band data shows the 6-band is positive (+0.14R avg) - churn, not poison -
+                             # and the candidate sort guarantees a 6 only takes a slot when nothing better
+                             # exists (elites can never be crowded out). Shadow twin measures the 6-band
+                             # live; revert this number if it degrades. Bands: <6 skip - 6-8 valid -
+                             # 9-10 strong - 11+ A+ (counter-trend still needs 11+).
 LIVE_MAX_POS = 5             # live: max total concurrent positions (paper keeps 8)
 LIVE_CONCURRENT = 5        # margin split into this many slots - concurrent trades coexist, each smaller
 SIM_MGMT = "T1"              # SIM trade management: "NONE" | "H" (bank half at +1R) | "T1" (lock SL at +1R).
@@ -37,15 +41,17 @@ LIVE_ENTRY = "LIMIT"         # "LIMIT" = rest a limit at the QML level - PROVEN 
                              # "MARKET" entries showed instant-close bracket glitches (MAGMA, 1000PEPE) - do not use until diagnosed.
 LIVE_MAX_DIR = 3             # live: max same-direction positions - worst one-sided batch = 3R
 SWEEP_MODE = "PAPER"         # sweep book STAYS paper even while QML is live (founder requirement)
+SWEEP_REST_SLOTS = ("13:31", "17:31")   # IST scan slots that STAND DOWN (audit 2026-10-07, 300 trades:
+                             # 12-18 window won 6% / -58.6R while 9:31 slot won 71%). Publish-only there.
 QML_MODE   = "LIVE"           # REAL ORDERS MODE (set to "SIM" to return to simulation) | "SIM" = full live-stack simulation (same gates,
                              # same $ sizing, same slots/expiry - fills simulated on closed candles, [SIM] tagged on Telegram)
                              # | "PAPER" = plain paper book (no execution gates)
 SIM_STATE = {"equity": 400.0, "day": 0.0, "cur_day": ""}   # simulated live bank - mirrors LIVE_STATE rules
 LIVE_VENUE = "BINANCE"       # "BINANCE" = USDT-M futures execution | "CDCX" = CoinDCX (dormant fallback)
-LIVE_WALLET_USDT = 132.0     # YOUR Binance USDT-M futures wallet balance (USDT) - founder confirmed
-                             # 132.0 on 2026-10-06 night (was 186.0 before the -54 day). Drives the
-                             # margin-slot math (wallet x 0.95 / 5 slots). UPDATE THIS whenever the
-                             # real wallet changes materially - wrong value = wrong position sizes.
+LIVE_WALLET_USDT = 126.0     # YOUR Binance USDT-M futures wallet balance (USDT) - founder confirmed
+                             # 126.0 on 2026-10-07 (fresh start: ledger wiped, old history archived).
+                             # Drives the margin-slot math (wallet x 0.95 / 5 slots). UPDATE THIS
+                             # whenever the real wallet changes materially.
 # self-healing exchange-rule caches (persist across restarts where noted)
 _BLOCK_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "blocked_syms.json")
 try:
@@ -246,7 +252,10 @@ LIVE_CAPITAL_INR = 200.0     # REAL money base for live risk sizing, in USDT (th
                              # NOTE: legacy field name says INR, but qty math uses it as USDT.
                              # Wallet is ~235 USDT; 200 leaves headroom. Do NOT put 20000 here.
 LIVE_TP_R = 2.0              # live TP at entry +/- 2.0R (min with P2) - the strategy's true full target (was paper's TP_R=2.0)
-FILL_TIMEOUT_SCANS = 3       # cancel unfilled live bracket after 3 scans (~45 min)
+FILL_TIMEOUT_SCANS = 6       # cancel unfilled live bracket after 6 scans (~90 min) - advisor review 2026-10-07:
+                             # valid retests regularly take >45 min; the 1.5-ATR stale guard and the
+                             # TP-consumed check already kill genuinely dead orders, so the timer was
+                             # redundant strictness. Wider window = more fills on slow retests.
 TP_R         = 2.0           # final full close
 PART1_R      = 1.0           # close 50% here, SL -> breakeven
 PART2_R      = 1.5           # close 25% here, SL trails to lock +1R
@@ -260,6 +269,18 @@ QML_REGIME_TF = "4h"         # BTC regime timeframe for QML gate (was 1h: slower
 QML_CORR_GATE = 0.55         # only coins this correlated with BTC obey the regime (was 0.45: more coins trade freely)
 QML_MIN_SCORE = 5            # shadow twin records score>=5 RETESTs on the new /16 scale (was 4 of 8)
 QML_ZONE_ATR  = 0.15         # retest zone = P1 +/- 0.15*ATR(14)
+QML_MAJOR_LEG_ATR = 2.0      # FOUNDER STRUCTURE ENGINE (2026-10-07): a swing only counts as MAJOR if
+                             # the leg from the previous major swing moved >= 2 x ATR. Internal wiggles
+                             # are invisible to structure. Self-scales per coin (ATR-based).
+QML_TREND_EMA_BAND = 0.003   # FOUNDER FIX 2026-10-07 (EMA follow-up, bos2_replay): 18/20 shorts were
+                             # taken ABOVE the coin's own 15m EMA - fighting the coin trend. Those 18 cost
+                             # -3.1R. Gate: SHORT only when price < EMA20(15m)x(1-band), LONG only when
+                             # above EMAx(1+band). BTC regime is blind in chop; the coin's own trend is not.
+QML_BOS_MIN_CLOSES = 2       # FOUNDER FIX 2026-10-06 (TIA + ARB losses within 10 min): ONE close beyond
+                             # P2 confirms nothing - micro-dips close below once and instantly reclaim,
+                             # and the bot shorts the pullback into strength. BOS now requires N
+                             # CONSECUTIVE candle closes beyond P2 before the structure counts as
+                             # broken. Entry mechanics unchanged: retest limit at P1, all other gates.
 QML_ARMED_MAX_BARS = 96      # ARMED expires 24h after BOS if no retest
 QML_ARMED_MAX_DIST_ATR = 3.0 # ARMED expires if price runs >3 ATR from P1
 QML_MAX_RISK_PCT = 0.025     # SL distance vs price above this = invalid structure (not scored)
@@ -327,6 +348,12 @@ def config_sanity():
         # QML gates
         "QML_MAX_POSITIONS": int, "QML_RISK_PCT": (int, float), "QML_REGIME_TF": str,
         "QML_CORR_GATE": (int, float), "QML_MIN_SCORE": int, "QML_SCORE_V2_MIN": int, "QML_SCORE_V2_COUNTER": int,
+        "QML_BOS_MIN_CLOSES": int, "QML_TREND_EMA_BAND": (int, float),
+        "QML_MAJOR_LEG_ATR": (int, float), "StructTracker": object,
+        "LIQ_SIM": object, "LIQ_SIM_RISK": (int, float), "LIQ_SIM_MAXPOS": int,
+        "liqsim_manage": object, "detect_liq15": object,
+        "SWEEP_SIM": object, "SWEEP_SIM_RISK": (int, float), "SWEEP_SIM_MAXPOS": int,
+        "sweepsim_enter": object, "sweepsim_manage": object, "SWEEP_REST_SLOTS": object,
         "QML_ZONE_ATR": (int, float), "QML_ARMED_MAX_BARS": int,
         "QML_ARMED_MAX_DIST_ATR": (int, float), "QML_MAX_RISK_PCT": (int, float),
         "QML_MAX_DIR": int, 
@@ -1305,6 +1332,8 @@ def load_state():
             if _cd2:
                 try: BOOK_QML['cur_day'] = datetime.strptime(_cd2, "%Y-%m-%d").date()
                 except Exception: pass
+            liqsim_load(d)
+            sweepsim_load(d)
             _sm = d.get('sim', {})
             if isinstance(_sm, dict):
                 SIM_STATE['equity'] = float(_sm.get('equity', 400.0))
@@ -1334,6 +1363,12 @@ def save_state():
                    report=dict(REPORT), funnel=dict(FUNNEL),
                    pairs=list(PAIRS)[:600], pairs_live=PAIRS_LIVE,
                    liq_shadow=dict(LIQ_SHADOW_STATS),
+                   liqsim=dict(equity=LIQ_SIM['equity'], positions=LIQ_SIM['positions'],
+                               history=LIQ_SIM['history'][-300:], day=LIQ_SIM['day'],
+                               cur_day=LIQ_SIM['cur_day']),
+                   sweepsim=dict(equity=SWEEP_SIM['equity'], positions=SWEEP_SIM['positions'],
+                               history=SWEEP_SIM['history'][-300:], day=SWEEP_SIM['day'],
+                               cur_day=SWEEP_SIM['cur_day']),
                    updated=str(datetime.now(IST))),
               open(LEDGER_FILE, "w"), indent=1)
     if GH_TOKEN: upload_github()
@@ -1860,6 +1895,94 @@ def swings15(k):
         if h>=float(k[i-1][2]) and h>=float(k[i-2][2]) and h>=float(k[i+1][2]) and h>=float(k[i+2][2]): s.append({'i':i,'t':'H','p':h})
     return s
 
+class StructTracker:
+    """FOUNDER STRUCTURE ENGINE (shadow v1, 2026-10-07) - the notebook spec, mechanically:
+    major-swing zigzag (legs >= QML_MAJOR_LEG_ATR x ATR) -> structure state -> protected level.
+    PROTECTION MIGRATION (founder's rule): a HL only becomes protected once the rally out of it
+    breaks the HH it came from - only then do breakout longs' stops sit below it. Until that
+    confirmation the previous confirmed HL stays protected. Mirror for shorts.
+    Break = QML_BOS_MIN_CLOSES consecutive closes beyond the protected level.
+    SHADOW-ONLY: computes and logs decisions; never blocks a trade (spec: detection != authorization).
+    Point-in-time: rebuilt from closed candles each scan; no state carried across scans."""
+    def __init__(self, k):
+        closed = k[:-1]
+        if len(closed) < 40: raise ValueError("short history")
+        self.atr = sum(float(closed[i][2])-float(closed[i][3]) for i in range(len(closed)-15, len(closed)-1))/14
+        if self.atr <= 0: raise ValueError("bad atr")
+        T = QML_MAJOR_LEG_ATR * self.atr
+        # zigzag on wicks: alternate H/L pivots, min leg size T (running extremes tracked per side)
+        piv = []                      # (bar_index, price, 'H'/'L')
+        d = None
+        e_hi = float(closed[0][2]); i_hi = 0
+        e_lo = float(closed[0][3]); i_lo = 0
+        for i in range(1, len(closed)):
+            h, l = float(closed[i][2]), float(closed[i][3])
+            if d is None:
+                if h - e_lo >= T:    piv.append((i_lo, e_lo, 'L')); d = 'up';   e_hi, i_hi = h, i
+                elif e_hi - l >= T:  piv.append((i_hi, e_hi, 'H')); d = 'down'; e_lo, i_lo = l, i
+                else:
+                    if h > e_hi: e_hi, i_hi = h, i
+                    if l < e_lo: e_lo, i_lo = l, i
+            elif d == 'up':
+                if h > e_hi: e_hi, i_hi = h, i
+                if e_hi - l >= T: piv.append((i_hi, e_hi, 'H')); d = 'down'; e_lo, i_lo = l, i
+            else:
+                if l < e_lo: e_lo, i_lo = l, i
+                if h - e_lo >= T: piv.append((i_lo, e_lo, 'L')); d = 'up'; e_hi, i_hi = h, i
+        # provisional final pivot: the running extreme IS the current swing until a T-reversal
+        # proves otherwise (otherwise intact tops read as "no structure")
+        if d == 'up' and (not piv or e_hi > piv[-1][1] + 0.5*T):
+            piv.append((i_hi, e_hi, 'H'))
+        elif d == 'down' and (not piv or e_lo < piv[-1][1] - 0.5*T):
+            piv.append((i_lo, e_lo, 'L'))
+        self.pivots = piv
+        self.state, self.protected, self.prot_idx = self._classify(piv)
+        self.broken = self._break_check(closed)
+        if self.broken and self.state in ('BULLISH', 'BEARISH'):
+            self.state = 'TRANSITIONAL'
+    def _classify(self, piv):
+        if len(piv) < 3: return 'NONE', None, -1
+        prot = None; prot_i = -1; state = 'NONE'
+        last = piv[-1]
+        if last[2] == 'H':
+            # bullish structure if the latest H exceeded the previous H -> the L before it protected
+            hs = [p for p in piv if p[2] == 'H']; ls = [p for p in piv if p[2] == 'L']
+            if len(hs) >= 2 and len(ls) >= 1 and last[1] > hs[-2][1]:
+                cand = [l for l in ls if l[0] < last[0]]
+                if cand: prot, prot_i = cand[-1][1], cand[-1][0]; state = 'BULLISH'
+        elif last[2] == 'L':
+            ls2 = [p for p in piv if p[2] == 'L']; hs2 = [p for p in piv if p[2] == 'H']
+            if len(ls2) >= 2 and len(hs2) >= 1 and last[1] < ls2[-2][1]:
+                cand = [h for h in hs2 if h[0] < last[0]]
+                if cand: prot, prot_i = cand[-1][1], cand[-1][0]; state = 'BEARISH'
+        return state, prot, prot_i
+    def _break_check(self, closed):
+        if self.protected is None: return False
+        n = 0
+        for b in closed[-6:]:
+            c = float(b[4])
+            if self.state == 'BEARISH':
+                if c > self.protected: n += 1
+                else: n = 0
+            else:
+                if c < self.protected: n += 1
+                else: n = 0
+        return n >= QML_BOS_MIN_CLOSES
+    def decision(self, d):
+        """Shadow decision for a QML direction. allow=False = this rule-set would reject."""
+        if self.state == 'NONE':
+            return dict(state='NONE', allow=True, why='insufficient major structure')
+        if d == 'SHORT':
+            if self.state == 'BULLISH':
+                if self.broken: return dict(state='TRANSITIONAL', allow=True, why='protected HL broken by 2 closes - counter-trend window open')
+                return dict(state='BULLISH', allow=False, why='protected HL intact - no counter-trend short (TIA/ARB rule)')
+            return dict(state=self.state, allow=True, why='not fighting a bullish structure')
+        else:
+            if self.state == 'BEARISH':
+                if self.broken: return dict(state='TRANSITIONAL', allow=True, why='protected LH broken by 2 closes - counter-trend window open')
+                return dict(state='BEARISH', allow=False, why='protected LH intact - no counter-trend long')
+            return dict(state=self.state, allow=True, why='not fighting a bearish structure')
+
 def detect_qm15(k, regime='BOTH'):
     """QML v2 - raw structure detection + quality score. No hard gates on BTC/volume/R:R.
     BEARISH: P1=swing high, P2=swing low, P3=swing high>P1 (sweep), P4=CLOSE below P2 (BOS). QML level=P1.
@@ -1956,8 +2079,8 @@ def detect_qm15(k, regime='BOTH'):
             for i3 in range(i2+1, min(n, i2+W)):
                 if s[i3]['t']!='H' or s[i3]['p']<=P1: continue
                 p4i=-1
-                for j in range(s[i3]['i']+1, len(closed)):
-                    if float(closed[j][4])<P2: p4i=j; break
+                for j in range(s[i3]['i']+QML_BOS_MIN_CLOSES, len(closed)):
+                    if all(float(closed[j-m][4])<P2 for m in range(QML_BOS_MIN_CLOSES)): p4i=j; break
                 if p4i<0: continue
                 r=build(True, i1, i2, i3, p4i)
                 if r: return r
@@ -1970,8 +2093,8 @@ def detect_qm15(k, regime='BOTH'):
             for i3 in range(i2+1, min(n, i2+W)):
                 if s[i3]['t']!='L' or s[i3]['p']>=P1: continue
                 p4i=-1
-                for j in range(s[i3]['i']+1, len(closed)):
-                    if float(closed[j][4])>P2: p4i=j; break
+                for j in range(s[i3]['i']+QML_BOS_MIN_CLOSES, len(closed)):
+                    if all(float(closed[j-m][4])>P2 for m in range(QML_BOS_MIN_CLOSES)): p4i=j; break
                 if p4i<0: continue
                 r=build(False, i1, i2, i3, p4i)
                 if r: return r
@@ -2037,6 +2160,15 @@ def qml_scan():
             if _a > 0: _brets.append((_b - _a) / _a * 100) # pauses one candle still has momentum (TAO/DOGE)
     _basket_med15 = sorted(_brets)[len(_brets)//2] if _brets else 0.0
     manage_book(bk, kmap)
+    # LIQ SIM on the 15-min cycle (founder: live-order realism) - idempotent watermark
+    try:
+        for _s in [p["sym"] for p in LIQ_SIM["positions"] if p["sym"] not in kmap]:
+            _k = get_klines_15(_s)
+            if _k: kmap[_s] = _k
+        if LIQ_SIM["positions"] or LIQ_DATA:
+            liqsim_manage(kmap)
+    except Exception:
+        pass
     QML_SIGNALS.clear()
     # correlation vs BTC (15m returns, ~30h window) for regime-gate exemptions
     bmap={}
@@ -2066,6 +2198,21 @@ def qml_scan():
             if atr_now > 0 and abs(cur_px - q['qm']) > 1.5 * atr_now:
                 q['status'] = 'STALE'   # publish for visibility, but never tradable
         funnel_add('raw_qml'); funnel_add('st_'+q['status'])
+        # SHADOW structural decision (founder engine v1): log only, never blocks (spec: detection != authorization)
+        if q['status'] in ('RETEST', 'ARMED'):
+            try:
+                _st = StructTracker(k)
+                _sd = _st.decision(q['dir'])
+                _cl2 = [float(x[4]) for x in k[:-1]]; _e = _cl2[0]
+                for _x2 in _cl2[1:]: _e = (_x2 - _e) * 2/21 + _e
+                a_log(dict(ev='struct', sym=s, dir=q['dir'], qstatus=q['status'], score=q['score'],
+                           state=_sd['state'], allow=_sd['allow'], why=_sd['why'],
+                           protected=round(_st.protected or 0.0, 10), broken=_st.broken,
+                           ema_dist=round((float(k[-2][4])-_e)/_e*100, 2) if _e else None,
+                           key=s+"|"+q['dir']+"|"+str(round(q['qm'], 10))))
+                funnel_add('struct_allow' if _sd['allow'] else 'struct_block')
+            except Exception:
+                pass
         if q['score']>=4: funnel_add('score_ge4')
         if q['score']>=5: funnel_add('score_ge5')
         if q['score']>=6: funnel_add('score_ge6')
@@ -2076,8 +2223,13 @@ def qml_scan():
                    dist_atr=(round(abs(q['last']-q['qm'])/q['atr'],2) if q.get('atr') else None)))
         _r15 = ((float(k[-2][4]) - float(k[-5][4])) / float(k[-5][4]) * 100) if len(k) > 5 and float(k[-5][4]) else 0.0   # 45m (3-candle) momentum, was 1 candle
         _a1h = ((float(k[-2][4]) - float(k[-6][4])) / float(k[-6][4]) * 100) if len(k) > 6 and float(k[-6][4]) else 0.0    # absolute 1h move - flat-is-flat filter
+        _cl = [float(x[4]) for x in k[:-1]]                 # closed candles only
+        _e = _cl[0]
+        for _x in _cl[1:]: _e = (_x - _e) * 2/21 + _e       # EMA20(15m) point-in-time
+        _last = float(k[-2][4])
+        _trend_ok = (_last > _e*(1+QML_TREND_EMA_BAND)) if q['dir']=='LONG' else (_last < _e*(1-QML_TREND_EMA_BAND))
         _pct24 = round((float(k[-2][4]) / float(k[-98][4]) - 1) * 100, 2) if len(k) > 98 and float(k[-98][4]) else None
-        QML_SIGNALS.append(dict(sym=s,dir=q['dir'],status=q['status'],qm=q['qm'],sl=q['sl'],tp=q['tp'], rel15=round(_r15 - _basket_med15, 2), abs1h=round(_a1h, 2), pct24=_pct24,
+        QML_SIGNALS.append(dict(sym=s,dir=q['dir'],status=q['status'],qm=q['qm'],sl=q['sl'],tp=q['tp'], rel15=round(_r15 - _basket_med15, 2), abs1h=round(_a1h, 2), pct24=_pct24, trend_ok=_trend_ok,
             grade=q['grade'],score=q['score'],volX=q['volX'],disp=q['disp'],rr=q['rr'],
             p1=q['p1'],p2=q['p2'],p3=q['p3'],zone_lo=q['zone_lo'],zone_hi=q['zone_hi'],
             comp=q.get('comp'), atr=q.get('atr'), sweep_atr=q.get('sweep_atr'), age_bars=q.get('age_bars'),
@@ -2126,6 +2278,8 @@ def qml_scan():
         _a1 = sig.get('abs1h')
         if _a1 is not None and ((sig['dir']=='SHORT' and _a1 >= ABS_MOM_BLOCK) or (sig['dir']=='LONG' and _a1 <= -ABS_MOM_BLOCK)):
             rej(sig,'abs_mom',f"coin 1h move {_a1:+.1f}% absolute (block at ±{ABS_MOM_BLOCK}%, no basket)"); continue
+        if sig.get('trend_ok') is False:
+            rej(sig,'trend',f"{sig['dir']} vs the coin's own 15m trend (EMA gate) - bos2_replay: 18/20 above-EMA shorts = -3.1R"); continue
         if qml_blocked:
             rej(sig,'daily_breaker','-3R reached'); print(f"  QML PUBLISH-ONLY {sig['sym']} {sig['dir']} - daily limit"); continue
         if on_cooldown(bk, sig['sym'], sig['dir']):
@@ -2165,53 +2319,262 @@ LIQ_DATA = []
 MKT_DATA = []
 
 def detect_liq15(k):
+    """LIQUIDITY SCANNER v2 (2026-10-07) - the advisor stack merged into one detector:
+    ERL raid (impulse takes out prior 20-bar high/low) -> entry at the PREMIUM-half FVG
+    (not the midpoint - 'don't trade all FVGs': premium/discount + indecision quality +
+    no runaway/rejection-collision) -> SL beyond the raid extreme -> TP at 2R. 1:2 fixed."""
     closed=k[:-1]
     if len(closed)<80: return None
     atr=sum(float(closed[i][2])-float(closed[i][3]) for i in range(len(closed)-15,len(closed)-1))/14
     vavg=sum(float(x[5]) for x in closed[-21:-1])/20
     if atr<=0 or vavg<=0: return None
+    def body(bi,c): return abs(float(closed[bi][4])-float(closed[bi][1]))
+    def rng(bi): return float(closed[bi][2])-float(closed[bi][3])
     for i in range(len(closed)-2, max(60,len(closed)-75)-1, -1):
         for st in (i-4,i-3,i-2):
-            if st<1: continue
-            lo=float(closed[st][3]); hi=max(float(closed[i-1][2]),float(closed[i][2]))
-            chg=(hi-lo)/lo*100
-            if 2<=chg<=10:
-                legs=closed[st:i+1]
-                if max(float(x[2])-float(x[3]) for x in legs)<1.4*atr: continue
-                if min(float(x[3]) for x in legs)-lo > (hi-lo)*0.35: continue
-                if sum(float(x[5]) for x in legs)/len(legs) < 1.5*vavg: continue
-                eq=(lo+hi)/2; state='PENDING'
-                for j in range(i+1,len(closed)):
-                    if float(closed[j][3])<lo*0.9985: state='BROKEN'; break
-                    if float(closed[j][2])>=hi: state='DONE'; break
-                    if float(closed[j][3])<=eq: state='ACTIVE'
-                if state in ('BROKEN','DONE'): continue
-                sl=lo*0.9985; risk=eq-sl
-                rr=(hi-eq)/risk if risk>0 else 0
-                if rr<0.8: continue
-                return dict(sym='',dir='LONG',state=state,chg=round(chg,2),nc=len(legs),
-                            volX=round((sum(float(x[5]) for x in legs)/len(legs))/vavg,2),
-                            entry=eq,sl=sl,tp=hi,rr=round(rr,2))
+            if st<22: continue
+            legs=closed[st:i+1]
+            if len(legs)<3: continue
+            if max(float(x[2])-float(x[3]) for x in legs)<1.4*atr: continue
+            if sum(float(x[5]) for x in legs)/len(legs) < 1.5*vavg: continue
+            p20_hi=max(float(closed[j][2]) for j in range(st-20,st))
+            p20_lo=min(float(closed[j][3]) for j in range(st-20,st))
+            eq_g=(float(closed[st][1])+float(closed[st][4]))/2
+            # ---- DOWN raid (SHORT): sweeps p20_lo ----
             hi0=float(closed[st][2]); lo0=min(float(closed[i-1][3]),float(closed[i][3]))
             chg0=(hi0-lo0)/hi0*100
-            if 2<=chg0<=10:
-                legs=closed[st:i+1]
-                if max(float(x[2])-float(x[3]) for x in legs)<1.4*atr: continue
+            if 2<=chg0<=10 and lo0<p20_lo:
                 if hi0-max(float(x[2]) for x in legs) > (hi0-lo0)*0.35: continue
-                if sum(float(x[5]) for x in legs)/len(legs) < 1.5*vavg: continue
-                eq=(lo0+hi0)/2; state='PENDING'
+                eq=(hi0+lo0)/2
+                # premium-half FVGs: 3-candle gap, mid >= eq, inside origin, quality filters
+                best=None
+                for j in range(st+1, i):
+                    glo=float(closed[j+1][2]); ghi=float(closed[j-1][3])
+                    if not (glo < ghi): continue
+                    if ghi-glo < 0.25*atr: continue
+                    mid=(glo+ghi)/2
+                    if mid < eq: continue            # premium only (no cheap sells)
+                    if ghi > hi0: continue           # rejection-collision: above origin wall
+                    if all(body(x,0) >= 0.55*max(rng(x),1e-12) for x in (j-1,j,j+1)): continue  # runaway
+                    inde = body(j,0) <= 0.35*max(rng(j),1e-12)
+                    score = (1 if inde else 0, ghi)   # prefer indecision, then nearest origin
+                    if best is None or score > best[0]: best=(score, glo, ghi)
+                if not best: continue
+                _, glo, ghi = best
+                entry=(glo+ghi)/2; sl=lo0*0.9985; risk=entry-sl
+                if risk<=0: continue
+                tp=entry-2.0*risk
+                state='PENDING'
                 for j in range(i+1,len(closed)):
-                    if float(closed[j][2])>hi0*1.0015: state='BROKEN'; break
-                    if float(closed[j][3])<=lo0: state='DONE'; break
-                    if float(closed[j][2])>=eq: state='ACTIVE'
-                if state in ('BROKEN','DONE'): continue
-                sl=hi0*1.0015; risk=sl-eq
-                rr=(eq-lo0)/risk if risk>0 else 0
-                if rr<0.8: continue
+                    if float(closed[j][3])<lo0*0.9985: state='BROKEN'; break
+                    if float(closed[j][2])>=entry: state='ACTIVE'; break
+                if state=='BROKEN': continue
                 return dict(sym='',dir='SHORT',state=state,chg=round(chg0,2),nc=len(legs),
                             volX=round((sum(float(x[5]) for x in legs)/len(legs))/vavg,2),
-                            entry=eq,sl=sl,tp=lo0,rr=round(rr,2))
+                            entry=round(entry,10),fvg_lo=round(glo,10),fvg_hi=round(ghi,10),
+                            eq=round(eq,10),atr=round(atr,10),sl=sl,tp=tp,rr=2.0,
+                            _candle_ts=int(closed[-1][6]),_leg_end=i)
+            # ---- UP raid (LONG): sweeps p20_hi ----
+            lo0u=float(closed[st][3]); hi0u=max(float(closed[i-1][2]),float(closed[i][2]))
+            chgu=(hi0u-lo0u)/lo0u*100
+            if 2<=chgu<=10 and hi0u>p20_hi:
+                if min(float(x[3]) for x in legs)-lo0u > (hi0u-lo0u)*0.35: continue
+                eq2=(lo0u+hi0u)/2
+                best=None
+                for j in range(st+1, i):
+                    ghi=float(closed[j+1][3]); glo=float(closed[j-1][2])
+                    if not (glo < ghi): continue
+                    if ghi-glo < 0.25*atr: continue
+                    mid=(glo+ghi)/2
+                    if mid > eq2: continue            # discount only (no expensive buys)
+                    if glo < lo0u: continue           # rejection-collision: below origin wall
+                    if all(body(x,0) >= 0.55*max(rng(x),1e-12) for x in (j-1,j,j+1)): continue
+                    inde = body(j,0) <= 0.35*max(rng(j),1e-12)
+                    score = (1 if inde else 0, -glo)
+                    if best is None or score > best[0]: best=(score, glo, ghi)
+                if not best: continue
+                _, glo, ghi = best
+                entry=(glo+ghi)/2; sl=hi0u*1.0015; risk=sl-entry
+                if risk<=0: continue
+                tp=entry+2.0*risk
+                state='PENDING'
+                for j in range(i+1,len(closed)):
+                    if float(closed[j][2])>hi0u*1.0015: state='BROKEN'; break
+                    if float(closed[j][3])<=entry: state='ACTIVE'; break
+                if state=='BROKEN': continue
+                return dict(sym='',dir='LONG',state=state,chg=round(chgu,2),nc=len(legs),
+                            volX=round((sum(float(x[5]) for x in legs)/len(legs))/vavg,2),
+                            entry=round(entry,10),fvg_lo=round(glo,10),fvg_hi=round(ghi,10),
+                            eq=round(eq2,10),atr=round(atr,10),sl=sl,tp=tp,rr=2.0,
+                            _candle_ts=int(closed[-1][6]),_leg_end=i)
     return None
+
+
+# ---- SWEEP SIM ($500 live-mirror: A+ gated entries, 1:2 TP, NO scale-out/lock - straight runner) ----
+SWEEP_SIM = {"equity": 500.0, "positions": [], "history": [], "day": 0.0, "cur_day": ""}
+SWEEP_SIM_RISK = 2.5
+SWEEP_SIM_MAXPOS = 5
+
+def sweepsim_load(d):
+    s = d.get("sweepsim")
+    if isinstance(s, dict):
+        SWEEP_SIM["equity"] = float(s.get("equity", 500.0))
+        SWEEP_SIM["positions"] = s.get("positions", [])
+        SWEEP_SIM["history"] = s.get("history", [])
+        SWEEP_SIM["day"] = float(s.get("day", 0.0))
+        SWEEP_SIM["cur_day"] = str(s.get("cur_day", ""))
+
+def sweepsim_enter(sig, s, k):
+    if len(SWEEP_SIM["positions"]) >= SWEEP_SIM_MAXPOS: return
+    if any(p["sym"] == s for p in SWEEP_SIM["positions"]): return
+    try:
+        atr = sum(float(k[i][2])-float(k[i][3]) for i in range(len(k)-16, len(k)-2))/14
+    except Exception:
+        atr = abs(sig["entry"]-sig["sl"])
+    lg = sig["dir"] == "LONG"
+    entry = float(sig["entry"]); sl = float(sig["sl"])
+    tp = entry + 2.0*(entry-sl) if lg else entry - 2.0*(sl-entry)
+    risk = round(SWEEP_SIM["equity"] * SWEEP_SIM_RISK / 100.0, 2)
+    SWEEP_SIM["positions"].append(dict(sym=s, dir=sig["dir"], entry=entry, sl=sl, tp=round(tp, 10),
+        sl_hard=(sl - atr) if lg else (sl + atr), risk_usdt=risk, ts=int(sig["t"]),
+        bars=0, t_open=str(datetime.now(IST))[:16]))
+    a_log(dict(ev="sweepsim_open", sym=s, dir=sig["dir"], grade=sig.get("grade"), entry=entry, tp=tp, risk=risk))
+
+def sweepsim_manage(kmap):
+    """4H-bar exits mirroring the live exit stack: close-based stop + hard 1-ATR stop +
+    TP at 2R + 6-bar time stop. Deliberately NO scale-out locking (founder spec)."""
+    global SWEEP_SIM
+    today = str(datetime.now(IST).date())
+    if SWEEP_SIM["cur_day"] != today:
+        SWEEP_SIM["cur_day"] = today; SWEEP_SIM["day"] = 0.0
+    for pos in SWEEP_SIM["positions"][:]:
+        k = kmap.get(pos["sym"])
+        if not k: continue
+        new_bars = [b for b in k[:-1] if int(b[6]) > pos["ts"]]
+        if not new_bars:
+            continue
+        pos["bars"] += len(new_bars); pos["ts"] = int(new_bars[-1][6])
+        lg = pos["dir"] == "LONG"; risk = pos["risk_usdt"]; done = None
+        for b in new_bars:
+            h, l, c = float(b[2]), float(b[3]), float(b[4])
+            hard = pos["sl_hard"]
+            hit_hard = (l <= hard) if lg else (h >= hard)
+            soft = (c < pos["sl"]) if lg else (c > pos["sl"])
+            hit_tp = (h >= pos["tp"]) if lg else (l <= pos["tp"])
+            if hit_hard:
+                wick = (hard - l) if lg else (h - hard)
+                fill = (hard - SLIP_WICK_FRAC_DN*wick) if lg else (hard + SLIP_WICK_FRAC_UP*wick)
+                r = ((fill - pos["entry"]) if lg else (pos["entry"] - fill)) / abs(pos["entry"] - pos["sl"])
+                done = ("SL_HARD", round(max(min(r, 3), -3), 2)); break
+            if hit_tp and soft: done = ("AMBIGUOUS", -1.0); break
+            if soft:
+                r = ((c - pos["entry"]) if lg else (pos["entry"] - c)) / abs(pos["entry"] - pos["sl"])
+                done = ("CLOSE_STOP", round(max(min(r, 3), -3), 2)); break
+            if hit_tp: done = ("TP", 2.0); break
+        if done is None and pos["bars"] >= 6:
+            c = float(new_bars[-1][4])
+            r = ((c - pos["entry"]) if lg else (pos["entry"] - c)) / abs(pos["entry"] - pos["sl"])
+            done = ("TIME_STOP", round(max(min(r, 3), -3), 2))
+        if done:
+            kind, r = done
+            pnl = round(r * risk, 2)
+            SWEEP_SIM["equity"] += pnl; SWEEP_SIM["day"] += r
+            pos.update(resultR=r, pnl=pnl, exit_kind=kind, exitTime=str(datetime.now(IST))[:16])
+            SWEEP_SIM["history"].append(pos)
+            SWEEP_SIM["positions"].remove(pos)
+            a_log(dict(ev="sweepsim_exit", sym=pos["sym"], dir=pos["dir"], kind=kind, r=r, pnl=pnl,
+                       equity=round(SWEEP_SIM["equity"], 2)))
+
+# ---- LIQ SIM v2 ($500 live-mirror paper book: premium-FVG limit entries, 1:2 TP, NO 1R lock) ----
+LIQ_SIM = {"equity": 500.0, "positions": [], "history": [], "day": 0.0, "cur_day": ""}
+LIQ_SIM_RISK = 2.5          # % of sim equity per trade (mirrors LIVE_RISK_PCT)
+LIQ_SIM_MAXPOS = 5
+
+def liqsim_load(d):
+    s = d.get("liqsim")
+    if isinstance(s, dict):
+        LIQ_SIM["equity"] = float(s.get("equity", 500.0))
+        LIQ_SIM["positions"] = s.get("positions", [])
+        LIQ_SIM["history"] = s.get("history", [])
+        LIQ_SIM["day"] = float(s.get("day", 0.0))
+        LIQ_SIM["cur_day"] = str(s.get("cur_day", ""))
+
+def liqsim_manage(kmap):
+    """Advance the $500 SIM book one hourly scan. Fill/exits on CLOSED 15m bars:
+    close-based soft stop (wick tolerated) + hard stop 1 ATR beyond + TP at 2R + 32-bar time stop.
+    Deliberately NO +1R lock - founder wants the raw 1:2 runner behavior measured."""
+    global LIQ_SIM
+    today = str(datetime.now(IST).date())
+    if LIQ_SIM["cur_day"] != today:
+        LIQ_SIM["cur_day"] = today; LIQ_SIM["day"] = 0.0
+    for pos in LIQ_SIM["positions"][:]:
+        k = kmap.get(pos["sym"])
+        if not k: continue
+        new_bars = [b for b in k[:-1] if int(b[6]) > pos["ts"]]
+        if not pos.get("filled"):
+            for b in new_bars:
+                if float(b[3]) <= pos["entry"] <= float(b[2]):
+                    pos["filled"] = True
+                    pos["fill_ts"] = int(b[6])
+                    break
+            if not pos.get("filled"):
+                pos["wait"] = pos.get("wait", 0) + len(new_bars)
+                if pos["wait"] >= 32:
+                    LIQ_SIM["positions"].remove(pos)
+                else:
+                    pos["ts"] = int(new_bars[-1][6]) if new_bars else pos["ts"]
+                continue
+        lg = pos["dir"] == "LONG"
+        risk = pos["risk_usdt"]
+        done = None
+        bars_seen = 0
+        for b in [x for x in new_bars if int(x[6]) > pos.get("fill_ts", pos["ts"])]:
+            bars_seen += 1
+            h, l, c = float(b[2]), float(b[3]), float(b[4])
+            hard = pos["sl_hard"]
+            hit_hard = (l <= hard) if lg else (h >= hard)
+            soft_breach = (c < pos["sl"]) if lg else (c > pos["sl"])
+            hit_tp = (h >= pos["tp"]) if lg else (l <= pos["tp"])
+            if hit_hard:
+                wick = (hard - l) if lg else (h - hard)
+                fill = (hard - SLIP_WICK_FRAC_DN*wick) if lg else (hard + SLIP_WICK_FRAC_UP*wick)
+                r = ((fill - pos["entry"]) if lg else (pos["entry"] - fill)) / abs(pos["entry"] - pos["sl"])
+                done = ("SL_HARD", round(max(min(r, 3), -3), 2)); break
+            if hit_tp and soft_breach:
+                done = ("AMBIGUOUS", -1.0); break
+            if soft_breach:
+                r = ((c - pos["entry"]) if lg else (pos["entry"] - c)) / abs(pos["entry"] - pos["sl"])
+                done = ("CLOSE_STOP", round(max(min(r, 3), -3), 2)); break
+            if hit_tp:
+                done = ("TP", 2.0); break
+        if done is None and bars_seen >= 32:
+            c = float(new_bars[-1][4])
+            r = ((c - pos["entry"]) if lg else (pos["entry"] - c)) / abs(pos["entry"] - pos["sl"])
+            done = ("TIME_STOP", round(max(min(r, 3), -3), 2))
+        if done:
+            kind, r = done
+            pnl = round(r * risk, 2)
+            LIQ_SIM["equity"] += pnl; LIQ_SIM["day"] += r
+            pos.update(resultR=r, pnl=pnl, exit_kind=kind,
+                       exitTime=str(datetime.now(IST))[:16])
+            LIQ_SIM["history"].append(pos)
+            LIQ_SIM["positions"].remove(pos)
+            a_log(dict(ev="liqsim_exit", sym=pos["sym"], dir=pos["dir"], kind=kind, r=r, pnl=pnl,
+                       equity=round(LIQ_SIM["equity"], 2)))
+    # new entries from fresh setups (resting limit at the premium FVG, like live)
+    open_syms = {p["sym"] for p in LIQ_SIM["positions"]}
+    for s in LIQ_DATA:
+        if s["state"] == "BROKEN" or s["sym"] in open_syms: continue
+        if len(LIQ_SIM["positions"]) >= LIQ_SIM_MAXPOS: break
+        risk = round(LIQ_SIM["equity"] * LIQ_SIM_RISK / 100.0, 2)
+        lg = s["dir"] == "LONG"
+        atr = float(s.get("atr") or abs(s["entry"] - s["sl"]))
+        LIQ_SIM["positions"].append(dict(
+            sym=s["sym"], dir=s["dir"], entry=s["entry"], sl=s["sl"], tp=s["tp"],
+            sl_hard=(s["sl"] - atr) if lg else (s["sl"] + atr),
+            risk_usdt=risk, ts=s.get("_candle_ts", int(time.time()*1000)),
+            filled=False, wait=0, t_open=str(datetime.now(IST))[:16]))
+        open_syms.add(s["sym"])
 
 def liq_publish_scan():
     print(f"\n=== LIQ PUBLISH {datetime.now(IST):%H:%M IST} ===")
@@ -2347,6 +2710,9 @@ def scan_once():
         k = get_klines(s)
         if k: kmap[s] = k
     manage_book(bk, kmap)   # ALWAYS manage open trades first, even on limit days
+    sweepsim_manage(kmap)   # $500 SWEEP SIM: same 4H cadence, live-mirror exits
+    _sw_regime = qml_regime()          # BTC 4H regime (audit: aligned 86% win vs counter 12%)
+    _sw_slot = datetime.now(IST).strftime("%H:%M")
     _maxp = LIVE_MAX_POS if MODE=="LIVE" else bk['max_pos']
     book_full = len(bk['positions']) >= _maxp
     if book_full:
@@ -2366,12 +2732,19 @@ def scan_once():
             if daily_blocked or book_full:
                 print(f"  PUBLISH-ONLY {s} {sig['dir']} [{sig['grade']}] - daily limit / book full, not traded")
             else:
-                if sig['volX'] < MIN_VOLX:
+                if sig['grade'] != 'A+':
+                    print(f"  SKIP {s} {sig['dir']} — grade B (audit 300 trades: B = 37% win / -65R; publish-only)")
+                elif (_sw_regime == 'LONG' and sig['dir'] == 'SHORT') or (_sw_regime == 'SHORT' and sig['dir'] == 'LONG'):
+                    print(f"  SKIP {s} {sig['dir']} — counter-BTC-regime {_sw_regime} (audit: 12% win vs 86% aligned)")
+                elif _sw_slot in SWEEP_REST_SLOTS:
+                    print(f"  SKIP {s} {sig['dir']} — rest slot {_sw_slot} (audit: 13:31/17:31 scans won 6%)")
+                elif sig['volX'] < MIN_VOLX:
                     print(f"  SKIP {s} {sig['dir']} — volX {sig['volX']} below {MIN_VOLX} (published, not traded)")
                 elif on_cooldown(bk, s, sig['dir']):
                     print(f"  SKIP {s} {sig['dir']} — re-entry cooldown {COOLDOWN_H}h after previous close")
                 else:
                     open_trade(sig, bk, 'sweep')
+                    sweepsim_enter(sig, s, k)
     save_state()
 
 if __name__ == "__main__" and "--margin-probe" in sys.argv:
