@@ -11005,7 +11005,7 @@
     "risk_inr": 3.15,
     "qty": 4500.0,
     "t_open": "2026-10-07 17:46",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1791375299999,
     "atr": 0.0011621429,
     "corr": 0.2167981477522011,
@@ -11026,8 +11026,13 @@
     "bin_order_id": 1970277311,
     "margin_req": 6.0,
     "open_ms": 1791375395208,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791376092,
+    "sl_oid": 3000002236806082,
+    "tp_oid": 3000002236797592,
+    "t1_locked": true,
+    "lock_px": 0.03266
    }
   ],
   "equity": 200000.0,
@@ -13155,7 +13160,7 @@
     "f240": 43.714951047042604
    }
   ],
-  "t": "2026-10-07 17:46"
+  "t": "2026-10-07 18:01"
  },
  "liq": {
   "setups": [
@@ -13400,7 +13405,7 @@
     "rr": 0.96
    }
   ],
-  "t": "2026-10-07 17:46"
+  "t": "2026-10-07 18:01"
  },
  "day_r": 8.469999999999999,
  "cur_day": "2026-10-07",
@@ -13458,7 +13463,8 @@
   "orders_submitted": 2,
   "gate_existing_position": 1,
   "orders_cancelled": 1,
-  "gate_expired_at_rest": 1
+  "gate_expired_at_rest": 1,
+  "orders_filled": 1
  },
  "pairs": [
   "0GUSDT",
@@ -13975,5 +13981,5 @@
   "total_r": 30.6,
   "open": 194
  },
- "updated": "2026-10-07 17:46:36.713759+05:30"
+ "updated": "2026-10-07 18:01:14.000636+05:30"
 }
