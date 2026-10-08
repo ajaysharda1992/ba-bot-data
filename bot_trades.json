@@ -227,9 +227,7 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-08 15:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "SANDUSDT",
     "dir": "SHORT",
@@ -264,10 +262,21 @@
     "bin_order_id": 23344110571,
     "margin_req": 13.92,
     "open_ms": 1791454579722,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791454627,
+    "sl_oid": 3000002238607576,
+    "tp_oid": 3000002238578118,
+    "t1_locked": true,
+    "lock_px": 0.07314000000000001,
+    "resultR": 0.6,
+    "pnl": 1.98,
+    "exit": 0.07384,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-08 16:01"
    }
   ],
+  "open": [],
   "equity": 200000.0,
   "signals": [
    {
@@ -778,7 +787,7 @@
  },
  "market": {
   "rows": [],
-  "t": "2026-10-08 15:46"
+  "t": "2026-10-08 16:01"
  },
  "liq": {
   "setups": [
@@ -1143,15 +1152,15 @@
     "_leg_end": 234
    }
   ],
-  "t": "2026-10-08 15:46"
+  "t": "2026-10-08 16:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-08",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-08",
  "live": {
-  "equity": 131.87455000000003,
-  "day": 0.8003726708074533,
+  "equity": 133.85443000000004,
+  "day": 1.4003726708074533,
   "cur_day": "2026-10-08",
   "streak": [
    [
@@ -1200,10 +1209,10 @@
   "gate_liq_vol": 3,
   "orders_submitted": 3,
   "gate_existing_position": 2,
-  "orders_filled": 2,
+  "orders_filled": 3,
   "exits_loss": 1,
   "gate_tg_pause": 40,
-  "exits_win": 1,
+  "exits_win": 2,
   "gate_structure": 1
  },
  "pairs": [
@@ -1977,5 +1986,5 @@
   "day": 0.0,
   "cur_day": "2026-10-08"
  },
- "updated": "2026-10-08 15:46:21.134671+05:30"
+ "updated": "2026-10-08 16:01:30.246303+05:30"
 }
