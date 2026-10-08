@@ -49,8 +49,7 @@
   }
  ],
  "qml": {
-  "history": [],
-  "open": [
+  "history": [
    {
     "sym": "TAUSDT",
     "dir": "SHORT",
@@ -85,10 +84,19 @@
     "bin_order_id": 1375074450,
     "margin_req": 18.09,
     "open_ms": 1791429399841,
-    "live_pending": true,
-    "pending_scans": 2
+    "live_pending": false,
+    "pending_scans": 2,
+    "fill_ts": 1791431982,
+    "sl_oid": 3000002237988027,
+    "tp_oid": 3000002237988029,
+    "resultR": -0.12,
+    "pnl": -0.39,
+    "exit": 0.05097,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-08 09:31"
    }
   ],
+  "open": [],
   "equity": 200000.0,
   "signals": [
    {
@@ -2250,7 +2258,7 @@
     "f240": 50.71128799217972
    }
   ],
-  "t": "2026-10-08 09:16"
+  "t": "2026-10-08 09:31"
  },
  "liq": {
   "setups": [
@@ -2615,15 +2623,15 @@
     "_leg_end": 231
    }
   ],
-  "t": "2026-10-08 09:16"
+  "t": "2026-10-08 09:31"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-08",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-08",
  "live": {
-  "equity": 129.29874,
-  "day": 0.0,
+  "equity": 128.91095,
+  "day": -0.12,
   "cur_day": "2026-10-08",
   "streak": [
    [
@@ -2671,7 +2679,9 @@
   "gate_abs_mom": 1,
   "gate_liq_vol": 1,
   "orders_submitted": 1,
-  "gate_existing_position": 2
+  "gate_existing_position": 2,
+  "orders_filled": 1,
+  "exits_loss": 1
  },
  "pairs": [
   "0GUSDT",
@@ -3312,5 +3322,5 @@
   "day": 0.0,
   "cur_day": "2026-10-08"
  },
- "updated": "2026-10-08 09:16:32.239624+05:30"
+ "updated": "2026-10-08 09:31:09.995871+05:30"
 }
