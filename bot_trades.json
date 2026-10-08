@@ -321,9 +321,7 @@
     "exit": 4129.8,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-08 18:01"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "PAXGUSDT",
     "dir": "SHORT",
@@ -361,10 +359,18 @@
     "live_pending": false,
     "pending_scans": 0,
     "fill_ts": 1791479795,
-    "sl_oid": 3000002239460785,
-    "tp_oid": 3000002239460800
+    "sl_oid": 3000002239624568,
+    "tp_oid": 3000002239460800,
+    "t1_locked": true,
+    "lock_px": 4125.590000000001,
+    "resultR": 0.43,
+    "pnl": 1.46,
+    "exit": 4138.16,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-09 00:16"
    }
   ],
+  "open": [],
   "equity": 200000.0,
   "signals": [
    {
@@ -2526,7 +2532,7 @@
     "f240": 42.48747922663155
    }
   ],
-  "t": "2026-10-09 00:15"
+  "t": "2026-10-09 00:16"
  },
  "liq": {
   "setups": [
@@ -2891,15 +2897,15 @@
     "_leg_end": 288
    }
   ],
-  "t": "2026-10-09 00:15"
+  "t": "2026-10-09 00:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-08",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-09",
  "live": {
-  "equity": 134.90995000000004,
-  "day": 0.0,
+  "equity": 136.36723000000003,
+  "day": 0.43,
   "cur_day": "2026-10-09",
   "streak": [
    [
@@ -3008,7 +3014,8 @@
   "gate_rel_mom": 1,
   "gate_rr_low": 2,
   "shadow_opened": 4,
-  "shadow_closed": 2
+  "shadow_closed": 2,
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -4546,5 +4553,5 @@
   "day": 2.12,
   "cur_day": "2026-10-08"
  },
- "updated": "2026-10-09 00:15:43.601721+05:30"
+ "updated": "2026-10-09 00:16:13.777436+05:30"
 }
