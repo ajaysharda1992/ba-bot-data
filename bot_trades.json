@@ -368,9 +368,7 @@
     "exit": 4138.16,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-09 00:16"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "NMRUSDT",
     "dir": "SHORT",
@@ -408,9 +406,18 @@
     "live_pending": false,
     "pending_scans": 0,
     "fill_ts": 1791486102,
-    "sl_oid": 3000002239643943,
-    "tp_oid": 3000002239643949
-   },
+    "sl_oid": 3000002239702260,
+    "tp_oid": 3000002239643949,
+    "t1_locked": true,
+    "lock_px": 13.851,
+    "resultR": 0.76,
+    "pnl": 2.59,
+    "exit": 14.046999999999999,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-09 01:16"
+   }
+  ],
+  "open": [
    {
     "sym": "MUBARAKUSDT",
     "dir": "SHORT",
@@ -446,7 +453,7 @@
     "margin_req": 5.77,
     "open_ms": 1791486094021,
     "live_pending": true,
-    "pending_scans": 2
+    "pending_scans": 3
    }
   ],
   "equity": 200000.0,
@@ -2610,7 +2617,7 @@
     "f240": 49.531727072711774
    }
   ],
-  "t": "2026-10-09 01:15"
+  "t": "2026-10-09 01:16"
  },
  "liq": {
   "setups": [
@@ -2975,15 +2982,15 @@
     "_leg_end": 267
    }
   ],
-  "t": "2026-10-09 01:15"
+  "t": "2026-10-09 01:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-08",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-09",
  "live": {
-  "equity": 136.36723000000003,
-  "day": 0.43,
+  "equity": 138.95743000000004,
+  "day": 1.19,
   "cur_day": "2026-10-09",
   "streak": [
    [
@@ -3093,7 +3100,7 @@
   "gate_rr_low": 4,
   "shadow_opened": 10,
   "shadow_closed": 6,
-  "exits_win": 1,
+  "exits_win": 2,
   "orders_submitted": 2,
   "gate_countertrend": 1,
   "orders_filled": 1,
@@ -4653,5 +4660,5 @@
   "day": 2.12,
   "cur_day": "2026-10-08"
  },
- "updated": "2026-10-09 01:15:50.344468+05:30"
+ "updated": "2026-10-09 01:16:07.060389+05:30"
 }
