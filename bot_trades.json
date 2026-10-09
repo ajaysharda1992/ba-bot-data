@@ -689,43 +689,6 @@
   ],
   "open": [
    {
-    "sym": "AEROUSDT",
-    "dir": "SHORT",
-    "entry": 0.8562,
-    "sl": 0.8611,
-    "tp": 0.8464,
-    "grade": "A+",
-    "volX": 0.55,
-    "strategy": "qml",
-    "risk": 0.0049000000000000155,
-    "risk_inr": 3.25,
-    "qty": 663.2,
-    "t_open": "2026-10-09 09:31",
-    "bars": 0,
-    "_candle_ts": 1791518399999,
-    "atr": 0.0077714286,
-    "corr": 0.6831424572813778,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "1671641770",
-    "client_order_id": "ba-0d428f902cde4473a2e6",
-    "bin_order_id": 1671641770,
-    "margin_req": 22.71,
-    "open_ms": 1791518491323,
-    "live_pending": true,
-    "pending_scans": 1
-   },
-   {
     "sym": "SKLUSDT",
     "dir": "SHORT",
     "entry": 0.005114,
@@ -759,8 +722,11 @@
     "bin_order_id": 6538407424,
     "margin_req": 9.78,
     "open_ms": 1791519378268,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791519829,
+    "sl_oid": 3000002240229772,
+    "tp_oid": 3000002240229782
    }
   ],
   "equity": 200000.0,
@@ -2924,7 +2890,7 @@
     "f240": 50.59897148345931
    }
   ],
-  "t": "2026-10-09 09:46"
+  "t": "2026-10-09 10:01"
  },
  "liq": {
   "setups": [
@@ -3289,7 +3255,7 @@
     "_leg_end": 257
    }
   ],
-  "t": "2026-10-09 09:46"
+  "t": "2026-10-09 10:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-09",
@@ -3410,14 +3376,14 @@
   "exits_win": 3,
   "orders_submitted": 16,
   "gate_countertrend": 6,
-  "orders_filled": 7,
+  "orders_filled": 8,
   "liq_shadow_opened": 2168,
   "gate_exec_guard": 12,
   "gate_structure": 20,
   "gate_direction_cap": 22,
   "gate_existing_position": 7,
-  "orders_cancelled": 7,
-  "gate_expired_at_rest": 7,
+  "orders_cancelled": 8,
+  "gate_expired_at_rest": 8,
   "exits_loss": 4,
   "exits_time_stop": 1
  },
@@ -5177,5 +5143,5 @@
   "day": -0.02,
   "cur_day": "2026-10-09"
  },
- "updated": "2026-10-09 09:46:20.390278+05:30"
+ "updated": "2026-10-09 10:01:27.601848+05:30"
 }
