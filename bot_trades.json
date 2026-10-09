@@ -338,48 +338,6 @@
     "exit": 14.046999999999999,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-09 01:16"
-   }
-  ],
-  "open": [
-   {
-    "sym": "MUBARAKUSDT",
-    "dir": "SHORT",
-    "entry": 0.07656,
-    "sl": 0.07837,
-    "tp": 0.07395,
-    "grade": "A+",
-    "volX": 5.77,
-    "strategy": "qml",
-    "risk": 0.0018099999999999922,
-    "risk_inr": 3.41,
-    "qty": 1883.0,
-    "t_open": "2026-10-09 00:31",
-    "bars": 23,
-    "_candle_ts": 1791485999999,
-    "atr": 0.0019221429,
-    "corr": 0.2955194086198237,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "2459307938",
-    "client_order_id": "ba-df8401c3316b437eb965",
-    "bin_order_id": 2459307938,
-    "margin_req": 5.77,
-    "open_ms": 1791486094021,
-    "live_pending": false,
-    "pending_scans": 3,
-    "fill_ts": 1791489455,
-    "sl_oid": 3000002239717531,
-    "tp_oid": 3000002239717526
    },
    {
     "sym": "JTOUSDT",
@@ -419,7 +377,12 @@
     "pending_scans": 0,
     "fill_ts": 1791510069,
     "sl_oid": 3000002240059188,
-    "tp_oid": 3000002240059195
+    "tp_oid": 3000002240059195,
+    "resultR": -1.0,
+    "pnl": -3.47,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-09 07:16"
    },
    {
     "sym": "AVAXUSDT",
@@ -459,7 +422,54 @@
     "pending_scans": 0,
     "fill_ts": 1791509502,
     "sl_oid": 3000002240050526,
-    "tp_oid": 3000002240050530
+    "tp_oid": 3000002240050530,
+    "resultR": -0.61,
+    "pnl": -2.12,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-09 07:16"
+   }
+  ],
+  "open": [
+   {
+    "sym": "MUBARAKUSDT",
+    "dir": "SHORT",
+    "entry": 0.07656,
+    "sl": 0.07837,
+    "tp": 0.07395,
+    "grade": "A+",
+    "volX": 5.77,
+    "strategy": "qml",
+    "risk": 0.0018099999999999922,
+    "risk_inr": 3.41,
+    "qty": 1883.0,
+    "t_open": "2026-10-09 00:31",
+    "bars": 24,
+    "_candle_ts": 1791485999999,
+    "atr": 0.0019221429,
+    "corr": 0.2955194086198237,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "2459307938",
+    "client_order_id": "ba-df8401c3316b437eb965",
+    "bin_order_id": 2459307938,
+    "margin_req": 5.77,
+    "open_ms": 1791486094021,
+    "live_pending": false,
+    "pending_scans": 3,
+    "fill_ts": 1791489455,
+    "sl_oid": 3000002239717531,
+    "tp_oid": 3000002239717526
    }
   ],
   "equity": 200000.0,
@@ -2623,7 +2633,7 @@
     "f240": 50.73825491802162
    }
   ],
-  "t": "2026-10-09 07:15"
+  "t": "2026-10-09 07:16"
  },
  "liq": {
   "setups": [
@@ -2988,25 +2998,17 @@
     "_leg_end": 269
    }
   ],
-  "t": "2026-10-09 07:15"
+  "t": "2026-10-09 07:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-09",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-09",
  "live": {
-  "equity": 138.95743000000004,
-  "day": 1.19,
+  "equity": 133.36453000000006,
+  "day": -0.4217867435158501,
   "cur_day": "2026-10-09",
   "streak": [
-   [
-    9.25,
-    -0.9952472727272728
-   ],
-   [
-    14.183333333333334,
-    -0.9611818181818182
-   ],
    [
     18.266666666666666,
     1.0472190476190477
@@ -3014,6 +3016,14 @@
    [
     7.433333333333334,
     0.9203726708074533
+   ],
+   [
+    5.016666666666667,
+    -0.9996829971181556
+   ],
+   [
+    14.5,
+    -0.6121037463976945
    ]
   ],
   "day_r": 0.0
@@ -3116,7 +3126,8 @@
   "gate_direction_cap": 6,
   "gate_existing_position": 1,
   "orders_cancelled": 2,
-  "gate_expired_at_rest": 2
+  "gate_expired_at_rest": 2,
+  "exits_loss": 2
  },
  "pairs": [
   "0GUSDT",
@@ -4726,5 +4737,5 @@
   "day": 0.0,
   "cur_day": "2026-10-09"
  },
- "updated": "2026-10-09 07:15:31.957206+05:30"
+ "updated": "2026-10-09 07:16:12.878202+05:30"
 }
