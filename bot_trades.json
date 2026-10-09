@@ -518,9 +518,7 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-09 08:31"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "MUBARAKUSDT",
     "dir": "SHORT",
@@ -534,7 +532,7 @@
     "risk_inr": 3.41,
     "qty": 1883.0,
     "t_open": "2026-10-09 00:31",
-    "bars": 31,
+    "bars": 32,
     "_candle_ts": 1791485999999,
     "atr": 0.0019221429,
     "corr": 0.2955194086198237,
@@ -559,45 +557,15 @@
     "pending_scans": 3,
     "fill_ts": 1791489455,
     "sl_oid": 3000002239717531,
-    "tp_oid": 3000002239717526
-   },
-   {
-    "sym": "SKLUSDT",
-    "dir": "SHORT",
-    "entry": 0.005114,
-    "sl": 0.005182,
-    "tp": 0.005016,
-    "grade": "A+",
-    "volX": 1.93,
-    "strategy": "qml",
-    "risk": 6.800000000000035e-05,
-    "risk_inr": 3.31,
-    "qty": 48676.0,
-    "t_open": "2026-10-09 08:46",
-    "bars": 0,
-    "_candle_ts": 1791515699999,
-    "atr": 0.0001076429,
-    "corr": 0.18758529046900801,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "6538214238",
-    "client_order_id": "ba-69288e8e1c494bd6b568",
-    "bin_order_id": 6538214238,
-    "margin_req": 9.96,
-    "open_ms": 1791515796511,
-    "live_pending": true,
-    "pending_scans": 1
-   },
+    "tp_oid": 3000002239717526,
+    "resultR": 0.36,
+    "pnl": 1.23,
+    "exit": 0.0759,
+    "exit_kind": "TIME_STOP",
+    "exitTime": "2026-10-09 09:16"
+   }
+  ],
+  "open": [
    {
     "sym": "METUSDT",
     "dir": "SHORT",
@@ -2797,7 +2765,7 @@
     "f240": 50.59897148345931
    }
   ],
-  "t": "2026-10-09 09:15"
+  "t": "2026-10-09 09:16"
  },
  "liq": {
   "setups": [
@@ -3162,15 +3130,15 @@
     "_leg_end": 261
    }
   ],
-  "t": "2026-10-09 09:15"
+  "t": "2026-10-09 09:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-09",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-09",
  "live": {
-  "equity": 132.26166400000005,
-  "day": -0.7361143047053581,
+  "equity": 133.49166400000004,
+  "day": -0.3761143047053581,
   "cur_day": "2026-10-09",
   "streak": [
    [
@@ -3289,9 +3257,10 @@
   "gate_structure": 17,
   "gate_direction_cap": 20,
   "gate_existing_position": 4,
-  "orders_cancelled": 4,
-  "gate_expired_at_rest": 4,
-  "exits_loss": 3
+  "orders_cancelled": 5,
+  "gate_expired_at_rest": 5,
+  "exits_loss": 3,
+  "exits_time_stop": 1
  },
  "pairs": [
   "0GUSDT",
@@ -4991,5 +4960,5 @@
   "day": 0.0,
   "cur_day": "2026-10-09"
  },
- "updated": "2026-10-09 09:15:36.892810+05:30"
+ "updated": "2026-10-09 09:16:32.111833+05:30"
 }
