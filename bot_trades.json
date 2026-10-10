@@ -1006,9 +1006,7 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-11 00:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "OGNUSDT",
     "dir": "LONG",
@@ -1047,47 +1045,12 @@
     "pending_scans": 0,
     "fill_ts": 1791654376,
     "sl_oid": 3000002242902992,
-    "tp_oid": 3000002242902996
-   },
-   {
-    "sym": "ARPAUSDT",
-    "dir": "LONG",
-    "entry": 0.012032,
-    "sl": 0.011831,
-    "tp": 0.012434,
-    "grade": "A",
-    "volX": 1.43,
-    "strategy": "qml",
-    "risk": 0.0002009999999999998,
-    "risk_inr": 3.09,
-    "qty": 15373.0,
-    "t_open": "2026-10-10 23:46",
-    "bars": 4,
-    "_candle_ts": 1791656099999,
-    "atr": 0.0001577857,
-    "corr": 0.10170699137016667,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "4904895151",
-    "client_order_id": "ba-aa4b2b9088a94a238a3e",
-    "bin_order_id": 4904895151,
-    "margin_req": 7.4,
-    "open_ms": 1791656173185,
-    "live_pending": false,
-    "pending_scans": 0,
-    "fill_ts": 1791656180,
-    "sl_oid": 3000002242934682,
-    "tp_oid": 3000002242934691
+    "tp_oid": 3000002242902996,
+    "resultR": -1.26,
+    "pnl": -3.88,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-11 01:01"
    },
    {
     "sym": "BCHUSDT",
@@ -1127,7 +1090,54 @@
     "pending_scans": 0,
     "fill_ts": 1791659016,
     "sl_oid": 3000002242984035,
-    "tp_oid": 3000002242984037
+    "tp_oid": 3000002242984037,
+    "resultR": -0.45,
+    "pnl": -1.41,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-11 01:01"
+   }
+  ],
+  "open": [
+   {
+    "sym": "ARPAUSDT",
+    "dir": "LONG",
+    "entry": 0.012032,
+    "sl": 0.011831,
+    "tp": 0.012434,
+    "grade": "A",
+    "volX": 1.43,
+    "strategy": "qml",
+    "risk": 0.0002009999999999998,
+    "risk_inr": 3.09,
+    "qty": 15373.0,
+    "t_open": "2026-10-10 23:46",
+    "bars": 5,
+    "_candle_ts": 1791656099999,
+    "atr": 0.0001577857,
+    "corr": 0.10170699137016667,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "4904895151",
+    "client_order_id": "ba-aa4b2b9088a94a238a3e",
+    "bin_order_id": 4904895151,
+    "margin_req": 7.4,
+    "open_ms": 1791656173185,
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791656180,
+    "sl_oid": 3000002242934682,
+    "tp_oid": 3000002242934691
    }
   ],
   "equity": 199997.18,
@@ -3291,7 +3301,7 @@
     "f240": 46.452739660657386
    }
   ],
-  "t": "2026-10-11 00:46"
+  "t": "2026-10-11 01:01"
  },
  "liq": {
   "setups": [
@@ -3656,15 +3666,15 @@
     "_leg_end": 249
    }
   ],
-  "t": "2026-10-11 00:46"
+  "t": "2026-10-11 01:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-10",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-11",
  "live": {
-  "equity": 126.23332206000006,
-  "day": 0.8103987341772152,
+  "equity": 120.94818206000005,
+  "day": -0.8899150587849742,
   "cur_day": "2026-10-11",
   "streak": [
    [
@@ -3674,6 +3684,14 @@
    [
     24.95,
     -0.0796012658227848
+   ],
+   [
+    105.15,
+    -1.255022653721683
+   ],
+   [
+    27.833333333333332,
+    -0.4452911392405063
    ]
   ],
   "day_r": 0.0
@@ -3771,7 +3789,7 @@
   "orders_filled": 2,
   "gate_corr_dir_cap": 2,
   "liq_shadow_opened": 177,
-  "exits_loss": 1
+  "exits_loss": 3
  },
  "pairs": [
   "0GUSDT",
@@ -5951,5 +5969,5 @@
   "day": -1.4,
   "cur_day": "2026-10-10"
  },
- "updated": "2026-10-11 00:46:18.352927+05:30"
+ "updated": "2026-10-11 01:01:27.162505+05:30"
 }
