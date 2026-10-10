@@ -914,9 +914,7 @@
     "exit": 0.0,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-10 21:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "ZECUSDT",
     "dir": "SHORT",
@@ -954,9 +952,18 @@
     "live_pending": false,
     "pending_scans": 1,
     "fill_ts": 1791642954,
-    "sl_oid": 3000002242658010,
-    "tp_oid": 3000002242658019
-   },
+    "sl_oid": 3000002242951066,
+    "tp_oid": 3000002242658019,
+    "t1_locked": true,
+    "lock_px": 1222.02,
+    "resultR": 0.89,
+    "pnl": 2.77,
+    "exit": 1234.98,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-11 00:01"
+   }
+  ],
+  "open": [
    {
     "sym": "OGNUSDT",
     "dir": "LONG",
@@ -970,7 +977,7 @@
     "risk_inr": 3.09,
     "qty": 8828.0,
     "t_open": "2026-10-10 23:16",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1791654299999,
     "atr": 0.0004685714,
     "corr": 0.025777986356364357,
@@ -1010,7 +1017,7 @@
     "risk_inr": 3.09,
     "qty": 15373.0,
     "t_open": "2026-10-10 23:46",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1791656099999,
     "atr": 0.0001577857,
     "corr": 0.10170699137016667,
@@ -1031,8 +1038,11 @@
     "bin_order_id": 4904895151,
     "margin_req": 7.4,
     "open_ms": 1791656173185,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791656180,
+    "sl_oid": 3000002242934682,
+    "tp_oid": 3000002242934691
    }
   ],
   "equity": 199997.18,
@@ -3196,7 +3206,7 @@
     "f240": 49.267771399436796
    }
   ],
-  "t": "2026-10-10 23:46"
+  "t": "2026-10-11 00:01"
  },
  "liq": {
   "setups": [
@@ -3561,58 +3571,97 @@
     "_leg_end": 249
    }
   ],
-  "t": "2026-10-10 23:46"
+  "t": "2026-10-11 00:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-10",
  "qml_day_r": 0.0,
- "qml_cur_day": "2026-10-10",
+ "qml_cur_day": "2026-10-11",
  "live": {
-  "equity": 123.71692206000007,
-  "day": -0.8699134615384616,
-  "cur_day": "2026-10-10",
+  "equity": 126.48486206000007,
+  "day": 0.89,
+  "cur_day": "2026-10-11",
   "streak": [
    [
     11.766666666666667,
     -0.4099134615384616
    ]
-  ]
+  ],
+  "day_r": 0.0
  },
  "sim": {
   "equity": 410.7,
   "day": 0.0,
   "cur_day": "2026-10-05"
  },
- "report": {},
+ "report": {
+  "date": "2026-10-11",
+  "funnel": {
+   "_day": "2026-10-10",
+   "raw_qml": 6377,
+   "st_STALE": 1769,
+   "score_ge4": 6377,
+   "score_ge5": 6040,
+   "score_ge6": 5754,
+   "st_ARMED": 4088,
+   "struct_allow": 3613,
+   "st_RETEST": 520,
+   "struct_block": 995,
+   "gate_tg_pause": 161,
+   "gate_rr_low": 253,
+   "shadow_opened": 272,
+   "shadow_closed": 269,
+   "liq_shadow_opened": 2951,
+   "gate_countertrend": 1,
+   "orders_submitted": 9,
+   "orders_filled": 7,
+   "exits_loss": 2,
+   "gate_liq_vol": 30,
+   "gate_rel_mom": 8,
+   "gate_structure": 29,
+   "gate_existing_position": 2,
+   "orders_cancelled": 2,
+   "gate_expired_at_rest": 2,
+   "exits_win": 2,
+   "gate_corr_dir_cap": 19,
+   "gate_exec_guard": 1
+  },
+  "models": {
+   "D": {
+    "n": 1927,
+    "win_pct": 74.3,
+    "avg_r": 0.47,
+    "fill_pct": 100.0
+   },
+   "A": {
+    "n": 1828,
+    "win_pct": 64.7,
+    "avg_r": 0.21,
+    "fill_pct": 100.0
+   },
+   "B": {
+    "n": 1793,
+    "win_pct": 60.2,
+    "avg_r": 0.15,
+    "fill_pct": 100.0
+   },
+   "C": {
+    "n": 1927,
+    "win_pct": 61.3,
+    "avg_r": 0.11,
+    "fill_pct": 100.0
+   },
+   "L": {
+    "n": 1804,
+    "win_pct": 72.7,
+    "avg_r": 0.2,
+    "fill_pct": 100.0
+   }
+  }
+ },
  "funnel": {
-  "_day": "2026-10-10",
-  "raw_qml": 6377,
-  "st_STALE": 1769,
-  "score_ge4": 6377,
-  "score_ge5": 6040,
-  "score_ge6": 5754,
-  "st_ARMED": 4088,
-  "struct_allow": 3613,
-  "st_RETEST": 520,
-  "struct_block": 995,
-  "gate_tg_pause": 161,
-  "gate_rr_low": 253,
-  "shadow_opened": 272,
-  "shadow_closed": 269,
-  "liq_shadow_opened": 2951,
-  "gate_countertrend": 1,
-  "orders_submitted": 9,
-  "orders_filled": 6,
-  "exits_loss": 2,
-  "gate_liq_vol": 30,
-  "gate_rel_mom": 8,
-  "gate_structure": 29,
-  "gate_existing_position": 2,
-  "orders_cancelled": 2,
-  "gate_expired_at_rest": 2,
-  "exits_win": 2,
-  "gate_corr_dir_cap": 19,
-  "gate_exec_guard": 1
+  "_day": "2026-10-11",
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -5648,5 +5697,5 @@
   "day": -1.4,
   "cur_day": "2026-10-10"
  },
- "updated": "2026-10-10 23:46:14.678117+05:30"
+ "updated": "2026-10-11 00:01:24.793391+05:30"
 }
