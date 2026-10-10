@@ -779,43 +779,6 @@
   ],
   "open": [
    {
-    "sym": "HBARUSDT",
-    "dir": "SHORT",
-    "entry": 0.09293,
-    "sl": 0.09314,
-    "tp": 0.0925,
-    "grade": "A",
-    "volX": 0.93,
-    "strategy": "qml",
-    "risk": 0.00021000000000000185,
-    "risk_inr": 3.08,
-    "qty": 6440.0,
-    "t_open": "2026-10-10 17:16",
-    "bars": 0,
-    "_candle_ts": 1791632699999,
-    "atr": 0.0003285714,
-    "corr": 0.557211268057373,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "17413359014",
-    "client_order_id": "ba-0786d92750004c78a176",
-    "bin_order_id": 17413359014,
-    "margin_req": 23.94,
-    "open_ms": 1791632791864,
-    "live_pending": true,
-    "pending_scans": 1
-   },
-   {
     "sym": "C98USDT",
     "dir": "LONG",
     "entry": 0.01802,
@@ -3014,7 +2977,7 @@
     "f240": 48.48382661250268
    }
   ],
-  "t": "2026-10-10 17:45"
+  "t": "2026-10-10 17:46"
  },
  "liq": {
   "setups": [
@@ -3379,7 +3342,7 @@
     "_leg_end": 259
    }
   ],
-  "t": "2026-10-10 17:45"
+  "t": "2026-10-10 17:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-10",
@@ -3420,7 +3383,9 @@
   "gate_liq_vol": 3,
   "gate_rel_mom": 2,
   "gate_structure": 4,
-  "gate_existing_position": 1
+  "gate_existing_position": 1,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -5128,5 +5093,5 @@
   "day": 0.0,
   "cur_day": "2026-10-10"
  },
- "updated": "2026-10-10 17:45:30.295543+05:30"
+ "updated": "2026-10-10 17:46:24.863291+05:30"
 }
