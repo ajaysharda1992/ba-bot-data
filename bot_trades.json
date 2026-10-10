@@ -775,9 +775,7 @@
     "exit": 3.6648175090252697,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-10 16:16"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "C98USDT",
     "dir": "LONG",
@@ -815,10 +813,18 @@
     "live_pending": false,
     "pending_scans": 2,
     "fill_ts": 1791634963,
-    "sl_oid": 3000002242515595,
-    "tp_oid": 3000002242515598
+    "sl_oid": 3000002242540526,
+    "tp_oid": 3000002242515598,
+    "t1_locked": true,
+    "lock_px": 0.01835,
+    "resultR": 0.21,
+    "pnl": 0.65,
+    "exit": 0.018019999999999998,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-10 18:16"
    }
   ],
+  "open": [],
   "equity": 199997.18,
   "signals": [
    {
@@ -3352,8 +3358,8 @@
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-10",
  "live": {
-  "equity": 123.18439210000007,
-  "day": -1.04,
+  "equity": 123.83770210000007,
+  "day": -0.8300000000000001,
   "cur_day": "2026-10-10",
   "streak": []
  },
@@ -3388,7 +3394,8 @@
   "gate_structure": 5,
   "gate_existing_position": 1,
   "orders_cancelled": 1,
-  "gate_expired_at_rest": 1
+  "gate_expired_at_rest": 1,
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -5114,5 +5121,5 @@
   "day": 0.0,
   "cur_day": "2026-10-10"
  },
- "updated": "2026-10-10 18:16:00.701227+05:30"
+ "updated": "2026-10-10 18:16:23.482271+05:30"
 }
