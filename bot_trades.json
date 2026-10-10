@@ -869,48 +869,6 @@
     "exit": 0.3616999999999999,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-10 20:16"
-   }
-  ],
-  "open": [
-   {
-    "sym": "ZECUSDT",
-    "dir": "SHORT",
-    "entry": 1234.98,
-    "sl": 1247.94,
-    "tp": 1209.05,
-    "grade": "A+",
-    "volX": 9.79,
-    "strategy": "qml",
-    "risk": 12.960000000000036,
-    "risk_inr": 3.1,
-    "qty": 0.239,
-    "t_open": "2026-10-10 19:46",
-    "bars": 6,
-    "_candle_ts": 1791641699999,
-    "atr": 4.2771428571,
-    "corr": 0.5913622907058204,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "809267206845",
-    "client_order_id": "ba-c59caf7033cc4057bf5f",
-    "bin_order_id": 809267206845,
-    "margin_req": 11.81,
-    "open_ms": 1791641783034,
-    "live_pending": false,
-    "pending_scans": 1,
-    "fill_ts": 1791642954,
-    "sl_oid": 3000002242658010,
-    "tp_oid": 3000002242658019
    },
    {
     "sym": "XPLUSDT",
@@ -950,7 +908,54 @@
     "pending_scans": 1,
     "fill_ts": 1791648269,
     "sl_oid": 3000002242784861,
-    "tp_oid": 3000002242784877
+    "tp_oid": 3000002242784877,
+    "resultR": -0.41,
+    "pnl": -1.28,
+    "exit": 0.0,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-10-10 21:46"
+   }
+  ],
+  "open": [
+   {
+    "sym": "ZECUSDT",
+    "dir": "SHORT",
+    "entry": 1234.98,
+    "sl": 1247.94,
+    "tp": 1209.05,
+    "grade": "A+",
+    "volX": 9.79,
+    "strategy": "qml",
+    "risk": 12.960000000000036,
+    "risk_inr": 3.1,
+    "qty": 0.239,
+    "t_open": "2026-10-10 19:46",
+    "bars": 7,
+    "_candle_ts": 1791641699999,
+    "atr": 4.2771428571,
+    "corr": 0.5913622907058204,
+    "sim": false,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": true,
+    "bmode": "LIVE",
+    "lev": 25,
+    "live_oid": "809267206845",
+    "client_order_id": "ba-c59caf7033cc4057bf5f",
+    "bin_order_id": 809267206845,
+    "margin_req": 11.81,
+    "open_ms": 1791641783034,
+    "live_pending": false,
+    "pending_scans": 1,
+    "fill_ts": 1791642954,
+    "sl_oid": 3000002242658010,
+    "tp_oid": 3000002242658019
    }
   ],
   "equity": 199997.18,
@@ -3114,7 +3119,7 @@
     "f240": 51.68580833042653
    }
   ],
-  "t": "2026-10-10 21:45"
+  "t": "2026-10-10 21:46"
  },
  "liq": {
   "setups": [
@@ -3479,17 +3484,22 @@
     "_leg_end": 275
    }
   ],
-  "t": "2026-10-10 21:45"
+  "t": "2026-10-10 21:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-10",
  "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-10",
  "live": {
-  "equity": 124.99585206000008,
-  "day": -0.4600000000000001,
+  "equity": 123.71692206000007,
+  "day": -0.8699134615384616,
   "cur_day": "2026-10-10",
-  "streak": []
+  "streak": [
+   [
+    11.766666666666667,
+    -0.4099134615384616
+   ]
+  ]
  },
  "sim": {
   "equity": 410.7,
@@ -3516,7 +3526,7 @@
   "gate_countertrend": 1,
   "orders_submitted": 7,
   "orders_filled": 5,
-  "exits_loss": 1,
+  "exits_loss": 2,
   "gate_liq_vol": 20,
   "gate_rel_mom": 5,
   "gate_structure": 23,
@@ -5363,5 +5373,5 @@
   "day": -1.4,
   "cur_day": "2026-10-10"
  },
- "updated": "2026-10-10 21:45:45.839345+05:30"
+ "updated": "2026-10-10 21:46:16.059965+05:30"
 }
