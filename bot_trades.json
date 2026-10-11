@@ -1145,43 +1145,6 @@
   ],
   "open": [
    {
-    "sym": "CAPUSDT",
-    "dir": "SHORT",
-    "entry": 0.09485,
-    "sl": 0.09663,
-    "tp": 0.09129,
-    "grade": "A+",
-    "volX": 17.86,
-    "strategy": "qml",
-    "risk": 0.00177999999999999,
-    "risk_inr": 2.88,
-    "qty": 1617.0,
-    "t_open": "2026-10-11 16:46",
-    "bars": 0,
-    "_candle_ts": 1791717299999,
-    "atr": 0.0011257143,
-    "corr": -0.09615044242221041,
-    "sim": false,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": true,
-    "bmode": "LIVE",
-    "lev": 25,
-    "live_oid": "540036524",
-    "client_order_id": "ba-889cdfe76ca246c0ae67",
-    "bin_order_id": 540036524,
-    "margin_req": 6.13,
-    "open_ms": 1791717393503,
-    "live_pending": true,
-    "pending_scans": 5
-   },
-   {
     "sym": "ENAUSDT",
     "dir": "SHORT",
     "entry": 0.22464,
@@ -1194,7 +1157,7 @@
     "risk_inr": 2.88,
     "qty": 2664.0,
     "t_open": "2026-10-11 17:31",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1791719999999,
     "atr": 0.0013,
     "corr": 0.4218042796811845,
@@ -1234,7 +1197,7 @@
     "risk_inr": 2.88,
     "qty": 5.45,
     "t_open": "2026-10-11 17:31",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1791719999999,
     "atr": 0.1964285714,
     "corr": 0.7102345743365267,
@@ -3423,7 +3386,7 @@
     "f240": 51.71540359719876
    }
   ],
-  "t": "2026-10-11 18:01"
+  "t": "2026-10-11 18:16"
  },
  "liq": {
   "setups": [
@@ -3788,7 +3751,7 @@
     "_leg_end": 253
    }
   ],
-  "t": "2026-10-11 18:01"
+  "t": "2026-10-11 18:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-11",
@@ -3848,7 +3811,8 @@
   "liq_shadow_opened": 2879,
   "exits_loss": 4,
   "gate_tg_pause": 176,
-  "gate_direction_cap": 29
+  "gate_direction_cap": 29,
+  "orders_cancelled": 1
  },
  "pairs": [
   "0GUSDT",
@@ -8000,5 +7964,5 @@
   "day": 0.11,
   "cur_day": "2026-10-11"
  },
- "updated": "2026-10-11 18:01:25.443975+05:30"
+ "updated": "2026-10-11 18:16:33.103351+05:30"
 }
