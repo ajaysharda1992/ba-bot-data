@@ -1215,8 +1215,11 @@
     "bin_order_id": 17300802608,
     "margin_req": 23.94,
     "open_ms": 1791720101357,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791720335,
+    "sl_oid": 3000002243953228,
+    "tp_oid": 3000002243953246
    },
    {
     "sym": "SOLUSDT",
@@ -1252,8 +1255,11 @@
     "bin_order_id": 248449546103,
     "margin_req": 23.92,
     "open_ms": 1791720105154,
-    "live_pending": true,
-    "pending_scans": 0
+    "live_pending": false,
+    "pending_scans": 0,
+    "fill_ts": 1791720133,
+    "sl_oid": 3000002243949103,
+    "tp_oid": 3000002243949116
    }
   ],
   "equity": 199986.07,
@@ -3417,11 +3423,11 @@
     "f240": 51.71540359719876
    }
   ],
-  "t": "2026-10-11 17:31"
+  "t": "2026-10-11 17:40"
  },
  "liq": {
   "setups": [],
-  "t": "2026-10-11 17:31"
+  "t": "2026-10-11 17:40"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-11",
@@ -3476,7 +3482,7 @@
   "shadow_closed": 222,
   "gate_structure": 5,
   "gate_existing_position": 4,
-  "orders_filled": 2,
+  "orders_filled": 4,
   "gate_corr_dir_cap": 2,
   "liq_shadow_opened": 2706,
   "exits_loss": 4,
@@ -7576,5 +7582,5 @@
   "day": 0.11,
   "cur_day": "2026-10-11"
  },
- "updated": "2026-10-11 17:31:47.142459+05:30"
+ "updated": "2026-10-11 17:40:27.072051+05:30"
 }
