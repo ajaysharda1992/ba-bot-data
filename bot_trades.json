@@ -2,7 +2,140 @@
  "history": [],
  "open": [],
  "equity": 200000.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "1000XECUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.006486,
+   "sl": 0.006572,
+   "tp": 0.006313999999999999,
+   "volX": 0.74,
+   "buyPct": 48.3,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "APEUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.1451,
+   "sl": 0.1492,
+   "tp": 0.13690000000000002,
+   "volX": 0.98,
+   "buyPct": 46.7,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "ARKUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.1773,
+   "sl": 0.1789,
+   "tp": 0.17410000000000003,
+   "volX": 0.67,
+   "buyPct": 46.0,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "AVAUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.3422,
+   "sl": 0.2956,
+   "tp": 0.43540000000000006,
+   "volX": 1.3,
+   "buyPct": 51.8,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "AWEUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.06211,
+   "sl": 0.06356,
+   "tp": 0.059209999999999985,
+   "volX": 5.22,
+   "buyPct": 47.9,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "AXSUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 1.0393,
+   "sl": 1.074,
+   "tp": 0.9698999999999995,
+   "volX": 2.94,
+   "buyPct": 52.6,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "BNBUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 715.19,
+   "sl": 723.48,
+   "tp": 698.6100000000001,
+   "volX": 0.78,
+   "buyPct": 48.1,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "COWUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.1303,
+   "sl": 0.1329,
+   "tp": 0.12510000000000002,
+   "volX": 0.69,
+   "buyPct": 44.9,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "ILVUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 3.303,
+   "sl": 3.372,
+   "tp": 3.165,
+   "volX": 0.78,
+   "buyPct": 48.3,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "KAIAUSDT",
+   "dir": "SHORT",
+   "grade": "A+",
+   "entry": 0.04356,
+   "sl": 0.04496,
+   "tp": 0.040760000000000005,
+   "volX": 1.68,
+   "buyPct": 44.2,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "KASUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.03519,
+   "sl": 0.03573,
+   "tp": 0.03411,
+   "volX": 0.61,
+   "buyPct": 48.2,
+   "t": "2026-10-17 21:33"
+  },
+  {
+   "sym": "LTCUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 58.81,
+   "sl": 59.66,
+   "tp": 57.110000000000014,
+   "volX": 0.61,
+   "buyPct": 42.4,
+   "t": "2026-10-17 21:33"
+  }
+ ],
  "qml": {
   "history": [
    {
@@ -5105,7 +5238,24 @@
  },
  "sweepsim": {
   "equity": 525.0,
-  "positions": [],
+  "positions": [
+   {
+    "sym": "TAUSDT",
+    "dir": "SHORT",
+    "entry": 0.0420585,
+    "sl": 0.04340501,
+    "tp": 0.03936548,
+    "sl_hard": 0.044326438600000004,
+    "risk_usdt": 13.12,
+    "ts": 1792252799999,
+    "t_open": "2026-10-17 21:33",
+    "mode": "limit55",
+    "volX": 6.13,
+    "filled": false,
+    "limit_px": 0.0420585,
+    "wait": 0
+   }
+  ],
   "history": [
    {
     "sym": "MUSDT",
@@ -5132,10 +5282,30 @@
  },
  "sweeplive": {
   "equity": 105.0,
-  "positions": [],
+  "positions": [
+   {
+    "sym": "TAUSDT",
+    "dir": "SHORT",
+    "entry": 0.04205,
+    "sl": 0.04340501,
+    "tp": 0.03936548,
+    "qty": 11139.0,
+    "lev": 25,
+    "mode": "limit55",
+    "pending": true,
+    "wait": 0,
+    "ts": 1792252799999,
+    "atr": 0.0009214286,
+    "risk_usdt": 15.0,
+    "margin_req": 18.74,
+    "t_open": "2026-10-17 21:33",
+    "bin_order_id": 1386384922,
+    "client_order_id": "fsw-c6b3faf1f3e540bda053"
+   }
+  ],
   "history": [],
   "day": 0.0,
   "cur_day": "2026-10-17"
  },
- "updated": "2026-10-17 21:33:40.454228+05:30"
+ "updated": "2026-10-17 21:33:44.619429+05:30"
 }
