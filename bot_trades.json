@@ -2,7 +2,140 @@
  "history": [],
  "open": [],
  "equity": 200000.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "AIOUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.03185,
+   "sl": 0.03269,
+   "tp": 0.030170000000000016,
+   "volX": 0.78,
+   "buyPct": 43.9,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "AVAAIUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.007328,
+   "sl": 0.009269,
+   "tp": 0.003446000000000002,
+   "volX": 14.02,
+   "buyPct": 46.8,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "AVAXUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 9.956,
+   "sl": 10.089,
+   "tp": 9.689999999999998,
+   "volX": 0.47,
+   "buyPct": 48.9,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "BTWUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 2.1374,
+   "sl": 1.909,
+   "tp": 2.5942,
+   "volX": 0.81,
+   "buyPct": 54.0,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "C98USDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.01551,
+   "sl": 0.01606,
+   "tp": 0.014409999999999996,
+   "volX": 0.72,
+   "buyPct": 43.3,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "CVCUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.02238,
+   "sl": 0.02286,
+   "tp": 0.021420000000000005,
+   "volX": 1.24,
+   "buyPct": 52.8,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "DOSUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.1799,
+   "sl": 0.1824,
+   "tp": 0.1749,
+   "volX": 0.38,
+   "buyPct": 51.5,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "FLUXUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.07506,
+   "sl": 0.08,
+   "tp": 0.06518,
+   "volX": 2.61,
+   "buyPct": 53.4,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "INXUSDT",
+   "dir": "SHORT",
+   "grade": "A+",
+   "entry": 0.004367,
+   "sl": 0.004644,
+   "tp": 0.0038130000000000013,
+   "volX": 1.91,
+   "buyPct": 37.5,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "IOTXUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.003838,
+   "sl": 0.003748,
+   "tp": 0.004017999999999999,
+   "volX": 0.45,
+   "buyPct": 53.9,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "LUMIAUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.09261,
+   "sl": 0.0982,
+   "tp": 0.08143,
+   "volX": 0.77,
+   "buyPct": 48.5,
+   "t": "2026-10-17 21:21"
+  },
+  {
+   "sym": "PUMPUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.004568,
+   "sl": 0.004669,
+   "tp": 0.004365999999999999,
+   "volX": 0.51,
+   "buyPct": 46.8,
+   "t": "2026-10-17 21:21"
+  }
+ ],
  "qml": {
   "history": [
    {
@@ -5093,8 +5226,9 @@
   "cur_day": "2026-10-17"
  },
  "sweepsim": {
-  "equity": 500.0,
-  "positions": [
+  "equity": 525.0,
+  "positions": [],
+  "history": [
    {
     "sym": "MUSDT",
     "dir": "SHORT",
@@ -5103,15 +5237,19 @@
     "tp": 0.8683828,
     "sl_hard": 0.9994014571000001,
     "risk_usdt": 12.5,
-    "ts": 1791719999999,
+    "ts": 1792238399999,
     "t_open": "2026-10-11 20:42",
     "mode": "close",
     "volX": 1.77,
-    "filled": true
+    "filled": true,
+    "bars": 36,
+    "resultR": 2.0,
+    "pnl": 25.0,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-17 21:21"
    }
   ],
-  "history": [],
-  "day": 0.0,
+  "day": 2.0,
   "cur_day": "2026-10-17"
  },
  "sweeplive": {
@@ -5119,7 +5257,7 @@
   "positions": [],
   "history": [],
   "day": 0.0,
-  "cur_day": "2026-10-11"
+  "cur_day": "2026-10-17"
  },
- "updated": "2026-10-17 21:21:33.675831+05:30"
+ "updated": "2026-10-17 21:21:36.677763+05:30"
 }
