@@ -59,7 +59,7 @@
     "risk_inr": 10.0,
     "qty": 37249.3584,
     "t_open": "2026-10-11 22:01",
-    "bars": 3,
+    "bars": 4,
     "_candle_ts": 1791736199999,
     "atr": 0.0002787143,
     "corr": 0.23845651819721103,
@@ -110,8 +110,8 @@
     "bmode": "SIM",
     "margin_req": 97.68,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-4ae67a80bad6"
    }
   ],
@@ -2276,7 +2276,7 @@
     "f240": 43.10443034919532
    }
   ],
-  "t": "2026-10-17 20:15"
+  "t": "2026-10-17 20:16"
  },
  "liq": {
   "setups": [
@@ -2641,7 +2641,7 @@
     "_leg_end": 296
    }
   ],
-  "t": "2026-10-17 20:15"
+  "t": "2026-10-17 20:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-17",
@@ -2695,7 +2695,8 @@
   "liq_shadow_opened": 14,
   "gate_structure": 2,
   "orders_submitted": 1,
-  "gate_liq_vol": 1
+  "gate_liq_vol": 1,
+  "orders_filled": 1
  },
  "pairs": [
   "0GUSDT",
@@ -7599,5 +7600,5 @@
   "day": 0.0,
   "cur_day": "2026-10-11"
  },
- "updated": "2026-10-17 20:15:37.515585+05:30"
+ "updated": "2026-10-17 20:16:05.917924+05:30"
 }
