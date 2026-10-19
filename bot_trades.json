@@ -692,42 +692,7 @@
     "exitTime": "2026-10-19 05:01"
    }
   ],
-  "open": [
-   {
-    "sym": "1000SHIBUSDT",
-    "dir": "SHORT",
-    "entry": 0.005037,
-    "sl": 0.005049043999999999,
-    "tp": 0.005012912,
-    "grade": "A+",
-    "volX": 3.07,
-    "strategy": "qml",
-    "risk": 1.204399999999925e-05,
-    "risk_inr": 11.14,
-    "qty": 924672.0359,
-    "t_open": "2026-10-20 00:31",
-    "bars": 0,
-    "_candle_ts": 1792436399999,
-    "atr": 2.07143e-05,
-    "corr": 0.7999278503952878,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 186.3,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-1f098b32bc29"
-   }
-  ],
+  "open": [],
   "equity": 200045.47,
   "signals": [
    {
@@ -2889,7 +2854,7 @@
     "f240": 47.811426977085205
    }
   ],
-  "t": "2026-10-20 00:45"
+  "t": "2026-10-20 00:46"
  },
  "liq": {
   "setups": [
@@ -3254,7 +3219,7 @@
     "_leg_end": 281
    }
   ],
-  "t": "2026-10-20 00:45"
+  "t": "2026-10-20 00:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-19",
@@ -3369,7 +3334,9 @@
   "shadow_opened": 4,
   "gate_structure": 1,
   "orders_submitted": 1,
-  "liq_shadow_opened": 109
+  "liq_shadow_opened": 109,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9702,5 +9669,5 @@
   "day": -0.9199999999999999,
   "cur_day": "2026-10-19"
  },
- "updated": "2026-10-20 00:45:51.951684+05:30"
+ "updated": "2026-10-20 00:46:06.925922+05:30"
 }
