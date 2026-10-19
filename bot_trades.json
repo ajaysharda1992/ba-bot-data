@@ -723,8 +723,8 @@
     "bmode": "SIM",
     "margin_req": 54.86,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-3583e06c4d18"
    }
   ],
@@ -2889,7 +2889,7 @@
     "f240": 53.258813223072885
    }
   ],
-  "t": "2026-10-20 01:46"
+  "t": "2026-10-20 02:01"
  },
  "liq": {
   "setups": [
@@ -3254,7 +3254,7 @@
     "_leg_end": 275
    }
   ],
-  "t": "2026-10-20 01:46"
+  "t": "2026-10-20 02:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-20",
@@ -3371,7 +3371,8 @@
   "orders_submitted": 2,
   "liq_shadow_opened": 252,
   "orders_cancelled": 1,
-  "gate_expired_at_rest": 1
+  "gate_expired_at_rest": 1,
+  "orders_filled": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9711,5 +9712,5 @@
   "day": -1.53,
   "cur_day": "2026-10-20"
  },
- "updated": "2026-10-20 01:46:40.739520+05:30"
+ "updated": "2026-10-20 02:01:17.400362+05:30"
 }
