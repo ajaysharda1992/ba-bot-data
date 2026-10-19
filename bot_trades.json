@@ -690,6 +690,46 @@
     "exit": 0.18643,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-19 05:01"
+   },
+   {
+    "sym": "TIAUSDT",
+    "dir": "SHORT",
+    "entry": 0.615,
+    "sl": 0.6184177999999999,
+    "tp": 0.6081644,
+    "grade": "A+",
+    "volX": 1.88,
+    "strategy": "qml",
+    "risk": 0.0034177999999999154,
+    "risk_inr": 11.14,
+    "qty": 3258.4557,
+    "t_open": "2026-10-20 03:16",
+    "bars": 1,
+    "_candle_ts": 1792446299999,
+    "atr": 0.0057642857,
+    "corr": 0.4801477133090405,
+    "sim": true,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": false,
+    "bmode": "SIM",
+    "margin_req": 80.16,
+    "lev": 25,
+    "live_pending": false,
+    "pending_scans": 2,
+    "live_oid": "sim-c8398fde71a7",
+    "slip": 0.0003044786,
+    "resultR": -2.0,
+    "pnl": -22.28,
+    "exit": 0.6244865642749999,
+    "exit_kind": "SL_HARD",
+    "exitTime": "2026-10-20 04:01"
    }
   ],
   "open": [
@@ -706,7 +746,7 @@
     "risk_inr": 11.14,
     "qty": 25014.038,
     "t_open": "2026-10-20 01:46",
-    "bars": 7,
+    "bars": 8,
     "_candle_ts": 1792440899999,
     "atr": 0.0004407143,
     "corr": 0.018981504408823062,
@@ -726,77 +766,9 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-3583e06c4d18"
-   },
-   {
-    "sym": "AKEUSDT",
-    "dir": "SHORT",
-    "entry": 0.030169,
-    "sl": 0.030421391,
-    "tp": 0.029664218,
-    "grade": "A+",
-    "volX": 1.03,
-    "strategy": "qml",
-    "risk": 0.00025239099999999765,
-    "risk_inr": 11.14,
-    "qty": 44124.9886,
-    "t_open": "2026-10-20 02:31",
-    "bars": 0,
-    "_candle_ts": 1792443599999,
-    "atr": 0.0002855714,
-    "corr": 0.11892833673636564,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 53.25,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 5,
-    "live_oid": "sim-138935e15679"
-   },
-   {
-    "sym": "TIAUSDT",
-    "dir": "SHORT",
-    "entry": 0.615,
-    "sl": 0.6184177999999999,
-    "tp": 0.6081644,
-    "grade": "A+",
-    "volX": 1.88,
-    "strategy": "qml",
-    "risk": 0.0034177999999999154,
-    "risk_inr": 11.14,
-    "qty": 3258.4557,
-    "t_open": "2026-10-20 03:16",
-    "bars": 0,
-    "_candle_ts": 1792446299999,
-    "atr": 0.0057642857,
-    "corr": 0.4801477133090405,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 80.16,
-    "lev": 25,
-    "live_pending": false,
-    "pending_scans": 2,
-    "live_oid": "sim-c8398fde71a7"
    }
   ],
-  "equity": 200045.47,
+  "equity": 200023.19,
   "signals": [
    {
     "sym": "1000SHIBUSDT",
@@ -2957,7 +2929,7 @@
     "f240": 51.94747856027515
    }
   ],
-  "t": "2026-10-20 03:46"
+  "t": "2026-10-20 04:01"
  },
  "liq": {
   "setups": [
@@ -3322,11 +3294,11 @@
     "_leg_end": 272
    }
   ],
-  "t": "2026-10-20 03:46"
+  "t": "2026-10-20 04:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-20",
- "qml_day_r": 0.0,
+ "qml_day_r": -2.0,
  "qml_cur_day": "2026-10-20",
  "live": {
   "equity": 113.48725607000006,
@@ -3352,8 +3324,8 @@
   ]
  },
  "sim": {
-  "equity": 445.47,
-  "day": 0.0,
+  "equity": 423.19000000000005,
+  "day": -2.0,
   "cur_day": "2026-10-20"
  },
  "report": {
@@ -3438,12 +3410,13 @@
   "gate_structure": 5,
   "orders_submitted": 4,
   "liq_shadow_opened": 572,
-  "orders_cancelled": 1,
+  "orders_cancelled": 2,
   "gate_expired_at_rest": 1,
   "orders_filled": 2,
   "gate_rel_mom": 1,
   "gate_direction_cap": 14,
-  "gate_existing_position": 2
+  "gate_existing_position": 2,
+  "exits_loss": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9784,5 +9757,5 @@
   "day": -1.53,
   "cur_day": "2026-10-20"
  },
- "updated": "2026-10-20 03:46:28.898610+05:30"
+ "updated": "2026-10-20 04:01:06.345784+05:30"
 }
