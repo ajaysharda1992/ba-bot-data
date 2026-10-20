@@ -1124,9 +1124,7 @@
     "exit": 0.05597476,
     "exit_kind": "TP",
     "exitTime": "2026-10-20 20:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "PHAUSDT",
     "dir": "LONG",
@@ -1140,7 +1138,7 @@
     "risk_inr": 12.31,
     "qty": 25768.6592,
     "t_open": "2026-10-20 20:46",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1792509299999,
     "atr": 0.0008864286,
     "corr": 0.08531190916767654,
@@ -1159,10 +1157,17 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-45ce5f55ebb7"
+    "live_oid": "sim-45ce5f55ebb7",
+    "slip": 0.0,
+    "resultR": -1.32,
+    "pnl": -16.25,
+    "exit": 0.05757,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-20 21:46"
    }
   ],
-  "equity": 200092.46999999997,
+  "open": [],
+  "equity": 200076.21999999997,
   "signals": [
    {
     "sym": "ENAUSDT",
@@ -3323,7 +3328,7 @@
     "f240": 45.56860689733052
    }
   ],
-  "t": "2026-10-20 21:32"
+  "t": "2026-10-20 21:46"
  },
  "liq": {
   "setups": [
@@ -3688,11 +3693,11 @@
     "_leg_end": 297
    }
   ],
-  "t": "2026-10-20 21:32"
+  "t": "2026-10-20 21:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-20",
- "qml_day_r": 4.12,
+ "qml_day_r": 2.8,
  "qml_cur_day": "2026-10-20",
  "live": {
   "equity": 113.48725607000006,
@@ -3718,8 +3723,8 @@
   ]
  },
  "sim": {
-  "equity": 492.47,
-  "day": 4.12,
+  "equity": 476.22,
+  "day": 2.8,
   "cur_day": "2026-10-20"
  },
  "report": {},
@@ -3740,14 +3745,14 @@
   "shadow_opened": 268,
   "gate_structure": 40,
   "orders_submitted": 27,
-  "liq_shadow_opened": 3091,
+  "liq_shadow_opened": 3275,
   "orders_cancelled": 15,
   "gate_expired_at_rest": 14,
   "orders_filled": 12,
   "gate_rel_mom": 19,
   "gate_direction_cap": 26,
   "gate_existing_position": 14,
-  "exits_loss": 5,
+  "exits_loss": 6,
   "gate_liq_vol": 21,
   "exits_win": 6,
   "gate_corr_dir_cap": 118,
@@ -10215,5 +10220,5 @@
   "day": -1.1600000000000001,
   "cur_day": "2026-10-20"
  },
- "updated": "2026-10-20 21:32:43.746577+05:30"
+ "updated": "2026-10-20 21:46:15.614617+05:30"
 }
