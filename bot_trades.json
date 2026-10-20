@@ -686,9 +686,7 @@
     "exit": 0.6244865642749999,
     "exit_kind": "SL_HARD",
     "exitTime": "2026-10-20 04:01"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "WLFIUSDT",
     "dir": "SHORT",
@@ -702,7 +700,7 @@
     "risk_inr": 11.14,
     "qty": 25014.038,
     "t_open": "2026-10-20 01:46",
-    "bars": 14,
+    "bars": 15,
     "_candle_ts": 1792440899999,
     "atr": 0.0004407143,
     "corr": 0.018981504408823062,
@@ -721,8 +719,15 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-3583e06c4d18"
-   },
+    "live_oid": "sim-3583e06c4d18",
+    "resultR": 2.0,
+    "pnl": 22.28,
+    "exit": 0.05393956,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-20 05:46"
+   }
+  ],
+  "open": [
    {
     "sym": "LDOUSDT",
     "dir": "SHORT",
@@ -792,7 +797,7 @@
     "live_oid": "sim-c0adc9e8d84a"
    }
   ],
-  "equity": 200023.19,
+  "equity": 200045.47,
   "signals": [
    {
     "sym": "1000SHIBUSDT",
@@ -2953,7 +2958,7 @@
     "f240": 53.87069660531417
    }
   ],
-  "t": "2026-10-20 05:45"
+  "t": "2026-10-20 05:46"
  },
  "liq": {
   "setups": [
@@ -3318,11 +3323,11 @@
     "_leg_end": 264
    }
   ],
-  "t": "2026-10-20 05:45"
+  "t": "2026-10-20 05:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-20",
- "qml_day_r": -2.0,
+ "qml_day_r": 0.0,
  "qml_cur_day": "2026-10-20",
  "live": {
   "equity": 113.48725607000006,
@@ -3348,8 +3353,8 @@
   ]
  },
  "sim": {
-  "equity": 423.19000000000005,
-  "day": -2.0,
+  "equity": 445.47,
+  "day": 0.0,
   "cur_day": "2026-10-20"
  },
  "report": {
@@ -3441,7 +3446,8 @@
   "gate_direction_cap": 22,
   "gate_existing_position": 5,
   "exits_loss": 1,
-  "gate_liq_vol": 7
+  "gate_liq_vol": 7,
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -9781,5 +9787,5 @@
   "day": -1.53,
   "cur_day": "2026-10-20"
  },
- "updated": "2026-10-20 05:45:52.608920+05:30"
+ "updated": "2026-10-20 05:46:17.951123+05:30"
 }
