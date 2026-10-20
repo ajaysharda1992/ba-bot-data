@@ -746,7 +746,7 @@
     "risk_inr": 11.14,
     "qty": 25014.038,
     "t_open": "2026-10-20 01:46",
-    "bars": 13,
+    "bars": 14,
     "_candle_ts": 1792440899999,
     "atr": 0.0004407143,
     "corr": 0.018981504408823062,
@@ -780,7 +780,7 @@
     "risk_inr": 10.58,
     "qty": 2786.7114,
     "t_open": "2026-10-20 04:16",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1792449899999,
     "atr": 0.0022,
     "corr": 0.6114334744813512,
@@ -800,40 +800,6 @@
     "live_pending": false,
     "pending_scans": 4,
     "live_oid": "sim-bf8750f79721"
-   },
-   {
-    "sym": "ZECUSDT",
-    "dir": "SHORT",
-    "entry": 1169.34,
-    "sl": 1175.11394,
-    "tp": 1157.79212,
-    "grade": "A+",
-    "volX": 4.66,
-    "strategy": "qml",
-    "risk": 5.773940000000039,
-    "risk_inr": 10.58,
-    "qty": 1.8323,
-    "t_open": "2026-10-20 05:16",
-    "bars": 0,
-    "_candle_ts": 1792453499999,
-    "atr": 9.9464285714,
-    "corr": 0.7916711733570911,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 85.7,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-bf49c60162c0"
    }
   ],
   "equity": 200023.19,
@@ -2997,7 +2963,7 @@
     "f240": 53.87069660531417
    }
   ],
-  "t": "2026-10-20 05:16"
+  "t": "2026-10-20 05:31"
  },
  "liq": {
   "setups": [
@@ -3362,7 +3328,7 @@
     "_leg_end": 233
    }
   ],
-  "t": "2026-10-20 05:16"
+  "t": "2026-10-20 05:31"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-20",
@@ -3478,8 +3444,8 @@
   "gate_structure": 16,
   "orders_submitted": 7,
   "liq_shadow_opened": 737,
-  "orders_cancelled": 3,
-  "gate_expired_at_rest": 2,
+  "orders_cancelled": 4,
+  "gate_expired_at_rest": 3,
   "orders_filled": 3,
   "gate_rel_mom": 1,
   "gate_direction_cap": 22,
@@ -9825,5 +9791,5 @@
   "day": -1.53,
   "cur_day": "2026-10-20"
  },
- "updated": "2026-10-20 05:16:24.580797+05:30"
+ "updated": "2026-10-20 05:31:31.637899+05:30"
 }
