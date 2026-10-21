@@ -1969,7 +1969,7 @@
     "risk_inr": 14.92,
     "qty": 2.4374,
     "t_open": "2026-10-21 22:46",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1792602899999,
     "atr": 5.8771428571,
     "corr": 0.19141306906763203,
@@ -4152,7 +4152,7 @@
     "f240": 47.84911481554604
    }
   ],
-  "t": "2026-10-21 23:46"
+  "t": "2026-10-22 00:01"
  },
  "liq": {
   "setups": [
@@ -4517,12 +4517,12 @@
     "_leg_end": 258
    }
   ],
-  "t": "2026-10-21 23:46"
+  "t": "2026-10-22 00:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-21",
- "qml_day_r": 8.439999999999998,
- "qml_cur_day": "2026-10-21",
+ "qml_day_r": 0.0,
+ "qml_cur_day": "2026-10-22",
  "live": {
   "equity": 113.48725607000006,
   "day": -3.3529346618054707,
@@ -4548,108 +4548,79 @@
  },
  "sim": {
   "equity": 565.92,
-  "day": 8.439999999999998,
-  "cur_day": "2026-10-21"
+  "day": 0.0,
+  "cur_day": "2026-10-22"
  },
  "report": {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "funnel": {
-   "_day": "2026-10-20",
-   "raw_qml": 7307,
-   "st_ARMED": 5044,
-   "struct_allow": 4657,
-   "score_ge4": 7307,
-   "score_ge5": 6590,
-   "score_ge6": 5991,
-   "struct_block": 959,
-   "st_STALE": 1691,
-   "shadow_closed": 294,
-   "st_RETEST": 572,
-   "gate_exec_guard": 32,
-   "gate_rr_low": 166,
-   "shadow_opened": 281,
-   "gate_structure": 43,
-   "orders_submitted": 31,
-   "liq_shadow_opened": 3628,
-   "orders_cancelled": 18,
-   "gate_expired_at_rest": 17,
-   "orders_filled": 13,
+   "_day": "2026-10-21",
+   "raw_qml": 7321,
+   "st_STALE": 1753,
+   "score_ge4": 7321,
+   "score_ge5": 6685,
+   "score_ge6": 6276,
+   "st_ARMED": 5050,
+   "struct_allow": 4781,
+   "struct_block": 787,
+   "st_RETEST": 518,
    "gate_rel_mom": 19,
-   "gate_direction_cap": 26,
-   "gate_existing_position": 21,
-   "exits_loss": 7,
-   "gate_liq_vol": 23,
-   "exits_win": 6,
-   "gate_corr_dir_cap": 121,
-   "gate_abs_mom": 11,
-   "gate_countertrend": 28,
+   "gate_countertrend": 240,
+   "shadow_opened": 321,
+   "shadow_closed": 314,
+   "gate_rr_low": 63,
+   "liq_shadow_opened": 5078,
+   "orders_submitted": 28,
+   "gate_liq_vol": 13,
+   "orders_filled": 20,
+   "gate_structure": 56,
+   "gate_exec_guard": 11,
+   "exits_win": 10,
+   "gate_existing_position": 10,
+   "gate_abs_mom": 1,
+   "gate_direction_cap": 18,
+   "exits_loss": 8,
+   "orders_cancelled": 8,
+   "gate_expired_at_rest": 8,
+   "gate_corr_dir_cap": 30,
+   "exits_time_stop": 1,
    "gate_cooldown": 1
   },
   "models": {
    "D": {
     "n": 2000,
-    "win_pct": 75.5,
-    "avg_r": 0.46,
+    "win_pct": 74.2,
+    "avg_r": 0.43,
     "fill_pct": 100.0
    },
    "A": {
-    "n": 1888,
-    "win_pct": 67.6,
-    "avg_r": 0.26,
+    "n": 1906,
+    "win_pct": 66.6,
+    "avg_r": 0.23,
     "fill_pct": 100.0
    },
    "B": {
-    "n": 1844,
-    "win_pct": 61.9,
-    "avg_r": 0.18,
+    "n": 1867,
+    "win_pct": 61.0,
+    "avg_r": 0.14,
     "fill_pct": 100.0
    },
    "C": {
     "n": 2000,
-    "win_pct": 62.2,
-    "avg_r": 0.18,
+    "win_pct": 61.0,
+    "avg_r": 0.16,
     "fill_pct": 100.0
    },
    "L": {
-    "n": 1888,
-    "win_pct": 75.1,
-    "avg_r": 0.26,
+    "n": 1906,
+    "win_pct": 74.8,
+    "avg_r": 0.25,
     "fill_pct": 100.0
    }
   }
  },
  "funnel": {
-  "_day": "2026-10-21",
-  "raw_qml": 7321,
-  "st_STALE": 1753,
-  "score_ge4": 7321,
-  "score_ge5": 6685,
-  "score_ge6": 6276,
-  "st_ARMED": 5050,
-  "struct_allow": 4781,
-  "struct_block": 787,
-  "st_RETEST": 518,
-  "gate_rel_mom": 19,
-  "gate_countertrend": 240,
-  "shadow_opened": 321,
-  "shadow_closed": 314,
-  "gate_rr_low": 63,
-  "liq_shadow_opened": 5078,
-  "orders_submitted": 28,
-  "gate_liq_vol": 13,
-  "orders_filled": 20,
-  "gate_structure": 56,
-  "gate_exec_guard": 11,
-  "exits_win": 10,
-  "gate_existing_position": 10,
-  "gate_abs_mom": 1,
-  "gate_direction_cap": 18,
-  "exits_loss": 8,
-  "orders_cancelled": 8,
-  "gate_expired_at_rest": 8,
-  "gate_corr_dir_cap": 30,
-  "exits_time_stop": 1,
-  "gate_cooldown": 1
+  "_day": "2026-10-22"
  },
  "pairs": [
   "0GUSDT",
@@ -11170,5 +11141,5 @@
   "day": 0.0,
   "cur_day": "2026-10-21"
  },
- "updated": "2026-10-21 23:46:27.972758+05:30"
+ "updated": "2026-10-22 00:01:06.478087+05:30"
 }
