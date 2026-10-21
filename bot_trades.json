@@ -1383,7 +1383,7 @@
     "risk_inr": 12.18,
     "qty": 7923.0309,
     "t_open": "2026-10-21 04:31",
-    "bars": 8,
+    "bars": 9,
     "_candle_ts": 1792537199999,
     "atr": 0.00095,
     "corr": 0.7975690849217975,
@@ -1403,40 +1403,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-6a9d33d3f32b"
-   },
-   {
-    "sym": "CTRUSDT",
-    "dir": "LONG",
-    "entry": 0.017007,
-    "sl": 0.016660323,
-    "tp": 0.017700354,
-    "grade": "A+",
-    "volX": 2.07,
-    "strategy": "qml",
-    "risk": 0.0003466770000000001,
-    "risk_inr": 13.44,
-    "qty": 38767.3541,
-    "t_open": "2026-10-21 06:46",
-    "bars": 0,
-    "_candle_ts": 1792545299999,
-    "atr": 0.0004916429,
-    "corr": 0.062472017693942554,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 26.37,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
-    "live_oid": "sim-1006294b1a2e"
    }
   ],
   "equity": 200137.58999999997,
@@ -3600,7 +3566,7 @@
     "f240": 60.64061100030935
    }
   ],
-  "t": "2026-10-21 06:46"
+  "t": "2026-10-21 07:01"
  },
  "liq": {
   "setups": [
@@ -3965,7 +3931,7 @@
     "_leg_end": 239
    }
   ],
-  "t": "2026-10-21 06:46"
+  "t": "2026-10-21 07:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-21",
@@ -4092,7 +4058,9 @@
   "gate_existing_position": 1,
   "gate_abs_mom": 1,
   "gate_direction_cap": 4,
-  "exits_loss": 1
+  "exits_loss": 1,
+  "orders_cancelled": 1,
+  "gate_expired_at_rest": 1
  },
  "pairs": [
   "0GUSDT",
@@ -10551,5 +10519,5 @@
   "day": 0.0,
   "cur_day": "2026-10-21"
  },
- "updated": "2026-10-21 06:46:31.586511+05:30"
+ "updated": "2026-10-21 07:01:08.401588+05:30"
 }
