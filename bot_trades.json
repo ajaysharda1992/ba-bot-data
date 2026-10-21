@@ -1771,7 +1771,7 @@
     "risk_inr": 13.27,
     "qty": 170.9357,
     "t_open": "2026-10-21 18:16",
-    "bars": 2,
+    "bars": 3,
     "_candle_ts": 1792586699999,
     "atr": 0.0536428571,
     "corr": 0.38265852923980426,
@@ -1791,40 +1791,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-682280f5969b"
-   },
-   {
-    "sym": "1000PEPEUSDT",
-    "dir": "SHORT",
-    "entry": 0.0046441,
-    "sl": 0.0046575529,
-    "tp": 0.0046171942,
-    "grade": "A+",
-    "volX": 2.88,
-    "strategy": "qml",
-    "risk": 1.3452899999999608e-05,
-    "risk_inr": 13.27,
-    "qty": 986664.5853,
-    "t_open": "2026-10-21 18:46",
-    "bars": 0,
-    "_candle_ts": 1792588499999,
-    "atr": 2.22929e-05,
-    "corr": 0.7608246464449413,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 183.29,
-    "lev": 25,
-    "live_pending": true,
-    "pending_scans": 1,
-    "live_oid": "sim-51e25e8b3418"
    }
   ],
   "equity": 200185.41999999998,
@@ -4481,8 +4447,8 @@
   "gate_abs_mom": 1,
   "gate_direction_cap": 9,
   "exits_loss": 5,
-  "orders_cancelled": 6,
-  "gate_expired_at_rest": 6,
+  "orders_cancelled": 7,
+  "gate_expired_at_rest": 7,
   "gate_corr_dir_cap": 30,
   "exits_time_stop": 1,
   "gate_cooldown": 1
@@ -10990,5 +10956,5 @@
   "day": 0.0,
   "cur_day": "2026-10-21"
  },
- "updated": "2026-10-21 19:16:09.507215+05:30"
+ "updated": "2026-10-21 19:16:13.027061+05:30"
 }
