@@ -1400,6 +1400,45 @@
     "exit": 1.79239,
     "exit_kind": "TP",
     "exitTime": "2026-10-21 06:46"
+   },
+   {
+    "sym": "PUMPUSDT",
+    "dir": "LONG",
+    "entry": 0.004742,
+    "sl": 0.004711284,
+    "tp": 0.004803432,
+    "grade": "A+",
+    "volX": 1.09,
+    "strategy": "qml",
+    "risk": 3.0716000000000077e-05,
+    "risk_inr": 13.44,
+    "qty": 437548.8345,
+    "t_open": "2026-10-21 07:46",
+    "bars": 17,
+    "_candle_ts": 1792548899999,
+    "atr": 5.99286e-05,
+    "corr": 0.7591522245204921,
+    "sim": true,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": false,
+    "bmode": "SIM",
+    "margin_req": 82.99,
+    "lev": 25,
+    "live_pending": false,
+    "pending_scans": 1,
+    "live_oid": "sim-af5dee6f2fb5",
+    "resultR": 2.0,
+    "pnl": 26.88,
+    "exit": 0.004803432,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-21 12:16"
    }
   ],
   "open": [
@@ -1416,7 +1455,7 @@
     "risk_inr": 12.18,
     "qty": 7923.0309,
     "t_open": "2026-10-21 04:31",
-    "bars": 29,
+    "bars": 30,
     "_candle_ts": 1792537199999,
     "atr": 0.00095,
     "corr": 0.7975690849217975,
@@ -1436,40 +1475,6 @@
     "live_pending": false,
     "pending_scans": 1,
     "live_oid": "sim-6a9d33d3f32b"
-   },
-   {
-    "sym": "PUMPUSDT",
-    "dir": "LONG",
-    "entry": 0.004742,
-    "sl": 0.004711284,
-    "tp": 0.004803432,
-    "grade": "A+",
-    "volX": 1.09,
-    "strategy": "qml",
-    "risk": 3.0716000000000077e-05,
-    "risk_inr": 13.44,
-    "qty": 437548.8345,
-    "t_open": "2026-10-21 07:46",
-    "bars": 16,
-    "_candle_ts": 1792548899999,
-    "atr": 5.99286e-05,
-    "corr": 0.7591522245204921,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 82.99,
-    "lev": 25,
-    "live_pending": false,
-    "pending_scans": 1,
-    "live_oid": "sim-af5dee6f2fb5"
    },
    {
     "sym": "BNBUSDT",
@@ -1506,7 +1511,7 @@
     "live_oid": "sim-9c2d09ebe4c0"
    }
   ],
-  "equity": 200137.58999999997,
+  "equity": 200164.46999999997,
   "signals": [
    {
     "sym": "CLUSDT",
@@ -3667,7 +3672,7 @@
     "f240": 43.73565203711919
    }
   ],
-  "t": "2026-10-21 12:15"
+  "t": "2026-10-21 12:16"
  },
  "liq": {
   "setups": [
@@ -4032,11 +4037,11 @@
     "_leg_end": 283
    }
   ],
-  "t": "2026-10-21 12:15"
+  "t": "2026-10-21 12:16"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-21",
- "qml_day_r": 6.02,
+ "qml_day_r": 8.02,
  "qml_cur_day": "2026-10-21",
  "live": {
   "equity": 113.48725607000006,
@@ -4062,8 +4067,8 @@
   ]
  },
  "sim": {
-  "equity": 537.59,
-  "day": 6.02,
+  "equity": 564.47,
+  "day": 8.02,
   "cur_day": "2026-10-21"
  },
  "report": {
@@ -4155,7 +4160,7 @@
   "orders_filled": 8,
   "gate_structure": 19,
   "gate_exec_guard": 5,
-  "exits_win": 4,
+  "exits_win": 5,
   "gate_existing_position": 4,
   "gate_abs_mom": 1,
   "gate_direction_cap": 4,
@@ -10622,5 +10627,5 @@
   "day": 0.0,
   "cur_day": "2026-10-21"
  },
- "updated": "2026-10-21 12:15:41.599722+05:30"
+ "updated": "2026-10-21 12:16:25.197557+05:30"
 }
