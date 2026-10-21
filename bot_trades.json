@@ -1478,9 +1478,7 @@
     "exit": 0.13163,
     "exit_kind": "TIME_STOP",
     "exitTime": "2026-10-21 12:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "BNBUSDT",
     "dir": "SHORT",
@@ -1494,7 +1492,7 @@
     "risk_inr": 13.44,
     "qty": 9.9925,
     "t_open": "2026-10-21 11:01",
-    "bars": 6,
+    "bars": 7,
     "_candle_ts": 1792560599999,
     "atr": 1.365,
     "corr": 0.8909277189456225,
@@ -1513,10 +1511,17 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-9c2d09ebe4c0"
+    "live_oid": "sim-9c2d09ebe4c0",
+    "slip": 0.0,
+    "resultR": -1.47,
+    "pnl": -19.76,
+    "exit": 746.36,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-21 13:01"
    }
   ],
-  "equity": 200182.97999999998,
+  "open": [],
+  "equity": 200163.21999999997,
   "signals": [
    {
     "sym": "AVAUSDT",
@@ -3677,7 +3682,7 @@
     "f240": 43.73565203711919
    }
   ],
-  "t": "2026-10-21 12:46"
+  "t": "2026-10-21 13:01"
  },
  "liq": {
   "setups": [
@@ -4042,11 +4047,11 @@
     "_leg_end": 234
    }
   ],
-  "t": "2026-10-21 12:46"
+  "t": "2026-10-21 13:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-21",
- "qml_day_r": 9.54,
+ "qml_day_r": 8.069999999999999,
  "qml_cur_day": "2026-10-21",
  "live": {
   "equity": 113.48725607000006,
@@ -4072,8 +4077,8 @@
   ]
  },
  "sim": {
-  "equity": 582.98,
-  "day": 9.54,
+  "equity": 563.22,
+  "day": 8.069999999999999,
   "cur_day": "2026-10-21"
  },
  "report": {
@@ -4169,7 +4174,7 @@
   "gate_existing_position": 4,
   "gate_abs_mom": 1,
   "gate_direction_cap": 4,
-  "exits_loss": 1,
+  "exits_loss": 2,
   "orders_cancelled": 2,
   "gate_expired_at_rest": 2,
   "gate_corr_dir_cap": 22,
@@ -10633,5 +10638,5 @@
   "day": 0.0,
   "cur_day": "2026-10-21"
  },
- "updated": "2026-10-21 12:46:44.467420+05:30"
+ "updated": "2026-10-21 13:01:21.179031+05:30"
 }
