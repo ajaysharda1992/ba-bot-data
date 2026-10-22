@@ -2079,9 +2079,7 @@
     "exit": 28.095565214275,
     "exit_kind": "SL_HARD",
     "exitTime": "2026-10-22 06:46"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "XRPUSDT",
     "dir": "LONG",
@@ -2095,7 +2093,7 @@
     "risk_inr": 15.79,
     "qty": 5173.0889,
     "t_open": "2026-10-22 07:16",
-    "bars": 0,
+    "bars": 1,
     "_candle_ts": 1792633499999,
     "atr": 0.0045142857,
     "corr": 0.7844505883920073,
@@ -2114,8 +2112,16 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 1,
-    "live_oid": "sim-6f94e14b7c52"
-   },
+    "live_oid": "sim-6f94e14b7c52",
+    "slip": 0.0,
+    "resultR": -1.67,
+    "pnl": -26.37,
+    "exit": 1.3485,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-22 07:46"
+   }
+  ],
+  "open": [
    {
     "sym": "FILUSDT",
     "dir": "LONG",
@@ -2151,7 +2157,7 @@
     "live_oid": "sim-74f871b2c4d5"
    }
   ],
-  "equity": 200231.50999999995,
+  "equity": 200205.13999999996,
   "signals": [
    {
     "sym": "CLUSDT",
@@ -4312,7 +4318,7 @@
     "f240": 57.745010103052365
    }
   ],
-  "t": "2026-10-22 07:31"
+  "t": "2026-10-22 07:46"
  },
  "liq": {
   "setups": [
@@ -4677,11 +4683,11 @@
     "_leg_end": 234
    }
   ],
-  "t": "2026-10-22 07:31"
+  "t": "2026-10-22 07:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-22",
- "qml_day_r": 4.91,
+ "qml_day_r": 3.24,
  "qml_cur_day": "2026-10-22",
  "live": {
   "equity": 113.48725607000006,
@@ -4707,8 +4713,8 @@
   ]
  },
  "sim": {
-  "equity": 631.5100000000001,
-  "day": 4.91,
+  "equity": 605.1400000000001,
+  "day": 3.24,
   "cur_day": "2026-10-22"
  },
  "report": {
@@ -4795,13 +4801,13 @@
   "shadow_closed": 90,
   "orders_submitted": 7,
   "orders_filled": 7,
-  "liq_shadow_opened": 1079,
+  "liq_shadow_opened": 1201,
   "gate_abs_mom": 2,
   "gate_rr_low": 28,
   "gate_rel_mom": 6,
   "gate_exec_guard": 13,
   "gate_liq_vol": 9,
-  "exits_loss": 2,
+  "exits_loss": 3,
   "gate_structure": 6,
   "exits_win": 4,
   "gate_cooldown": 2,
@@ -11329,5 +11335,5 @@
   "day": 1.38,
   "cur_day": "2026-10-22"
  },
- "updated": "2026-10-22 07:31:31.328419+05:30"
+ "updated": "2026-10-22 07:46:08.732942+05:30"
 }
