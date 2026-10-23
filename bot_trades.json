@@ -2705,9 +2705,7 @@
     "exit": 0.18339,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-23 09:01"
-   }
-  ],
-  "open": [
+   },
    {
     "sym": "FETUSDT",
     "dir": "SHORT",
@@ -2721,7 +2719,7 @@
     "risk_inr": 14.52,
     "qty": 11273.7716,
     "t_open": "2026-10-23 07:31",
-    "bars": 5,
+    "bars": 6,
     "_candle_ts": 1792720799999,
     "atr": 0.0008,
     "corr": 0.703659016896229,
@@ -2740,8 +2738,16 @@
     "lev": 25,
     "live_pending": false,
     "pending_scans": 2,
-    "live_oid": "sim-42509fa1854a"
-   },
+    "live_oid": "sim-42509fa1854a",
+    "slip": 0.0,
+    "resultR": -1.09,
+    "pnl": -15.83,
+    "exit": 0.1886,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-23 09:31"
+   }
+  ],
+  "open": [
    {
     "sym": "DOTUSDT",
     "dir": "SHORT",
@@ -2777,7 +2783,7 @@
     "live_oid": "sim-9627feb9d87d"
    }
   ],
-  "equity": 200116.8499999999,
+  "equity": 200101.0199999999,
   "signals": [
    {
     "sym": "CBRSUSDT",
@@ -4938,7 +4944,7 @@
     "f240": 55.21646188542173
    }
   ],
-  "t": "2026-10-23 09:16"
+  "t": "2026-10-23 09:31"
  },
  "liq": {
   "setups": [
@@ -5303,11 +5309,11 @@
     "_leg_end": 230
    }
   ],
-  "t": "2026-10-23 09:16"
+  "t": "2026-10-23 09:31"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-23",
- "qml_day_r": -4.26,
+ "qml_day_r": -5.35,
  "qml_cur_day": "2026-10-23",
  "live": {
   "equity": 113.48725607000006,
@@ -5333,8 +5339,8 @@
   ]
  },
  "sim": {
-  "equity": 516.8500000000001,
-  "day": -4.26,
+  "equity": 501.02000000000015,
+  "day": -5.35,
   "cur_day": "2026-10-23"
  },
  "report": {
@@ -5431,7 +5437,7 @@
   "gate_countertrend": 3,
   "gate_exec_guard": 3,
   "gate_corr_dir_cap": 14,
-  "exits_loss": 5,
+  "exits_loss": 6,
   "gate_daily_breaker": 2
  },
  "pairs": [
@@ -12153,5 +12159,5 @@
   "day": -1.48,
   "cur_day": "2026-10-23"
  },
- "updated": "2026-10-23 09:16:35.210468+05:30"
+ "updated": "2026-10-23 09:31:12.197589+05:30"
 }
