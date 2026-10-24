@@ -2664,6 +2664,45 @@
     "exit": 1.1839,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-23 12:46"
+   },
+   {
+    "sym": "ARIAUSDT",
+    "dir": "SHORT",
+    "entry": 0.06683,
+    "sl": 0.06758751999999998,
+    "tp": 0.06531496,
+    "grade": "A+",
+    "volX": 1.78,
+    "strategy": "qml",
+    "risk": 0.0007575199999999838,
+    "risk_inr": 12.18,
+    "qty": 16082.7437,
+    "t_open": "2026-10-24 05:31",
+    "bars": 1,
+    "_candle_ts": 1792799999999,
+    "atr": 0.0012392857,
+    "corr": -0.047315761553070115,
+    "sim": true,
+    "p1": false,
+    "p2": false,
+    "be": false,
+    "trail": false,
+    "r_acc": 0.0,
+    "left": 1.0,
+    "pnl_sum": 0.0,
+    "parts": [],
+    "live": false,
+    "bmode": "SIM",
+    "margin_req": 42.99,
+    "lev": 25,
+    "live_pending": false,
+    "pending_scans": 1,
+    "live_oid": "sim-019a2138a162",
+    "resultR": 2.0,
+    "pnl": 24.36,
+    "exit": 0.06531496,
+    "exit_kind": "TP",
+    "exitTime": "2026-10-24 06:01"
    }
   ],
   "open": [
@@ -2697,46 +2736,12 @@
     "bmode": "SIM",
     "margin_req": 58.1,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 3,
-    "live_oid": "sim-0eb18028987f"
-   },
-   {
-    "sym": "ARIAUSDT",
-    "dir": "SHORT",
-    "entry": 0.06683,
-    "sl": 0.06758751999999998,
-    "tp": 0.06531496,
-    "grade": "A+",
-    "volX": 1.78,
-    "strategy": "qml",
-    "risk": 0.0007575199999999838,
-    "risk_inr": 12.18,
-    "qty": 16082.7437,
-    "t_open": "2026-10-24 05:31",
-    "bars": 0,
-    "_candle_ts": 1792799999999,
-    "atr": 0.0012392857,
-    "corr": -0.047315761553070115,
-    "sim": true,
-    "p1": false,
-    "p2": false,
-    "be": false,
-    "trail": false,
-    "r_acc": 0.0,
-    "left": 1.0,
-    "pnl_sum": 0.0,
-    "parts": [],
-    "live": false,
-    "bmode": "SIM",
-    "margin_req": 42.99,
-    "lev": 25,
     "live_pending": false,
-    "pending_scans": 1,
-    "live_oid": "sim-019a2138a162"
+    "pending_scans": 4,
+    "live_oid": "sim-0eb18028987f"
    }
   ],
-  "equity": 200087.3199999999,
+  "equity": 200111.67999999988,
   "signals": [
    {
     "sym": "TRXUSDT",
@@ -4897,7 +4902,7 @@
     "f240": 47.088540210832065
    }
   ],
-  "t": "2026-10-24 05:46"
+  "t": "2026-10-24 06:01"
  },
  "liq": {
   "setups": [
@@ -5262,11 +5267,11 @@
     "_leg_end": 281
    }
   ],
-  "t": "2026-10-24 05:46"
+  "t": "2026-10-24 06:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-24",
- "qml_day_r": 0.0,
+ "qml_day_r": 2.0,
  "qml_cur_day": "2026-10-24",
  "live": {
   "equity": 113.48725607000006,
@@ -5292,8 +5297,8 @@
   ]
  },
  "sim": {
-  "equity": 487.32000000000016,
-  "day": 0.0,
+  "equity": 511.6800000000002,
+  "day": 2.0,
   "cur_day": "2026-10-24"
  },
  "report": {
@@ -5388,7 +5393,8 @@
   "gate_countertrend": 5,
   "gate_existing_position": 2,
   "gate_abs_mom": 1,
-  "orders_filled": 1
+  "orders_filled": 2,
+  "exits_win": 1
  },
  "pairs": [
   "0GUSDT",
@@ -12252,5 +12258,5 @@
   "day": 0.0,
   "cur_day": "2026-10-24"
  },
- "updated": "2026-10-24 05:46:24.176552+05:30"
+ "updated": "2026-10-24 06:01:31.596173+05:30"
 }
