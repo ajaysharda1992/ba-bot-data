@@ -2698,7 +2698,7 @@
     "margin_req": 58.1,
     "lev": 25,
     "live_pending": true,
-    "pending_scans": 2,
+    "pending_scans": 3,
     "live_oid": "sim-0eb18028987f"
    },
    {
@@ -2731,8 +2731,8 @@
     "bmode": "SIM",
     "margin_req": 42.99,
     "lev": 25,
-    "live_pending": true,
-    "pending_scans": 0,
+    "live_pending": false,
+    "pending_scans": 1,
     "live_oid": "sim-019a2138a162"
    }
   ],
@@ -4897,7 +4897,7 @@
     "f240": 47.088540210832065
    }
   ],
-  "t": "2026-10-24 05:45"
+  "t": "2026-10-24 05:46"
  },
  "liq": {
   "setups": [
@@ -5262,7 +5262,7 @@
     "_leg_end": 281
    }
   ],
-  "t": "2026-10-24 05:45"
+  "t": "2026-10-24 05:46"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-24",
@@ -5387,7 +5387,8 @@
   "gate_rel_mom": 5,
   "gate_countertrend": 5,
   "gate_existing_position": 2,
-  "gate_abs_mom": 1
+  "gate_abs_mom": 1,
+  "orders_filled": 1
  },
  "pairs": [
   "0GUSDT",
@@ -12251,5 +12252,5 @@
   "day": 0.0,
   "cur_day": "2026-10-24"
  },
- "updated": "2026-10-24 05:45:57.825582+05:30"
+ "updated": "2026-10-24 05:46:17.612235+05:30"
 }
