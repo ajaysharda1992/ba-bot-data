@@ -5027,7 +5027,7 @@
     "f240": 44.285582431640556
    }
   ],
-  "t": "2026-10-25 23:46"
+  "t": "2026-10-26 00:01"
  },
  "liq": {
   "setups": [
@@ -5392,12 +5392,12 @@
     "_leg_end": 264
    }
   ],
-  "t": "2026-10-25 23:46"
+  "t": "2026-10-26 00:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-25",
  "qml_day_r": 0.0,
- "qml_cur_day": "2026-10-25",
+ "qml_cur_day": "2026-10-26",
  "live": {
   "equity": 113.48725607000006,
   "day": -3.3529346618054707,
@@ -5424,89 +5424,63 @@
  "sim": {
   "equity": 536.0400000000002,
   "day": 0.0,
-  "cur_day": "2026-10-25"
+  "cur_day": "2026-10-26"
  },
  "report": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "funnel": {
-   "_day": "2026-10-24",
-   "raw_qml": 7140,
-   "st_ARMED": 4335,
-   "struct_allow": 3890,
-   "score_ge4": 7140,
-   "score_ge5": 7122,
-   "score_ge6": 7111,
-   "st_STALE": 2514,
-   "st_RETEST": 291,
-   "struct_block": 736,
-   "gate_rr_low": 198,
-   "gate_exec_guard": 3,
-   "orders_submitted": 8,
-   "shadow_opened": 144,
-   "orders_cancelled": 6,
-   "gate_expired_at_rest": 6,
-   "gate_structure": 11,
-   "shadow_closed": 151,
-   "gate_liq_vol": 6,
-   "liq_shadow_opened": 4849,
-   "gate_rel_mom": 8,
-   "gate_countertrend": 7,
-   "gate_existing_position": 2,
-   "gate_abs_mom": 2,
-   "orders_filled": 2,
-   "exits_win": 2,
-   "gate_tg_pause": 43
+   "_day": "2026-10-25",
+   "raw_qml": 7855,
+   "st_ARMED": 5352,
+   "struct_allow": 4409,
+   "score_ge4": 7855,
+   "score_ge5": 7775,
+   "score_ge6": 7753,
+   "struct_block": 1571,
+   "st_RETEST": 628,
+   "st_STALE": 1875,
+   "gate_rr_low": 339,
+   "gate_tg_pause": 242,
+   "shadow_opened": 316,
+   "shadow_closed": 298,
+   "gate_countertrend": 14,
+   "liq_shadow_opened": 4821
   },
   "models": {
    "D": {
     "n": 2000,
-    "win_pct": 76.1,
-    "avg_r": 0.47,
+    "win_pct": 75.5,
+    "avg_r": 0.46,
     "fill_pct": 100.0
    },
    "A": {
-    "n": 1885,
-    "win_pct": 67.6,
-    "avg_r": 0.25,
+    "n": 1896,
+    "win_pct": 67.1,
+    "avg_r": 0.24,
     "fill_pct": 100.0
    },
    "B": {
-    "n": 1847,
-    "win_pct": 63.0,
-    "avg_r": 0.16,
+    "n": 1851,
+    "win_pct": 63.1,
+    "avg_r": 0.17,
     "fill_pct": 100.0
    },
    "C": {
     "n": 2000,
-    "win_pct": 62.7,
-    "avg_r": 0.18,
+    "win_pct": 62.5,
+    "avg_r": 0.17,
     "fill_pct": 100.0
    },
    "L": {
-    "n": 1885,
-    "win_pct": 76.1,
+    "n": 1896,
+    "win_pct": 75.8,
     "avg_r": 0.28,
     "fill_pct": 100.0
    }
   }
  },
  "funnel": {
-  "_day": "2026-10-25",
-  "raw_qml": 7855,
-  "st_ARMED": 5352,
-  "struct_allow": 4409,
-  "score_ge4": 7855,
-  "score_ge5": 7775,
-  "score_ge6": 7753,
-  "struct_block": 1571,
-  "st_RETEST": 628,
-  "st_STALE": 1875,
-  "gate_rr_low": 339,
-  "gate_tg_pause": 242,
-  "shadow_opened": 316,
-  "shadow_closed": 298,
-  "gate_countertrend": 14,
-  "liq_shadow_opened": 4821
+  "_day": "2026-10-26"
  },
  "pairs": [
   "0GUSDT",
@@ -12546,5 +12520,5 @@
   "day": -1.74,
   "cur_day": "2026-10-25"
  },
- "updated": "2026-10-25 23:46:16.833586+05:30"
+ "updated": "2026-10-26 00:01:25.096380+05:30"
 }
