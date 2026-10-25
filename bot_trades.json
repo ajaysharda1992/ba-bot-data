@@ -4,59 +4,81 @@
  "equity": 200000.0,
  "sweep_signals": [
   {
-   "sym": "FFUSDT",
-   "dir": "SHORT",
-   "grade": "B",
-   "entry": 0.09902,
-   "sl": 0.10095,
-   "tp": 0.09516,
-   "volX": 1.34,
-   "buyPct": 47.4,
-   "t": "2026-10-25 01:32"
-  },
-  {
-   "sym": "INUSDT",
+   "sym": "BTRUSDT",
    "dir": "LONG",
    "grade": "B",
-   "entry": 0.0333,
-   "sl": 0.03102,
-   "tp": 0.03786000000000001,
-   "volX": 0.79,
-   "buyPct": 49.3,
-   "t": "2026-10-25 01:32"
+   "entry": 0.05606,
+   "sl": 0.05416,
+   "tp": 0.05986,
+   "volX": 0.06,
+   "buyPct": 49.9,
+   "t": "2026-10-25 05:33"
   },
   {
-   "sym": "SOONUSDT",
+   "sym": "BTWUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 1.7112,
+   "sl": 1.7624,
+   "tp": 1.6088000000000002,
+   "volX": 0.23,
+   "buyPct": 48.7,
+   "t": "2026-10-25 05:33"
+  },
+  {
+   "sym": "CTRUSDT",
    "dir": "LONG",
    "grade": "B",
-   "entry": 0.3092,
-   "sl": 0.3002,
-   "tp": 0.3271999999999999,
-   "volX": 0.64,
-   "buyPct": 48.0,
-   "t": "2026-10-25 01:32"
+   "entry": 0.017253,
+   "sl": 0.016571,
+   "tp": 0.018617000000000005,
+   "volX": 0.27,
+   "buyPct": 46.5,
+   "t": "2026-10-25 05:33"
   },
   {
-   "sym": "WLFIUSDT",
-   "dir": "SHORT",
+   "sym": "ICNTUSDT",
+   "dir": "LONG",
    "grade": "B",
-   "entry": 0.05304,
-   "sl": 0.05334,
-   "tp": 0.052439999999999994,
-   "volX": 0.69,
-   "buyPct": 46.3,
-   "t": "2026-10-25 01:32"
+   "entry": 0.1985,
+   "sl": 0.189,
+   "tp": 0.21750000000000003,
+   "volX": 0.42,
+   "buyPct": 50.6,
+   "t": "2026-10-25 05:33"
   },
   {
-   "sym": "YBUSDT",
+   "sym": "KAVAUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.07065,
+   "sl": 0.07025,
+   "tp": 0.07145,
+   "volX": 0.66,
+   "buyPct": 62.0,
+   "t": "2026-10-25 05:33"
+  },
+  {
+   "sym": "ORDERUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.07016,
+   "sl": 0.05333,
+   "tp": 0.10382,
+   "volX": 2.83,
+   "buyPct": 49.8,
+   "t": "2026-10-25 05:33"
+  },
+  {
+   "sym": "ZKUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.06241,
-   "sl": 0.06464,
-   "tp": 0.057949999999999995,
-   "volX": 1.32,
-   "buyPct": 50.1,
-   "t": "2026-10-25 01:32"
+   "entry": 0.012177,
+   "sl": 0.012331,
+   "tp": 0.011869000000000001,
+   "volX": 0.43,
+   "buyPct": 48.5,
+   "t": "2026-10-25 05:33"
   }
  ],
  "qml": {
@@ -11421,7 +11443,7 @@
   "cur_day": "2026-10-25"
  },
  "sweepsim": {
-  "equity": 443.11,
+  "equity": 427.27000000000004,
   "positions": [
    {
     "sym": "XAUUSDT",
@@ -11431,12 +11453,12 @@
     "tp": 3937.23112,
     "sl_hard": 4078.1830114286004,
     "risk_usdt": 11.8,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "t_open": "2026-10-23 21:32",
     "mode": "close",
     "volX": 2.06,
     "filled": true,
-    "bars": 7
+    "bars": 8
    },
    {
     "sym": "PAXGUSDT",
@@ -11446,12 +11468,12 @@
     "tp": 3954.49647,
     "sl_hard": 4077.2760507143,
     "risk_usdt": 11.8,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "t_open": "2026-10-23 21:32",
     "mode": "close",
     "volX": 2.31,
     "filled": true,
-    "bars": 7
+    "bars": 8
    },
    {
     "sym": "AIOTUSDT",
@@ -11461,14 +11483,14 @@
     "tp": 0.07035849,
     "sl_hard": 0.0565403264,
     "risk_usdt": 11.38,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "t_open": "2026-10-24 13:32",
     "mode": "limit55",
     "volX": 3.23,
     "filled": true,
     "limit_px": 0.062614,
     "wait": 0,
-    "bars": 2
+    "bars": 3
    },
    {
     "sym": "QUSDT",
@@ -11478,29 +11500,14 @@
     "tp": 0.051271348,
     "sl_hard": 0.10631391170000001,
     "risk_usdt": 11.38,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "t_open": "2026-10-24 17:33",
     "mode": "limit55",
     "volX": 2.24,
     "filled": true,
     "limit_px": 0.0799072,
     "wait": 0,
-    "bars": 1
-   },
-   {
-    "sym": "XRPUSDT",
-    "dir": "SHORT",
-    "entry": 1.2675,
-    "sl": 1.2895314,
-    "tp": 1.2234372,
-    "sl_hard": 1.3068528286,
-    "risk_usdt": 11.08,
-    "ts": 1792871999999,
-    "t_open": "2026-10-24 21:32",
-    "mode": "close",
-    "volX": 2.08,
-    "filled": true,
-    "bars": 1
+    "bars": 2
    }
   ],
   "history": [
@@ -11912,48 +11919,45 @@
     "pnl": -12.06,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-24 21:32"
-   }
-  ],
-  "day": 0.0,
-  "cur_day": "2026-10-25"
- },
- "fsw": {
-  "funnel": {
-   "trend": 152,
-   "eff": 214,
-   "trigger": 111,
-   "mature": 20,
-   "veto": 8
-  },
-  "n": 0,
-  "setups": [],
-  "t": "2026-10-25 01:32"
- },
- "sweeplive": {
-  "equity": 62.29217015000002,
-  "positions": [
+   },
    {
     "sym": "XRPUSDT",
     "dir": "SHORT",
     "entry": 1.2675,
     "sl": 1.2895314,
     "tp": 1.2234372,
-    "qty": 453.8,
-    "lev": 25,
-    "mode": "close",
-    "pending": false,
-    "ts": 1792871999999,
-    "atr": 0.0173214286,
-    "risk_usdt": 10.0,
-    "margin_req": 23.01,
-    "t_open": "2026-10-24 21:33",
-    "bin_order_id": 164989870959,
-    "client_order_id": "fsw-95cfcc3d91194064bade",
     "sl_hard": 1.3068528286,
-    "sl_oid": 3000002271773844,
-    "tp_oid": 3000002271773850,
-    "bars": 1
-   },
+    "risk_usdt": 11.08,
+    "ts": 1792886399999,
+    "t_open": "2026-10-24 21:32",
+    "mode": "close",
+    "volX": 2.08,
+    "filled": true,
+    "bars": 2,
+    "resultR": -1.43,
+    "pnl": -15.84,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-25 05:33"
+   }
+  ],
+  "day": -1.43,
+  "cur_day": "2026-10-25"
+ },
+ "fsw": {
+  "funnel": {
+   "trend": 124,
+   "eff": 249,
+   "trigger": 117,
+   "veto": 8,
+   "mature": 7
+  },
+  "n": 0,
+  "setups": [],
+  "t": "2026-10-25 05:33"
+ },
+ "sweeplive": {
+  "equity": 47.49829015000002,
+  "positions": [
    {
     "sym": "ARBUSDT",
     "dir": "SHORT",
@@ -11964,7 +11968,7 @@
     "lev": 10,
     "mode": "close",
     "pending": false,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "atr": 0.0054028571,
     "risk_usdt": 10.0,
     "margin_req": 24.38,
@@ -11974,7 +11978,7 @@
     "sl_hard": 0.1772001671,
     "sl_oid": 3000002271773944,
     "tp_oid": 3000002271773952,
-    "bars": 1
+    "bars": 2
    },
    {
     "sym": "ONDOUSDT",
@@ -11986,7 +11990,7 @@
     "lev": 10,
     "mode": "close",
     "pending": false,
-    "ts": 1792871999999,
+    "ts": 1792886399999,
     "atr": 0.0093857143,
     "risk_usdt": 10.0,
     "margin_req": 24.38,
@@ -11996,7 +12000,7 @@
     "sl_hard": 0.4207017643,
     "sl_oid": 3000002271774017,
     "tp_oid": 3000002271774042,
-    "bars": 1
+    "bars": 2
    }
   ],
   "history": [
@@ -12424,10 +12428,36 @@
     "pnl": -9.44,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-10-24 21:33"
+   },
+   {
+    "sym": "XRPUSDT",
+    "dir": "SHORT",
+    "entry": 1.2675,
+    "sl": 1.2895314,
+    "tp": 1.2234372,
+    "qty": 453.8,
+    "lev": 25,
+    "mode": "close",
+    "pending": false,
+    "ts": 1792886399999,
+    "atr": 0.0173214286,
+    "risk_usdt": 10.0,
+    "margin_req": 23.01,
+    "t_open": "2026-10-24 21:33",
+    "bin_order_id": 164989870959,
+    "client_order_id": "fsw-95cfcc3d91194064bade",
+    "sl_hard": 1.3068528286,
+    "sl_oid": 3000002271773844,
+    "tp_oid": 3000002271773850,
+    "bars": 2,
+    "resultR": -1.48,
+    "pnl": -14.79,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-10-25 05:33"
    }
   ],
-  "day": 0.0,
+  "day": -1.48,
   "cur_day": "2026-10-25"
  },
- "updated": "2026-10-25 05:33:20.280834+05:30"
+ "updated": "2026-10-25 05:33:27.140696+05:30"
 }
