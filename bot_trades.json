@@ -2,7 +2,140 @@
  "history": [],
  "open": [],
  "equity": 200000.0,
- "sweep_signals": [],
+ "sweep_signals": [
+  {
+   "sym": "1000LUNCUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.04438,
+   "sl": 0.04482,
+   "tp": 0.04350000000000001,
+   "volX": 0.76,
+   "buyPct": 44.1,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "ACEUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.14109,
+   "sl": 0.14379,
+   "tp": 0.13568999999999998,
+   "volX": 0.9,
+   "buyPct": 45.5,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "ACTUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.0084,
+   "sl": 0.008477,
+   "tp": 0.008245999999999998,
+   "volX": 0.75,
+   "buyPct": 47.4,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "AUCTIONUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 3.273,
+   "sl": 3.309,
+   "tp": 3.201,
+   "volX": 0.65,
+   "buyPct": 53.3,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "AVAXUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 8.75,
+   "sl": 8.829,
+   "tp": 8.591999999999999,
+   "volX": 0.88,
+   "buyPct": 46.4,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "BANANAUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 3.328,
+   "sl": 3.368,
+   "tp": 3.2479999999999998,
+   "volX": 0.93,
+   "buyPct": 50.2,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "BANDUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.2003,
+   "sl": 0.2031,
+   "tp": 0.1947,
+   "volX": 1.29,
+   "buyPct": 52.8,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "DOLOUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.02414,
+   "sl": 0.02439,
+   "tp": 0.023640000000000008,
+   "volX": 0.92,
+   "buyPct": 51.0,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "EDUUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.05969,
+   "sl": 0.06077,
+   "tp": 0.057530000000000005,
+   "volX": 0.67,
+   "buyPct": 47.3,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "ESPUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.08539,
+   "sl": 0.08753,
+   "tp": 0.08110999999999999,
+   "volX": 0.66,
+   "buyPct": 47.5,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "FLUXUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.06168,
+   "sl": 0.06295,
+   "tp": 0.059139999999999984,
+   "volX": 1.05,
+   "buyPct": 43.6,
+   "t": "2026-10-27 21:24"
+  },
+  {
+   "sym": "HEMIUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.00454,
+   "sl": 0.004609,
+   "tp": 0.004401999999999999,
+   "volX": 0.79,
+   "buyPct": 51.2,
+   "t": "2026-10-27 21:24"
+  }
+ ],
  "qml": {
   "history": [
    {
@@ -9407,24 +9540,35 @@
    "positions": [],
    "history": [],
    "day": 0.0,
-   "cur_day": ""
+   "cur_day": "2026-10-27"
   },
   "V1": {
    "equity": 500.0,
    "positions": [],
    "history": [],
    "day": 0.0,
-   "cur_day": ""
+   "cur_day": "2026-10-27"
   },
   "V2": {
    "equity": 500.0,
    "positions": [],
    "history": [],
    "day": 0.0,
-   "cur_day": ""
+   "cur_day": "2026-10-27"
   }
  },
- "fsw": {},
+ "fsw": {
+  "funnel": {
+   "trigger": 15,
+   "eff": 402,
+   "trend": 78,
+   "mature": 2,
+   "veto": 8
+  },
+  "n": 0,
+  "setups": [],
+  "t": "2026-10-27 21:24"
+ },
  "sweeplive": {
   "equity": 45.29652418000002,
   "positions": [],
@@ -9988,5 +10132,5 @@
   "day": 0.030000000000000027,
   "cur_day": "2026-10-27"
  },
- "updated": "2026-10-27 21:24:23.989331+05:30"
+ "updated": "2026-10-27 21:24:28.325692+05:30"
 }
