@@ -5027,7 +5027,7 @@
     "f240": 54.278912256732994
    }
   ],
-  "t": "2026-10-30 23:46"
+  "t": "2026-10-31 00:01"
  },
  "liq": {
   "setups": [
@@ -5392,12 +5392,12 @@
     "_leg_end": 230
    }
   ],
-  "t": "2026-10-30 23:46"
+  "t": "2026-10-31 00:01"
  },
  "day_r": 0.0,
  "cur_day": "2026-10-30",
  "qml_day_r": 0.0,
- "qml_cur_day": "2026-10-30",
+ "qml_cur_day": "2026-10-31",
  "live": {
   "equity": 113.48725607000006,
   "day": -3.3529346618054707,
@@ -5424,78 +5424,63 @@
  "sim": {
   "equity": 536.0400000000002,
   "day": 0.0,
-  "cur_day": "2026-10-30"
+  "cur_day": "2026-10-31"
  },
  "report": {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "funnel": {
-   "_day": "2026-10-29",
-   "raw_qml": 7713,
-   "st_ARMED": 5364,
-   "struct_allow": 4756,
-   "score_ge4": 7713,
-   "score_ge5": 7312,
-   "score_ge6": 7075,
-   "st_STALE": 1785,
-   "struct_block": 1172,
-   "st_RETEST": 564,
-   "gate_tg_pause": 232,
-   "gate_rr_low": 200,
-   "shadow_opened": 290,
-   "shadow_closed": 292,
-   "liq_shadow_opened": 3282,
-   "gate_countertrend": 92
+   "_day": "2026-10-30",
+   "raw_qml": 7216,
+   "st_ARMED": 3942,
+   "struct_allow": 3616,
+   "score_ge4": 7216,
+   "score_ge5": 6933,
+   "score_ge6": 6795,
+   "st_STALE": 2955,
+   "struct_block": 645,
+   "st_RETEST": 319,
+   "gate_tg_pause": 158,
+   "gate_rr_low": 140,
+   "shadow_opened": 202,
+   "shadow_closed": 207,
+   "gate_countertrend": 21,
+   "liq_shadow_opened": 6598
   },
   "models": {
    "D": {
     "n": 2000,
-    "win_pct": 76.2,
-    "avg_r": 0.46,
+    "win_pct": 77.5,
+    "avg_r": 0.49,
     "fill_pct": 100.0
    },
    "A": {
-    "n": 1912,
-    "win_pct": 67.2,
-    "avg_r": 0.23,
+    "n": 1906,
+    "win_pct": 68.7,
+    "avg_r": 0.26,
     "fill_pct": 100.0
    },
    "B": {
-    "n": 1854,
-    "win_pct": 63.0,
-    "avg_r": 0.2,
+    "n": 1851,
+    "win_pct": 64.3,
+    "avg_r": 0.22,
     "fill_pct": 100.0
    },
    "C": {
     "n": 2000,
-    "win_pct": 62.0,
-    "avg_r": 0.15,
+    "win_pct": 63.1,
+    "avg_r": 0.17,
     "fill_pct": 100.0
    },
    "L": {
-    "n": 1912,
-    "win_pct": 75.9,
-    "avg_r": 0.29,
+    "n": 1906,
+    "win_pct": 76.3,
+    "avg_r": 0.3,
     "fill_pct": 100.0
    }
   }
  },
  "funnel": {
-  "_day": "2026-10-30",
-  "raw_qml": 7216,
-  "st_ARMED": 3942,
-  "struct_allow": 3616,
-  "score_ge4": 7216,
-  "score_ge5": 6933,
-  "score_ge6": 6795,
-  "st_STALE": 2955,
-  "struct_block": 645,
-  "st_RETEST": 319,
-  "gate_tg_pause": 158,
-  "gate_rr_low": 140,
-  "shadow_opened": 202,
-  "shadow_closed": 207,
-  "gate_countertrend": 21,
-  "liq_shadow_opened": 6598
+  "_day": "2026-10-31"
  },
  "pairs": [
   "0GUSDT",
@@ -13261,5 +13246,5 @@
   "day": 0.0,
   "cur_day": "2026-10-30"
  },
- "updated": "2026-10-30 23:46:26.254380+05:30"
+ "updated": "2026-10-31 00:01:04.692112+05:30"
 }
