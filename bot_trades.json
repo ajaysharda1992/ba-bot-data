@@ -4,26 +4,136 @@
  "equity": 200000.0,
  "sweep_signals": [
   {
-   "sym": "AINUSDT",
+   "sym": "0GUSDT",
    "dir": "LONG",
    "grade": "B",
-   "entry": 0.27988,
-   "sl": 0.2602,
-   "tp": 0.3192400000000001,
-   "volX": 0.58,
-   "buyPct": 53.5,
-   "t": "2026-11-04 17:32"
+   "entry": 0.162,
+   "sl": 0.1566,
+   "tp": 0.17280000000000004,
+   "volX": 2.15,
+   "buyPct": 47.7,
+   "t": "2026-11-04 21:33"
   },
   {
-   "sym": "HAEDALUSDT",
+   "sym": "1000000MOGUSDT",
    "dir": "LONG",
    "grade": "B",
-   "entry": 0.02776,
-   "sl": 0.02717,
-   "tp": 0.02894,
-   "volX": 3.99,
-   "buyPct": 49.4,
-   "t": "2026-11-04 17:32"
+   "entry": 0.1,
+   "sl": 0.0951,
+   "tp": 0.10980000000000001,
+   "volX": 3.67,
+   "buyPct": 51.7,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000BONKUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.003143,
+   "sl": 0.003004,
+   "tp": 0.0034209999999999996,
+   "volX": 3.2,
+   "buyPct": 51.1,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000FLOKIUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.02322,
+   "sl": 0.02249,
+   "tp": 0.024680000000000004,
+   "volX": 2.05,
+   "buyPct": 48.0,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000LUNCUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.04205,
+   "sl": 0.04061,
+   "tp": 0.04492999999999999,
+   "volX": 3.46,
+   "buyPct": 48.7,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000PEPEUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.005168,
+   "sl": 0.0048619,
+   "tp": 0.0057802,
+   "volX": 3.13,
+   "buyPct": 49.2,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000RATSUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.01552,
+   "sl": 0.0148,
+   "tp": 0.016960000000000003,
+   "volX": 1.47,
+   "buyPct": 47.6,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000SATSUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 9.35e-06,
+   "sl": 9.02e-06,
+   "tp": 1.001e-05,
+   "volX": 2.37,
+   "buyPct": 50.5,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000SHIBUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.00478,
+   "sl": 0.004629,
+   "tp": 0.005082000000000001,
+   "volX": 2.32,
+   "buyPct": 48.9,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1000XECUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.006319,
+   "sl": 0.006124,
+   "tp": 0.006709,
+   "volX": 1.11,
+   "buyPct": 50.5,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1INCHUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.08417,
+   "sl": 0.0813,
+   "tp": 0.08990999999999999,
+   "volX": 1.02,
+   "buyPct": 48.3,
+   "t": "2026-11-04 21:33"
+  },
+  {
+   "sym": "1MBABYDOGEUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.0003241,
+   "sl": 0.000313,
+   "tp": 0.0003463,
+   "volX": 1.7,
+   "buyPct": 48.9,
+   "t": "2026-11-04 21:33"
   }
  ],
  "qml": {
@@ -11377,7 +11487,7 @@
   "cur_day": "2026-11-04"
  },
  "sweepsim": {
-  "equity": 228.48000000000013,
+  "equity": 221.85000000000014,
   "positions": [
    {
     "sym": "AINUSDT",
@@ -11387,29 +11497,72 @@
     "tp": 0.34751846,
     "sl_hard": 0.18886416290000002,
     "risk_usdt": 6.47,
-    "ts": 1793793599999,
+    "ts": 1793807999999,
     "t_open": "2026-11-01 09:33",
     "mode": "limit55",
     "volX": 1.53,
     "filled": true,
     "limit_px": 0.2658275,
     "wait": 0,
-    "bars": 19
+    "bars": 20
    },
    {
-    "sym": "SLXUSDT",
-    "dir": "SHORT",
-    "entry": 0.03888,
-    "sl": 0.040670915,
-    "tp": 0.03529817,
-    "sl_hard": 0.0423830579,
-    "risk_usdt": 6.31,
-    "ts": 1793793599999,
-    "t_open": "2026-11-03 09:32",
+    "sym": "ZECUSDT",
+    "dir": "LONG",
+    "entry": 1305.97,
+    "sl": 1268.604235,
+    "tp": 1380.70153,
+    "sl_hard": 1216.8206635714,
+    "risk_usdt": 5.55,
+    "ts": 1793807999999,
+    "t_open": "2026-11-04 21:33",
     "mode": "close",
-    "volX": 1.92,
-    "filled": true,
-    "bars": 8
+    "volX": 2.6,
+    "filled": true
+   },
+   {
+    "sym": "PUMPUSDT",
+    "dir": "LONG",
+    "entry": 0.004453,
+    "sl": 0.004269586,
+    "tp": 0.004819828,
+    "sl_hard": 0.0040998002999999995,
+    "risk_usdt": 5.55,
+    "ts": 1793807999999,
+    "t_open": "2026-11-04 21:33",
+    "mode": "close",
+    "volX": 2.0,
+    "filled": true
+   },
+   {
+    "sym": "AKEUSDT",
+    "dir": "SHORT",
+    "entry": 0.00281,
+    "sl": 0.003501244,
+    "tp": 0.001427512,
+    "sl_hard": 0.0042815297,
+    "risk_usdt": 5.55,
+    "ts": 1793807999999,
+    "t_open": "2026-11-04 21:33",
+    "mode": "close",
+    "volX": 3.27,
+    "filled": true
+   },
+   {
+    "sym": "ETCUSDT",
+    "dir": "LONG",
+    "entry": 7.2262,
+    "sl": 7.059395,
+    "tp": 7.55981,
+    "sl_hard": 6.9466807143,
+    "risk_usdt": 5.55,
+    "ts": 1793807999999,
+    "t_open": "2026-11-04 21:33",
+    "mode": "limit55",
+    "volX": 2.88,
+    "filled": false,
+    "limit_px": 7.2262,
+    "wait": 0
    }
   ],
   "history": [
@@ -12299,14 +12452,33 @@
     "pnl": -9.39,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-11-04 13:32"
+   },
+   {
+    "sym": "SLXUSDT",
+    "dir": "SHORT",
+    "entry": 0.03888,
+    "sl": 0.040670915,
+    "tp": 0.03529817,
+    "sl_hard": 0.0423830579,
+    "risk_usdt": 6.31,
+    "ts": 1793807999999,
+    "t_open": "2026-11-03 09:32",
+    "mode": "close",
+    "volX": 1.92,
+    "filled": true,
+    "bars": 9,
+    "resultR": -1.05,
+    "pnl": -6.63,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-04 21:33"
    }
   ],
-  "day": -2.7800000000000002,
+  "day": -3.83,
   "cur_day": "2026-11-04"
  },
  "sweepsim_variants": {
   "V0": {
-   "equity": 313.09999999999997,
+   "equity": 304.02,
    "positions": [
     {
      "sym": "AINUSDT",
@@ -12316,7 +12488,7 @@
      "tp": 0.34751846,
      "sl_hard": 0.18886416290000002,
      "risk_usdt": 8.87,
-     "ts": 1793793599999,
+     "ts": 1793807999999,
      "t_open": "2026-11-01 09:33",
      "mode": "limit55",
      "volX": 1.53,
@@ -12324,23 +12496,69 @@
      "filled": true,
      "limit_px": 0.2658275,
      "wait": 0,
-     "bars": 19
+     "bars": 20
     },
     {
-     "sym": "SLXUSDT",
-     "dir": "SHORT",
-     "entry": 0.03888,
-     "sl": 0.040670915,
-     "tp": 0.03529817,
-     "sl_hard": 0.0423830579,
-     "risk_usdt": 8.65,
-     "ts": 1793793599999,
-     "t_open": "2026-11-03 09:32",
+     "sym": "ZECUSDT",
+     "dir": "LONG",
+     "entry": 1305.97,
+     "sl": 1268.604235,
+     "tp": 1380.70153,
+     "sl_hard": 1216.8206635714,
+     "risk_usdt": 7.6,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
      "mode": "close",
-     "volX": 1.92,
+     "volX": 2.6,
      "variant": "V0",
-     "filled": true,
-     "bars": 8
+     "filled": true
+    },
+    {
+     "sym": "PUMPUSDT",
+     "dir": "LONG",
+     "entry": 0.004453,
+     "sl": 0.004269586,
+     "tp": 0.004819828,
+     "sl_hard": 0.0040998002999999995,
+     "risk_usdt": 7.6,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "close",
+     "volX": 2.0,
+     "variant": "V0",
+     "filled": true
+    },
+    {
+     "sym": "AKEUSDT",
+     "dir": "SHORT",
+     "entry": 0.00281,
+     "sl": 0.003501244,
+     "tp": 0.001427512,
+     "sl_hard": 0.0042815297,
+     "risk_usdt": 7.6,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "close",
+     "volX": 3.27,
+     "variant": "V0",
+     "filled": true
+    },
+    {
+     "sym": "ETCUSDT",
+     "dir": "LONG",
+     "entry": 7.2262,
+     "sl": 7.059395,
+     "tp": 7.55981,
+     "sl_hard": 6.9466807143,
+     "risk_usdt": 7.6,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "limit55",
+     "volX": 2.88,
+     "variant": "V0",
+     "filled": false,
+     "limit_px": 7.2262,
+     "wait": 0
     }
    ],
    "history": [
@@ -12613,13 +12831,33 @@
      "pnl": -12.87,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-04 13:32"
+    },
+    {
+     "sym": "SLXUSDT",
+     "dir": "SHORT",
+     "entry": 0.03888,
+     "sl": 0.040670915,
+     "tp": 0.03529817,
+     "sl_hard": 0.0423830579,
+     "risk_usdt": 8.65,
+     "ts": 1793807999999,
+     "t_open": "2026-11-03 09:32",
+     "mode": "close",
+     "volX": 1.92,
+     "variant": "V0",
+     "filled": true,
+     "bars": 9,
+     "resultR": -1.05,
+     "pnl": -9.08,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-04 21:33"
     }
    ],
-   "day": -2.7800000000000002,
+   "day": -3.83,
    "cur_day": "2026-11-04"
   },
   "V1": {
-   "equity": 321.4399999999999,
+   "equity": 312.27999999999986,
    "positions": [
     {
      "sym": "AINUSDT",
@@ -12629,7 +12867,7 @@
      "tp": 0.34751846,
      "sl_hard": 0.11662844870000001,
      "risk_usdt": 8.95,
-     "ts": 1793793599999,
+     "ts": 1793807999999,
      "t_open": "2026-11-01 09:33",
      "mode": "limit55",
      "volX": 1.53,
@@ -12637,23 +12875,69 @@
      "filled": true,
      "limit_px": 0.2658275,
      "wait": 0,
-     "bars": 19
+     "bars": 20
     },
     {
-     "sym": "SLXUSDT",
-     "dir": "SHORT",
-     "entry": 0.03888,
-     "sl": 0.040670915,
-     "tp": 0.03529817,
-     "sl_hard": 0.0458073437,
-     "risk_usdt": 8.72,
-     "ts": 1793793599999,
-     "t_open": "2026-11-03 09:32",
+     "sym": "ZECUSDT",
+     "dir": "LONG",
+     "entry": 1305.97,
+     "sl": 1268.604235,
+     "tp": 1380.70153,
+     "sl_hard": 1113.2535207142,
+     "risk_usdt": 7.81,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
      "mode": "close",
-     "volX": 1.92,
+     "volX": 2.6,
      "variant": "V1",
-     "filled": true,
-     "bars": 8
+     "filled": true
+    },
+    {
+     "sym": "PUMPUSDT",
+     "dir": "LONG",
+     "entry": 0.004453,
+     "sl": 0.004269586,
+     "tp": 0.004819828,
+     "sl_hard": 0.0037602289,
+     "risk_usdt": 7.81,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "close",
+     "volX": 2.0,
+     "variant": "V1",
+     "filled": true
+    },
+    {
+     "sym": "AKEUSDT",
+     "dir": "SHORT",
+     "entry": 0.00281,
+     "sl": 0.003501244,
+     "tp": 0.001427512,
+     "sl_hard": 0.0058421011,
+     "risk_usdt": 7.81,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "close",
+     "volX": 3.27,
+     "variant": "V1",
+     "filled": true
+    },
+    {
+     "sym": "ETCUSDT",
+     "dir": "LONG",
+     "entry": 7.2262,
+     "sl": 7.059395,
+     "tp": 7.55981,
+     "sl_hard": 6.7212521429,
+     "risk_usdt": 7.81,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "limit55",
+     "volX": 2.88,
+     "variant": "V1",
+     "filled": false,
+     "limit_px": 7.2262,
+     "wait": 0
     }
    ],
    "history": [
@@ -12926,13 +13210,33 @@
      "pnl": -13.22,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-04 13:32"
+    },
+    {
+     "sym": "SLXUSDT",
+     "dir": "SHORT",
+     "entry": 0.03888,
+     "sl": 0.040670915,
+     "tp": 0.03529817,
+     "sl_hard": 0.0458073437,
+     "risk_usdt": 8.72,
+     "ts": 1793807999999,
+     "t_open": "2026-11-03 09:32",
+     "mode": "close",
+     "volX": 1.92,
+     "variant": "V1",
+     "filled": true,
+     "bars": 9,
+     "resultR": -1.05,
+     "pnl": -9.16,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-04 21:33"
     }
    ],
-   "day": -2.7800000000000002,
+   "day": -3.83,
    "cur_day": "2026-11-04"
   },
   "V2": {
-   "equity": 428.91,
+   "equity": 417.31,
    "positions": [
     {
      "sym": "AINUSDT",
@@ -12942,7 +13246,7 @@
      "tp": 0.34751846,
      "sl_hard": 0.11662844870000001,
      "risk_usdt": 11.34,
-     "ts": 1793793599999,
+     "ts": 1793807999999,
      "t_open": "2026-11-01 09:33",
      "mode": "limit55",
      "volX": 1.53,
@@ -12950,23 +13254,54 @@
      "filled": true,
      "limit_px": 0.2658275,
      "wait": 0,
-     "bars": 19
+     "bars": 20
     },
     {
-     "sym": "SLXUSDT",
-     "dir": "SHORT",
-     "entry": 0.03888,
-     "sl": 0.040670915,
-     "tp": 0.03529817,
-     "sl_hard": 0.0458073437,
-     "risk_usdt": 11.05,
-     "ts": 1793793599999,
-     "t_open": "2026-11-03 09:32",
+     "sym": "ZECUSDT",
+     "dir": "LONG",
+     "entry": 1305.97,
+     "sl": 1268.604235,
+     "tp": 1380.70153,
+     "sl_hard": 1113.2535207142,
+     "risk_usdt": 10.43,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
      "mode": "close",
-     "volX": 1.92,
+     "volX": 2.6,
      "variant": "V2",
-     "filled": true,
-     "bars": 8
+     "filled": true
+    },
+    {
+     "sym": "PUMPUSDT",
+     "dir": "LONG",
+     "entry": 0.004453,
+     "sl": 0.004269586,
+     "tp": 0.004819828,
+     "sl_hard": 0.0037602289,
+     "risk_usdt": 10.43,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "close",
+     "volX": 2.0,
+     "variant": "V2",
+     "filled": true
+    },
+    {
+     "sym": "ETCUSDT",
+     "dir": "LONG",
+     "entry": 7.2262,
+     "sl": 7.059395,
+     "tp": 7.55981,
+     "sl_hard": 6.7212521429,
+     "risk_usdt": 10.43,
+     "ts": 1793807999999,
+     "t_open": "2026-11-04 21:33",
+     "mode": "limit55",
+     "volX": 2.88,
+     "variant": "V2",
+     "filled": false,
+     "limit_px": 7.2262,
+     "wait": 0
     }
    ],
    "history": [
@@ -13073,23 +13408,99 @@
      "pnl": -13.15,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-03 21:32"
+    },
+    {
+     "sym": "SLXUSDT",
+     "dir": "SHORT",
+     "entry": 0.03888,
+     "sl": 0.040670915,
+     "tp": 0.03529817,
+     "sl_hard": 0.0458073437,
+     "risk_usdt": 11.05,
+     "ts": 1793807999999,
+     "t_open": "2026-11-03 09:32",
+     "mode": "close",
+     "volX": 1.92,
+     "variant": "V2",
+     "filled": true,
+     "bars": 9,
+     "resultR": -1.05,
+     "pnl": -11.6,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-04 21:33"
     }
    ],
-   "day": 0.0,
+   "day": -1.05,
    "cur_day": "2026-11-04"
   }
  },
  "fsw": {
   "funnel": {
-   "eff": 428,
-   "trend": 52,
-   "trigger": 16,
-   "veto": 5,
-   "mature": 3
+   "eff": 409,
+   "trend": 60,
+   "trigger": 17,
+   "veto": 6,
+   "mature": 2,
+   "vol": 1
   },
-  "n": 0,
-  "setups": [],
-  "t": "2026-11-04 17:32"
+  "n": 9,
+  "setups": [
+   {
+    "sym": "AKEUSDT",
+    "dir": "SHORT",
+    "entry": 0.00281,
+    "sl": 0.003501244,
+    "tp": 0.001427512,
+    "mode": "close",
+    "volX": 3.27
+   },
+   {
+    "sym": "ETCUSDT",
+    "dir": "LONG",
+    "entry": 7.2262,
+    "sl": 7.059395,
+    "tp": 7.55981,
+    "mode": "limit55",
+    "volX": 2.88
+   },
+   {
+    "sym": "FLUIDUSDT",
+    "dir": "LONG",
+    "entry": 2.2067,
+    "sl": 2.09685,
+    "tp": 2.4264,
+    "mode": "limit55",
+    "volX": 3.68
+   },
+   {
+    "sym": "JUPUSDT",
+    "dir": "LONG",
+    "entry": 0.257915,
+    "sl": 0.2480274,
+    "tp": 0.2776902,
+    "mode": "limit55",
+    "volX": 3.38
+   },
+   {
+    "sym": "PUMPUSDT",
+    "dir": "LONG",
+    "entry": 0.004453,
+    "sl": 0.004269586,
+    "tp": 0.004819828,
+    "mode": "close",
+    "volX": 2.0
+   },
+   {
+    "sym": "XVSUSDT",
+    "dir": "LONG",
+    "entry": 2.90935,
+    "sl": 2.851716,
+    "tp": 3.024618,
+    "mode": "limit55",
+    "volX": 1.82
+   }
+  ],
+  "t": "2026-11-04 21:33"
  },
  "sweeplive": {
   "equity": 26.33462919000002,
@@ -13706,5 +14117,5 @@
   "day": 0.0,
   "cur_day": "2026-11-04"
  },
- "updated": "2026-11-04 21:33:13.234518+05:30"
+ "updated": "2026-11-04 21:33:38.695573+05:30"
 }
