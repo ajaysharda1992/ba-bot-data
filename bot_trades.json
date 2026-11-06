@@ -4,37 +4,136 @@
  "equity": 200000.0,
  "sweep_signals": [
   {
+   "sym": "1INCHUSDT",
+   "dir": "SHORT",
+   "grade": "A+",
+   "entry": 0.07894,
+   "sl": 0.07998,
+   "tp": 0.07686,
+   "volX": 2.1,
+   "buyPct": 44.7,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "AINUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.09947,
+   "sl": 0.11285,
+   "tp": 0.07271,
+   "volX": 1.69,
+   "buyPct": 48.9,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "AKEUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.003765,
+   "sl": 0.006351,
+   "tp": -0.0014069999999999994,
+   "volX": 3.08,
+   "buyPct": 50.7,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "AZTECUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.01398,
+   "sl": 0.01418,
+   "tp": 0.013579999999999998,
+   "volX": 0.55,
+   "buyPct": 48.9,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "BLESSUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.007985,
+   "sl": 0.008774,
+   "tp": 0.006407000000000001,
+   "volX": 4.03,
+   "buyPct": 47.2,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "BNTUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.2788,
+   "sl": 0.2827,
+   "tp": 0.27099999999999996,
+   "volX": 1.78,
+   "buyPct": 52.6,
+   "t": "2026-11-06 21:32"
+  },
+  {
    "sym": "BULLAUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.06001,
-   "sl": 0.06239,
-   "tp": 0.05525,
-   "volX": 1.35,
-   "buyPct": 46.5,
-   "t": "2026-11-06 17:33"
+   "entry": 0.0587,
+   "sl": 0.06318,
+   "tp": 0.049740000000000006,
+   "volX": 2.55,
+   "buyPct": 49.0,
+   "t": "2026-11-06 21:32"
   },
   {
-   "sym": "HUMAUSDT",
+   "sym": "BZUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.01314,
-   "sl": 0.013533,
-   "tp": 0.012354000000000002,
-   "volX": 0.69,
-   "buyPct": 48.2,
-   "t": "2026-11-06 17:33"
+   "entry": 96.81,
+   "sl": 99.65,
+   "tp": 91.13,
+   "volX": 1.56,
+   "buyPct": 48.9,
+   "t": "2026-11-06 21:32"
   },
   {
-   "sym": "SOPHUSDT",
+   "sym": "CLOUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.001384,
-   "sl": 0.001425,
-   "tp": 0.001302,
-   "volX": 0.65,
-   "buyPct": 47.0,
-   "t": "2026-11-06 17:33"
+   "entry": 0.048,
+   "sl": 0.04908,
+   "tp": 0.045840000000000006,
+   "volX": 0.33,
+   "buyPct": 37.6,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "CLUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 90.09,
+   "sl": 91.47,
+   "tp": 87.33000000000001,
+   "volX": 1.4,
+   "buyPct": 47.7,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "ESPORTSUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.009738,
+   "sl": 0.010641,
+   "tp": 0.007932000000000002,
+   "volX": 0.48,
+   "buyPct": 48.8,
+   "t": "2026-11-06 21:32"
+  },
+  {
+   "sym": "GRASSUSDT",
+   "dir": "SHORT",
+   "grade": "B",
+   "entry": 0.4897,
+   "sl": 0.5046,
+   "tp": 0.4599,
+   "volX": 1.31,
+   "buyPct": 44.3,
+   "t": "2026-11-06 21:32"
   }
  ],
  "qml": {
@@ -11389,7 +11488,24 @@
  },
  "sweepsim": {
   "equity": 194.14000000000013,
-  "positions": [],
+  "positions": [
+   {
+    "sym": "GWEIUSDT",
+    "dir": "SHORT",
+    "entry": 0.0176975,
+    "sl": 0.018798155,
+    "tp": 0.01549619,
+    "sl_hard": 0.019633155,
+    "risk_usdt": 4.85,
+    "ts": 1793980799999,
+    "t_open": "2026-11-06 21:32",
+    "mode": "limit55",
+    "volX": 5.43,
+    "filled": false,
+    "limit_px": 0.0176975,
+    "wait": 0
+   }
+  ],
   "history": [
    {
     "sym": "MUSDT",
@@ -12382,7 +12498,25 @@
  "sweepsim_variants": {
   "V0": {
    "equity": 266.0999999999999,
-   "positions": [],
+   "positions": [
+    {
+     "sym": "GWEIUSDT",
+     "dir": "SHORT",
+     "entry": 0.0176975,
+     "sl": 0.018798155,
+     "tp": 0.01549619,
+     "sl_hard": 0.019633155,
+     "risk_usdt": 6.65,
+     "ts": 1793980799999,
+     "t_open": "2026-11-06 21:32",
+     "mode": "limit55",
+     "volX": 5.43,
+     "variant": "V0",
+     "filled": false,
+     "limit_px": 0.0176975,
+     "wait": 0
+    }
+   ],
    "history": [
     {
      "sym": "BCHUSDT",
@@ -12762,7 +12896,25 @@
   },
   "V1": {
    "equity": 274.49999999999983,
-   "positions": [],
+   "positions": [
+    {
+     "sym": "GWEIUSDT",
+     "dir": "SHORT",
+     "entry": 0.0176975,
+     "sl": 0.018798155,
+     "tp": 0.01549619,
+     "sl_hard": 0.021303155,
+     "risk_usdt": 6.86,
+     "ts": 1793980799999,
+     "t_open": "2026-11-06 21:32",
+     "mode": "limit55",
+     "volX": 5.43,
+     "variant": "V1",
+     "filled": false,
+     "limit_px": 0.0176975,
+     "wait": 0
+    }
+   ],
    "history": [
     {
      "sym": "BCHUSDT",
@@ -13337,16 +13489,25 @@
  },
  "fsw": {
   "funnel": {
-   "eff": 414,
-   "veto": 2,
-   "trigger": 25,
-   "mature": 3,
-   "trend": 59,
-   "vol": 1
+   "trend": 75,
+   "eff": 409,
+   "trigger": 12,
+   "mature": 5,
+   "veto": 2
   },
-  "n": 0,
-  "setups": [],
-  "t": "2026-11-06 17:33"
+  "n": 1,
+  "setups": [
+   {
+    "sym": "GWEIUSDT",
+    "dir": "SHORT",
+    "entry": 0.0176975,
+    "sl": 0.018798155,
+    "tp": 0.01549619,
+    "mode": "limit55",
+    "volX": 5.43
+   }
+  ],
+  "t": "2026-11-06 21:32"
  },
  "sweeplive": {
   "equity": 26.33462919000002,
@@ -13963,5 +14124,5 @@
   "day": 0.0,
   "cur_day": "2026-11-06"
  },
- "updated": "2026-11-06 21:32:45.849007+05:30"
+ "updated": "2026-11-06 21:32:52.808019+05:30"
 }
