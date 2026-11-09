@@ -4,81 +4,48 @@
  "equity": 200000.0,
  "sweep_signals": [
   {
-   "sym": "AGTUSDT",
-   "dir": "SHORT",
-   "grade": "A+",
-   "entry": 0.02383,
-   "sl": 0.0261,
-   "tp": 0.019289999999999998,
-   "volX": 1.58,
-   "buyPct": 43.9,
-   "t": "2026-11-09 17:33"
-  },
-  {
-   "sym": "AIOUSDT",
-   "dir": "LONG",
-   "grade": "B",
-   "entry": 0.04302,
-   "sl": 0.04001,
-   "tp": 0.049040000000000014,
-   "volX": 0.77,
-   "buyPct": 48.2,
-   "t": "2026-11-09 17:33"
-  },
-  {
-   "sym": "AKEUSDT",
-   "dir": "LONG",
-   "grade": "B",
-   "entry": 0.005525,
-   "sl": 0.004219,
-   "tp": 0.008137000000000002,
-   "volX": 0.59,
-   "buyPct": 51.0,
-   "t": "2026-11-09 17:33"
-  },
-  {
-   "sym": "BILLUSDT",
+   "sym": "ELSAUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 0.004218,
-   "sl": 0.004313,
-   "tp": 0.004028000000000001,
-   "volX": 1.39,
-   "buyPct": 48.2,
-   "t": "2026-11-09 17:33"
+   "entry": 0.06944,
+   "sl": 0.07147,
+   "tp": 0.06538,
+   "volX": 0.44,
+   "buyPct": 49.2,
+   "t": "2026-11-09 21:32"
   },
   {
-   "sym": "BTWUSDT",
+   "sym": "INITUSDT",
+   "dir": "LONG",
+   "grade": "B",
+   "entry": 0.13001,
+   "sl": 0.11991,
+   "tp": 0.15020999999999995,
+   "volX": 2.33,
+   "buyPct": 51.4,
+   "t": "2026-11-09 21:32"
+  },
+  {
+   "sym": "ONUSDT",
    "dir": "SHORT",
    "grade": "B",
-   "entry": 1.0847,
-   "sl": 1.1475,
-   "tp": 0.9591000000000001,
-   "volX": 1.03,
-   "buyPct": 49.7,
-   "t": "2026-11-09 17:33"
+   "entry": 0.1501,
+   "sl": 0.3136,
+   "tp": -0.17689999999999995,
+   "volX": 15.62,
+   "buyPct": 48.9,
+   "t": "2026-11-09 21:32"
   },
   {
-   "sym": "PARTIUSDT",
+   "sym": "RSRUSDT",
    "dir": "LONG",
    "grade": "B",
-   "entry": 0.04858,
-   "sl": 0.04684,
-   "tp": 0.052059999999999995,
-   "volX": 1.66,
-   "buyPct": 45.8,
-   "t": "2026-11-09 17:33"
-  },
-  {
-   "sym": "SKYAIUSDT",
-   "dir": "LONG",
-   "grade": "B",
-   "entry": 0.03631,
-   "sl": 0.03434,
-   "tp": 0.04025,
-   "volX": 0.97,
-   "buyPct": 46.7,
-   "t": "2026-11-09 17:33"
+   "entry": 0.001759,
+   "sl": 0.001686,
+   "tp": 0.0019049999999999998,
+   "volX": 1.32,
+   "buyPct": 46.8,
+   "t": "2026-11-09 21:32"
   }
  ],
  "qml": {
@@ -11432,7 +11399,7 @@
   "cur_day": "2026-11-09"
  },
  "sweepsim": {
-  "equity": 205.0000000000001,
+  "equity": 196.5500000000001,
   "positions": [
    {
     "sym": "GWEIUSDT",
@@ -11442,59 +11409,14 @@
     "tp": 0.01549619,
     "sl_hard": 0.019633155,
     "risk_usdt": 4.85,
-    "ts": 1794225599999,
+    "ts": 1794239999999,
     "t_open": "2026-11-06 21:32",
     "mode": "limit55",
     "volX": 5.43,
     "filled": true,
     "limit_px": 0.0176975,
     "wait": 0,
-    "bars": 16
-   },
-   {
-    "sym": "PLAYUSDT",
-    "dir": "SHORT",
-    "entry": 0.01008,
-    "sl": 0.01071605,
-    "tp": 0.0088079,
-    "sl_hard": 0.011158907099999999,
-    "risk_usdt": 4.85,
-    "ts": 1794225599999,
-    "t_open": "2026-11-08 21:32",
-    "mode": "close",
-    "volX": 3.36,
-    "filled": true,
-    "bars": 5
-   },
-   {
-    "sym": "AVAUSDT",
-    "dir": "SHORT",
-    "entry": 0.2437,
-    "sl": 0.2507756,
-    "tp": 0.2295488,
-    "sl_hard": 0.25865417139999997,
-    "risk_usdt": 5.34,
-    "ts": 1794225599999,
-    "t_open": "2026-11-09 05:32",
-    "mode": "close",
-    "volX": 1.85,
-    "filled": true,
-    "bars": 3
-   },
-   {
-    "sym": "REZUSDT",
-    "dir": "SHORT",
-    "entry": 0.003799,
-    "sl": 0.0038868215,
-    "tp": 0.003623357,
-    "sl_hard": 0.0039794644,
-    "risk_usdt": 5.34,
-    "ts": 1794225599999,
-    "t_open": "2026-11-09 05:32",
-    "mode": "close",
-    "volX": 1.57,
-    "filled": true,
-    "bars": 3
+    "bars": 17
    }
   ],
   "history": [
@@ -12540,14 +12462,71 @@
     "pnl": -8.54,
     "exit_kind": "SL_HARD",
     "exitTime": "2026-11-09 17:33"
+   },
+   {
+    "sym": "PLAYUSDT",
+    "dir": "SHORT",
+    "entry": 0.01008,
+    "sl": 0.01071605,
+    "tp": 0.0088079,
+    "sl_hard": 0.011158907099999999,
+    "risk_usdt": 4.85,
+    "ts": 1794239999999,
+    "t_open": "2026-11-08 21:32",
+    "mode": "close",
+    "volX": 3.36,
+    "filled": true,
+    "bars": 6,
+    "resultR": 2.0,
+    "pnl": 9.7,
+    "exit_kind": "TP",
+    "exitTime": "2026-11-09 21:32"
+   },
+   {
+    "sym": "AVAUSDT",
+    "dir": "SHORT",
+    "entry": 0.2437,
+    "sl": 0.2507756,
+    "tp": 0.2295488,
+    "sl_hard": 0.25865417139999997,
+    "risk_usdt": 5.34,
+    "ts": 1794239999999,
+    "t_open": "2026-11-09 05:32",
+    "mode": "close",
+    "volX": 1.85,
+    "filled": true,
+    "bars": 4,
+    "resultR": -1.3,
+    "pnl": -6.94,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-09 21:32"
+   },
+   {
+    "sym": "REZUSDT",
+    "dir": "SHORT",
+    "entry": 0.003799,
+    "sl": 0.0038868215,
+    "tp": 0.003623357,
+    "sl_hard": 0.0039794644,
+    "risk_usdt": 5.34,
+    "ts": 1794239999999,
+    "t_open": "2026-11-09 05:32",
+    "mode": "close",
+    "volX": 1.57,
+    "filled": true,
+    "bars": 4,
+    "resultR": -2.1,
+    "pnl": -11.21,
+    "exit_kind": "SL_HARD",
+    "exitTime": "2026-11-09 21:32"
    }
   ],
-  "day": 2.4,
+  "day": 1.0000000000000004,
   "cur_day": "2026-11-09"
  },
  "sweepsim_variants": {
   "V0": {
-   "equity": 280.98999999999995,
+   "equity": 269.4,
    "positions": [
     {
      "sym": "GWEIUSDT",
@@ -12557,7 +12536,7 @@
      "tp": 0.01549619,
      "sl_hard": 0.019633155,
      "risk_usdt": 6.65,
-     "ts": 1794225599999,
+     "ts": 1794239999999,
      "t_open": "2026-11-06 21:32",
      "mode": "limit55",
      "volX": 5.43,
@@ -12565,55 +12544,7 @@
      "filled": true,
      "limit_px": 0.0176975,
      "wait": 0,
-     "bars": 16
-    },
-    {
-     "sym": "PLAYUSDT",
-     "dir": "SHORT",
-     "entry": 0.01008,
-     "sl": 0.01071605,
-     "tp": 0.0088079,
-     "sl_hard": 0.011158907099999999,
-     "risk_usdt": 6.65,
-     "ts": 1794225599999,
-     "t_open": "2026-11-08 21:32",
-     "mode": "close",
-     "volX": 3.36,
-     "variant": "V0",
-     "filled": true,
-     "bars": 5
-    },
-    {
-     "sym": "AVAUSDT",
-     "dir": "SHORT",
-     "entry": 0.2437,
-     "sl": 0.2507756,
-     "tp": 0.2295488,
-     "sl_hard": 0.25865417139999997,
-     "risk_usdt": 7.32,
-     "ts": 1794225599999,
-     "t_open": "2026-11-09 05:32",
-     "mode": "close",
-     "volX": 1.85,
-     "variant": "V0",
-     "filled": true,
-     "bars": 3
-    },
-    {
-     "sym": "REZUSDT",
-     "dir": "SHORT",
-     "entry": 0.003799,
-     "sl": 0.0038868215,
-     "tp": 0.003623357,
-     "sl_hard": 0.0039794644,
-     "risk_usdt": 7.32,
-     "ts": 1794225599999,
-     "t_open": "2026-11-09 05:32",
-     "mode": "close",
-     "volX": 1.57,
-     "variant": "V0",
-     "filled": true,
-     "bars": 3
+     "bars": 17
     }
    ],
    "history": [
@@ -13050,13 +12981,73 @@
      "pnl": -11.71,
      "exit_kind": "SL_HARD",
      "exitTime": "2026-11-09 17:33"
+    },
+    {
+     "sym": "PLAYUSDT",
+     "dir": "SHORT",
+     "entry": 0.01008,
+     "sl": 0.01071605,
+     "tp": 0.0088079,
+     "sl_hard": 0.011158907099999999,
+     "risk_usdt": 6.65,
+     "ts": 1794239999999,
+     "t_open": "2026-11-08 21:32",
+     "mode": "close",
+     "volX": 3.36,
+     "variant": "V0",
+     "filled": true,
+     "bars": 6,
+     "resultR": 2.0,
+     "pnl": 13.3,
+     "exit_kind": "TP",
+     "exitTime": "2026-11-09 21:32"
+    },
+    {
+     "sym": "AVAUSDT",
+     "dir": "SHORT",
+     "entry": 0.2437,
+     "sl": 0.2507756,
+     "tp": 0.2295488,
+     "sl_hard": 0.25865417139999997,
+     "risk_usdt": 7.32,
+     "ts": 1794239999999,
+     "t_open": "2026-11-09 05:32",
+     "mode": "close",
+     "volX": 1.85,
+     "variant": "V0",
+     "filled": true,
+     "bars": 4,
+     "resultR": -1.3,
+     "pnl": -9.52,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-09 21:32"
+    },
+    {
+     "sym": "REZUSDT",
+     "dir": "SHORT",
+     "entry": 0.003799,
+     "sl": 0.0038868215,
+     "tp": 0.003623357,
+     "sl_hard": 0.0039794644,
+     "risk_usdt": 7.32,
+     "ts": 1794239999999,
+     "t_open": "2026-11-09 05:32",
+     "mode": "close",
+     "volX": 1.57,
+     "variant": "V0",
+     "filled": true,
+     "bars": 4,
+     "resultR": -2.1,
+     "pnl": -15.37,
+     "exit_kind": "SL_HARD",
+     "exitTime": "2026-11-09 21:32"
     }
    ],
-   "day": 2.4,
+   "day": 1.0000000000000004,
    "cur_day": "2026-11-09"
   },
   "V1": {
-   "equity": 291.0699999999999,
+   "equity": 282.0699999999999,
    "positions": [
     {
      "sym": "GWEIUSDT",
@@ -13066,7 +13057,7 @@
      "tp": 0.01549619,
      "sl_hard": 0.021303155,
      "risk_usdt": 6.86,
-     "ts": 1794225599999,
+     "ts": 1794239999999,
      "t_open": "2026-11-06 21:32",
      "mode": "limit55",
      "volX": 5.43,
@@ -13074,55 +13065,7 @@
      "filled": true,
      "limit_px": 0.0176975,
      "wait": 0,
-     "bars": 16
-    },
-    {
-     "sym": "PLAYUSDT",
-     "dir": "SHORT",
-     "entry": 0.01008,
-     "sl": 0.01071605,
-     "tp": 0.0088079,
-     "sl_hard": 0.012044621299999999,
-     "risk_usdt": 6.86,
-     "ts": 1794225599999,
-     "t_open": "2026-11-08 21:32",
-     "mode": "close",
-     "volX": 3.36,
-     "variant": "V1",
-     "filled": true,
-     "bars": 5
-    },
-    {
-     "sym": "AVAUSDT",
-     "dir": "SHORT",
-     "entry": 0.2437,
-     "sl": 0.2507756,
-     "tp": 0.2295488,
-     "sl_hard": 0.2744113142,
-     "risk_usdt": 7.55,
-     "ts": 1794225599999,
-     "t_open": "2026-11-09 05:32",
-     "mode": "close",
-     "volX": 1.85,
-     "variant": "V1",
-     "filled": true,
-     "bars": 3
-    },
-    {
-     "sym": "REZUSDT",
-     "dir": "SHORT",
-     "entry": 0.003799,
-     "sl": 0.0038868215,
-     "tp": 0.003623357,
-     "sl_hard": 0.0041647502,
-     "risk_usdt": 7.55,
-     "ts": 1794225599999,
-     "t_open": "2026-11-09 05:32",
-     "mode": "close",
-     "volX": 1.57,
-     "variant": "V1",
-     "filled": true,
-     "bars": 3
+     "bars": 17
     }
    ],
    "history": [
@@ -13559,14 +13502,47 @@
      "pnl": -10.87,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-09 17:33"
-    }
-   ],
-   "day": 2.56,
-   "cur_day": "2026-11-09"
-  },
-  "V2": {
-   "equity": 397.34000000000003,
-   "positions": [
+    },
+    {
+     "sym": "PLAYUSDT",
+     "dir": "SHORT",
+     "entry": 0.01008,
+     "sl": 0.01071605,
+     "tp": 0.0088079,
+     "sl_hard": 0.012044621299999999,
+     "risk_usdt": 6.86,
+     "ts": 1794239999999,
+     "t_open": "2026-11-08 21:32",
+     "mode": "close",
+     "volX": 3.36,
+     "variant": "V1",
+     "filled": true,
+     "bars": 6,
+     "resultR": 2.0,
+     "pnl": 13.72,
+     "exit_kind": "TP",
+     "exitTime": "2026-11-09 21:32"
+    },
+    {
+     "sym": "AVAUSDT",
+     "dir": "SHORT",
+     "entry": 0.2437,
+     "sl": 0.2507756,
+     "tp": 0.2295488,
+     "sl_hard": 0.2744113142,
+     "risk_usdt": 7.55,
+     "ts": 1794239999999,
+     "t_open": "2026-11-09 05:32",
+     "mode": "close",
+     "volX": 1.85,
+     "variant": "V1",
+     "filled": true,
+     "bars": 4,
+     "resultR": -1.3,
+     "pnl": -9.81,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-09 21:32"
+    },
     {
      "sym": "REZUSDT",
      "dir": "SHORT",
@@ -13574,16 +13550,26 @@
      "sl": 0.0038868215,
      "tp": 0.003623357,
      "sl_hard": 0.0041647502,
-     "risk_usdt": 9.93,
-     "ts": 1794225599999,
+     "risk_usdt": 7.55,
+     "ts": 1794239999999,
      "t_open": "2026-11-09 05:32",
      "mode": "close",
      "volX": 1.57,
-     "variant": "V2",
+     "variant": "V1",
      "filled": true,
-     "bars": 3
+     "bars": 4,
+     "resultR": -1.71,
+     "pnl": -12.91,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-09 21:32"
     }
    ],
+   "day": 1.5500000000000007,
+   "cur_day": "2026-11-09"
+  },
+  "V2": {
+   "equity": 380.36,
+   "positions": [],
    "history": [
     {
      "sym": "ATHUSDT",
@@ -13770,51 +13756,47 @@
      "pnl": -19.09,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-05 21:32"
+    },
+    {
+     "sym": "REZUSDT",
+     "dir": "SHORT",
+     "entry": 0.003799,
+     "sl": 0.0038868215,
+     "tp": 0.003623357,
+     "sl_hard": 0.0041647502,
+     "risk_usdt": 9.93,
+     "ts": 1794239999999,
+     "t_open": "2026-11-09 05:32",
+     "mode": "close",
+     "volX": 1.57,
+     "variant": "V2",
+     "filled": true,
+     "bars": 4,
+     "resultR": -1.71,
+     "pnl": -16.98,
+     "exit_kind": "CLOSE_STOP",
+     "exitTime": "2026-11-09 21:32"
     }
    ],
-   "day": 0.0,
+   "day": -1.71,
    "cur_day": "2026-11-09"
   }
  },
  "fsw": {
   "funnel": {
-   "veto": 43,
-   "eff": 95,
-   "trend": 99,
-   "trigger": 209,
-   "mature": 57,
-   "vol": 1
+   "eff": 328,
+   "trigger": 88,
+   "veto": 20,
+   "trend": 56,
+   "mature": 12
   },
   "n": 0,
   "setups": [],
-  "t": "2026-11-09 17:33"
+  "t": "2026-11-09 21:32"
  },
  "sweeplive": {
-  "equity": 26.33462919000002,
-  "positions": [
-   {
-    "sym": "PLAYUSDT",
-    "dir": "SHORT",
-    "entry": 0.01008,
-    "sl": 0.01071605,
-    "tp": 0.0088079,
-    "qty": 15722.0,
-    "lev": 10,
-    "mode": "close",
-    "pending": false,
-    "ts": 1794225599999,
-    "atr": 0.0004428571,
-    "risk_usdt": 10.0,
-    "margin_req": 15.85,
-    "t_open": "2026-11-08 21:32",
-    "bin_order_id": 1556136426,
-    "client_order_id": "fsw-ab1073815fd046dd9eaa",
-    "sl_hard": 0.011158907099999999,
-    "sl_oid": 3000002329685688,
-    "tp_oid": 3000002329685721,
-    "bars": 5
-   }
-  ],
+  "equity": 46.701969190000014,
+  "positions": [],
   "history": [
    {
     "sym": "PARTIUSDT",
@@ -14422,10 +14404,36 @@
     "pnl": -9.33,
     "exit_kind": "SYNC",
     "exitTime": "2026-10-29 09:33"
+   },
+   {
+    "sym": "PLAYUSDT",
+    "dir": "SHORT",
+    "entry": 0.01008,
+    "sl": 0.01071605,
+    "tp": 0.0088079,
+    "qty": 15722.0,
+    "lev": 10,
+    "mode": "close",
+    "pending": false,
+    "ts": 1794225599999,
+    "atr": 0.0004428571,
+    "risk_usdt": 10.0,
+    "margin_req": 15.85,
+    "t_open": "2026-11-08 21:32",
+    "bin_order_id": 1556136426,
+    "client_order_id": "fsw-ab1073815fd046dd9eaa",
+    "sl_hard": 0.011158907099999999,
+    "sl_oid": 3000002329685688,
+    "tp_oid": 3000002329685721,
+    "bars": 5,
+    "resultR": 2.04,
+    "pnl": 20.37,
+    "exit_kind": "SYNC",
+    "exitTime": "2026-11-09 21:32"
    }
   ],
-  "day": 0.0,
+  "day": 2.04,
   "cur_day": "2026-11-09"
  },
- "updated": "2026-11-09 21:32:53.905025+05:30"
+ "updated": "2026-11-09 21:32:59.973604+05:30"
 }
