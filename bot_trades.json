@@ -10797,25 +10797,8 @@
   "cur_day": "2026-11-11"
  },
  "sweepsim": {
-  "equity": 196.5500000000001,
+  "equity": 199.3600000000001,
   "positions": [
-   {
-    "sym": "GWEIUSDT",
-    "dir": "SHORT",
-    "entry": 0.0176975,
-    "sl": 0.018798155,
-    "tp": 0.01549619,
-    "sl_hard": 0.019633155,
-    "risk_usdt": 4.85,
-    "ts": 1794326399999,
-    "t_open": "2026-11-06 21:32",
-    "mode": "limit55",
-    "volX": 5.43,
-    "filled": true,
-    "limit_px": 0.0176975,
-    "wait": 0,
-    "bars": 23
-   },
    {
     "sym": "DATAIPUSDT",
     "dir": "SHORT",
@@ -10824,12 +10807,12 @@
     "tp": 0.0955799,
     "sl_hard": 0.10993862139999999,
     "risk_usdt": 4.91,
-    "ts": 1794326399999,
+    "ts": 1794340799999,
     "t_open": "2026-11-10 09:33",
     "mode": "close",
     "volX": 3.86,
     "filled": true,
-    "bars": 3
+    "bars": 4
    }
   ],
   "history": [
@@ -11932,33 +11915,36 @@
     "pnl": -11.21,
     "exit_kind": "SL_HARD",
     "exitTime": "2026-11-09 21:32"
+   },
+   {
+    "sym": "GWEIUSDT",
+    "dir": "SHORT",
+    "entry": 0.0176975,
+    "sl": 0.018798155,
+    "tp": 0.01549619,
+    "sl_hard": 0.019633155,
+    "risk_usdt": 4.85,
+    "ts": 1794340799999,
+    "t_open": "2026-11-06 21:32",
+    "mode": "limit55",
+    "volX": 5.43,
+    "filled": true,
+    "limit_px": 0.0176975,
+    "wait": 0,
+    "bars": 24,
+    "resultR": 0.58,
+    "pnl": 2.81,
+    "exit_kind": "TIME_STOP",
+    "exitTime": "2026-11-11 01:31"
    }
   ],
-  "day": 0.0,
-  "cur_day": "2026-11-10"
+  "day": 0.58,
+  "cur_day": "2026-11-11"
  },
  "sweepsim_variants": {
   "V0": {
-   "equity": 269.4,
+   "equity": 273.26,
    "positions": [
-    {
-     "sym": "GWEIUSDT",
-     "dir": "SHORT",
-     "entry": 0.0176975,
-     "sl": 0.018798155,
-     "tp": 0.01549619,
-     "sl_hard": 0.019633155,
-     "risk_usdt": 6.65,
-     "ts": 1794326399999,
-     "t_open": "2026-11-06 21:32",
-     "mode": "limit55",
-     "volX": 5.43,
-     "variant": "V0",
-     "filled": true,
-     "limit_px": 0.0176975,
-     "wait": 0,
-     "bars": 23
-    },
     {
      "sym": "DATAIPUSDT",
      "dir": "SHORT",
@@ -11967,13 +11953,13 @@
      "tp": 0.0955799,
      "sl_hard": 0.10993862139999999,
      "risk_usdt": 6.74,
-     "ts": 1794326399999,
+     "ts": 1794340799999,
      "t_open": "2026-11-10 09:33",
      "mode": "close",
      "volX": 3.86,
      "variant": "V0",
      "filled": true,
-     "bars": 3
+     "bars": 4
     }
    ],
    "history": [
@@ -12470,32 +12456,36 @@
      "pnl": -15.37,
      "exit_kind": "SL_HARD",
      "exitTime": "2026-11-09 21:32"
-    }
-   ],
-   "day": 0.0,
-   "cur_day": "2026-11-10"
-  },
-  "V1": {
-   "equity": 282.0699999999999,
-   "positions": [
+    },
     {
      "sym": "GWEIUSDT",
      "dir": "SHORT",
      "entry": 0.0176975,
      "sl": 0.018798155,
      "tp": 0.01549619,
-     "sl_hard": 0.021303155,
-     "risk_usdt": 6.86,
-     "ts": 1794326399999,
+     "sl_hard": 0.019633155,
+     "risk_usdt": 6.65,
+     "ts": 1794340799999,
      "t_open": "2026-11-06 21:32",
      "mode": "limit55",
      "volX": 5.43,
-     "variant": "V1",
+     "variant": "V0",
      "filled": true,
      "limit_px": 0.0176975,
      "wait": 0,
-     "bars": 23
-    },
+     "bars": 24,
+     "resultR": 0.58,
+     "pnl": 3.86,
+     "exit_kind": "TIME_STOP",
+     "exitTime": "2026-11-11 01:31"
+    }
+   ],
+   "day": 0.58,
+   "cur_day": "2026-11-11"
+  },
+  "V1": {
+   "equity": 286.0499999999999,
+   "positions": [
     {
      "sym": "DATAIPUSDT",
      "dir": "SHORT",
@@ -12504,13 +12494,13 @@
      "tp": 0.0955799,
      "sl_hard": 0.11609576419999999,
      "risk_usdt": 7.05,
-     "ts": 1794326399999,
+     "ts": 1794340799999,
      "t_open": "2026-11-10 09:33",
      "mode": "close",
      "volX": 3.86,
      "variant": "V1",
      "filled": true,
-     "bars": 3
+     "bars": 4
     }
    ],
    "history": [
@@ -13007,10 +12997,32 @@
      "pnl": -12.91,
      "exit_kind": "CLOSE_STOP",
      "exitTime": "2026-11-09 21:32"
+    },
+    {
+     "sym": "GWEIUSDT",
+     "dir": "SHORT",
+     "entry": 0.0176975,
+     "sl": 0.018798155,
+     "tp": 0.01549619,
+     "sl_hard": 0.021303155,
+     "risk_usdt": 6.86,
+     "ts": 1794340799999,
+     "t_open": "2026-11-06 21:32",
+     "mode": "limit55",
+     "volX": 5.43,
+     "variant": "V1",
+     "filled": true,
+     "limit_px": 0.0176975,
+     "wait": 0,
+     "bars": 24,
+     "resultR": 0.58,
+     "pnl": 3.98,
+     "exit_kind": "TIME_STOP",
+     "exitTime": "2026-11-11 01:31"
     }
    ],
-   "day": 0.0,
-   "cur_day": "2026-11-10"
+   "day": 0.58,
+   "cur_day": "2026-11-11"
   },
   "V2": {
    "equity": 380.36,
@@ -13224,7 +13236,7 @@
     }
    ],
    "day": 0.0,
-   "cur_day": "2026-11-10"
+   "cur_day": "2026-11-11"
   }
  },
  "fsw": {},
@@ -13241,7 +13253,7 @@
     "lev": 10,
     "mode": "close",
     "pending": false,
-    "ts": 1794326399999,
+    "ts": 1794340799999,
     "atr": 0.0030785714,
     "risk_usdt": 10.0,
     "margin_req": 24.38,
@@ -13251,7 +13263,7 @@
     "sl_hard": 0.10993862139999999,
     "sl_oid": 3000002341886797,
     "tp_oid": 3000002341886819,
-    "bars": 3
+    "bars": 4
    }
   ],
   "history": [
@@ -13890,7 +13902,7 @@
    }
   ],
   "day": 0.0,
-  "cur_day": "2026-11-10"
+  "cur_day": "2026-11-11"
  },
  "photon": {
   "equity": 1000.0,
@@ -13898,5 +13910,5 @@
   "history": [],
   "t": "2026-11-11 01:31"
  },
- "updated": "2026-11-11 01:31:47.652447+05:30"
+ "updated": "2026-11-11 01:31:52.210875+05:30"
 }
