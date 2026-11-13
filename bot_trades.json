@@ -4389,7 +4389,7 @@
     "f240": 51.05824133128236
    }
   ],
-  "t": "2026-11-13 12:16"
+  "t": "2026-11-13 12:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 237
    }
   ],
-  "t": "2026-11-13 12:16"
+  "t": "2026-11-13 12:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-13",
@@ -13923,80 +13923,17 @@
   "funnel": {
    "evaluated": 387,
    "magnet_no_sweep": 223,
-   "not_in_zone": 76,
+   "not_in_zone": 75,
    "stale_bos": 75,
    "no_4h_structure": 1,
    "no_choch_struct": 6,
-   "no_choch_fresh": 2,
+   "no_choch_fresh": 3,
    "magnet_overshoot": 2,
-   "t": "2026-11-13 12:05",
+   "t": "2026-11-13 12:19",
    "signals": 2,
    "universe": 387
   },
   "feed": [
-   {
-    "t": "2026-11-13 12:04",
-    "kind": "CROSS",
-    "sym": "MANAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.06682 rr 2.48 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:04",
-    "kind": "CROSS",
-    "sym": "LAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.04638 rr 3.05 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "COMPUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 19.565 rr 1.52 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "BABYUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.00916 rr 3.97 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "KAVAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.067935 rr 1.67 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "IOUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.11105 rr 2.44 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "PNUTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.031295 rr 1.83 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "NMRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 8.6615 rr 2.19 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 12:05",
-    "kind": "CROSS",
-    "sym": "NEOUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 1.7105 rr 2.76 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-13 12:05",
     "kind": "CROSS",
@@ -14213,6 +14150,69 @@
     "sym": "BREVUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.063465 rr 1.74 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "CROSS",
+    "sym": "LITUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 3.1318 rr 2.32 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "RADAR",
+    "sym": "AINUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.1299 | px 0.10743"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "RADAR",
+    "sym": "HANAUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET SWEEPING 0.01766 | px 0.01773"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "CROSS",
+    "sym": "KITEUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.12486 rr 3.88 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "CROSS",
+    "sym": "BIRBUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.07685 rr 1.5 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "CROSS",
+    "sym": "CYSUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.06845 rr 7.17 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "RADAR",
+    "sym": "FFUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 0.08827 | px 0.08799"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "CROSS",
+    "sym": "USUALUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0103815 rr 5.47 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 12:19",
+    "kind": "RADAR",
+    "sym": "ONTUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.04264 | px 0.04089"
    }
   ],
   "radar_state": {
@@ -14263,8 +14263,8 @@
    },
    "AINUSDT": {
     "key": "SHORT:0.1299",
-    "stage": "APPROACHING",
-    "ts": 1794542659.104369
+    "stage": "IN_ZONE",
+    "ts": 1794552566.4278493
    },
    "STRKUSDT": {
     "key": "SHORT:0.03981",
@@ -14283,8 +14283,8 @@
    },
    "HANAUSDT": {
     "key": "SHORT:0.01766",
-    "stage": "APPROACHING",
-    "ts": 1794533669.9307806
+    "stage": "SWEEPING",
+    "ts": 1794552566.4278493
    },
    "ARUSDT": {
     "key": "LONG:2.896",
@@ -14558,8 +14558,8 @@
    },
    "FFUSDT": {
     "key": "SHORT:0.08827",
-    "stage": "REJECTING",
-    "ts": 1794550761.9449008
+    "stage": "APPROACHING",
+    "ts": 1794552566.4278493
    },
    "PHAUSDT": {
     "key": "SHORT:0.0356",
@@ -14585,6 +14585,11 @@
     "key": "SHORT:0.0069",
     "stage": "APPROACHING",
     "ts": 1794551669.0162733
+   },
+   "ONTUSDT": {
+    "key": "SHORT:0.04264",
+    "stage": "APPROACHING",
+    "ts": 1794552566.4278493
    }
   },
   "cross_state": {
@@ -14721,8 +14726,8 @@
     "ts": 1794533669.9307806
    },
    "KITEUSDT": {
-    "key": "KITEUSDT|SHORT|1794529799999",
-    "ts": 1794533669.9307806
+    "key": "KITEUSDT|SHORT|1794549599999",
+    "ts": 1794552566.4278493
    },
    "HOTUSDT": {
     "key": "HOTUSDT|LONG|1794547799999",
@@ -15273,8 +15278,8 @@
     "ts": 1794550761.9449008
    },
    "USUALUSDT": {
-    "key": "USUALUSDT|SHORT|1794533399999",
-    "ts": 1794536369.4910517
+    "key": "USUALUSDT|LONG|1794552299999",
+    "ts": 1794552566.4278493
    },
    "ARKMUSDT": {
     "key": "ARKMUSDT|SHORT|1794536099999",
@@ -15855,6 +15860,18 @@
    "POWERUSDT": {
     "key": "POWERUSDT|LONG|1794551399999",
     "ts": 1794551669.0162733
+   },
+   "LITUSDT": {
+    "key": "LITUSDT|LONG|1794552299999",
+    "ts": 1794552566.4278493
+   },
+   "BIRBUSDT": {
+    "key": "BIRBUSDT|SHORT|1794546899999",
+    "ts": 1794552566.4278493
+   },
+   "CYSUSDT": {
+    "key": "CYSUSDT|LONG|1794552299999",
+    "ts": 1794552566.4278493
    }
   },
   "daily": {
@@ -19351,7 +19368,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-13 12:16"
+  "t": "2026-11-13 12:19"
  },
- "updated": "2026-11-13 12:16:06.619239+05:30"
+ "updated": "2026-11-13 12:19:32.164209+05:30"
 }
