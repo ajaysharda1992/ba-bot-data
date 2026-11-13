@@ -4389,7 +4389,7 @@
     "f240": 46.71773142124624
    }
   ],
-  "t": "2026-11-13 10:46"
+  "t": "2026-11-13 10:49"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 272
    }
   ],
-  "t": "2026-11-13 10:46"
+  "t": "2026-11-13 10:49"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-13",
@@ -13923,109 +13923,18 @@
   "funnel": {
    "evaluated": 387,
    "magnet_no_sweep": 225,
-   "not_in_zone": 74,
+   "not_in_zone": 75,
    "stale_bos": 75,
    "no_choch_struct": 6,
    "no_4h_structure": 1,
    "end_of_move": 1,
-   "no_choch_fresh": 3,
    "magnet_overshoot": 2,
-   "t": "2026-11-13 10:34",
+   "no_choch_fresh": 2,
+   "t": "2026-11-13 10:49",
    "signals": 0,
    "universe": 387
   },
   "feed": [
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "RADAR",
-    "sym": "HOMEUSDT",
-    "dir": "LONG",
-    "text": "MAGNET REJECTING 0.005159 | px 0.005204"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "RADAR",
-    "sym": "ORDERUSDT",
-    "dir": "LONG",
-    "text": "MAGNET APPROACHING 0.02902 | px 0.0293"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "KMNOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.03104 rr 3.06 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "IDUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.02437 rr 3.45 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "SQDUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.015405 rr 3.42 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "POWRUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.048685 rr 2.58 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "XPINUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0007056 rr 1.83 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "STABLEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.026365 rr 1.87 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "MELANIAUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.053965 rr 4.41 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "4USDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0089015 rr 3.66 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "ZEREBROUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0231575 rr 2.84 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "CROSS",
-    "sym": "1000CATUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0015895 rr 4.61 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-13 09:34",
-    "kind": "RADAR",
-    "sym": "MUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 0.7482 | px 0.7958"
-   },
    {
     "t": "2026-11-13 09:49",
     "kind": "CROSS",
@@ -14214,6 +14123,97 @@
     "sym": "HOMEUSDT",
     "dir": "LONG",
     "text": "MAGNET REJECTING 0.005159 | px 0.005172"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "MAGMAUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.332055 rr 2.22 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "RADAR",
+    "sym": "ASTERUSDT",
+    "dir": "LONG",
+    "text": "APPROACHING 0.6226 | px 0.6495"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "DEXEUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 1.216 rr 3.52 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "VELVETUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.04903 rr 2.28 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "IOTAUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.03364 rr 3.05 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "KASUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.02782 rr 3.66 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "DOGSUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 2.9695e-05 rr 4.76 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "ATUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0901 rr 1.93 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "RADAR",
+    "sym": "KAIAUSDT",
+    "dir": "LONG",
+    "text": "MAGNET REJECTING 0.03117 | px 0.03135"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "AUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.070015 rr 3.32 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "CGPTUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.016815 rr 4.98 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "POPCATUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.030615 rr 3.39 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-13 10:49",
+    "kind": "CROSS",
+    "sym": "1MBABYDOGEUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.00027315 rr 3.99 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -14479,8 +14479,8 @@
    },
    "KAIAUSDT": {
     "key": "LONG:0.03117",
-    "stage": "APPROACHING",
-    "ts": 1794540861.2682505
+    "stage": "REJECTING",
+    "ts": 1794547160.4278092
    },
    "ONGUSDT": {
     "key": "LONG:0.05987",
@@ -14519,8 +14519,8 @@
    },
    "ASTERUSDT": {
     "key": "LONG:0.6226",
-    "stage": "IN_ZONE",
-    "ts": 1794546276.4606805
+    "stage": "APPROACHING",
+    "ts": 1794547160.4278092
    },
    "SOPHUSDT": {
     "key": "SHORT:0.001517",
@@ -14871,8 +14871,8 @@
     "ts": 1794544470.2976394
    },
    "IOTAUSDT": {
-    "key": "IOTAUSDT|LONG|1794531599999",
-    "ts": 1794533669.9307806
+    "key": "IOTAUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "ACEUSDT": {
     "key": "ACEUSDT|SHORT|1794536099999",
@@ -14895,8 +14895,8 @@
     "ts": 1794533669.9307806
    },
    "KASUSDT": {
-    "key": "KASUSDT|SHORT|1794530699999",
-    "ts": 1794533669.9307806
+    "key": "KASUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "KAVAUSDT": {
     "key": "KAVAUSDT|SHORT|1794536099999",
@@ -14959,8 +14959,8 @@
     "ts": 1794533669.9307806
    },
    "DOGSUSDT": {
-    "key": "DOGSUSDT|LONG|1794528899999",
-    "ts": 1794533669.9307806
+    "key": "DOGSUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "FORMUSDT": {
     "key": "FORMUSDT|SHORT|1794530699999",
@@ -15039,8 +15039,8 @@
     "ts": 1794533669.9307806
    },
    "POPCATUSDT": {
-    "key": "POPCATUSDT|SHORT|1794529799999",
-    "ts": 1794533669.9307806
+    "key": "POPCATUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "MANTAUSDT": {
     "key": "MANTAUSDT|SHORT|1794530699999",
@@ -15051,8 +15051,8 @@
     "ts": 1794542659.104369
    },
    "1MBABYDOGEUSDT": {
-    "key": "1MBABYDOGEUSDT|SHORT|1794536099999",
-    "ts": 1794541760.4926543
+    "key": "1MBABYDOGEUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "SUPERUSDT": {
     "key": "SUPERUSDT|SHORT|1794530699999",
@@ -15255,8 +15255,8 @@
     "ts": 1794536369.4910517
    },
    "AUSDT": {
-    "key": "AUSDT|SHORT|1794536099999",
-    "ts": 1794536369.4910517
+    "key": "AUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "LPTUSDT": {
     "key": "LPTUSDT|SHORT|1794536099999",
@@ -15403,8 +15403,8 @@
     "ts": 1794538168.0471392
    },
    "VELVETUSDT": {
-    "key": "VELVETUSDT|SHORT|1794537899999",
-    "ts": 1794538168.0471392
+    "key": "VELVETUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "UBUSDT": {
     "key": "UBUSDT|SHORT|1794537899999",
@@ -15467,8 +15467,8 @@
     "ts": 1794538168.0471392
    },
    "CGPTUSDT": {
-    "key": "CGPTUSDT|SHORT|1794537899999",
-    "ts": 1794538168.0471392
+    "key": "CGPTUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "EDENUSDT": {
     "key": "EDENUSDT|LONG|1794535199999",
@@ -15547,8 +15547,8 @@
     "ts": 1794539975.5000522
    },
    "DEXEUSDT": {
-    "key": "DEXEUSDT|SHORT|1794539699999",
-    "ts": 1794539975.5000522
+    "key": "DEXEUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "CROSSUSDT": {
     "key": "CROSSUSDT|SHORT|1794538799999",
@@ -15559,8 +15559,8 @@
     "ts": 1794539975.5000522
    },
    "ATUSDT": {
-    "key": "ATUSDT|SHORT|1794539699999",
-    "ts": 1794539975.5000522
+    "key": "ATUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    },
    "GWEIUSDT": {
     "key": "GWEIUSDT|SHORT|1794539699999",
@@ -15677,6 +15677,10 @@
    "QUSDT": {
     "key": "QUSDT|LONG|1794545999999",
     "ts": 1794546276.4606805
+   },
+   "MAGMAUSDT": {
+    "key": "MAGMAUSDT|LONG|1794546899999",
+    "ts": 1794547160.4278092
    }
   },
   "daily": {
@@ -19173,7 +19177,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-13 10:46"
+  "t": "2026-11-13 10:49"
  },
- "updated": "2026-11-13 10:46:26.104223+05:30"
+ "updated": "2026-11-13 10:49:28.764898+05:30"
 }
