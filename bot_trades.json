@@ -4389,7 +4389,7 @@
     "f240": 49.48093353570604
    }
   ],
-  "t": "2026-11-15 04:31"
+  "t": "2026-11-15 04:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 297
    }
   ],
-  "t": "2026-11-15 04:31"
+  "t": "2026-11-15 04:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13924,59 +13924,17 @@
    "evaluated": 470,
    "magnet_no_sweep": 324,
    "stale_bos": 91,
-   "not_in_zone": 41,
+   "not_in_zone": 40,
    "no_4h_structure": 5,
-   "no_choch_fresh": 3,
+   "no_choch_fresh": 4,
    "no_choch_struct": 4,
    "poi_misaligned": 1,
    "magnet_overshoot": 1,
-   "t": "2026-11-15 04:19",
+   "t": "2026-11-15 04:34",
    "signals": 0,
    "universe": 470
   },
   "feed": [
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "RADAR",
-    "sym": "SXTUSDT",
-    "dir": "LONG",
-    "text": "REJECTING 0.008227 | px 0.008356"
-   },
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "CROSS",
-    "sym": "SKYAIUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.035395 rr 1.94 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "RADAR",
-    "sym": "AVAAIUSDT",
-    "dir": "LONG",
-    "text": "MAGNET REJECTING 0.005636 | px 0.005675"
-   },
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "CROSS",
-    "sym": "JSTUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.144155 rr 1.53 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "RADAR",
-    "sym": "MUSDT",
-    "dir": "LONG",
-    "text": "MAGNET REJECTING 0.791 | px 0.7936"
-   },
-   {
-    "t": "2026-11-15 03:04",
-    "kind": "RADAR",
-    "sym": "LIGHTUSDT",
-    "dir": "LONG",
-    "text": "MAGNET REJECTING 0.2309 | px 0.2316"
-   },
    {
     "t": "2026-11-15 03:19",
     "kind": "CROSS",
@@ -14214,6 +14172,48 @@
     "sym": "LIGHTUSDT",
     "dir": "LONG",
     "text": "MAGNET APPROACHING 0.2309 | px 0.2327"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "CROSS",
+    "sym": "BANANAS31USDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.004134 rr 3.22 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "RADAR",
+    "sym": "ESPORTSUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.008542 | px 0.009195"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "RADAR",
+    "sym": "0GUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.1342 | px 0.1358"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "RADAR",
+    "sym": "SXTUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.008227 | px 0.008348"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "RADAR",
+    "sym": "LUMIAUSDT",
+    "dir": "LONG",
+    "text": "MAGNET APPROACHING 0.07465 | px 0.0757"
+   },
+   {
+    "t": "2026-11-15 04:34",
+    "kind": "RADAR",
+    "sym": "MUSDT",
+    "dir": "LONG",
+    "text": "MAGNET SWEEPING 0.791 | px 0.7904"
    }
   ],
   "radar_state": {
@@ -14394,8 +14394,8 @@
    },
    "SXTUSDT": {
     "key": "LONG:0.008227",
-    "stage": "REJECTING",
-    "ts": 1794696569.194513
+    "stage": "IN_ZONE",
+    "ts": 1794697474.346797
    },
    "BBUSDT": {
     "key": "SHORT:0.006437",
@@ -14504,8 +14504,8 @@
    },
    "0GUSDT": {
     "key": "LONG:0.1342",
-    "stage": "REJECTING",
-    "ts": 1794694769.1262934
+    "stage": "IN_ZONE",
+    "ts": 1794697474.346797
    },
    "KAITOUSDT": {
     "key": "LONG:0.1969",
@@ -14534,8 +14534,8 @@
    },
    "MUSDT": {
     "key": "LONG:0.791",
-    "stage": "REJECTING",
-    "ts": 1794694769.1262934
+    "stage": "SWEEPING",
+    "ts": 1794697474.346797
    },
    "ETHFIUSDT": {
     "key": "LONG:0.5163",
@@ -15054,8 +15054,8 @@
    },
    "ESPORTSUSDT": {
     "key": "LONG:0.008542",
-    "stage": "APPROACHING",
-    "ts": 1794694769.1262934
+    "stage": "IN_ZONE",
+    "ts": 1794697474.346797
    },
    "PIEVERSEUSDT": {
     "key": "SHORT:1.9335",
@@ -15110,7 +15110,7 @@
    "LUMIAUSDT": {
     "key": "LONG:0.07465",
     "stage": "APPROACHING",
-    "ts": 1794670461.7941134
+    "ts": 1794697474.346797
    },
    "JUPUSDT": {
     "key": "LONG:0.2252",
@@ -16620,8 +16620,8 @@
     "ts": 1794654265.3231611
    },
    "BANANAS31USDT": {
-    "key": "BANANAS31USDT|LONG|1794622499999",
-    "ts": 1794622766.4196155
+    "key": "BANANAS31USDT|LONG|1794697199999",
+    "ts": 1794697474.346797
    },
    "ETHUSDT": {
     "key": "ETHUSDT|SHORT|1794661199999",
@@ -21173,7 +21173,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-15 04:31"
+  "t": "2026-11-15 04:34"
  },
- "updated": "2026-11-15 04:31:06.332268+05:30"
+ "updated": "2026-11-15 04:34:38.334618+05:30"
 }
