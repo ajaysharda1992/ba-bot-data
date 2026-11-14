@@ -4389,7 +4389,7 @@
     "f240": 46.18192264198907
    }
   ],
-  "t": "2026-11-14 10:31"
+  "t": "2026-11-14 10:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 294
    }
   ],
-  "t": "2026-11-14 10:31"
+  "t": "2026-11-14 10:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-14",
@@ -13928,39 +13928,11 @@
    "no_4h_structure": 2,
    "no_choch_struct": 2,
    "no_choch_fresh": 1,
-   "t": "2026-11-14 10:19",
+   "t": "2026-11-14 10:34",
    "signals": 0,
    "universe": 437
   },
   "feed": [
-   {
-    "t": "2026-11-14 09:19",
-    "kind": "CROSS",
-    "sym": "ALTUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0051245 rr 2.85 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 09:19",
-    "kind": "CROSS",
-    "sym": "ENSOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.42095 rr 2.7 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-14 09:19",
-    "kind": "CROSS",
-    "sym": "ARKUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.14865 rr 4.21 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-14 09:19",
-    "kind": "CROSS",
-    "sym": "TAIKOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.064475 rr 2.47 (with 4H trend)"
-   },
    {
     "t": "2026-11-14 09:19",
     "kind": "CROSS",
@@ -14212,6 +14184,34 @@
     "sym": "XPINUSDT",
     "dir": "LONG",
     "text": "APPROACHING 0.00065 | px 0.0006967"
+   },
+   {
+    "t": "2026-11-14 10:34",
+    "kind": "CROSS",
+    "sym": "KITEUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.127675 rr 1.51 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-14 10:34",
+    "kind": "RADAR",
+    "sym": "KATUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.003487 | px 0.003305"
+   },
+   {
+    "t": "2026-11-14 10:34",
+    "kind": "CROSS",
+    "sym": "USDCUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 1.00031 rr 2.09 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-14 10:34",
+    "kind": "CROSS",
+    "sym": "OUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.50395 rr 1.94 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -14337,8 +14337,8 @@
    },
    "KATUSDT": {
     "key": "SHORT:0.003487",
-    "stage": "APPROACHING",
-    "ts": 1794629966.2035778
+    "stage": "IN_ZONE",
+    "ts": 1794632670.6378818
    },
    "DOGSUSDT": {
     "key": "LONG:2.784e-05",
@@ -15190,8 +15190,8 @@
     "ts": 1794611964.3659923
    },
    "KITEUSDT": {
-    "key": "KITEUSDT|LONG|1794618899999",
-    "ts": 1794619174.0997899
+    "key": "KITEUSDT|LONG|1794632399999",
+    "ts": 1794632670.6378818
    },
    "HOTUSDT": {
     "key": "HOTUSDT|SHORT|1794600899999",
@@ -15822,8 +15822,8 @@
     "ts": 1794614676.7424839
    },
    "USDCUSDT": {
-    "key": "USDCUSDT|SHORT|1794617099999",
-    "ts": 1794617371.3757281
+    "key": "USDCUSDT|LONG|1794632399999",
+    "ts": 1794632670.6378818
    },
    "SNXUSDT": {
     "key": "SNXUSDT|SHORT|1794611699999",
@@ -16366,8 +16366,8 @@
     "ts": 1794614676.7424839
    },
    "OUSDT": {
-    "key": "OUSDT|SHORT|1794618899999",
-    "ts": 1794620068.9531527
+    "key": "OUSDT|LONG|1794632399999",
+    "ts": 1794632670.6378818
    },
    "TWTUSDT": {
     "key": "TWTUSDT|LONG|1794592799999",
@@ -20782,7 +20782,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-14 10:31"
+  "t": "2026-11-14 10:34"
  },
- "updated": "2026-11-14 10:31:27.496447+05:30"
+ "updated": "2026-11-14 10:34:33.434620+05:30"
 }
