@@ -4389,7 +4389,7 @@
     "f240": 51.06794007509006
    }
   ],
-  "t": "2026-11-15 01:16"
+  "t": "2026-11-15 01:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 233
    }
   ],
-  "t": "2026-11-15 01:16"
+  "t": "2026-11-15 01:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-14",
@@ -13928,46 +13928,11 @@
    "not_in_zone": 35,
    "no_choch_struct": 5,
    "no_choch_fresh": 2,
-   "t": "2026-11-15 01:04",
+   "t": "2026-11-15 01:19",
    "signals": 0,
    "universe": 425
   },
   "feed": [
-   {
-    "t": "2026-11-14 23:19",
-    "kind": "CROSS",
-    "sym": "ACTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0087925 rr 2.19 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 23:19",
-    "kind": "CROSS",
-    "sym": "LYNUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.018945 rr 4.51 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 23:19",
-    "kind": "CROSS",
-    "sym": "AVAAIUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 0.006211 rr 2.16 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 23:19",
-    "kind": "RADAR",
-    "sym": "GRIFFAINUSDT",
-    "dir": "SHORT",
-    "text": "APPROACHING 0.011269 | px 0.010199"
-   },
-   {
-    "t": "2026-11-14 23:34",
-    "kind": "RADAR",
-    "sym": "ZROUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 1.4428 | px 1.5327"
-   },
    {
     "t": "2026-11-14 23:34",
     "kind": "RADAR",
@@ -14212,6 +14177,41 @@
     "sym": "TAKEUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.06237 rr 1.51 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 01:19",
+    "kind": "CROSS",
+    "sym": "SHELLUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.026515 rr 25.53 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 01:19",
+    "kind": "CROSS",
+    "sym": "HMSTRUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.0001394 rr 1.61 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 01:19",
+    "kind": "CROSS",
+    "sym": "SENTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.016295 rr 1.87 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 01:19",
+    "kind": "CROSS",
+    "sym": "SKRUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0088455 rr 6.43 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 01:19",
+    "kind": "CROSS",
+    "sym": "LUMIAUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.076845 rr 2.02 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15711,8 +15711,8 @@
     "ts": 1794608362.288053
    },
    "SKRUSDT": {
-    "key": "SKRUSDT|LONG|1794648599999",
-    "ts": 1794648860.3519404
+    "key": "SKRUSDT|LONG|1794685499999",
+    "ts": 1794685767.775364
    },
    "SOLVUSDT": {
     "key": "SOLVUSDT|SHORT|1794662999999",
@@ -16123,8 +16123,8 @@
     "ts": 1794620961.5727396
    },
    "SENTUSDT": {
-    "key": "SENTUSDT|SHORT|1794664799999",
-    "ts": 1794665063.7621784
+    "key": "SENTUSDT|SHORT|1794680999999",
+    "ts": 1794685767.775364
    },
    "ATUSDT": {
     "key": "ATUSDT|SHORT|1794658499999",
@@ -16251,8 +16251,8 @@
     "ts": 1794674958.8782032
    },
    "HMSTRUSDT": {
-    "key": "HMSTRUSDT|LONG|1794656699999",
-    "ts": 1794656958.3698592
+    "key": "HMSTRUSDT|SHORT|1794680099999",
+    "ts": 1794685767.775364
    },
    "DUSKUSDT": {
     "key": "DUSKUSDT|LONG|1794671999999",
@@ -16319,8 +16319,8 @@
     "ts": 1794645271.5589712
    },
    "LUMIAUSDT": {
-    "key": "LUMIAUSDT|SHORT|1794676499999",
-    "ts": 1794680358.1593425
+    "key": "LUMIAUSDT|LONG|1794685499999",
+    "ts": 1794685767.775364
    },
    "STOUSDT": {
     "key": "STOUSDT|LONG|1794660299999",
@@ -16909,6 +16909,10 @@
    "STEEMUSDT": {
     "key": "STEEMUSDT|LONG|1794637799999",
     "ts": 1794638067.6320682
+   },
+   "SHELLUSDT": {
+    "key": "SHELLUSDT|LONG|1794685499999",
+    "ts": 1794685767.775364
    }
   },
   "daily": {
@@ -20747,7 +20751,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-15 01:16"
+  "t": "2026-11-15 01:19"
  },
- "updated": "2026-11-15 01:16:08.097792+05:30"
+ "updated": "2026-11-15 01:19:31.004326+05:30"
 }
