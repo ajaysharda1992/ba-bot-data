@@ -4389,7 +4389,7 @@
     "f240": 43.300911186689646
    }
   ],
-  "t": "2026-11-14 23:31"
+  "t": "2026-11-14 23:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 242
    }
   ],
-  "t": "2026-11-14 23:31"
+  "t": "2026-11-14 23:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-14",
@@ -13928,46 +13928,11 @@
    "not_in_zone": 35,
    "no_choch_struct": 4,
    "no_choch_fresh": 1,
-   "t": "2026-11-14 23:19",
+   "t": "2026-11-14 23:34",
    "signals": 0,
    "universe": 425
   },
   "feed": [
-   {
-    "t": "2026-11-14 22:04",
-    "kind": "RADAR",
-    "sym": "XPINUSDT",
-    "dir": "LONG",
-    "text": "APPROACHING 0.00065 | px 0.0007035"
-   },
-   {
-    "t": "2026-11-14 22:04",
-    "kind": "CROSS",
-    "sym": "XPINUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 0.0007035 rr 4.5 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 22:19",
-    "kind": "CROSS",
-    "sym": "CAPUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.11082 rr 4.11 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-14 22:19",
-    "kind": "CROSS",
-    "sym": "MAGMAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.30993 rr 7.32 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-14 22:19",
-    "kind": "CROSS",
-    "sym": "HOMEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0046395 rr 2.1 (with 4H trend)"
-   },
    {
     "t": "2026-11-14 22:19",
     "kind": "RADAR",
@@ -14212,6 +14177,41 @@
     "sym": "GRIFFAINUSDT",
     "dir": "SHORT",
     "text": "APPROACHING 0.011269 | px 0.010199"
+   },
+   {
+    "t": "2026-11-14 23:34",
+    "kind": "RADAR",
+    "sym": "ZROUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 1.4428 | px 1.5327"
+   },
+   {
+    "t": "2026-11-14 23:34",
+    "kind": "RADAR",
+    "sym": "OPENUSDT",
+    "dir": "LONG",
+    "text": "MAGNET APPROACHING 0.0883 | px 0.089"
+   },
+   {
+    "t": "2026-11-14 23:34",
+    "kind": "RADAR",
+    "sym": "SWARMSUSDT",
+    "dir": "LONG",
+    "text": "MAGNET SWEEPING 0.006085 | px 0.006084"
+   },
+   {
+    "t": "2026-11-14 23:34",
+    "kind": "RADAR",
+    "sym": "XPINUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.00065 | px 0.0006957"
+   },
+   {
+    "t": "2026-11-14 23:34",
+    "kind": "RADAR",
+    "sym": "PORTALUSDT",
+    "dir": "LONG",
+    "text": "MAGNET SWEEPING 0.01191 | px 0.01181"
    }
   ],
   "radar_state": {
@@ -14412,8 +14412,8 @@
    },
    "ZROUSDT": {
     "key": "LONG:1.4428",
-    "stage": "APPROACHING",
-    "ts": 1794677675.0775006
+    "stage": "IN_ZONE",
+    "ts": 1794679472.7142448
    },
    "PYTHUSDT": {
     "key": "LONG:0.05821",
@@ -14487,8 +14487,8 @@
    },
    "XPINUSDT": {
     "key": "LONG:0.00065",
-    "stage": "APPROACHING",
-    "ts": 1794677675.0775006
+    "stage": "IN_ZONE",
+    "ts": 1794679472.7142448
    },
    "TOWNSUSDT": {
     "key": "LONG:0.001045",
@@ -14582,8 +14582,8 @@
    },
    "SWARMSUSDT": {
     "key": "LONG:0.006085",
-    "stage": "REJECTING",
-    "ts": 1794677675.0775006
+    "stage": "SWEEPING",
+    "ts": 1794679472.7142448
    },
    "ONTUSDT": {
     "key": "SHORT:0.04264",
@@ -15087,13 +15087,13 @@
    },
    "OPENUSDT": {
     "key": "LONG:0.0883",
-    "stage": "REJECTING",
-    "ts": 1794677675.0775006
+    "stage": "APPROACHING",
+    "ts": 1794679472.7142448
    },
    "PORTALUSDT": {
     "key": "LONG:0.01191",
-    "stage": "REJECTING",
-    "ts": 1794677675.0775006
+    "stage": "SWEEPING",
+    "ts": 1794679472.7142448
    },
    "EDUUSDT": {
     "key": "LONG:0.04221",
@@ -20747,7 +20747,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-14 23:31"
+  "t": "2026-11-14 23:34"
  },
- "updated": "2026-11-14 23:31:21.868314+05:30"
+ "updated": "2026-11-14 23:34:36.180628+05:30"
 }
