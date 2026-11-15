@@ -4389,7 +4389,7 @@
     "f240": 56.782189084032275
    }
   ],
-  "t": "2026-11-16 03:16"
+  "t": "2026-11-16 03:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 273
    }
   ],
-  "t": "2026-11-16 03:16"
+  "t": "2026-11-16 03:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-16",
@@ -13926,56 +13926,14 @@
    "magnet_no_sweep": 239,
    "magnet_overshoot": 2,
    "no_4h_structure": 4,
-   "not_in_zone": 37,
+   "not_in_zone": 38,
    "no_choch_struct": 1,
-   "no_choch_fresh": 3,
-   "t": "2026-11-16 03:05",
+   "no_choch_fresh": 2,
+   "t": "2026-11-16 03:19",
    "signals": 0,
    "universe": 450
   },
   "feed": [
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "TRUTHUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 0.015096 rr 1.69 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "RONINUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.037845 rr 1.53 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "STABLEUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.02489 rr 2.11 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "FRAXUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.2163 rr 8.95 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "SOMIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.1442 rr 1.71 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 03:04",
-    "kind": "CROSS",
-    "sym": "LTCUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 44.995 rr 1.51 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-16 03:04",
     "kind": "RADAR",
@@ -14213,6 +14171,48 @@
     "sym": "BUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.0925 rr 2.1 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "CROSS",
+    "sym": "QNTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 155.615 rr 6.38 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "CROSS",
+    "sym": "CFXUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0336 rr 2.98 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "CROSS",
+    "sym": "REUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.2183 rr 2.67 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "RADAR",
+    "sym": "USDCUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 1.00101 | px 0.999901"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "CROSS",
+    "sym": "USDCUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.999901 rr 15.45 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:19",
+    "kind": "CROSS",
+    "sym": "MERLUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.03105 rr 9.06 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15178,8 +15178,8 @@
    },
    "USDCUSDT": {
     "key": "SHORT:1.00101",
-    "stage": "IN_ZONE",
-    "ts": 1794773971.9722898
+    "stage": "APPROACHING",
+    "ts": 1794779364.3732452
    },
    "INITUSDT": {
     "key": "SHORT:0.12668",
@@ -15536,8 +15536,8 @@
     "ts": 1794771273.1198244
    },
    "MERLUSDT": {
-    "key": "MERLUSDT|SHORT|1794743999999",
-    "ts": 1794744268.3964386
+    "key": "MERLUSDT|SHORT|1794779099999",
+    "ts": 1794779364.3732452
    },
    "IOTAUSDT": {
     "key": "IOTAUSDT|LONG|1794774599999",
@@ -15744,8 +15744,8 @@
     "ts": 1794763181.0001495
    },
    "REUSDT": {
-    "key": "REUSDT|SHORT|1794761099999",
-    "ts": 1794761379.7841303
+    "key": "REUSDT|SHORT|1794778199999",
+    "ts": 1794779364.3732452
    },
    "MAGICUSDT": {
     "key": "MAGICUSDT|LONG|1794772799999",
@@ -15764,8 +15764,8 @@
     "ts": 1794773079.0260026
    },
    "CFXUSDT": {
-    "key": "CFXUSDT|SHORT|1794758399999",
-    "ts": 1794758669.9310026
+    "key": "CFXUSDT|LONG|1794779099999",
+    "ts": 1794779364.3732452
    },
    "BANKUSDT": {
     "key": "BANKUSDT|LONG|1794774599999",
@@ -15988,8 +15988,8 @@
     "ts": 1794764978.0284877
    },
    "USDCUSDT": {
-    "key": "USDCUSDT|LONG|1794770999999",
-    "ts": 1794771273.1198244
+    "key": "USDCUSDT|SHORT|1794779099999",
+    "ts": 1794779364.3732452
    },
    "SNXUSDT": {
     "key": "SNXUSDT|LONG|1794772799999",
@@ -16740,8 +16740,8 @@
     "ts": 1794773079.0260026
    },
    "QNTUSDT": {
-    "key": "QNTUSDT|SHORT|1794722399999",
-    "ts": 1794722672.7419057
+    "key": "QNTUSDT|SHORT|1794779099999",
+    "ts": 1794779364.3732452
    },
    "GIGGLEUSDT": {
     "key": "GIGGLEUSDT|LONG|1794775499999",
@@ -21277,7 +21277,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-16 03:16"
+  "t": "2026-11-16 03:19"
  },
- "updated": "2026-11-16 03:16:26.524009+05:30"
+ "updated": "2026-11-16 03:19:28.377074+05:30"
 }
