@@ -4389,7 +4389,7 @@
     "f240": 47.165529107624174
    }
   ],
-  "t": "2026-11-15 21:01"
+  "t": "2026-11-15 21:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 229
    }
   ],
-  "t": "2026-11-15 21:01"
+  "t": "2026-11-15 21:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13928,46 +13928,11 @@
    "no_4h_structure": 4,
    "not_in_zone": 37,
    "no_choch_struct": 1,
-   "t": "2026-11-15 20:49",
+   "t": "2026-11-15 21:04",
    "signals": 1,
    "universe": 495
   },
   "feed": [
-   {
-    "t": "2026-11-15 20:05",
-    "kind": "RADAR",
-    "sym": "LUMIAUSDT",
-    "dir": "LONG",
-    "text": "MAGNET APPROACHING 0.07358 | px 0.07466"
-   },
-   {
-    "t": "2026-11-15 20:05",
-    "kind": "CROSS",
-    "sym": "C98USDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.00989 rr 4.98 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 20:05",
-    "kind": "CROSS",
-    "sym": "1MBABYDOGEUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.000256 rr 1.75 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 20:05",
-    "kind": "CROSS",
-    "sym": "ARKUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.1382 rr 3.28 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 20:05",
-    "kind": "CROSS",
-    "sym": "MIRAUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.03041 rr 2.4 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-15 20:05",
     "kind": "CROSS",
@@ -14212,6 +14177,41 @@
     "sym": "DIAUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.12095 rr 4.31 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 21:04",
+    "kind": "CROSS",
+    "sym": "AEROUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.4409 rr 4.78 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 21:04",
+    "kind": "RADAR",
+    "sym": "MAGMAUSDT",
+    "dir": "LONG",
+    "text": "MAGNET APPROACHING 0.2434 | px 0.25021"
+   },
+   {
+    "t": "2026-11-15 21:04",
+    "kind": "CROSS",
+    "sym": "OPGUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.139 rr 4.67 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 21:04",
+    "kind": "CROSS",
+    "sym": "FORMUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.16865 rr 2.09 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 21:04",
+    "kind": "CROSS",
+    "sym": "COMPUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 18.005 rr 3.25 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15199,6 +15199,11 @@
     "key": "SHORT:0.01434",
     "stage": "SWEEPING",
     "ts": 1794752367.2073832
+   },
+   "MAGMAUSDT": {
+    "key": "LONG:0.2434",
+    "stage": "APPROACHING",
+    "ts": 1794756863.5732815
    }
   },
   "cross_state": {
@@ -15319,8 +15324,8 @@
     "ts": 1794738867.2357047
    },
    "OPGUSDT": {
-    "key": "OPGUSDT|SHORT|1794740399999",
-    "ts": 1794740665.6099901
+    "key": "OPGUSDT|SHORT|1794752999999",
+    "ts": 1794756863.5732815
    },
    "HANAUSDT": {
     "key": "HANAUSDT|SHORT|1794752999999",
@@ -15527,8 +15532,8 @@
     "ts": 1794749679.334465
    },
    "COMPUSDT": {
-    "key": "COMPUSDT|SHORT|1794741299999",
-    "ts": 1794741577.846529
+    "key": "COMPUSDT|SHORT|1794751199999",
+    "ts": 1794756863.5732815
    },
    "CFGUSDT": {
     "key": "CFGUSDT|LONG|1794749399999",
@@ -15611,8 +15616,8 @@
     "ts": 1794747869.5923078
    },
    "FORMUSDT": {
-    "key": "FORMUSDT|SHORT|1794743999999",
-    "ts": 1794745174.4336922
+    "key": "FORMUSDT|SHORT|1794752099999",
+    "ts": 1794756863.5732815
    },
    "NOMUSDT": {
     "key": "NOMUSDT|LONG|1794747599999",
@@ -16603,8 +16608,8 @@
     "ts": 1794746977.0205026
    },
    "AEROUSDT": {
-    "key": "AEROUSDT|SHORT|1794743999999",
-    "ts": 1794744268.3964386
+    "key": "AEROUSDT|SHORT|1794752999999",
+    "ts": 1794756863.5732815
    },
    "MOVRUSDT": {
     "key": "MOVRUSDT|LONG|1794750299999",
@@ -21661,7 +21666,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-15 21:01"
+  "t": "2026-11-15 21:04"
  },
- "updated": "2026-11-15 21:01:11.740005+05:30"
+ "updated": "2026-11-15 21:04:27.381913+05:30"
 }
