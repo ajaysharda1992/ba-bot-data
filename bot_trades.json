@@ -4389,7 +4389,7 @@
     "f240": 47.307253968888716
    }
   ],
-  "t": "2026-11-15 07:01"
+  "t": "2026-11-15 07:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 285
    }
   ],
-  "t": "2026-11-15 07:01"
+  "t": "2026-11-15 07:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13929,25 +13929,11 @@
    "no_4h_structure": 4,
    "no_choch_fresh": 3,
    "magnet_overshoot": 1,
-   "t": "2026-11-15 06:49",
+   "t": "2026-11-15 07:04",
    "signals": 1,
    "universe": 470
   },
   "feed": [
-   {
-    "t": "2026-11-15 05:49",
-    "kind": "CROSS",
-    "sym": "APRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.032655 rr 2.6 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 05:49",
-    "kind": "RADAR",
-    "sym": "BRUSDT",
-    "dir": "LONG",
-    "text": "MAGNET APPROACHING 0.4259 | px 0.4341"
-   },
    {
     "t": "2026-11-15 05:49",
     "kind": "CROSS",
@@ -14213,6 +14199,20 @@
     "sym": "LIGHTUSDT",
     "dir": "LONG",
     "text": "MAGNET REJECTING 0.2309 | px 0.2328"
+   },
+   {
+    "t": "2026-11-15 07:04",
+    "kind": "CROSS",
+    "sym": "ASTERUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.49635 rr 6.73 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 07:04",
+    "kind": "RADAR",
+    "sym": "JELLYJELLYUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET REJECTING 0.04169 | px 0.04144"
    }
   ],
   "radar_state": {
@@ -15148,8 +15148,8 @@
    },
    "JELLYJELLYUSDT": {
     "key": "SHORT:0.04169",
-    "stage": "APPROACHING",
-    "ts": 1794703763.1705406
+    "stage": "REJECTING",
+    "ts": 1794706464.229731
    }
   },
   "cross_state": {
@@ -16562,8 +16562,8 @@
     "ts": 1794688478.8046122
    },
    "ASTERUSDT": {
-    "key": "ASTERUSDT|SHORT|1794663899999",
-    "ts": 1794664173.804783
+    "key": "ASTERUSDT|LONG|1794706199999",
+    "ts": 1794706464.229731
    },
    "PLUMEUSDT": {
     "key": "PLUMEUSDT|SHORT|1794665699999",
@@ -21259,7 +21259,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-15 07:01"
+  "t": "2026-11-15 07:04"
  },
- "updated": "2026-11-15 07:01:15.282080+05:30"
+ "updated": "2026-11-15 07:04:25.631695+05:30"
 }
