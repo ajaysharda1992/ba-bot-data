@@ -4389,7 +4389,7 @@
     "f240": 47.165529107624174
    }
   ],
-  "t": "2026-11-15 20:31"
+  "t": "2026-11-15 20:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 249
    }
   ],
-  "t": "2026-11-15 20:31"
+  "t": "2026-11-15 20:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13925,49 +13925,14 @@
    "stale_bos": 208,
    "magnet_no_sweep": 240,
    "no_4h_structure": 4,
-   "no_choch_struct": 3,
-   "not_in_zone": 37,
-   "no_choch_fresh": 1,
-   "t": "2026-11-15 20:19",
-   "signals": 1,
+   "no_choch_fresh": 2,
+   "not_in_zone": 36,
+   "no_choch_struct": 2,
+   "t": "2026-11-15 20:34",
+   "signals": 2,
    "universe": 494
   },
   "feed": [
-   {
-    "t": "2026-11-15 20:04",
-    "kind": "CROSS",
-    "sym": "BTRUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.040285 rr 2.75 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-15 20:04",
-    "kind": "CROSS",
-    "sym": "HANAUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.013995 rr 2.96 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-15 20:04",
-    "kind": "CROSS",
-    "sym": "STOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0235 rr 2.44 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-15 20:04",
-    "kind": "CROSS",
-    "sym": "NEOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 1.571 rr 8.22 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-15 20:04",
-    "kind": "CROSS",
-    "sym": "KASUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.02733 rr 6.05 (with 4H trend)"
-   },
    {
     "t": "2026-11-15 20:04",
     "kind": "CROSS",
@@ -14212,6 +14177,41 @@
     "sym": "CROSSUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.108185 rr 1.94 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 20:34",
+    "kind": "RADAR",
+    "sym": "WLFIUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.04826 | px 0.04705"
+   },
+   {
+    "t": "2026-11-15 20:34",
+    "kind": "CROSS",
+    "sym": "ESPORTSUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0093795 rr 2.3 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 20:34",
+    "kind": "CROSS",
+    "sym": "KOMAUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.012378 rr 3.14 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 20:34",
+    "kind": "CROSS",
+    "sym": "RESOLVUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.01318 rr 2.45 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 20:34",
+    "kind": "CROSS",
+    "sym": "BASEDUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.03507 rr 1.64 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -15122,8 +15122,8 @@
    },
    "WLFIUSDT": {
     "key": "SHORT:0.04826",
-    "stage": "APPROACHING",
-    "ts": 1794753277.6526608
+    "stage": "IN_ZONE",
+    "ts": 1794755068.9397569
    },
    "PARTIUSDT": {
     "key": "SHORT:0.03766",
@@ -15431,8 +15431,8 @@
     "ts": 1794744268.3964386
    },
    "ESPORTSUSDT": {
-    "key": "ESPORTSUSDT|LONG|1794733199999",
-    "ts": 1794735276.1001894
+    "key": "ESPORTSUSDT|LONG|1794751199999",
+    "ts": 1794755068.9397569
    },
    "B2USDT": {
     "key": "B2USDT|SHORT|1794752099999",
@@ -15583,8 +15583,8 @@
     "ts": 1794723563.4880702
    },
    "KOMAUSDT": {
-    "key": "KOMAUSDT|LONG|1794745799999",
-    "ts": 1794747869.5923078
+    "key": "KOMAUSDT|LONG|1794750299999",
+    "ts": 1794755068.9397569
    },
    "SUSHIUSDT": {
     "key": "SUSHIUSDT|LONG|1794700799999",
@@ -16099,8 +16099,8 @@
     "ts": 1794727163.2372105
    },
    "BASEDUSDT": {
-    "key": "BASEDUSDT|LONG|1794742199999",
-    "ts": 1794742474.9544995
+    "key": "BASEDUSDT|LONG|1794750299999",
+    "ts": 1794755068.9397569
    },
    "MYXUSDT": {
     "key": "MYXUSDT|LONG|1794747599999",
@@ -17015,8 +17015,8 @@
     "ts": 1794728965.2832282
    },
    "RESOLVUSDT": {
-    "key": "RESOLVUSDT|LONG|1794747599999",
-    "ts": 1794747869.5923078
+    "key": "RESOLVUSDT|LONG|1794750299999",
+    "ts": 1794755068.9397569
    },
    "AEVOUSDT": {
     "key": "AEVOUSDT|SHORT|1794743999999",
@@ -21644,7 +21644,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-15 20:31"
+  "t": "2026-11-15 20:34"
  },
- "updated": "2026-11-15 20:31:26.888941+05:30"
+ "updated": "2026-11-15 20:34:32.309154+05:30"
 }
