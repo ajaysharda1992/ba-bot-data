@@ -4389,7 +4389,7 @@
     "f240": 54.691701548709226
    }
   ],
-  "t": "2026-11-16 03:01"
+  "t": "2026-11-16 03:05"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 273
    }
   ],
-  "t": "2026-11-16 03:01"
+  "t": "2026-11-16 03:05"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-16",
@@ -13921,264 +13921,19 @@
   "positions": [],
   "history": [],
   "funnel": {
-   "evaluated": 495,
-   "stale_bos": 179,
-   "magnet_no_sweep": 268,
-   "no_4h_structure": 4,
+   "evaluated": 450,
+   "stale_bos": 164,
+   "magnet_no_sweep": 239,
    "magnet_overshoot": 2,
-   "not_in_zone": 39,
-   "no_choch_fresh": 2,
+   "no_4h_structure": 4,
+   "not_in_zone": 37,
    "no_choch_struct": 1,
-   "t": "2026-11-16 02:49",
+   "no_choch_fresh": 3,
+   "t": "2026-11-16 03:05",
    "signals": 0,
-   "universe": 495
+   "universe": 450
   },
   "feed": [
-   {
-    "t": "2026-11-16 02:20",
-    "kind": "CROSS",
-    "sym": "USTCUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0037035 rr 1.8 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:20",
-    "kind": "CROSS",
-    "sym": "CATIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.032665 rr 2.5 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:20",
-    "kind": "CROSS",
-    "sym": "CHILLGUYUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.007139 rr 2.5 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:20",
-    "kind": "CROSS",
-    "sym": "OUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.4948 rr 4.07 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:20",
-    "kind": "CROSS",
-    "sym": "ARPAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0080925 rr 5.77 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "RADAR",
-    "sym": "ASTERUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET APPROACHING 0.6322 | px 0.626"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "ORDIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 2.7545 rr 1.65 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "RADAR",
-    "sym": "CTUSDT",
-    "dir": "LONG",
-    "text": "APPROACHING 0.10072 | px 0.10682"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "BLURUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.006096 rr 2.35 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "GMTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0054595 rr 1.98 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "SXTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.008249 rr 2.15 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "MOODENGUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.026995 rr 3.2 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "ACHUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.003736 rr 2.22 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "AZTECUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.010375 rr 1.96 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "TAGUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.00055485 rr 3.86 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "SPELLUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 6.285e-05 rr 2.37 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "ZETAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.028525 rr 2.22 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:34",
-    "kind": "CROSS",
-    "sym": "BREVUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.05854 rr 2.63 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "RADAR",
-    "sym": "ASTERUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET REJECTING 0.6322 | px 0.6181"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "RADAR",
-    "sym": "PIEVERSEUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET APPROACHING 1.9335 | px 1.879"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "XPLUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.04336 rr 1.78 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "MEGAUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.04967 rr 1.99 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "GRAMUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 1.0475 rr 2.67 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "JTOUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.2659 rr 2.09 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "ZENUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 4.118 rr 1.69 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "BTRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.04046 rr 1.61 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "RADAR",
-    "sym": "CTUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 0.10072 | px 0.10614"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "BEAMXUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.004141 rr 3.17 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "ENSUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 3.8675 rr 1.82 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "TRBUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 13.1005 rr 1.53 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "MAGICUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.06822 rr 1.59 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "SIGNUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.008709 rr 1.59 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "AVNTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.070115 rr 1.81 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "SOONUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.21945 rr 4.23 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 02:49",
-    "kind": "CROSS",
-    "sym": "AIOUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.033855 rr 2.38 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-16 02:49",
     "kind": "CROSS",
@@ -14213,6 +13968,251 @@
     "sym": "SOMIUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.1442 rr 1.71 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "LTCUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 44.995 rr 1.51 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "RADAR",
+    "sym": "JUPUSDT",
+    "dir": "SHORT",
+    "text": "REJECTING 0.2662 | px 0.2646"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "HUMAUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.006495 rr 1.7 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "BATUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.094595 rr 4.77 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "MUBARAKUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.029205 rr 1.97 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "GIGGLEUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 22.59 rr 1.6 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "WUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0085945 rr 2.95 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "NILUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.05022 rr 6.05 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "XANUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0076485 rr 6.43 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "PEOPLEUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.004949 rr 1.92 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "COTIUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.008408 rr 5.33 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "BRUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.4374 rr 1.72 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "XPINUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.0006841 rr 4.22 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "NOTUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.000299 rr 4.09 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "COMPUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 17.98 rr 3.47 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "FOGOUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.001784 rr 1.74 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "XTZUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.2142 rr 6.37 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "GUNUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0014795 rr 2.28 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "OPNUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.029475 rr 4.32 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "SUPERUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.136315 rr 4.36 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "ATHUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.004036 rr 5.31 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "DUSKUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.062515 rr 3.34 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "MYXUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.03893 rr 3.27 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "TWTUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.3485 rr 3.1 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "GMXUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 7.215 rr 5.75 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "BANANAUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 2.658 rr 3.72 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "ZORAUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.004452 rr 3.55 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "LUNA2USDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.03136 rr 2.43 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "MOVEUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.004791 rr 2.48 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "EDENUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.04379 rr 2.08 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "WOOUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.009085 rr 2.97 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:04",
+    "kind": "CROSS",
+    "sym": "HOLOUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.04574 rr 9.2 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:05",
+    "kind": "CROSS",
+    "sym": "CTSIUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0215 rr 4.49 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:05",
+    "kind": "CROSS",
+    "sym": "BANDUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.14535 rr 3.64 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 03:05",
+    "kind": "CROSS",
+    "sym": "BUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0925 rr 2.1 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15113,8 +15113,8 @@
    },
    "JUPUSDT": {
     "key": "SHORT:0.2662",
-    "stage": "IN_ZONE",
-    "ts": 1794775775.1363747
+    "stage": "REJECTING",
+    "ts": 1794778479.9278114
    },
    "GRIFFAINUSDT": {
     "key": "SHORT:0.011269",
@@ -15288,8 +15288,8 @@
     "ts": 1794770366.0011828
    },
    "HUMAUSDT": {
-    "key": "HUMAUSDT|SHORT|1794752099999",
-    "ts": 1794752367.2073832
+    "key": "HUMAUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "FETUSDT": {
     "key": "FETUSDT|LONG|1794770099999",
@@ -15376,8 +15376,8 @@
     "ts": 1794763181.0001495
    },
    "BATUSDT": {
-    "key": "BATUSDT|LONG|1794760199999",
-    "ts": 1794760462.8803024
+    "key": "BATUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "SOPHUSDT": {
     "key": "SOPHUSDT|LONG|1794767399999",
@@ -15412,8 +15412,8 @@
     "ts": 1794770366.0011828
    },
    "WUSDT": {
-    "key": "WUSDT|SHORT|1794762899999",
-    "ts": 1794763181.0001495
+    "key": "WUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ARXUSDT": {
     "key": "ARXUSDT|LONG|1794770099999",
@@ -15444,8 +15444,8 @@
     "ts": 1794775775.1363747
    },
    "NILUSDT": {
-    "key": "NILUSDT|SHORT|1794723299999",
-    "ts": 1794723563.4880702
+    "key": "NILUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "IOSTUSDT": {
     "key": "IOSTUSDT|SHORT|1794767399999",
@@ -15496,8 +15496,8 @@
     "ts": 1794770366.0011828
    },
    "BRUSDT": {
-    "key": "BRUSDT|SHORT|1794767399999",
-    "ts": 1794769470.5471933
+    "key": "BRUSDT|LONG|1794774599999",
+    "ts": 1794778479.9278114
    },
    "DYDXUSDT": {
     "key": "DYDXUSDT|SHORT|1794766499999",
@@ -15528,8 +15528,8 @@
     "ts": 1794766776.0684295
    },
    "FOGOUSDT": {
-    "key": "FOGOUSDT|SHORT|1794766499999",
-    "ts": 1794766776.0684295
+    "key": "FOGOUSDT|LONG|1794775499999",
+    "ts": 1794778479.9278114
    },
    "HOMEUSDT": {
     "key": "HOMEUSDT|SHORT|1794767399999",
@@ -15548,16 +15548,16 @@
     "ts": 1794775775.1363747
    },
    "COMPUSDT": {
-    "key": "COMPUSDT|LONG|1794770099999",
-    "ts": 1794770366.0011828
+    "key": "COMPUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "CFGUSDT": {
     "key": "CFGUSDT|LONG|1794749399999",
     "ts": 1794754174.2815459
    },
    "XTZUSDT": {
-    "key": "XTZUSDT|LONG|1794769199999",
-    "ts": 1794769470.5471933
+    "key": "XTZUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "BABYUSDT": {
     "key": "BABYUSDT|LONG|1794772799999",
@@ -15652,8 +15652,8 @@
     "ts": 1794770366.0011828
    },
    "GMXUSDT": {
-    "key": "GMXUSDT|SHORT|1794752099999",
-    "ts": 1794752367.2073832
+    "key": "GMXUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "KAIAUSDT": {
     "key": "KAIAUSDT|LONG|1794775499999",
@@ -15676,8 +15676,8 @@
     "ts": 1794752367.2073832
    },
    "BANDUSDT": {
-    "key": "BANDUSDT|LONG|1794760199999",
-    "ts": 1794760462.8803024
+    "key": "BANDUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "FLUIDUSDT": {
     "key": "FLUIDUSDT|LONG|1794760199999",
@@ -15700,8 +15700,8 @@
     "ts": 1794767673.1986587
    },
    "XANUSDT": {
-    "key": "XANUSDT|SHORT|1794765599999",
-    "ts": 1794765864.1559901
+    "key": "XANUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "MOODENGUSDT": {
     "key": "MOODENGUSDT|LONG|1794776399999",
@@ -15724,8 +15724,8 @@
     "ts": 1794771273.1198244
    },
    "SUPERUSDT": {
-    "key": "SUPERUSDT|SHORT|1794766499999",
-    "ts": 1794766776.0684295
+    "key": "SUPERUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ERAUSDT": {
     "key": "ERAUSDT|SHORT|1794729599999",
@@ -15884,8 +15884,8 @@
     "ts": 1794764978.0284877
    },
    "PEOPLEUSDT": {
-    "key": "PEOPLEUSDT|LONG|1794760199999",
-    "ts": 1794760462.8803024
+    "key": "PEOPLEUSDT|LONG|1794774599999",
+    "ts": 1794778479.9278114
    },
    "USUSDT": {
     "key": "USUSDT|LONG|1794774599999",
@@ -15940,8 +15940,8 @@
     "ts": 1794774869.5843043
    },
    "LUNA2USDT": {
-    "key": "LUNA2USDT|SHORT|1794766499999",
-    "ts": 1794766776.0684295
+    "key": "LUNA2USDT|LONG|1794775499999",
+    "ts": 1794778479.9278114
    },
    "VTHOUSDT": {
     "key": "VTHOUSDT|LONG|1794774599999",
@@ -16084,8 +16084,8 @@
     "ts": 1794762276.5418475
    },
    "OPNUSDT": {
-    "key": "OPNUSDT|SHORT|1794762899999",
-    "ts": 1794763181.0001495
+    "key": "OPNUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ORDERUSDT": {
     "key": "ORDERUSDT|LONG|1794772799999",
@@ -16124,8 +16124,8 @@
     "ts": 1794773079.0260026
    },
    "MYXUSDT": {
-    "key": "MYXUSDT|SHORT|1794761999999",
-    "ts": 1794764064.0419886
+    "key": "MYXUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "BSBUSDT": {
     "key": "BSBUSDT|LONG|1794774599999",
@@ -16140,8 +16140,8 @@
     "ts": 1794773971.9722898
    },
    "EDENUSDT": {
-    "key": "EDENUSDT|LONG|1794771899999",
-    "ts": 1794772168.0190394
+    "key": "EDENUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "TOWNSUSDT": {
     "key": "TOWNSUSDT|LONG|1794774599999",
@@ -16176,8 +16176,8 @@
     "ts": 1794776680.3210828
    },
    "MOVEUSDT": {
-    "key": "MOVEUSDT|SHORT|1794766499999",
-    "ts": 1794766776.0684295
+    "key": "MOVEUSDT|LONG|1794775499999",
+    "ts": 1794778479.9278114
    },
    "PROMUSDT": {
     "key": "PROMUSDT|LONG|1794747599999",
@@ -16296,8 +16296,8 @@
     "ts": 1794764978.0284877
    },
    "MUBARAKUSDT": {
-    "key": "MUBARAKUSDT|LONG|1794760199999",
-    "ts": 1794764064.0419886
+    "key": "MUBARAKUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "RLCUSDT": {
     "key": "RLCUSDT|LONG|1794770099999",
@@ -16316,8 +16316,8 @@
     "ts": 1794774869.5843043
    },
    "XPINUSDT": {
-    "key": "XPINUSDT|LONG|1794764699999",
-    "ts": 1794764978.0284877
+    "key": "XPINUSDT|SHORT|1794773699999",
+    "ts": 1794778479.9278114
    },
    "STABLEUSDT": {
     "key": "STABLEUSDT|LONG|1794777299999",
@@ -16356,8 +16356,8 @@
     "ts": 1794770366.0011828
    },
    "DUSKUSDT": {
-    "key": "DUSKUSDT|LONG|1794770099999",
-    "ts": 1794770366.0011828
+    "key": "DUSKUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "KATUSDT": {
     "key": "KATUSDT|LONG|1794770099999",
@@ -16404,8 +16404,8 @@
     "ts": 1794770366.0011828
    },
    "COTIUSDT": {
-    "key": "COTIUSDT|LONG|1794760199999",
-    "ts": 1794764978.0284877
+    "key": "COTIUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ENSOUSDT": {
     "key": "ENSOUSDT|SHORT|1794764699999",
@@ -16536,16 +16536,16 @@
     "ts": 1794775775.1363747
    },
    "TWTUSDT": {
-    "key": "TWTUSDT|LONG|1794760199999",
-    "ts": 1794760462.8803024
+    "key": "TWTUSDT|LONG|1794777299999",
+    "ts": 1794778479.9278114
    },
    "1000RATSUSDT": {
     "key": "1000RATSUSDT|SHORT|1794742199999",
     "ts": 1794742474.9544995
    },
    "GUNUSDT": {
-    "key": "GUNUSDT|LONG|1794772799999",
-    "ts": 1794773079.0260026
+    "key": "GUNUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ALICEUSDT": {
     "key": "ALICEUSDT|LONG|1794770099999",
@@ -16564,12 +16564,12 @@
     "ts": 1794770366.0011828
    },
    "BUSDT": {
-    "key": "BUSDT|LONG|1794770099999",
-    "ts": 1794770366.0011828
+    "key": "BUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "WOOUSDT": {
-    "key": "WOOUSDT|LONG|1794774599999",
-    "ts": 1794774869.5843043
+    "key": "WOOUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "TACUSDT": {
     "key": "TACUSDT|LONG|1794731399999",
@@ -16612,8 +16612,8 @@
     "ts": 1794773079.0260026
    },
    "ATHUSDT": {
-    "key": "ATHUSDT|LONG|1794770099999",
-    "ts": 1794770366.0011828
+    "key": "ATHUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "RAREUSDT": {
     "key": "RAREUSDT|SHORT|1794746699999",
@@ -16744,8 +16744,8 @@
     "ts": 1794722672.7419057
    },
    "GIGGLEUSDT": {
-    "key": "GIGGLEUSDT|LONG|1794747599999",
-    "ts": 1794753277.6526608
+    "key": "GIGGLEUSDT|LONG|1794775499999",
+    "ts": 1794778479.9278114
    },
    "ARIAUSDT": {
     "key": "ARIAUSDT|LONG|1794737699999",
@@ -16760,8 +16760,8 @@
     "ts": 1794767673.1986587
    },
    "LTCUSDT": {
-    "key": "LTCUSDT|LONG|1794770999999",
-    "ts": 1794771273.1198244
+    "key": "LTCUSDT|LONG|1794776399999",
+    "ts": 1794778479.9278114
    },
    "AAVEUSDT": {
     "key": "AAVEUSDT|SHORT|1794707099999",
@@ -16828,8 +16828,8 @@
     "ts": 1794770366.0011828
    },
    "NOTUSDT": {
-    "key": "NOTUSDT|LONG|1794770099999",
-    "ts": 1794770366.0011828
+    "key": "NOTUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "ZKPUSDT": {
     "key": "ZKPUSDT|LONG|1794760199999",
@@ -16880,8 +16880,8 @@
     "ts": 1794775775.1363747
    },
    "ZORAUSDT": {
-    "key": "ZORAUSDT|LONG|1794760199999",
-    "ts": 1794760462.8803024
+    "key": "ZORAUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "EDUUSDT": {
     "key": "EDUUSDT|LONG|1794760199999",
@@ -16940,12 +16940,12 @@
     "ts": 1794774869.5843043
    },
    "BANANAUSDT": {
-    "key": "BANANAUSDT|SHORT|1794752099999",
-    "ts": 1794752367.2073832
+    "key": "BANANAUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "CTSIUSDT": {
-    "key": "CTSIUSDT|SHORT|1794757499999",
-    "ts": 1794757772.0361297
+    "key": "CTSIUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "BRETTUSDT": {
     "key": "BRETTUSDT|SHORT|1794767399999",
@@ -17032,8 +17032,8 @@
     "ts": 1794775775.1363747
    },
    "HOLOUSDT": {
-    "key": "HOLOUSDT|LONG|1794770099999",
-    "ts": 1794771273.1198244
+    "key": "HOLOUSDT|SHORT|1794778199999",
+    "ts": 1794778479.9278114
    },
    "RESOLVUSDT": {
     "key": "RESOLVUSDT|LONG|1794750299999",
@@ -17280,15 +17280,6 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BNBUSDT": {
-    "state": "BEARISH",
-    "pdh": 632.77,
-    "pdl": 568.61,
-    "dsh": 632.77,
-    "dsl": 568.61,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
    "EVAAUSDT": {
     "state": "BULLISH",
     "pdh": 2.04,
@@ -17307,14 +17298,14 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "NEARUSDT": {
+   "BNBUSDT": {
     "state": "BEARISH",
-    "pdh": 3.48,
-    "pdl": 2.865,
-    "dsh": 3.48,
-    "dsl": 2.865,
+    "pdh": 632.77,
+    "pdl": 568.61,
+    "dsh": 632.77,
+    "dsl": 568.61,
     "swept_pdh": false,
-    "swept_pdl": false
+    "swept_pdl": true
    },
    "AKEUSDT": {
     "state": "BEARISH",
@@ -17324,6 +17315,24 @@
     "dsl": 0.002564,
     "swept_pdh": false,
     "swept_pdl": true
+   },
+   "ASTERUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.6474,
+    "pdl": 0.4779,
+    "dsh": 0.6721,
+    "dsl": 0.4779,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "NEARUSDT": {
+    "state": "BEARISH",
+    "pdh": 3.48,
+    "pdl": 2.865,
+    "dsh": 3.48,
+    "dsl": 2.865,
+    "swept_pdh": false,
+    "swept_pdl": false
    },
    "1000PEPEUSDT": {
     "state": "BEARISH",
@@ -17343,12 +17352,39 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
+   "INITUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.11089,
+    "pdl": 0.09338,
+    "dsh": 0.29962,
+    "dsl": 0.09338,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "SOPHUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.002614,
+    "pdl": 0.001553,
+    "dsh": 0.002614,
+    "dsl": 0.001553,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
    "UNIUSDT": {
     "state": "BEARISH",
     "pdh": 5.786,
     "pdl": 4.613,
     "dsh": 5.786,
     "dsl": 4.613,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KAVAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.06873,
+    "pdl": 0.02501,
+    "dsh": 0.06908,
+    "dsl": 0.02501,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17370,6 +17406,15 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
+   "JCTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00225,
+    "pdl": 0.001805,
+    "dsh": 0.011257,
+    "dsl": 0.001805,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
    "ENAUSDT": {
     "state": "BEARISH",
     "pdh": 0.13498,
@@ -17377,42 +17422,6 @@
     "dsh": 0.13498,
     "dsl": 0.10989,
     "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "KAVAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06873,
-    "pdl": 0.02501,
-    "dsh": 0.06908,
-    "dsl": 0.02501,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SOPHUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.002614,
-    "pdl": 0.001553,
-    "dsh": 0.002614,
-    "dsl": 0.001553,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ASTERUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.6474,
-    "pdl": 0.4779,
-    "dsh": 0.6721,
-    "dsl": 0.4779,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "INITUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.11089,
-    "pdl": 0.09338,
-    "dsh": 0.29962,
-    "dsl": 0.09338,
-    "swept_pdh": true,
     "swept_pdl": false
    },
    "LINKUSDT": {
@@ -17433,31 +17442,13 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "INJUSDT": {
+   "CLUSDT": {
     "state": "BEARISH",
-    "pdh": 8.246,
-    "pdl": 6.652,
-    "dsh": 8.384,
-    "dsl": 6.652,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "TAOUSDT": {
-    "state": "BEARISH",
-    "pdh": 216.83,
-    "pdl": 177.29,
-    "dsh": 216.83,
-    "dsl": 177.29,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "WLDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2964,
-    "pdl": 0.2425,
-    "dsh": 0.2964,
-    "dsl": 0.2425,
-    "swept_pdh": false,
+    "pdh": 87.94,
+    "pdl": 86.74,
+    "dsh": 91.19,
+    "dsl": 83.48,
+    "swept_pdh": true,
     "swept_pdl": false
    },
    "AAVEUSDT": {
@@ -17469,13 +17460,22 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "JCTUSDT": {
+   "INJUSDT": {
     "state": "BEARISH",
-    "pdh": 0.00225,
-    "pdl": 0.001805,
-    "dsh": 0.011257,
-    "dsl": 0.001805,
-    "swept_pdh": true,
+    "pdh": 8.246,
+    "pdl": 6.652,
+    "dsh": 8.384,
+    "dsl": 6.652,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "WLDUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2964,
+    "pdl": 0.2425,
+    "dsh": 0.2964,
+    "dsl": 0.2425,
+    "swept_pdh": false,
     "swept_pdl": false
    },
    "PUMPUSDT": {
@@ -17487,12 +17487,48 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
+   "TAOUSDT": {
+    "state": "BEARISH",
+    "pdh": 216.83,
+    "pdl": 177.29,
+    "dsh": 216.83,
+    "dsl": 177.29,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SHELLUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.03671,
+    "pdl": 0.02576,
+    "dsh": 0.05057,
+    "dsl": 0.02576,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
    "LTCUSDT": {
     "state": "BEARISH",
     "pdh": 49.61,
     "pdl": 43.36,
     "dsh": 49.61,
     "dsl": 43.36,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ARIAUSDT": {
+    "state": "NONE",
+    "pdh": 0.22933,
+    "pdl": 0.1872,
+    "dsh": 0.23799,
+    "dsl": 0.1664,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "FILUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.711,
+    "pdl": 0.5926,
+    "dsh": 0.711,
+    "dsl": 0.5926,
     "swept_pdh": false,
     "swept_pdl": true
    },
@@ -17505,23 +17541,23 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CLUSDT": {
+   "BZUSDT": {
     "state": "BEARISH",
-    "pdh": 87.94,
-    "pdl": 86.74,
-    "dsh": 91.19,
-    "dsl": 83.48,
+    "pdh": 93.78,
+    "pdl": 92.62,
+    "dsh": 100.83,
+    "dsl": 88.26,
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "FILUSDT": {
+   "RAREUSDT": {
     "state": "BEARISH",
-    "pdh": 0.711,
-    "pdl": 0.5926,
-    "dsh": 0.711,
-    "dsl": 0.5926,
-    "swept_pdh": false,
-    "swept_pdl": true
+    "pdh": 0.00963,
+    "pdl": 0.00819,
+    "dsh": 0.00963,
+    "dsl": 0.00819,
+    "swept_pdh": true,
+    "swept_pdl": false
    },
    "ARBUSDT": {
     "state": "BEARISH",
@@ -17541,102 +17577,12 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "LITUSDT": {
-    "state": "BEARISH",
-    "pdh": 3.2925,
-    "pdl": 2.6324,
-    "dsh": 3.5271,
-    "dsl": 2.6324,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
    "XMRUSDT": {
     "state": "BEARISH",
     "pdh": 535.57,
     "pdl": 455.01,
     "dsh": 553.0,
     "dsl": 455.01,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PENGUUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.006115,
-    "pdl": 0.004601,
-    "dsh": 0.006115,
-    "dsl": 0.004601,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XLMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.14669,
-    "pdl": 0.1302,
-    "dsh": 0.14669,
-    "dsl": 0.1302,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DOTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.8202,
-    "pdl": 0.6823,
-    "dsh": 0.8202,
-    "dsl": 0.6823,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "PAXGUSDT": {
-    "state": "BEARISH",
-    "pdh": 3879.07,
-    "pdl": 3760.0,
-    "dsh": 3879.07,
-    "dsl": 3760.0,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "QNTUSDT": {
-    "state": "BEARISH",
-    "pdh": 160.93,
-    "pdl": 138.66,
-    "dsh": 160.93,
-    "dsl": 138.66,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ONDOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3403,
-    "pdl": 0.2845,
-    "dsh": 0.3403,
-    "dsl": 0.2845,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SHELLUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.03671,
-    "pdl": 0.02576,
-    "dsh": 0.05057,
-    "dsl": 0.02576,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ARIAUSDT": {
-    "state": "NONE",
-    "pdh": 0.22933,
-    "pdl": 0.1872,
-    "dsh": 0.23799,
-    "dsl": 0.1664,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "ZROUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.6074,
-    "pdl": 1.3401,
-    "dsh": 1.6074,
-    "dsl": 1.3401,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17649,32 +17595,14 @@
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "BZUSDT": {
+   "BTWUSDT": {
     "state": "BEARISH",
-    "pdh": 93.78,
-    "pdl": 92.62,
-    "dsh": 100.83,
-    "dsl": 88.26,
+    "pdh": 0.8376,
+    "pdl": 0.6103,
+    "dsh": 1.3526,
+    "dsl": 0.6103,
     "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HBARUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06168,
-    "pdl": 0.05479,
-    "dsh": 0.06168,
-    "dsl": 0.05479,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "APTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.5376,
-    "pdl": 0.4271,
-    "dsh": 0.5376,
-    "dsl": 0.4271,
-    "swept_pdh": false,
-    "swept_pdl": false
+    "swept_pdl": true
    },
    "VVVUSDT": {
     "state": "BEARISH",
@@ -17683,6 +17611,51 @@
     "dsh": 21.764,
     "dsl": 16.701,
     "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "LITUSDT": {
+    "state": "BEARISH",
+    "pdh": 3.2925,
+    "pdl": 2.6324,
+    "dsh": 3.5271,
+    "dsl": 2.6324,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "QNTUSDT": {
+    "state": "BEARISH",
+    "pdh": 160.93,
+    "pdl": 138.66,
+    "dsh": 160.93,
+    "dsl": 138.66,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ZROUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.6074,
+    "pdl": 1.3401,
+    "dsh": 1.6074,
+    "dsl": 1.3401,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DOTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.8202,
+    "pdl": 0.6823,
+    "dsh": 0.8202,
+    "dsl": 0.6823,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "PENGUUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.006115,
+    "pdl": 0.004601,
+    "dsh": 0.006115,
+    "dsl": 0.004601,
+    "swept_pdh": false,
     "swept_pdl": false
    },
    "TRXUSDT": {
@@ -17694,84 +17667,30 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "FETUSDT": {
+   "XLMUSDT": {
     "state": "BEARISH",
-    "pdh": 0.1491,
-    "pdl": 0.1207,
-    "dsh": 0.1543,
-    "dsl": 0.1207,
+    "pdh": 0.14669,
+    "pdl": 0.1302,
+    "dsh": 0.14669,
+    "dsl": 0.1302,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "1000SHIBUSDT": {
+   "ONDOUSDT": {
     "state": "BEARISH",
-    "pdh": 0.004266,
-    "pdl": 0.00369,
-    "dsh": 0.004266,
-    "dsl": 0.00369,
+    "pdh": 0.3403,
+    "pdl": 0.2845,
+    "dsh": 0.3403,
+    "dsl": 0.2845,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BARDUSDT": {
+   "PAXGUSDT": {
     "state": "BEARISH",
-    "pdh": 0.144,
-    "pdl": 0.1115,
-    "dsh": 0.144,
-    "dsl": 0.1115,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "XPLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0504,
-    "pdl": 0.04024,
-    "dsh": 0.0504,
-    "dsl": 0.04024,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BTWUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.8376,
-    "pdl": 0.6103,
-    "dsh": 1.3526,
-    "dsl": 0.6103,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "DODOXUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.035744,
-    "pdl": 0.029137,
-    "dsh": 0.035744,
-    "dsl": 0.026216,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "IDOLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.022262,
-    "pdl": 0.0162,
-    "dsh": 0.040236,
-    "dsl": 0.01291,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NIGHTUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.05125,
-    "pdl": 0.0452,
-    "dsh": 0.05125,
-    "dsl": 0.04235,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FARTCOINUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1075,
-    "pdl": 0.0853,
-    "dsh": 0.1075,
-    "dsl": 0.0853,
+    "pdh": 3879.07,
+    "pdl": 3760.0,
+    "dsh": 3879.07,
+    "dsl": 3760.0,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17784,48 +17703,75 @@
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "JUPUSDT": {
+   "HBARUSDT": {
     "state": "BEARISH",
-    "pdh": 0.2664,
-    "pdl": 0.2342,
-    "dsh": 0.2703,
-    "dsl": 0.2342,
+    "pdh": 0.06168,
+    "pdl": 0.05479,
+    "dsh": 0.06168,
+    "dsl": 0.05479,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BARDUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.144,
+    "pdl": 0.1115,
+    "dsh": 0.144,
+    "dsl": 0.1115,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "FETUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1491,
+    "pdl": 0.1207,
+    "dsh": 0.1543,
+    "dsl": 0.1207,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "IDOLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.022262,
+    "pdl": 0.0162,
+    "dsh": 0.040236,
+    "dsl": 0.01291,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "APTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.5376,
+    "pdl": 0.4271,
+    "dsh": 0.5376,
+    "dsl": 0.4271,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1000SHIBUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004266,
+    "pdl": 0.00369,
+    "dsh": 0.004266,
+    "dsl": 0.00369,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MEGAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04661,
+    "pdl": 0.04211,
+    "dsh": 0.05304,
+    "dsl": 0.04211,
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "ETCUSDT": {
+   "XPLUSDT": {
     "state": "BEARISH",
-    "pdh": 6.471,
-    "pdl": 5.605,
-    "dsh": 6.471,
-    "dsl": 5.605,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "STRKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03769,
-    "pdl": 0.03184,
-    "dsh": 0.03769,
-    "dsl": 0.03184,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3849,
-    "pdl": 0.3271,
-    "dsh": 0.4451,
-    "dsl": 0.3271,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ICPUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.507,
-    "pdl": 2.101,
-    "dsh": 2.655,
-    "dsl": 2.101,
+    "pdh": 0.0504,
+    "pdl": 0.04024,
+    "dsh": 0.0504,
+    "dsl": 0.04024,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17838,14 +17784,77 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "MEGAUSDT": {
+   "NIGHTUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.05125,
+    "pdl": 0.0452,
+    "dsh": 0.05125,
+    "dsl": 0.04235,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "JUPUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04661,
-    "pdl": 0.04211,
-    "dsh": 0.05304,
-    "dsl": 0.04211,
+    "pdh": 0.2664,
+    "pdl": 0.2342,
+    "dsh": 0.2703,
+    "dsl": 0.2342,
     "swept_pdh": true,
     "swept_pdl": false
+   },
+   "BULLAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.038,
+    "pdl": 0.02482,
+    "dsh": 0.05598,
+    "dsl": 0.02482,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "BLESSUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.010367,
+    "pdl": 0.007832,
+    "dsh": 0.010367,
+    "dsl": 0.007327,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "STRKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03769,
+    "pdl": 0.03184,
+    "dsh": 0.03769,
+    "dsl": 0.03184,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ICPUSDT": {
+    "state": "BEARISH",
+    "pdh": 2.507,
+    "pdl": 2.101,
+    "dsh": 2.655,
+    "dsl": 2.101,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TACUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001478,
+    "pdl": 0.000977,
+    "dsh": 0.001478,
+    "dsl": 0.000977,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MAGMAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.34091,
+    "pdl": 0.30407,
+    "dsh": 0.36078,
+    "dsl": 0.22252,
+    "swept_pdh": false,
+    "swept_pdl": true
    },
    "USELESSUSDT": {
     "state": "BEARISH",
@@ -17856,12 +17865,30 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ETHFIUSDT": {
+   "FARTCOINUSDT": {
     "state": "BEARISH",
-    "pdh": 0.5726,
-    "pdl": 0.4674,
-    "dsh": 0.5726,
-    "dsl": 0.4674,
+    "pdh": 0.1075,
+    "pdl": 0.0853,
+    "dsh": 0.1075,
+    "dsl": 0.0853,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TIAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.3849,
+    "pdl": 0.3271,
+    "dsh": 0.4451,
+    "dsl": 0.3271,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DODOXUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.035744,
+    "pdl": 0.029137,
+    "dsh": 0.035744,
+    "dsl": 0.026216,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17871,15 +17898,6 @@
     "pdl": 0.07552,
     "dsh": 0.09294,
     "dsl": 0.07552,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BLESSUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.010367,
-    "pdl": 0.007832,
-    "dsh": 0.010367,
-    "dsl": 0.007327,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -17901,51 +17919,6 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BULLAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.038,
-    "pdl": 0.02482,
-    "dsh": 0.05598,
-    "dsl": 0.02482,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "1000BONKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002713,
-    "pdl": 0.002171,
-    "dsh": 0.002713,
-    "dsl": 0.002171,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CRVUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2322,
-    "pdl": 0.1953,
-    "dsh": 0.2322,
-    "dsl": 0.1953,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PONSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1454,
-    "pdl": 0.1084,
-    "dsh": 0.233,
-    "dsl": 0.1084,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GRAMUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.111,
-    "pdl": 1.019,
-    "dsh": 1.288,
-    "dsl": 1.019,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
    "UAIUSDT": {
     "state": "BEARISH",
     "pdh": 0.0488,
@@ -17955,84 +17928,21 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "WLFIUSDT": {
+   "ETCUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04826,
-    "pdl": 0.04579,
-    "dsh": 0.04902,
-    "dsl": 0.04351,
+    "pdh": 6.471,
+    "pdl": 5.605,
+    "dsh": 6.471,
+    "dsl": 5.605,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "WIFUSDT": {
+   "SKYAIUSDT": {
     "state": "BEARISH",
-    "pdh": 0.1493,
-    "pdl": 0.1234,
-    "dsh": 0.1493,
-    "dsl": 0.1234,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RENDERUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.545,
-    "pdl": 1.309,
-    "dsh": 1.545,
-    "dsl": 1.309,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "AEROUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.4733,
-    "pdl": 0.4182,
-    "dsh": 0.632,
-    "dsl": 0.4182,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ATOMUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.377,
-    "pdl": 1.216,
-    "dsh": 1.442,
-    "dsl": 1.216,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TACUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001478,
-    "pdl": 0.000977,
-    "dsh": 0.001478,
-    "dsl": 0.000977,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "VIRTUALUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.5146,
-    "pdl": 0.4169,
-    "dsh": 0.5146,
-    "dsl": 0.4169,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MAGMAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.34091,
-    "pdl": 0.30407,
-    "dsh": 0.36078,
-    "dsl": 0.22252,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BANANAS31USDT": {
-    "state": "BEARISH",
-    "pdh": 0.004689,
-    "pdl": 0.003797,
-    "dsh": 0.004689,
-    "dsl": 0.003761,
+    "pdh": 0.03756,
+    "pdl": 0.03328,
+    "dsh": 0.03897,
+    "dsl": 0.03318,
     "swept_pdh": true,
     "swept_pdl": false
    },
@@ -18045,21 +17955,165 @@
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "SKYAIUSDT": {
+   "PONSUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03756,
-    "pdl": 0.03328,
-    "dsh": 0.03897,
-    "dsl": 0.03318,
+    "pdh": 0.1454,
+    "pdl": 0.1084,
+    "dsh": 0.233,
+    "dsl": 0.1084,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ETHFIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.5726,
+    "pdl": 0.4674,
+    "dsh": 0.5726,
+    "dsl": 0.4674,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CRVUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2322,
+    "pdl": 0.1953,
+    "dsh": 0.2322,
+    "dsl": 0.1953,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1000BONKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.002713,
+    "pdl": 0.002171,
+    "dsh": 0.002713,
+    "dsl": 0.002171,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "WLFIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04826,
+    "pdl": 0.04579,
+    "dsh": 0.04902,
+    "dsl": 0.04351,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "FFUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0925,
+    "pdl": 0.08766,
+    "dsh": 0.0925,
+    "dsl": 0.08383,
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "PYTHUSDT": {
+   "GRAMUSDT": {
     "state": "BEARISH",
-    "pdh": 0.06476,
-    "pdl": 0.05142,
-    "dsh": 0.06476,
-    "dsl": 0.05142,
+    "pdh": 1.111,
+    "pdl": 1.019,
+    "dsh": 1.288,
+    "dsl": 1.019,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "WIFUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1493,
+    "pdl": 0.1234,
+    "dsh": 0.1493,
+    "dsl": 0.1234,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AEROUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.4733,
+    "pdl": 0.4182,
+    "dsh": 0.632,
+    "dsl": 0.4182,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "AINUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1213,
+    "pdl": 0.11001,
+    "dsh": 0.26988,
+    "dsl": 0.07717,
+    "swept_pdh": true,
+    "swept_pdl": true
+   },
+   "BANANAS31USDT": {
+    "state": "BEARISH",
+    "pdh": 0.004689,
+    "pdl": 0.003797,
+    "dsh": 0.004689,
+    "dsl": 0.003761,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "RENDERUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.545,
+    "pdl": 1.309,
+    "dsh": 1.545,
+    "dsl": 1.309,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "CAPUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.13019,
+    "pdl": 0.10317,
+    "dsh": 0.13019,
+    "dsl": 0.09678,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ATOMUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.377,
+    "pdl": 1.216,
+    "dsh": 1.442,
+    "dsl": 1.216,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "VIRTUALUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.5146,
+    "pdl": 0.4169,
+    "dsh": 0.5146,
+    "dsl": 0.4169,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02192,
+    "pdl": 0.01621,
+    "dsh": 0.04871,
+    "dsl": 0.01621,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "TLMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001007,
+    "pdl": 0.000861,
+    "dsh": 0.001007,
+    "dsl": 0.000861,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "ERAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.07873,
+    "pdl": 0.06658,
+    "dsh": 0.10226,
+    "dsl": 0.06658,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18072,14 +18126,23 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CAPUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.13019,
-    "pdl": 0.10317,
-    "dsh": 0.13019,
-    "dsl": 0.09678,
+   "LSKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.15583,
+    "pdl": 0.13202,
+    "dsh": 0.22489,
+    "dsl": 0.13202,
     "swept_pdh": false,
-    "swept_pdl": true
+    "swept_pdl": false
+   },
+   "RESOLVUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01327,
+    "pdl": 0.0114,
+    "dsh": 0.01327,
+    "dsl": 0.0114,
+    "swept_pdh": true,
+    "swept_pdl": false
    },
    "PENDLEUSDT": {
     "state": "BEARISH",
@@ -18090,165 +18153,12 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "HUSDT": {
+   "PYTHUSDT": {
     "state": "BEARISH",
-    "pdh": 0.02192,
-    "pdl": 0.01621,
-    "dsh": 0.04871,
-    "dsl": 0.01621,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ERAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.07873,
-    "pdl": 0.06658,
-    "dsh": 0.10226,
-    "dsl": 0.06658,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ORDIUSDT": {
-    "state": "BEARISH",
-    "pdh": 3.17,
-    "pdl": 2.553,
-    "dsh": 3.285,
-    "dsl": 2.553,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ALGOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.08547,
-    "pdl": 0.07465,
-    "dsh": 0.08547,
-    "dsl": 0.07465,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GRASSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.4321,
-    "pdl": 0.3635,
-    "dsh": 0.6168,
-    "dsl": 0.3635,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LSKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.15583,
-    "pdl": 0.13202,
-    "dsh": 0.22489,
-    "dsl": 0.13202,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LDOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3048,
-    "pdl": 0.2553,
-    "dsh": 0.3048,
-    "dsl": 0.2553,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BATUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.10868,
-    "pdl": 0.08955,
-    "dsh": 0.15085,
-    "dsl": 0.08955,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SANDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04055,
-    "pdl": 0.03376,
-    "dsh": 0.04055,
-    "dsl": 0.03376,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RAYSOLUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.4914,
-    "pdl": 1.3039,
-    "dsh": 1.8633,
-    "dsl": 1.3039,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "EIGENUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1535,
-    "pdl": 0.1244,
-    "dsh": 0.1535,
-    "dsl": 0.1244,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AINUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1213,
-    "pdl": 0.11001,
-    "dsh": 0.26988,
-    "dsl": 0.07717,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "RIVERUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.7558,
-    "pdl": 0.59,
-    "dsh": 0.7558,
-    "dsl": 0.59,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "APEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0932,
-    "pdl": 0.0757,
-    "dsh": 0.0932,
-    "dsl": 0.0757,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CAKEUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.7105,
-    "pdl": 1.5133,
-    "dsh": 1.7105,
-    "dsl": 1.5133,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CHIPUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03192,
-    "pdl": 0.0249,
-    "dsh": 0.03192,
-    "dsl": 0.0249,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LABUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03885,
-    "pdl": 0.02966,
-    "dsh": 0.04022,
-    "dsl": 0.02966,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BMTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0241,
-    "pdl": 0.01987,
-    "dsh": 0.03248,
-    "dsl": 0.01987,
+    "pdh": 0.06476,
+    "pdl": 0.05142,
+    "dsh": 0.06476,
+    "dsl": 0.05142,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18270,12 +18180,111 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "POLUSDT": {
+   "ONUSDT": {
     "state": "BEARISH",
-    "pdh": 0.08493,
-    "pdl": 0.07579,
-    "dsh": 0.08493,
-    "dsl": 0.07579,
+    "pdh": 0.0896,
+    "pdl": 0.0811,
+    "dsh": 0.2021,
+    "dsl": 0.0728,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "ALLOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.15823,
+    "pdl": 0.14376,
+    "dsh": 0.15823,
+    "dsl": 0.13833,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "SANDUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04055,
+    "pdl": 0.03376,
+    "dsh": 0.04055,
+    "dsl": 0.03376,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "RAYSOLUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.4914,
+    "pdl": 1.3039,
+    "dsh": 1.8633,
+    "dsl": 1.3039,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GRASSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.4321,
+    "pdl": 0.3635,
+    "dsh": 0.6168,
+    "dsl": 0.3635,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KITEUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.13112,
+    "pdl": 0.12555,
+    "dsh": 0.13148,
+    "dsl": 0.104,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "ZILUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001483,
+    "pdl": 0.001272,
+    "dsh": 0.001903,
+    "dsl": 0.001272,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ALGOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08547,
+    "pdl": 0.07465,
+    "dsh": 0.08547,
+    "dsl": 0.07465,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CAKEUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.7105,
+    "pdl": 1.5133,
+    "dsh": 1.7105,
+    "dsl": 1.5133,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LDOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.3048,
+    "pdl": 0.2553,
+    "dsh": 0.3048,
+    "dsl": 0.2553,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BMTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0241,
+    "pdl": 0.01987,
+    "dsh": 0.03248,
+    "dsl": 0.01987,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ORDIUSDT": {
+    "state": "BEARISH",
+    "pdh": 3.17,
+    "pdl": 2.553,
+    "dsh": 3.285,
+    "dsl": 2.553,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18288,66 +18297,30 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ALLOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.15823,
-    "pdl": 0.14376,
-    "dsh": 0.15823,
-    "dsl": 0.13833,
-    "swept_pdh": true,
-    "swept_pdl": false
+   "0GUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.162,
+    "pdl": 0.1326,
+    "dsh": 0.1631,
+    "dsl": 0.1326,
+    "swept_pdh": false,
+    "swept_pdl": true
    },
-   "MONUSDT": {
+   "POLUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01703,
-    "pdl": 0.01418,
-    "dsh": 0.01775,
-    "dsl": 0.01418,
+    "pdh": 0.08493,
+    "pdl": 0.07579,
+    "dsh": 0.08493,
+    "dsl": 0.07579,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ARUSDT": {
+   "RIVERUSDT": {
     "state": "BEARISH",
-    "pdh": 3.013,
-    "pdl": 2.426,
-    "dsh": 3.013,
-    "dsl": 2.426,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "JTOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3079,
-    "pdl": 0.2546,
-    "dsh": 0.3079,
-    "dsl": 0.2546,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ONUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0896,
-    "pdl": 0.0811,
-    "dsh": 0.2021,
-    "dsl": 0.0728,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "GALAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001487,
-    "pdl": 0.001254,
-    "dsh": 0.001487,
-    "dsl": 0.001254,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MARSCOINUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04043,
-    "pdl": 0.03201,
-    "dsh": 0.04043,
-    "dsl": 0.03201,
+    "pdh": 0.7558,
+    "pdl": 0.59,
+    "dsh": 0.7558,
+    "dsl": 0.59,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18360,6 +18333,132 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
+   "APEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0932,
+    "pdl": 0.0757,
+    "dsh": 0.0932,
+    "dsl": 0.0757,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MONUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01703,
+    "pdl": 0.01418,
+    "dsh": 0.01775,
+    "dsl": 0.01418,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BATUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.10868,
+    "pdl": 0.08955,
+    "dsh": 0.15085,
+    "dsl": 0.08955,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LABUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03885,
+    "pdl": 0.02966,
+    "dsh": 0.04022,
+    "dsl": 0.02966,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CHIPUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03192,
+    "pdl": 0.0249,
+    "dsh": 0.03192,
+    "dsl": 0.0249,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.11163,
+    "pdl": 0.10258,
+    "dsh": 0.14628,
+    "dsl": 0.10072,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PROMUSDT": {
+    "state": "BEARISH",
+    "pdh": 5.106,
+    "pdl": 4.874,
+    "dsh": 6.123,
+    "dsl": 4.555,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "EIGENUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1535,
+    "pdl": 0.1244,
+    "dsh": 0.1535,
+    "dsl": 0.1244,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08601,
+    "pdl": 0.07481,
+    "dsh": 0.08601,
+    "dsl": 0.07481,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "BTRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04242,
+    "pdl": 0.03787,
+    "dsh": 0.04591,
+    "dsl": 0.03787,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "JTOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.3079,
+    "pdl": 0.2546,
+    "dsh": 0.3079,
+    "dsl": 0.2546,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AIOTUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.16595,
+    "pdl": 0.15103,
+    "dsh": 0.17736,
+    "dsl": 0.14132,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ARUSDT": {
+    "state": "BEARISH",
+    "pdh": 3.013,
+    "pdl": 2.426,
+    "dsh": 3.013,
+    "dsl": 2.426,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BIRBUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.07406,
+    "pdl": 0.06028,
+    "dsh": 0.12349,
+    "dsl": 0.06028,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
    "GPSUSDT": {
     "state": "BULLISH",
     "pdh": 0.008093,
@@ -18369,12 +18468,120 @@
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "RESOLVUSDT": {
+   "MARSCOINUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01327,
-    "pdl": 0.0114,
-    "dsh": 0.01327,
-    "dsl": 0.0114,
+    "pdh": 0.04043,
+    "pdl": 0.03201,
+    "dsh": 0.04043,
+    "dsl": 0.03201,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BEAMXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004396,
+    "pdl": 0.004027,
+    "dsh": 0.004981,
+    "dsl": 0.003866,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "KAITOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2034,
+    "pdl": 0.1668,
+    "dsh": 0.215,
+    "dsl": 0.1668,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GALAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001487,
+    "pdl": 0.001254,
+    "dsh": 0.001487,
+    "dsl": 0.001254,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "4USDT": {
+    "state": "BEARISH",
+    "pdh": 0.008896,
+    "pdl": 0.007317,
+    "dsh": 0.009945,
+    "dsl": 0.007317,
+    "swept_pdh": true,
+    "swept_pdl": true
+   },
+   "BLURUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.006569,
+    "pdl": 0.00564,
+    "dsh": 0.006569,
+    "dsl": 0.00564,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BEATUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08413,
+    "pdl": 0.0738,
+    "dsh": 0.10465,
+    "dsl": 0.07353,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "KGENUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08203,
+    "pdl": 0.07028,
+    "dsh": 0.09736,
+    "dsl": 0.07028,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HOTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0003791,
+    "pdl": 0.0003267,
+    "dsh": 0.0004862,
+    "dsl": 0.0003267,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "METUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2913,
+    "pdl": 0.2513,
+    "dsh": 0.3425,
+    "dsl": 0.2513,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "MORPHOUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.9478,
+    "pdl": 1.7071,
+    "dsh": 1.9478,
+    "dsl": 1.7071,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "SYRUPUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.11422,
+    "pdl": 0.09514,
+    "dsh": 0.11422,
+    "dsl": 0.09514,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "NATGASUSDT": {
+    "state": "BULLISH",
+    "pdh": 3.646,
+    "pdl": 3.613,
+    "dsh": 3.762,
+    "dsl": 3.101,
     "swept_pdh": true,
     "swept_pdl": false
    },
@@ -18387,14 +18594,59 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "0GUSDT": {
+   "ESPORTSUSDT": {
     "state": "BULLISH",
-    "pdh": 0.162,
-    "pdl": 0.1326,
-    "dsh": 0.1631,
-    "dsl": 0.1326,
+    "pdh": 0.01,
+    "pdl": 0.008929,
+    "dsh": 0.022484,
+    "dsl": 0.008542,
     "swept_pdh": false,
     "swept_pdl": true
+   },
+   "ZKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.009177,
+    "pdl": 0.007396,
+    "dsh": 0.009438,
+    "dsl": 0.007396,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "APRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03917,
+    "pdl": 0.03152,
+    "dsh": 0.05338,
+    "dsl": 0.03152,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CFXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04048,
+    "pdl": 0.0322,
+    "dsh": 0.04048,
+    "dsl": 0.0322,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TAUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.12153,
+    "pdl": 0.11424,
+    "dsh": 0.12153,
+    "dsl": 0.08683,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "BOMEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0005742,
+    "pdl": 0.0004671,
+    "dsh": 0.0005742,
+    "dsl": 0.0004671,
+    "swept_pdh": false,
+    "swept_pdl": false
    },
    "CHZUSDT": {
     "state": "BEARISH",
@@ -18414,75 +18666,21 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CFXUSDT": {
+   "SPXUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04048,
-    "pdl": 0.0322,
-    "dsh": 0.04048,
-    "dsl": 0.0322,
+    "pdh": 0.3402,
+    "pdl": 0.2805,
+    "dsh": 0.3402,
+    "dsl": 0.2805,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BTRUSDT": {
+   "MUBARAKUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04242,
-    "pdl": 0.03787,
-    "dsh": 0.04591,
-    "dsl": 0.03787,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "KAITOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2034,
-    "pdl": 0.1668,
-    "dsh": 0.215,
-    "dsl": 0.1668,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.08601,
-    "pdl": 0.07481,
-    "dsh": 0.08601,
-    "dsl": 0.07481,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "MORPHOUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.9478,
-    "pdl": 1.7071,
-    "dsh": 1.9478,
-    "dsl": 1.7071,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "KGENUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.08203,
-    "pdl": 0.07028,
-    "dsh": 0.09736,
-    "dsl": 0.07028,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ZKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.009177,
-    "pdl": 0.007396,
-    "dsh": 0.009438,
-    "dsl": 0.007396,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ESPORTSUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.01,
-    "pdl": 0.008929,
-    "dsh": 0.022484,
-    "dsl": 0.008542,
+    "pdh": 0.0336,
+    "pdl": 0.02802,
+    "dsh": 0.0336,
+    "dsl": 0.02802,
     "swept_pdh": false,
     "swept_pdl": true
    },
@@ -18495,41 +18693,50 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "KITEUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.13112,
-    "pdl": 0.12555,
-    "dsh": 0.13148,
-    "dsl": 0.104,
+   "KOMAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.012929,
+    "pdl": 0.010942,
+    "dsh": 0.022985,
+    "dsl": 0.010942,
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "CTUSDT": {
+   "ATUSDT": {
     "state": "BEARISH",
-    "pdh": 0.11163,
-    "pdl": 0.10258,
-    "dsh": 0.14628,
-    "dsl": 0.10072,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BEATUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.08413,
-    "pdl": 0.0738,
-    "dsh": 0.10465,
-    "dsl": 0.07353,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "METUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2913,
-    "pdl": 0.2513,
-    "dsh": 0.3425,
-    "dsl": 0.2513,
+    "pdh": 0.1005,
+    "pdl": 0.0921,
+    "dsh": 0.1005,
+    "dsl": 0.0851,
     "swept_pdh": false,
     "swept_pdl": true
+   },
+   "MMTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1163,
+    "pdl": 0.0941,
+    "dsh": 0.1163,
+    "dsl": 0.0941,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03774,
+    "pdl": 0.03134,
+    "dsh": 0.03774,
+    "dsl": 0.03134,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "IRYSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01605,
+    "pdl": 0.01357,
+    "dsh": 0.02325,
+    "dsl": 0.01357,
+    "swept_pdh": false,
+    "swept_pdl": false
    },
    "GIGGLEUSDT": {
     "state": "BEARISH",
@@ -18540,75 +18747,30 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BIRBUSDT": {
+   "SAHARAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.07406,
-    "pdl": 0.06028,
-    "dsh": 0.12349,
-    "dsl": 0.06028,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ZILUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001483,
-    "pdl": 0.001272,
-    "dsh": 0.001903,
-    "dsl": 0.001272,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BEAMXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004396,
-    "pdl": 0.004027,
-    "dsh": 0.004981,
-    "dsl": 0.003866,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BOMEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0005742,
-    "pdl": 0.0004671,
-    "dsh": 0.0005742,
-    "dsl": 0.0004671,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SPXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3402,
-    "pdl": 0.2805,
-    "dsh": 0.3402,
-    "dsl": 0.2805,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FFUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0925,
-    "pdl": 0.08766,
-    "dsh": 0.0925,
-    "dsl": 0.08383,
+    "pdh": 0.00585,
+    "pdl": 0.005002,
+    "dsh": 0.00585,
+    "dsl": 0.005002,
     "swept_pdh": true,
     "swept_pdl": false
    },
-   "MUBARAKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0336,
-    "pdl": 0.02802,
-    "dsh": 0.0336,
-    "dsl": 0.02802,
+   "ICNTUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.2676,
+    "pdl": 0.2307,
+    "dsh": 0.3964,
+    "dsl": 0.2307,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "SUSDT": {
+   "VETUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03774,
-    "pdl": 0.03134,
-    "dsh": 0.03774,
-    "dsl": 0.03134,
+    "pdh": 0.005091,
+    "pdl": 0.004454,
+    "dsh": 0.005369,
+    "dsl": 0.004454,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18621,30 +18783,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "AIOTUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.16595,
-    "pdl": 0.15103,
-    "dsh": 0.17736,
-    "dsl": 0.14132,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "KOMAUSDT": {
+   "SAGAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.012929,
-    "pdl": 0.010942,
-    "dsh": 0.022985,
-    "dsl": 0.010942,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "HOTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0003791,
-    "pdl": 0.0003267,
-    "dsh": 0.0004862,
-    "dsl": 0.0003267,
+    "pdh": 0.0151,
+    "pdl": 0.01239,
+    "dsh": 0.0151,
+    "dsl": 0.01239,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18657,66 +18801,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "4USDT": {
+   "PLUMEUSDT": {
     "state": "BEARISH",
-    "pdh": 0.008896,
-    "pdl": 0.007317,
-    "dsh": 0.009945,
-    "dsl": 0.007317,
-    "swept_pdh": true,
-    "swept_pdl": true
-   },
-   "ATUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1005,
-    "pdl": 0.0921,
-    "dsh": 0.1005,
-    "dsl": 0.0851,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "IRYSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01605,
-    "pdl": 0.01357,
-    "dsh": 0.02325,
-    "dsl": 0.01357,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "APRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03917,
-    "pdl": 0.03152,
-    "dsh": 0.05338,
-    "dsl": 0.03152,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "1000FLOKIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01983,
-    "pdl": 0.01701,
-    "dsh": 0.01983,
-    "dsl": 0.01701,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TAUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.12153,
-    "pdl": 0.11424,
-    "dsh": 0.12153,
-    "dsl": 0.08683,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BIOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01896,
-    "pdl": 0.01562,
-    "dsh": 0.01896,
-    "dsl": 0.01562,
+    "pdh": 0.01397,
+    "pdl": 0.01149,
+    "dsh": 0.01442,
+    "dsl": 0.01149,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18729,57 +18819,21 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "PLUMEUSDT": {
+   "1000FLOKIUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01397,
-    "pdl": 0.01149,
-    "dsh": 0.01442,
-    "dsl": 0.01149,
+    "pdh": 0.01983,
+    "pdl": 0.01701,
+    "dsh": 0.01983,
+    "dsl": 0.01701,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "SYRUPUSDT": {
+   "BIOUSDT": {
     "state": "BEARISH",
-    "pdh": 0.11422,
-    "pdl": 0.09514,
-    "dsh": 0.11422,
-    "dsl": 0.09514,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "VETUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.005091,
-    "pdl": 0.004454,
-    "dsh": 0.005369,
-    "dsl": 0.004454,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DYDXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0899,
-    "pdl": 0.0731,
-    "dsh": 0.0952,
-    "dsl": 0.0731,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ICNTUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.2676,
-    "pdl": 0.2307,
-    "dsh": 0.3964,
-    "dsl": 0.2307,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BANKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02152,
-    "pdl": 0.01812,
-    "dsh": 0.02152,
-    "dsl": 0.01812,
+    "pdh": 0.01896,
+    "pdl": 0.01562,
+    "dsh": 0.01896,
+    "dsl": 0.01562,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18792,120 +18846,21 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
+   "ORCAUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.24,
+    "pdl": 1.088,
+    "dsh": 1.24,
+    "dsl": 1.088,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
    "IOSTUSDT": {
     "state": "BEARISH",
     "pdh": 0.0006313,
     "pdl": 0.0005355,
     "dsh": 0.0006313,
     "dsl": 0.0005355,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SOLVUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004566,
-    "pdl": 0.004091,
-    "dsh": 0.004762,
-    "dsl": 0.003895,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PIPPINUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01238,
-    "pdl": 0.01019,
-    "dsh": 0.01238,
-    "dsl": 0.01019,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PARTIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03664,
-    "pdl": 0.03254,
-    "dsh": 0.05081,
-    "dsl": 0.03254,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "REUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2532,
-    "pdl": 0.2076,
-    "dsh": 0.2532,
-    "dsl": 0.2076,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ENSUSDT": {
-    "state": "BEARISH",
-    "pdh": 4.254,
-    "pdl": 3.655,
-    "dsh": 4.254,
-    "dsl": 3.655,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SAGAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0151,
-    "pdl": 0.01239,
-    "dsh": 0.0151,
-    "dsl": 0.01239,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PEOPLEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00547,
-    "pdl": 0.004612,
-    "dsh": 0.00547,
-    "dsl": 0.004612,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NEIROUSDT": {
-    "state": "BEARISH",
-    "pdh": 5.498e-05,
-    "pdl": 4.508e-05,
-    "dsh": 5.498e-05,
-    "dsl": 4.508e-05,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "WALUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02665,
-    "pdl": 0.02249,
-    "dsh": 0.02665,
-    "dsl": 0.02249,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PROMUSDT": {
-    "state": "BEARISH",
-    "pdh": 5.106,
-    "pdl": 4.874,
-    "dsh": 6.123,
-    "dsl": 4.555,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MERLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03262,
-    "pdl": 0.03008,
-    "dsh": 0.03924,
-    "dsl": 0.02775,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "LYNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0207,
-    "pdl": 0.01607,
-    "dsh": 0.03134,
-    "dsl": 0.01607,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -18918,13 +18873,76 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "NATGASUSDT": {
-    "state": "BULLISH",
-    "pdh": 3.646,
-    "pdl": 3.613,
-    "dsh": 3.762,
-    "dsl": 3.101,
+   "SKLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.003378,
+    "pdl": 0.002884,
+    "dsh": 0.003378,
+    "dsl": 0.002884,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SLPUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0004478,
+    "pdl": 0.0003848,
+    "dsh": 0.0004478,
+    "dsl": 0.0003848,
     "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "REUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2532,
+    "pdl": 0.2076,
+    "dsh": 0.2532,
+    "dsl": 0.2076,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GTCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.14784,
+    "pdl": 0.13006,
+    "dsh": 0.21906,
+    "dsl": 0.13006,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "WALUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02665,
+    "pdl": 0.02249,
+    "dsh": 0.02665,
+    "dsl": 0.02249,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ENSUSDT": {
+    "state": "BEARISH",
+    "pdh": 4.254,
+    "pdl": 3.655,
+    "dsh": 4.254,
+    "dsl": 3.655,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PARTIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03664,
+    "pdl": 0.03254,
+    "dsh": 0.05081,
+    "dsl": 0.03254,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "DYDXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0899,
+    "pdl": 0.0731,
+    "dsh": 0.0952,
+    "dsl": 0.0731,
+    "swept_pdh": false,
     "swept_pdl": false
    },
    "RSRUSDT": {
@@ -18936,76 +18954,13 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "BRUSDT": {
+   "SYNUSDT": {
     "state": "BEARISH",
-    "pdh": 0.4732,
-    "pdl": 0.4217,
-    "dsh": 0.5006,
-    "dsl": 0.4217,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "GTCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.14784,
-    "pdl": 0.13006,
-    "dsh": 0.21906,
-    "dsl": 0.13006,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "THETAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.142,
-    "pdl": 0.1231,
-    "dsh": 0.142,
-    "dsl": 0.1231,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TRBUSDT": {
-    "state": "BEARISH",
-    "pdh": 14.493,
-    "pdl": 12.238,
-    "dsh": 14.493,
-    "dsl": 12.238,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DEXEUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.233,
-    "pdl": 1.023,
-    "dsh": 1.233,
-    "dsl": 1.023,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SIRENUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.02721,
-    "pdl": 0.02404,
-    "dsh": 0.0287,
-    "dsl": 0.02404,
+    "pdh": 0.1194,
+    "pdl": 0.10423,
+    "dsh": 0.15771,
+    "dsl": 0.10423,
     "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "KASUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02845,
-    "pdl": 0.02529,
-    "dsh": 0.02845,
-    "dsl": 0.02529,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COTIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.009133,
-    "pdl": 0.007655,
-    "dsh": 0.009133,
-    "dsl": 0.007655,
-    "swept_pdh": false,
     "swept_pdl": false
    },
    "OPGUSDT": {
@@ -19014,105 +18969,6 @@
     "pdl": 0.1265,
     "dsh": 0.147,
     "dsl": 0.1265,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GRTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0177,
-    "pdl": 0.01551,
-    "dsh": 0.0177,
-    "dsl": 0.01551,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NEOUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.716,
-    "pdl": 1.475,
-    "dsh": 1.716,
-    "dsl": 1.475,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "RLCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3736,
-    "pdl": 0.3262,
-    "dsh": 0.3736,
-    "dsl": 0.3262,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "STOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02743,
-    "pdl": 0.02243,
-    "dsh": 0.03186,
-    "dsl": 0.02243,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "JSTUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.14631,
-    "pdl": 0.14196,
-    "dsh": 0.14713,
-    "dsl": 0.14019,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "DOODUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001584,
-    "pdl": 0.001369,
-    "dsh": 0.001831,
-    "dsl": 0.001369,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NILUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.05491,
-    "pdl": 0.04631,
-    "dsh": 0.05491,
-    "dsl": 0.04631,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "QTUMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.665,
-    "pdl": 0.6367,
-    "dsh": 0.7186,
-    "dsl": 0.6367,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "1000LUNCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03712,
-    "pdl": 0.03241,
-    "dsh": 0.03712,
-    "dsl": 0.03241,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ORCAUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.24,
-    "pdl": 1.088,
-    "dsh": 1.24,
-    "dsl": 1.088,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HANAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01771,
-    "pdl": 0.01323,
-    "dsh": 0.01903,
-    "dsl": 0.01323,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19125,102 +18981,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ZBTUSDT": {
+   "GRTUSDT": {
     "state": "BEARISH",
-    "pdh": 0.0573,
-    "pdl": 0.04877,
-    "dsh": 0.0573,
-    "dsl": 0.04877,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "IOTAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03516,
-    "pdl": 0.02957,
-    "dsh": 0.037,
-    "dsl": 0.02957,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SLXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03923,
-    "pdl": 0.02979,
-    "dsh": 0.03923,
-    "dsl": 0.02979,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ACEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.10944,
-    "pdl": 0.08917,
-    "dsh": 0.10944,
-    "dsl": 0.08917,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NOTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0003339,
-    "pdl": 0.0002787,
-    "dsh": 0.0003471,
-    "dsl": 0.0002787,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AKTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.5505,
-    "pdl": 0.45,
-    "dsh": 0.5505,
-    "dsl": 0.45,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MINAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.05137,
-    "pdl": 0.04257,
-    "dsh": 0.05522,
-    "dsl": 0.04257,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PNUTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03219,
-    "pdl": 0.02713,
-    "dsh": 0.03219,
-    "dsl": 0.02713,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ARKMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0956,
-    "pdl": 0.0816,
-    "dsh": 0.1015,
-    "dsl": 0.0816,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COPPERUSDT": {
-    "state": "BEARISH",
-    "pdh": 6.171,
-    "pdl": 6.114,
-    "dsh": 6.349,
-    "dsl": 6.114,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "IOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.112,
-    "pdl": 0.0908,
-    "dsh": 0.112,
-    "dsl": 0.0908,
+    "pdh": 0.0177,
+    "pdl": 0.01551,
+    "dsh": 0.0177,
+    "dsl": 0.01551,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19233,22 +18999,85 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "MAGICUSDT": {
+   "LYNUSDT": {
     "state": "BEARISH",
-    "pdh": 0.07682,
-    "pdl": 0.06619,
-    "dsh": 0.07682,
-    "dsl": 0.06619,
+    "pdh": 0.0207,
+    "pdl": 0.01607,
+    "dsh": 0.03134,
+    "dsl": 0.01607,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "MANAUSDT": {
+   "BANKUSDT": {
     "state": "BEARISH",
-    "pdh": 0.06697,
-    "pdl": 0.05796,
-    "dsh": 0.06697,
-    "dsl": 0.05796,
+    "pdh": 0.02152,
+    "pdl": 0.01812,
+    "dsh": 0.02152,
+    "dsl": 0.01812,
     "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "JSTUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.14631,
+    "pdl": 0.14196,
+    "dsh": 0.14713,
+    "dsl": 0.14019,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "POWERUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0613,
+    "pdl": 0.04845,
+    "dsh": 0.0613,
+    "dsl": 0.04845,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "STOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02743,
+    "pdl": 0.02243,
+    "dsh": 0.03186,
+    "dsl": 0.02243,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "RLCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.3736,
+    "pdl": 0.3262,
+    "dsh": 0.3736,
+    "dsl": 0.3262,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "NILUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.05491,
+    "pdl": 0.04631,
+    "dsh": 0.05491,
+    "dsl": 0.04631,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SIRENUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.02721,
+    "pdl": 0.02404,
+    "dsh": 0.0287,
+    "dsl": 0.02404,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "XANUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.007874,
+    "pdl": 0.006849,
+    "dsh": 0.008554,
+    "dsl": 0.006849,
+    "swept_pdh": true,
     "swept_pdl": false
    },
    "NOMUSDT": {
@@ -19260,246 +19089,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "YFIUSDT": {
+   "PEOPLEUSDT": {
     "state": "BEARISH",
-    "pdh": 1797.0,
-    "pdl": 1588.0,
-    "dsh": 1797.0,
-    "dsl": 1588.0,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HEMIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004035,
-    "pdl": 0.0035,
-    "dsh": 0.004035,
-    "dsl": 0.0035,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "USUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004017,
-    "pdl": 0.003313,
-    "dsh": 0.004017,
-    "dsl": 0.003313,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SUSHIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1693,
-    "pdl": 0.1426,
-    "dsh": 0.1693,
-    "dsl": 0.1426,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PROVEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.16,
-    "pdl": 0.1336,
-    "dsh": 0.16,
-    "dsl": 0.1336,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "POWERUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0613,
-    "pdl": 0.04845,
-    "dsh": 0.0613,
-    "dsl": 0.04845,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FORMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2021,
-    "pdl": 0.1622,
-    "dsh": 0.2074,
-    "dsl": 0.1622,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "JASMYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003368,
-    "pdl": 0.002989,
-    "dsh": 0.003368,
-    "dsl": 0.002989,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COMPUSDT": {
-    "state": "BEARISH",
-    "pdh": 19.37,
-    "pdl": 17.61,
-    "dsh": 19.37,
-    "dsl": 17.61,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BABYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00944,
-    "pdl": 0.00802,
-    "dsh": 0.01025,
-    "dsl": 0.00802,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PHAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03201,
-    "pdl": 0.02704,
-    "dsh": 0.03201,
-    "dsl": 0.02704,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CFGUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0808,
-    "pdl": 0.0668,
-    "dsh": 0.0808,
-    "dsl": 0.0668,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SYNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1194,
-    "pdl": 0.10423,
-    "dsh": 0.15771,
-    "dsl": 0.10423,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "MMTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1163,
-    "pdl": 0.0941,
-    "dsh": 0.1163,
-    "dsl": 0.0941,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ALTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.005173,
-    "pdl": 0.004453,
-    "dsh": 0.005173,
-    "dsl": 0.004453,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FOGOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00203,
-    "pdl": 0.001632,
-    "dsh": 0.002148,
-    "dsl": 0.001632,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DOSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1735,
-    "pdl": 0.1432,
-    "dsh": 0.1735,
-    "dsl": 0.1432,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "EGLDUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.884,
-    "pdl": 2.47,
-    "dsh": 2.884,
-    "dsl": 2.47,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BILLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004666,
-    "pdl": 0.00371,
-    "dsh": 0.004666,
-    "dsl": 0.00371,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "2ZUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01841,
-    "pdl": 0.01522,
-    "dsh": 0.01841,
-    "dsl": 0.01522,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SIGNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.008885,
-    "pdl": 0.008144,
-    "dsh": 0.009802,
-    "dsl": 0.008144,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "REZUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003246,
-    "pdl": 0.002741,
-    "dsh": 0.004583,
-    "dsl": 0.002741,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "OPENUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.097,
-    "pdl": 0.0816,
-    "dsh": 0.098,
-    "dsl": 0.0816,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MEWUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0003283,
-    "pdl": 0.0002804,
-    "dsh": 0.0003283,
-    "dsl": 0.0002804,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ARXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2293,
-    "pdl": 0.1926,
-    "dsh": 0.2346,
-    "dsl": 0.1717,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "TUTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01508,
-    "pdl": 0.01257,
-    "dsh": 0.01508,
-    "dsl": 0.01257,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GUNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001752,
-    "pdl": 0.001445,
-    "dsh": 0.002049,
-    "dsl": 0.001445,
+    "pdh": 0.00547,
+    "pdl": 0.004612,
+    "dsh": 0.00547,
+    "dsl": 0.004612,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19512,6 +19107,114 @@
     "swept_pdh": true,
     "swept_pdl": false
    },
+   "SLXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03923,
+    "pdl": 0.02979,
+    "dsh": 0.03923,
+    "dsl": 0.02979,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "COTIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.009133,
+    "pdl": 0.007655,
+    "dsh": 0.009133,
+    "dsl": 0.007655,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "QTUMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.665,
+    "pdl": 0.6367,
+    "dsh": 0.7186,
+    "dsl": 0.6367,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "NEIROUSDT": {
+    "state": "BEARISH",
+    "pdh": 5.498e-05,
+    "pdl": 4.508e-05,
+    "dsh": 5.498e-05,
+    "dsl": 4.508e-05,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.4732,
+    "pdl": 0.4217,
+    "dsh": 0.5006,
+    "dsl": 0.4217,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "XPINUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.000708,
+    "pdl": 0.0006678,
+    "dsh": 0.0008466,
+    "dsl": 0.00065,
+    "swept_pdh": true,
+    "swept_pdl": true
+   },
+   "SOLVUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004566,
+    "pdl": 0.004091,
+    "dsh": 0.004762,
+    "dsl": 0.003895,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MANAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.06697,
+    "pdl": 0.05796,
+    "dsh": 0.06697,
+    "dsl": 0.05796,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HEMIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004035,
+    "pdl": 0.0035,
+    "dsh": 0.004035,
+    "dsl": 0.0035,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "KASUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02845,
+    "pdl": 0.02529,
+    "dsh": 0.02845,
+    "dsl": 0.02529,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PIPPINUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01238,
+    "pdl": 0.01019,
+    "dsh": 0.01238,
+    "dsl": 0.01019,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1000XECUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.005469,
+    "pdl": 0.004817,
+    "dsh": 0.005869,
+    "dsl": 0.004817,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
    "DATAIPUSDT": {
     "state": "BEARISH",
     "pdh": 0.0989,
@@ -19521,39 +19224,156 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "TSTUSDT": {
+   "THETAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01206,
-    "pdl": 0.0098,
-    "dsh": 0.01206,
-    "dsl": 0.0098,
+    "pdh": 0.142,
+    "pdl": 0.1231,
+    "dsh": 0.142,
+    "dsl": 0.1231,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "AVNTUSDT": {
+   "YFIUSDT": {
     "state": "BEARISH",
-    "pdh": 0.08287,
-    "pdl": 0.06711,
-    "dsh": 0.08287,
-    "dsl": 0.06711,
+    "pdh": 1797.0,
+    "pdl": 1588.0,
+    "dsh": 1797.0,
+    "dsl": 1588.0,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "MYXUSDT": {
+   "MAGICUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04777,
-    "pdl": 0.03591,
-    "dsh": 0.04777,
-    "dsl": 0.03591,
+    "pdh": 0.07682,
+    "pdl": 0.06619,
+    "dsh": 0.07682,
+    "dsl": 0.06619,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "HMSTRUSDT": {
+   "TRBUSDT": {
     "state": "BEARISH",
-    "pdh": 0.0001447,
-    "pdl": 0.0001321,
-    "dsh": 0.0001469,
-    "dsl": 0.0001155,
+    "pdh": 14.493,
+    "pdl": 12.238,
+    "dsh": 14.493,
+    "dsl": 12.238,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "COPPERUSDT": {
+    "state": "BEARISH",
+    "pdh": 6.171,
+    "pdl": 6.114,
+    "dsh": 6.349,
+    "dsl": 6.114,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "DOSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1735,
+    "pdl": 0.1432,
+    "dsh": 0.1735,
+    "dsl": 0.1432,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HANAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01771,
+    "pdl": 0.01323,
+    "dsh": 0.01903,
+    "dsl": 0.01323,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ACEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.10944,
+    "pdl": 0.08917,
+    "dsh": 0.10944,
+    "dsl": 0.08917,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "NEOUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.716,
+    "pdl": 1.475,
+    "dsh": 1.716,
+    "dsl": 1.475,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "MERLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03262,
+    "pdl": 0.03008,
+    "dsh": 0.03924,
+    "dsl": 0.02775,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "IOTAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03516,
+    "pdl": 0.02957,
+    "dsh": 0.037,
+    "dsl": 0.02957,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "FORMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2021,
+    "pdl": 0.1622,
+    "dsh": 0.2074,
+    "dsl": 0.1622,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "NOTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0003339,
+    "pdl": 0.0002787,
+    "dsh": 0.0003471,
+    "dsl": 0.0002787,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DEXEUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.233,
+    "pdl": 1.023,
+    "dsh": 1.233,
+    "dsl": 1.023,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "COMPUSDT": {
+    "state": "BEARISH",
+    "pdh": 19.37,
+    "pdl": 17.61,
+    "dsh": 19.37,
+    "dsl": 17.61,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "DOODUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001584,
+    "pdl": 0.001369,
+    "dsh": 0.001831,
+    "dsl": 0.001369,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PHAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03201,
+    "pdl": 0.02704,
+    "dsh": 0.03201,
+    "dsl": 0.02704,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19566,327 +19386,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "KAIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03115,
-    "pdl": 0.0272,
-    "dsh": 0.03311,
-    "dsl": 0.0272,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XANUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.007874,
-    "pdl": 0.006849,
-    "dsh": 0.008554,
-    "dsl": 0.006849,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "KMNOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03101,
-    "pdl": 0.02768,
-    "dsh": 0.03754,
-    "dsl": 0.02768,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "PLAYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00798,
-    "pdl": 0.00639,
-    "dsh": 0.01121,
-    "dsl": 0.00639,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BBUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00613,
-    "pdl": 0.005005,
-    "dsh": 0.00613,
-    "dsl": 0.005005,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ACTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.009228,
-    "pdl": 0.008121,
-    "dsh": 0.011296,
-    "dsl": 0.008121,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SNXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1632,
-    "pdl": 0.1394,
-    "dsh": 0.1632,
-    "dsl": 0.1394,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XPINUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.000708,
-    "pdl": 0.0006678,
-    "dsh": 0.0008466,
-    "dsl": 0.00065,
-    "swept_pdh": true,
-    "swept_pdl": true
-   },
-   "SAHARAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00585,
-    "pdl": 0.005002,
-    "dsh": 0.00585,
-    "dsl": 0.005002,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ELSAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06783,
-    "pdl": 0.05658,
-    "dsh": 0.1219,
-    "dsl": 0.05658,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "TUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004339,
-    "pdl": 0.003766,
-    "dsh": 0.004339,
-    "dsl": 0.003766,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XTZUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2367,
-    "pdl": 0.2037,
-    "dsh": 0.2367,
-    "dsl": 0.2037,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
    "REDUSDT": {
     "state": "BEARISH",
     "pdh": 0.1242,
     "pdl": 0.1046,
     "dsh": 0.1242,
     "dsl": 0.1046,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RVNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001232,
-    "pdl": 0.00101,
-    "dsh": 0.001232,
-    "dsl": 0.00101,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "EDGEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.3335,
-    "pdl": 0.2709,
-    "dsh": 0.3335,
-    "dsl": 0.2709,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CYSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0749,
-    "pdl": 0.0595,
-    "dsh": 0.0961,
-    "dsl": 0.0595,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "MEMEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.000378,
-    "pdl": 0.0003157,
-    "dsh": 0.0003987,
-    "dsl": 0.0003157,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LINEAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002029,
-    "pdl": 0.001733,
-    "dsh": 0.002029,
-    "dsl": 0.001733,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "VELVETUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.05344,
-    "pdl": 0.04415,
-    "dsh": 0.05647,
-    "dsl": 0.04415,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TRIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002524,
-    "pdl": 0.001953,
-    "dsh": 0.002761,
-    "dsl": 0.001953,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ENJUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02102,
-    "pdl": 0.01793,
-    "dsh": 0.02102,
-    "dsl": 0.01793,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002839,
-    "pdl": 0.002488,
-    "dsh": 0.003709,
-    "dsl": 0.002488,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "OPNUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03376,
-    "pdl": 0.02788,
-    "dsh": 0.03376,
-    "dsl": 0.02788,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SOONUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2383,
-    "pdl": 0.2076,
-    "dsh": 0.2754,
-    "dsl": 0.2076,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NMRUSDT": {
-    "state": "BEARISH",
-    "pdh": 8.627,
-    "pdl": 7.565,
-    "dsh": 8.627,
-    "dsl": 7.565,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "KATUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003378,
-    "pdl": 0.002746,
-    "dsh": 0.003378,
-    "dsl": 0.002746,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BLURUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.006569,
-    "pdl": 0.00564,
-    "dsh": 0.006569,
-    "dsl": 0.00564,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ILVUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.583,
-    "pdl": 2.199,
-    "dsh": 2.583,
-    "dsl": 2.199,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MANTRAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002634,
-    "pdl": 0.00216,
-    "dsh": 0.002634,
-    "dsl": 0.00216,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "IDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02399,
-    "pdl": 0.01999,
-    "dsh": 0.02399,
-    "dsl": 0.01999,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LPTUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.207,
-    "pdl": 1.035,
-    "dsh": 1.207,
-    "dsl": 1.035,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AIOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03789,
-    "pdl": 0.03056,
-    "dsh": 0.05386,
-    "dsl": 0.03056,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "UBUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.10859,
-    "pdl": 0.095,
-    "dsh": 0.11342,
-    "dsl": 0.095,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "MELANIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.05241,
-    "pdl": 0.04446,
-    "dsh": 0.05241,
-    "dsl": 0.04446,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "SCRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01844,
-    "pdl": 0.01698,
-    "dsh": 0.01873,
-    "dsl": 0.01626,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "GMTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.005908,
-    "pdl": 0.005037,
-    "dsh": 0.006252,
-    "dsl": 0.005037,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19899,57 +19404,336 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "RAVEUSDT": {
+   "MINAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.1186,
-    "pdl": 0.0975,
-    "dsh": 0.1186,
-    "dsl": 0.0975,
+    "pdh": 0.05137,
+    "pdl": 0.04257,
+    "dsh": 0.05522,
+    "dsl": 0.04257,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "USUALUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.011371,
-    "pdl": 0.009986,
-    "dsh": 0.011399,
-    "dsl": 0.009986,
+   "AKTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.5505,
+    "pdl": 0.45,
+    "dsh": 0.5505,
+    "dsl": 0.45,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ARXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2293,
+    "pdl": 0.1926,
+    "dsh": 0.2346,
+    "dsl": 0.1717,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "ROSEUSDT": {
+   "ALTUSDT": {
     "state": "BEARISH",
-    "pdh": 0.005214,
-    "pdl": 0.004301,
-    "dsh": 0.005214,
-    "dsl": 0.004301,
+    "pdh": 0.005173,
+    "pdl": 0.004453,
+    "dsh": 0.005173,
+    "dsl": 0.004453,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "SXTUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.009427,
-    "pdl": 0.008164,
-    "dsh": 0.009427,
-    "dsl": 0.008164,
+   "ACTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.009228,
+    "pdl": 0.008121,
+    "dsh": 0.011296,
+    "dsl": 0.008121,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "2ZUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01841,
+    "pdl": 0.01522,
+    "dsh": 0.01841,
+    "dsl": 0.01522,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AVNTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08287,
+    "pdl": 0.06711,
+    "dsh": 0.08287,
+    "dsl": 0.06711,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SCRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01844,
+    "pdl": 0.01698,
+    "dsh": 0.01873,
+    "dsl": 0.01626,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "1000LUNCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03712,
+    "pdl": 0.03241,
+    "dsh": 0.03712,
+    "dsl": 0.03241,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "JASMYUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.003368,
+    "pdl": 0.002989,
+    "dsh": 0.003368,
+    "dsl": 0.002989,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004339,
+    "pdl": 0.003766,
+    "dsh": 0.004339,
+    "dsl": 0.003766,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PNUTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03219,
+    "pdl": 0.02713,
+    "dsh": 0.03219,
+    "dsl": 0.02713,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SUSHIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1693,
+    "pdl": 0.1426,
+    "dsh": 0.1693,
+    "dsl": 0.1426,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ZBTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0573,
+    "pdl": 0.04877,
+    "dsh": 0.0573,
+    "dsl": 0.04877,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KAIAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03115,
+    "pdl": 0.0272,
+    "dsh": 0.03311,
+    "dsl": 0.0272,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BABYUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00944,
+    "pdl": 0.00802,
+    "dsh": 0.01025,
+    "dsl": 0.00802,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "REZUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.003246,
+    "pdl": 0.002741,
+    "dsh": 0.004583,
+    "dsl": 0.002741,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "IOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.112,
+    "pdl": 0.0908,
+    "dsh": 0.112,
+    "dsl": 0.0908,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "FOGOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00203,
+    "pdl": 0.001632,
+    "dsh": 0.002148,
+    "dsl": 0.001632,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PROVEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.16,
+    "pdl": 0.1336,
+    "dsh": 0.16,
+    "dsl": 0.1336,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SIGNUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.008885,
+    "pdl": 0.008144,
+    "dsh": 0.009802,
+    "dsl": 0.008144,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KMNOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03101,
+    "pdl": 0.02768,
+    "dsh": 0.03754,
+    "dsl": 0.02768,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "GRIFFAINUSDT": {
+   "EGLDUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01027,
-    "pdl": 0.008908,
-    "dsh": 0.011269,
-    "dsl": 0.008908,
+    "pdh": 2.884,
+    "pdl": 2.47,
+    "dsh": 2.884,
+    "dsl": 2.47,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "DOGSUSDT": {
+   "UBUSDT": {
     "state": "BEARISH",
-    "pdh": 3.042e-05,
-    "pdl": 2.428e-05,
-    "dsh": 3.255e-05,
-    "dsl": 2.428e-05,
+    "pdh": 0.10859,
+    "pdl": 0.095,
+    "dsh": 0.11342,
+    "dsl": 0.095,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "CFGUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0808,
+    "pdl": 0.0668,
+    "dsh": 0.0808,
+    "dsl": 0.0668,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AIOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03789,
+    "pdl": 0.03056,
+    "dsh": 0.05386,
+    "dsl": 0.03056,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HMSTRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0001447,
+    "pdl": 0.0001321,
+    "dsh": 0.0001469,
+    "dsl": 0.0001155,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ARKMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0956,
+    "pdl": 0.0816,
+    "dsh": 0.1015,
+    "dsl": 0.0816,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "EDGEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.3335,
+    "pdl": 0.2709,
+    "dsh": 0.3335,
+    "dsl": 0.2709,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SOONUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2383,
+    "pdl": 0.2076,
+    "dsh": 0.2754,
+    "dsl": 0.2076,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BILLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004666,
+    "pdl": 0.00371,
+    "dsh": 0.004666,
+    "dsl": 0.00371,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "XTZUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2367,
+    "pdl": 0.2037,
+    "dsh": 0.2367,
+    "dsl": 0.2037,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TUTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01508,
+    "pdl": 0.01257,
+    "dsh": 0.01508,
+    "dsl": 0.01257,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "OPENUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.097,
+    "pdl": 0.0816,
+    "dsh": 0.098,
+    "dsl": 0.0816,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TSTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01206,
+    "pdl": 0.0098,
+    "dsh": 0.01206,
+    "dsl": 0.0098,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "USUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004017,
+    "pdl": 0.003313,
+    "dsh": 0.004017,
+    "dsl": 0.003313,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.07089,
+    "pdl": 0.06136,
+    "dsh": 0.07089,
+    "dsl": 0.06136,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -19962,14 +19746,95 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "ENSOUSDT": {
+   "CYSUSDT": {
     "state": "BEARISH",
-    "pdh": 0.4257,
-    "pdl": 0.354,
-    "dsh": 0.4257,
-    "dsl": 0.354,
+    "pdh": 0.0749,
+    "pdl": 0.0595,
+    "dsh": 0.0961,
+    "dsl": 0.0595,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "COOKIEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00898,
+    "pdl": 0.007193,
+    "dsh": 0.00898,
+    "dsl": 0.007193,
     "swept_pdh": false,
     "swept_pdl": false
+   },
+   "GMTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.005908,
+    "pdl": 0.005037,
+    "dsh": 0.006252,
+    "dsl": 0.005037,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LINEAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.002029,
+    "pdl": 0.001733,
+    "dsh": 0.002029,
+    "dsl": 0.001733,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AVAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2381,
+    "pdl": 0.2092,
+    "dsh": 0.3455,
+    "dsl": 0.2092,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ARCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0299,
+    "pdl": 0.02571,
+    "dsh": 0.04044,
+    "dsl": 0.02571,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "GUNUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001752,
+    "pdl": 0.001445,
+    "dsh": 0.002049,
+    "dsl": 0.001445,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ALICEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1166,
+    "pdl": 0.099,
+    "dsh": 0.1166,
+    "dsl": 0.099,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MEMEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.000378,
+    "pdl": 0.0003157,
+    "dsh": 0.0003987,
+    "dsl": 0.0003157,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "NMRUSDT": {
+    "state": "BEARISH",
+    "pdh": 8.627,
+    "pdl": 7.565,
+    "dsh": 8.627,
+    "dsl": 7.565,
+    "swept_pdh": false,
+    "swept_pdl": true
    },
    "NXPCUSDT": {
     "state": "BEARISH",
@@ -19989,93 +19854,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "1INCHUSDT": {
+   "PLAYUSDT": {
     "state": "BEARISH",
-    "pdh": 0.07135,
-    "pdl": 0.0635,
-    "dsh": 0.07135,
-    "dsl": 0.0635,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FLOWUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02018,
-    "pdl": 0.01645,
-    "dsh": 0.02018,
-    "dsl": 0.01645,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TREEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03051,
-    "pdl": 0.02664,
-    "dsh": 0.03136,
-    "dsl": 0.02664,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CLANKERUSDT": {
-    "state": "BEARISH",
-    "pdh": 12.75,
-    "pdl": 11.12,
-    "dsh": 19.4,
-    "dsl": 11.12,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AVAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2381,
-    "pdl": 0.2092,
-    "dsh": 0.3455,
-    "dsl": 0.2092,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04738,
-    "pdl": 0.04017,
-    "dsh": 0.04738,
-    "dsl": 0.04017,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "EULUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.8944,
-    "pdl": 0.7505,
-    "dsh": 0.8944,
-    "dsl": 0.7505,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PRLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.07647,
-    "pdl": 0.06615,
-    "dsh": 0.07647,
-    "dsl": 0.06615,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COWUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0998,
-    "pdl": 0.0853,
-    "dsh": 0.0998,
-    "dsl": 0.0853,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COOKIEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00898,
-    "pdl": 0.007193,
-    "dsh": 0.00898,
-    "dsl": 0.007193,
+    "pdh": 0.00798,
+    "pdl": 0.00639,
+    "dsh": 0.01121,
+    "dsl": 0.00639,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20088,192 +19872,120 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "FLOCKUSDT": {
+   "COWUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03614,
-    "pdl": 0.02934,
-    "dsh": 0.03614,
-    "dsl": 0.02934,
+    "pdh": 0.0998,
+    "pdl": 0.0853,
+    "dsh": 0.0998,
+    "dsl": 0.0853,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "TURBOUSDT": {
+   "ILVUSDT": {
     "state": "BEARISH",
-    "pdh": 0.0006699,
-    "pdl": 0.0005601,
-    "dsh": 0.0006699,
-    "dsl": 0.0005601,
+    "pdh": 2.583,
+    "pdl": 2.199,
+    "dsh": 2.583,
+    "dsl": 2.199,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "POPCATUSDT": {
+   "LPTUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03256,
-    "pdl": 0.02625,
-    "dsh": 0.03256,
-    "dsl": 0.02625,
+    "pdh": 1.207,
+    "pdl": 1.035,
+    "dsh": 1.207,
+    "dsl": 1.035,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CELOUSDT": {
+   "KATUSDT": {
     "state": "BEARISH",
-    "pdh": 0.06637,
-    "pdl": 0.05618,
-    "dsh": 0.06785,
-    "dsl": 0.05618,
+    "pdh": 0.003378,
+    "pdl": 0.002746,
+    "dsh": 0.003378,
+    "dsl": 0.002746,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "LUMIAUSDT": {
+   "GUSDT": {
     "state": "BEARISH",
-    "pdh": 0.08,
-    "pdl": 0.07509,
-    "dsh": 0.08086,
-    "dsl": 0.06867,
+    "pdh": 0.002839,
+    "pdl": 0.002488,
+    "dsh": 0.003709,
+    "dsl": 0.002488,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TNSRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02471,
+    "pdl": 0.02091,
+    "dsh": 0.02588,
+    "dsl": 0.02091,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BBUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00613,
+    "pdl": 0.005005,
+    "dsh": 0.00613,
+    "dsl": 0.005005,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ELSAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.06783,
+    "pdl": 0.05658,
+    "dsh": 0.1219,
+    "dsl": 0.05658,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "ORDERUSDT": {
+   "OPNUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03113,
-    "pdl": 0.02592,
-    "dsh": 0.03113,
-    "dsl": 0.02592,
+    "pdh": 0.03376,
+    "pdl": 0.02788,
+    "dsh": 0.03376,
+    "dsl": 0.02788,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "GWEIUSDT": {
+   "IDUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01717,
-    "pdl": 0.01452,
-    "dsh": 0.01717,
-    "dsl": 0.01452,
+    "pdh": 0.02399,
+    "pdl": 0.01999,
+    "dsh": 0.02399,
+    "dsl": 0.01999,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BSBUSDT": {
+   "USUALUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.011371,
+    "pdl": 0.009986,
+    "dsh": 0.011399,
+    "dsl": 0.009986,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "SNXUSDT": {
     "state": "BEARISH",
-    "pdh": 0.08256,
-    "pdl": 0.06673,
-    "dsh": 0.08256,
-    "dsl": 0.06673,
+    "pdh": 0.1632,
+    "pdl": 0.1394,
+    "dsh": 0.1632,
+    "dsl": 0.1394,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "C98USDT": {
+   "TRIAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01148,
-    "pdl": 0.00942,
-    "dsh": 0.01148,
-    "dsl": 0.00942,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.07089,
-    "pdl": 0.06136,
-    "dsh": 0.07089,
-    "dsl": 0.06136,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AIXBTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01437,
-    "pdl": 0.01206,
-    "dsh": 0.01437,
-    "dsl": 0.01206,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SPKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01559,
-    "pdl": 0.01319,
-    "dsh": 0.01559,
-    "dsl": 0.01319,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04202,
-    "pdl": 0.0357,
-    "dsh": 0.04202,
-    "dsl": 0.0357,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DUSKUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06556,
-    "pdl": 0.05931,
-    "dsh": 0.0794,
-    "dsl": 0.05931,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ONGUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06248,
-    "pdl": 0.05301,
-    "dsh": 0.06248,
-    "dsl": 0.05301,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ATHUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004528,
-    "pdl": 0.003756,
-    "dsh": 0.004528,
-    "dsl": 0.003756,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "THEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03273,
-    "pdl": 0.02735,
-    "dsh": 0.03848,
-    "dsl": 0.02735,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BASEDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04072,
-    "pdl": 0.03257,
-    "dsh": 0.04072,
-    "dsl": 0.03257,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ALICEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1166,
-    "pdl": 0.099,
-    "dsh": 0.1166,
-    "dsl": 0.099,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TOWNSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001115,
-    "pdl": 0.000937,
-    "dsh": 0.001179,
-    "dsl": 0.000937,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BICOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01286,
-    "pdl": 0.01083,
-    "dsh": 0.01286,
-    "dsl": 0.01083,
+    "pdh": 0.002524,
+    "pdl": 0.001953,
+    "dsh": 0.002761,
+    "dsl": 0.001953,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20286,120 +19998,183 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "PIXELUSDT": {
+   "PRLUSDT": {
     "state": "BEARISH",
-    "pdh": 0.003879,
-    "pdl": 0.003217,
-    "dsh": 0.003879,
-    "dsl": 0.003217,
+    "pdh": 0.07647,
+    "pdl": 0.06615,
+    "dsh": 0.07647,
+    "dsl": 0.06615,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ARKUSDT": {
+   "1INCHUSDT": {
     "state": "BEARISH",
-    "pdh": 0.1496,
-    "pdl": 0.1325,
-    "dsh": 0.1496,
-    "dsl": 0.1325,
+    "pdh": 0.07135,
+    "pdl": 0.0635,
+    "dsh": 0.07135,
+    "dsl": 0.0635,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "AIGENSYNUSDT": {
+   "TURBOUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01387,
-    "pdl": 0.0115,
-    "dsh": 0.01387,
-    "dsl": 0.0115,
+    "pdh": 0.0006699,
+    "pdl": 0.0005601,
+    "dsh": 0.0006699,
+    "dsl": 0.0005601,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "SKLUSDT": {
+   "CLANKERUSDT": {
     "state": "BEARISH",
-    "pdh": 0.003378,
-    "pdl": 0.002884,
-    "dsh": 0.003378,
-    "dsl": 0.002884,
+    "pdh": 12.75,
+    "pdl": 11.12,
+    "dsh": 19.4,
+    "dsl": 11.12,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "VTHOUSDT": {
+   "ORDERUSDT": {
     "state": "BEARISH",
-    "pdh": 0.000498,
-    "pdl": 0.0004307,
-    "dsh": 0.000498,
-    "dsl": 0.0004307,
+    "pdh": 0.03113,
+    "pdl": 0.02592,
+    "dsh": 0.03113,
+    "dsl": 0.02592,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "MASKUSDT": {
+   "ENJUSDT": {
     "state": "BEARISH",
-    "pdh": 0.3378,
-    "pdl": 0.2863,
-    "dsh": 0.3378,
-    "dsl": 0.2863,
+    "pdh": 0.02102,
+    "pdl": 0.01793,
+    "dsh": 0.02102,
+    "dsl": 0.01793,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ONTUSDT": {
+   "ATHUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04081,
-    "pdl": 0.03549,
-    "dsh": 0.04264,
-    "dsl": 0.03549,
+    "pdh": 0.004528,
+    "pdl": 0.003756,
+    "dsh": 0.004528,
+    "dsl": 0.003756,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "GMXUSDT": {
+   "EULUSDT": {
     "state": "BEARISH",
-    "pdh": 7.696,
-    "pdl": 6.923,
-    "dsh": 9.104,
-    "dsl": 6.923,
+    "pdh": 0.8944,
+    "pdl": 0.7505,
+    "dsh": 0.8944,
+    "dsl": 0.7505,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DUSKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.06556,
+    "pdl": 0.05931,
+    "dsh": 0.0794,
+    "dsl": 0.05931,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ENSOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.4257,
+    "pdl": 0.354,
+    "dsh": 0.4257,
+    "dsl": 0.354,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SXTUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.009427,
+    "pdl": 0.008164,
+    "dsh": 0.009427,
+    "dsl": 0.008164,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "KSMUSDT": {
+   "LUMIAUSDT": {
     "state": "BEARISH",
-    "pdh": 2.985,
-    "pdl": 2.591,
-    "dsh": 2.985,
-    "dsl": 2.591,
+    "pdh": 0.08,
+    "pdl": 0.07509,
+    "dsh": 0.08086,
+    "dsl": 0.06867,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "MELANIAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.05241,
+    "pdl": 0.04446,
+    "dsh": 0.05241,
+    "dsl": 0.04446,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "RVNUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001232,
+    "pdl": 0.00101,
+    "dsh": 0.001232,
+    "dsl": 0.00101,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "LUNA2USDT": {
+   "RAVEUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03438,
-    "pdl": 0.02954,
-    "dsh": 0.03438,
-    "dsl": 0.02954,
+    "pdh": 0.1186,
+    "pdl": 0.0975,
+    "dsh": 0.1186,
+    "dsl": 0.0975,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ZKCUSDT": {
+   "LAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.02651,
-    "pdl": 0.02252,
-    "dsh": 0.02651,
-    "dsl": 0.02252,
+    "pdh": 0.04738,
+    "pdl": 0.04017,
+    "dsh": 0.04738,
+    "dsl": 0.04017,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "MYXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04777,
+    "pdl": 0.03591,
+    "dsh": 0.04777,
+    "dsl": 0.03591,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ROBOUSDT": {
+   "TREEUSDT": {
     "state": "BEARISH",
-    "pdh": 0.004403,
-    "pdl": 0.003586,
-    "dsh": 0.004403,
-    "dsl": 0.003586,
+    "pdh": 0.03051,
+    "pdl": 0.02664,
+    "dsh": 0.03136,
+    "dsl": 0.02664,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BLUAIUSDT": {
+   "ROSEUSDT": {
     "state": "BEARISH",
-    "pdh": 0.007054,
-    "pdl": 0.005613,
-    "dsh": 0.007054,
-    "dsl": 0.005613,
+    "pdh": 0.005214,
+    "pdl": 0.004301,
+    "dsh": 0.005214,
+    "dsl": 0.004301,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "PORTALUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01255,
+    "pdl": 0.01132,
+    "dsh": 0.01296,
+    "dsl": 0.01132,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20412,75 +20187,201 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "1MBABYDOGEUSDT": {
+   "POPCATUSDT": {
     "state": "BEARISH",
-    "pdh": 0.000277,
-    "pdl": 0.0002414,
-    "dsh": 0.000277,
-    "dsl": 0.0002414,
+    "pdh": 0.03256,
+    "pdl": 0.02625,
+    "dsh": 0.03256,
+    "dsl": 0.02625,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "POWRUSDT": {
+   "TOWNSUSDT": {
     "state": "BEARISH",
-    "pdh": 0.04893,
-    "pdl": 0.04187,
-    "dsh": 0.04893,
-    "dsl": 0.04187,
+    "pdh": 0.001115,
+    "pdl": 0.000937,
+    "dsh": 0.001179,
+    "dsl": 0.000937,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ESPUSDT": {
+   "MANTRAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.07705,
-    "pdl": 0.06638,
-    "dsh": 0.08091,
-    "dsl": 0.06638,
+    "pdh": 0.002634,
+    "pdl": 0.00216,
+    "dsh": 0.002634,
+    "dsl": 0.00216,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "XVGUSDT": {
+   "CELOUSDT": {
     "state": "BEARISH",
-    "pdh": 0.001922,
-    "pdl": 0.001619,
-    "dsh": 0.001922,
-    "dsl": 0.001619,
+    "pdh": 0.06637,
+    "pdl": 0.05618,
+    "dsh": 0.06785,
+    "dsl": 0.05618,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "MOODENGUSDT": {
+   "GWEIUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03019,
-    "pdl": 0.02566,
-    "dsh": 0.03019,
-    "dsl": 0.02566,
+    "pdh": 0.01717,
+    "pdl": 0.01452,
+    "dsh": 0.01717,
+    "dsl": 0.01452,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "METISUSDT": {
+   "FLOCKUSDT": {
     "state": "BEARISH",
-    "pdh": 2.524,
-    "pdl": 2.168,
-    "dsh": 2.524,
-    "dsl": 2.168,
+    "pdh": 0.03614,
+    "pdl": 0.02934,
+    "dsh": 0.03614,
+    "dsl": 0.02934,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "FLUIDUSDT": {
+   "ZKCUSDT": {
     "state": "BEARISH",
-    "pdh": 1.924,
-    "pdl": 1.74,
-    "dsh": 2.777,
-    "dsl": 1.74,
+    "pdh": 0.02651,
+    "pdl": 0.02252,
+    "dsh": 0.02651,
+    "dsl": 0.02252,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CKBUSDT": {
+   "ONGUSDT": {
     "state": "BEARISH",
-    "pdh": 0.000935,
-    "pdl": 0.0007774,
-    "dsh": 0.000935,
-    "dsl": 0.0007774,
+    "pdh": 0.06248,
+    "pdl": 0.05301,
+    "dsh": 0.06248,
+    "dsl": 0.05301,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GLMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.09858,
+    "pdl": 0.08651,
+    "dsh": 0.09858,
+    "dsl": 0.08651,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ONTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04081,
+    "pdl": 0.03549,
+    "dsh": 0.04264,
+    "dsl": 0.03549,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SPKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01559,
+    "pdl": 0.01319,
+    "dsh": 0.01559,
+    "dsl": 0.01319,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GMXUSDT": {
+    "state": "BEARISH",
+    "pdh": 7.696,
+    "pdl": 6.923,
+    "dsh": 9.104,
+    "dsl": 6.923,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "FLOWUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02018,
+    "pdl": 0.01645,
+    "dsh": 0.02018,
+    "dsl": 0.01645,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04202,
+    "pdl": 0.0357,
+    "dsh": 0.04202,
+    "dsl": 0.0357,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "THEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03273,
+    "pdl": 0.02735,
+    "dsh": 0.03848,
+    "dsl": 0.02735,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "VTHOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.000498,
+    "pdl": 0.0004307,
+    "dsh": 0.000498,
+    "dsl": 0.0004307,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BANANAUSDT": {
+    "state": "BEARISH",
+    "pdh": 2.824,
+    "pdl": 2.539,
+    "dsh": 2.824,
+    "dsl": 2.539,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AIGENSYNUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01387,
+    "pdl": 0.0115,
+    "dsh": 0.01387,
+    "dsl": 0.0115,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "VELVETUSDT": {
+    "state": "BULLISH",
+    "pdh": 0.05344,
+    "pdl": 0.04415,
+    "dsh": 0.05647,
+    "dsl": 0.04415,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AIXBTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01437,
+    "pdl": 0.01206,
+    "dsh": 0.01437,
+    "dsl": 0.01206,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ARKUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1496,
+    "pdl": 0.1325,
+    "dsh": 0.1496,
+    "dsl": 0.1325,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "C98USDT": {
+    "state": "BEARISH",
+    "pdh": 0.01148,
+    "pdl": 0.00942,
+    "dsh": 0.01148,
+    "dsl": 0.00942,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20493,12 +20394,12 @@
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "SWARMSUSDT": {
+   "CHRUSDT": {
     "state": "BEARISH",
-    "pdh": 0.006778,
-    "pdl": 0.005392,
-    "dsh": 0.006778,
-    "dsl": 0.005392,
+    "pdh": 0.01395,
+    "pdl": 0.01189,
+    "dsh": 0.01395,
+    "dsl": 0.01189,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20520,113 +20421,68 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "1000XECUSDT": {
+   "CVCUSDT": {
     "state": "BEARISH",
-    "pdh": 0.005469,
-    "pdl": 0.004817,
-    "dsh": 0.005869,
-    "dsl": 0.004817,
+    "pdh": 0.01917,
+    "pdl": 0.01674,
+    "dsh": 0.01917,
+    "dsl": 0.01674,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CLOUSDT": {
+   "POWRUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03403,
-    "pdl": 0.02915,
-    "dsh": 0.04476,
-    "dsl": 0.02915,
+    "pdh": 0.04893,
+    "pdl": 0.04187,
+    "dsh": 0.04893,
+    "dsl": 0.04187,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "YGGUSDT": {
+   "FLUIDUSDT": {
     "state": "BEARISH",
-    "pdh": 0.02055,
-    "pdl": 0.01766,
-    "dsh": 0.02055,
-    "dsl": 0.01766,
+    "pdh": 1.924,
+    "pdl": 1.74,
+    "dsh": 2.777,
+    "dsl": 1.74,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "TNSRUSDT": {
+   "ESPUSDT": {
     "state": "BEARISH",
-    "pdh": 0.02471,
-    "pdl": 0.02091,
-    "dsh": 0.02588,
-    "dsl": 0.02091,
+    "pdh": 0.07705,
+    "pdl": 0.06638,
+    "dsh": 0.08091,
+    "dsl": 0.06638,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "DYMUSDT": {
+   "KSMUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01394,
-    "pdl": 0.0116,
-    "dsh": 0.01394,
-    "dsl": 0.0116,
+    "pdh": 2.985,
+    "pdl": 2.591,
+    "dsh": 2.985,
+    "dsl": 2.591,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "RAREUSDT": {
+   "MASKUSDT": {
     "state": "BEARISH",
-    "pdh": 0.00963,
-    "pdl": 0.00819,
-    "dsh": 0.00963,
-    "dsl": 0.00819,
+    "pdh": 0.3378,
+    "pdl": 0.2863,
+    "dsh": 0.3378,
+    "dsl": 0.2863,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "GENIUSUSDT": {
+   "DOGSUSDT": {
     "state": "BEARISH",
-    "pdh": 0.279,
-    "pdl": 0.2588,
-    "dsh": 0.279,
-    "dsl": 0.2588,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "MANTAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04689,
-    "pdl": 0.03919,
-    "dsh": 0.04689,
-    "dsl": 0.03919,
+    "pdh": 3.042e-05,
+    "pdl": 2.428e-05,
+    "dsh": 3.255e-05,
+    "dsl": 2.428e-05,
     "swept_pdh": false,
     "swept_pdl": false
-   },
-   "ZEREBROUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.023169,
-    "pdl": 0.019722,
-    "dsh": 0.023169,
-    "dsl": 0.019722,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BANANAUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.824,
-    "pdl": 2.539,
-    "dsh": 2.824,
-    "dsl": 2.539,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BROCCOLI714USDT": {
-    "state": "BEARISH",
-    "pdh": 0.0159,
-    "pdl": 0.01334,
-    "dsh": 0.0159,
-    "dsl": 0.01334,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GLMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.09858,
-    "pdl": 0.08651,
-    "dsh": 0.09858,
-    "dsl": 0.08651,
-    "swept_pdh": false,
-    "swept_pdl": true
    },
    "SUNUSDT": {
     "state": "BEARISH",
@@ -20637,75 +20493,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "KNCUSDT": {
+   "BASEDUSDT": {
     "state": "BEARISH",
-    "pdh": 0.1049,
-    "pdl": 0.0908,
-    "dsh": 0.1049,
-    "dsl": 0.0908,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HOLOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.05171,
-    "pdl": 0.04252,
-    "dsh": 0.05171,
-    "dsl": 0.04252,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AVAAIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.006619,
-    "pdl": 0.005507,
-    "dsh": 0.006619,
-    "dsl": 0.005507,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "NAORISUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02977,
-    "pdl": 0.02388,
-    "dsh": 0.02977,
-    "dsl": 0.02301,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "XAIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.006162,
-    "pdl": 0.005159,
-    "dsh": 0.006162,
-    "dsl": 0.005159,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ZRXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0871,
-    "pdl": 0.0752,
-    "dsh": 0.0871,
-    "dsl": 0.0752,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ARCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0299,
-    "pdl": 0.02571,
-    "dsh": 0.04044,
-    "dsl": 0.02571,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "MOVEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.005379,
-    "pdl": 0.004635,
-    "dsh": 0.005379,
-    "dsl": 0.004635,
+    "pdh": 0.04072,
+    "pdl": 0.03257,
+    "dsh": 0.04072,
+    "dsl": 0.03257,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -20718,876 +20511,12 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ZKPUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03329,
-    "pdl": 0.02815,
-    "dsh": 0.03329,
-    "dsl": 0.02815,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ACHUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004085,
-    "pdl": 0.003554,
-    "dsh": 0.004085,
-    "dsl": 0.003554,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LIGHTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.246,
-    "pdl": 0.2271,
-    "dsh": 0.252,
-    "dsl": 0.2122,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SSVUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.012,
-    "pdl": 1.768,
-    "dsh": 2.163,
-    "dsl": 1.768,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "POLYXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02934,
-    "pdl": 0.02507,
-    "dsh": 0.03113,
-    "dsl": 0.02507,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "EDENUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04701,
-    "pdl": 0.04092,
-    "dsh": 0.04875,
-    "dsl": 0.04092,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HEIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.08415,
-    "pdl": 0.07194,
-    "dsh": 0.08415,
-    "dsl": 0.07194,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "UMAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2961,
-    "pdl": 0.252,
-    "dsh": 0.2961,
-    "dsl": 0.252,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CTSIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02438,
-    "pdl": 0.02061,
-    "dsh": 0.02524,
-    "dsl": 0.02061,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "WETUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04355,
-    "pdl": 0.03668,
-    "dsh": 0.04355,
-    "dsl": 0.03668,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "INUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02355,
-    "pdl": 0.02028,
-    "dsh": 0.02355,
-    "dsl": 0.02028,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "WOOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01023,
-    "pdl": 0.00877,
-    "dsh": 0.01023,
-    "dsl": 0.00877,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "MIRAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03369,
-    "pdl": 0.02867,
-    "dsh": 0.03369,
-    "dsl": 0.02867,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "HYPERUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04623,
-    "pdl": 0.03917,
-    "dsh": 0.04623,
-    "dsl": 0.03917,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AZTECUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01163,
-    "pdl": 0.00993,
-    "dsh": 0.01163,
-    "dsl": 0.00993,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "1000RATSUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01275,
-    "pdl": 0.01077,
-    "dsh": 0.01524,
-    "dsl": 0.01077,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "BIGTIMEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004943,
-    "pdl": 0.004283,
-    "dsh": 0.004943,
-    "dsl": 0.004283,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "AEVOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01807,
-    "pdl": 0.01549,
-    "dsh": 0.01919,
-    "dsl": 0.01549,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "VANAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.7158,
-    "pdl": 0.6026,
-    "dsh": 0.7158,
-    "dsl": 0.6026,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CVCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01917,
-    "pdl": 0.01674,
-    "dsh": 0.01917,
-    "dsl": 0.01674,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "WCTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0292,
-    "pdl": 0.02489,
-    "dsh": 0.0292,
-    "dsl": 0.02489,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ANIMEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002254,
-    "pdl": 0.001957,
-    "dsh": 0.002254,
-    "dsl": 0.001957,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "GASUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.009,
-    "pdl": 0.9,
-    "dsh": 1.009,
-    "dsl": 0.9,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DRIFTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01126,
-    "pdl": 0.00932,
-    "dsh": 0.01126,
-    "dsl": 0.00932,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LAYERUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04901,
-    "pdl": 0.04163,
-    "dsh": 0.04901,
-    "dsl": 0.04163,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CHRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01395,
-    "pdl": 0.01189,
-    "dsh": 0.01395,
-    "dsl": 0.01189,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1061,
-    "pdl": 0.0908,
-    "dsh": 0.1375,
-    "dsl": 0.0908,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "STEEMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0461,
-    "pdl": 0.04037,
-    "dsh": 0.0461,
-    "dsl": 0.04037,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "ANKRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003476,
-    "pdl": 0.003067,
-    "dsh": 0.003476,
-    "dsl": 0.003067,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "INXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003861,
-    "pdl": 0.003167,
-    "dsh": 0.003861,
-    "dsl": 0.003167,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "KERNELUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04424,
-    "pdl": 0.0367,
-    "dsh": 0.04675,
-    "dsl": 0.0367,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DEEPUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01393,
-    "pdl": 0.01179,
-    "dsh": 0.01393,
-    "dsl": 0.01179,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PORTALUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01255,
-    "pdl": 0.01132,
-    "dsh": 0.01296,
-    "dsl": 0.01132,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "OGUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.102,
-    "pdl": 1.779,
-    "dsh": 2.102,
-    "dsl": 1.779,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TAGUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.000634,
-    "pdl": 0.000523,
-    "dsh": 0.0007721,
-    "dsl": 0.000523,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TLMUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.001007,
-    "pdl": 0.000861,
-    "dsh": 0.001007,
-    "dsl": 0.000861,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "PUNDIXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.07904,
-    "pdl": 0.06783,
-    "dsh": 0.07904,
-    "dsl": 0.06783,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AWEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06076,
-    "pdl": 0.05239,
-    "dsh": 0.06474,
-    "dsl": 0.05239,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MTLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2353,
-    "pdl": 0.2065,
-    "dsh": 0.2353,
-    "dsl": 0.2065,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "LQTYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1614,
-    "pdl": 0.1376,
-    "dsh": 0.1614,
-    "dsl": 0.1376,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "COAIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2008,
-    "pdl": 0.1643,
-    "dsh": 0.2008,
-    "dsl": 0.1643,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CGPTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01704,
-    "pdl": 0.0145,
-    "dsh": 0.01704,
-    "dsl": 0.0145,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "1000CATUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00155,
-    "pdl": 0.001349,
-    "dsh": 0.00155,
-    "dsl": 0.001349,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "HIVEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04266,
-    "pdl": 0.0374,
-    "dsh": 0.04266,
-    "dsl": 0.0374,
-    "swept_pdh": false,
-    "swept_pdl": true
-   },
-   "FIDAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01492,
-    "pdl": 0.01259,
-    "dsh": 0.01492,
-    "dsl": 0.01259,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RIFUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0552,
-    "pdl": 0.0476,
-    "dsh": 0.0552,
-    "dsl": 0.0476,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002297,
-    "pdl": 0.001986,
-    "dsh": 0.002297,
-    "dsl": 0.001986,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "IOTXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.002706,
-    "pdl": 0.002312,
-    "dsh": 0.002706,
-    "dsl": 0.002312,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SQDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01645,
-    "pdl": 0.01403,
-    "dsh": 0.0171,
-    "dsl": 0.01403,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BANDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1657,
-    "pdl": 0.1405,
-    "dsh": 0.1657,
-    "dsl": 0.1405,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "EDUUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04543,
-    "pdl": 0.03987,
-    "dsh": 0.04659,
-    "dsl": 0.03987,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "AGLDUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.147,
-    "pdl": 0.1257,
-    "dsh": 0.147,
-    "dsl": 0.1257,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XVSUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.534,
-    "pdl": 2.193,
-    "dsh": 2.534,
-    "dsl": 2.193,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SPACEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.003149,
-    "pdl": 0.002592,
-    "dsh": 0.003336,
-    "dsl": 0.002592,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ACUUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1283,
-    "pdl": 0.11272,
-    "dsh": 0.1283,
-    "dsl": 0.11272,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TAKEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06527,
-    "pdl": 0.05558,
-    "dsh": 0.06527,
-    "dsl": 0.05558,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SPELLUSDT": {
-    "state": "BEARISH",
-    "pdh": 6.77e-05,
-    "pdl": 6.04e-05,
-    "dsh": 6.77e-05,
-    "dsl": 6.04e-05,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "USTCUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004051,
-    "pdl": 0.003464,
-    "dsh": 0.004051,
-    "dsl": 0.003464,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "YBUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04785,
-    "pdl": 0.04064,
-    "dsh": 0.04785,
-    "dsl": 0.04064,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FHEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.01539,
-    "pdl": 0.01302,
-    "dsh": 0.01643,
-    "dsl": 0.01302,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RONINUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04241,
-    "pdl": 0.03583,
-    "dsh": 0.04241,
-    "dsl": 0.03583,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SFPUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1929,
-    "pdl": 0.1608,
-    "dsh": 0.1929,
-    "dsl": 0.1608,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "STABLEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02682,
-    "pdl": 0.02419,
-    "dsh": 0.03112,
-    "dsl": 0.02419,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "B2USDT": {
-    "state": "BEARISH",
-    "pdh": 0.4255,
-    "pdl": 0.3879,
-    "dsh": 0.5518,
-    "dsl": 0.3879,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FRAXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2171,
-    "pdl": 0.2017,
-    "dsh": 0.2367,
-    "dsl": 0.2017,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "LISTAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.07377,
-    "pdl": 0.06417,
-    "dsh": 0.07377,
-    "dsl": 0.06417,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SAFEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0825,
-    "pdl": 0.06948,
-    "dsh": 0.09023,
-    "dsl": 0.06948,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ZESTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.12823,
-    "pdl": 0.10831,
-    "dsh": 0.12823,
-    "dsl": 0.10048,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CATIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0361,
-    "pdl": 0.03027,
-    "dsh": 0.0361,
-    "dsl": 0.03027,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CTRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.014471,
-    "pdl": 0.014166,
-    "dsh": 0.01522,
-    "dsl": 0.014051,
-    "swept_pdh": true,
-    "swept_pdl": false
-   },
-   "AUCTIONUSDT": {
-    "state": "BEARISH",
-    "pdh": 2.804,
-    "pdl": 2.5,
-    "dsh": 2.804,
-    "dsl": 2.5,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CHILLGUYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.007917,
-    "pdl": 0.006614,
-    "dsh": 0.007917,
-    "dsl": 0.006614,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ZETAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.03186,
-    "pdl": 0.02697,
-    "dsh": 0.03186,
-    "dsl": 0.02697,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BRETTUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00363,
-    "pdl": 0.003044,
-    "dsh": 0.00363,
-    "dsl": 0.003044,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RECALLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02795,
-    "pdl": 0.02337,
-    "dsh": 0.02795,
-    "dsl": 0.02337,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "RPLUSDT": {
-    "state": "BEARISH",
-    "pdh": 1.323,
-    "pdl": 1.129,
-    "dsh": 1.323,
-    "dsl": 1.129,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "1000000MOGUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0844,
-    "pdl": 0.0718,
-    "dsh": 0.0844,
-    "dsl": 0.0718,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.8738,
-    "pdl": 0.783,
-    "dsh": 0.8738,
-    "dsl": 0.783,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BELUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.09386,
-    "pdl": 0.08111,
-    "dsh": 0.09386,
-    "dsl": 0.08111,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ASTRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004895,
-    "pdl": 0.004231,
-    "dsh": 0.004895,
-    "dsl": 0.004231,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BSVUSDT": {
-    "state": "BEARISH",
-    "pdh": 15.34,
-    "pdl": 13.93,
-    "dsh": 15.34,
-    "dsl": 13.93,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "JOEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02452,
-    "pdl": 0.02074,
-    "dsh": 0.02452,
-    "dsl": 0.02074,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CARVUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02544,
-    "pdl": 0.02146,
-    "dsh": 0.03429,
-    "dsl": 0.02146,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BREVUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0661,
-    "pdl": 0.05652,
-    "dsh": 0.0661,
-    "dsl": 0.05652,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "OUSDT": {
-    "state": "BULLISH",
-    "pdh": 0.5194,
-    "pdl": 0.4849,
-    "dsh": 0.5215,
-    "dsl": 0.3988,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "ALPINEUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.2712,
-    "pdl": 0.2392,
-    "dsh": 0.2712,
-    "dsl": 0.2392,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MOCAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.007042,
-    "pdl": 0.006001,
-    "dsh": 0.007042,
-    "dsl": 0.006001,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "CELRUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.00214,
-    "pdl": 0.001838,
-    "dsh": 0.00214,
-    "dsl": 0.001838,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SAPIENUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04264,
-    "pdl": 0.03633,
-    "dsh": 0.04264,
-    "dsl": 0.03633,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "XNYUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.004983,
-    "pdl": 0.004143,
-    "dsh": 0.004983,
-    "dsl": 0.004143,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "MAVIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.02403,
-    "pdl": 0.01981,
-    "dsh": 0.02403,
-    "dsl": 0.01981,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "FLUXUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.05049,
-    "pdl": 0.04366,
-    "dsh": 0.05049,
-    "dsl": 0.04366,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "DIAUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1253,
-    "pdl": 0.1104,
-    "dsh": 0.1253,
-    "dsl": 0.1104,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "SOMIUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.1567,
-    "pdl": 0.1371,
-    "dsh": 0.1567,
-    "dsl": 0.1371,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "TAIKOUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.06559,
-    "pdl": 0.0531,
-    "dsh": 0.06559,
-    "dsl": 0.0531,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "STBLUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.0215,
-    "pdl": 0.01894,
-    "dsh": 0.0215,
-    "dsl": 0.01894,
-    "swept_pdh": false,
-    "swept_pdl": false
-   },
-   "BANUSDT": {
-    "state": "BEARISH",
-    "pdh": 0.04328,
-    "pdl": 0.0368,
-    "dsh": 0.04765,
-    "dsl": 0.0368,
+   "DYMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01394,
+    "pdl": 0.0116,
+    "dsh": 0.01394,
+    "dsl": 0.0116,
     "swept_pdh": false,
     "swept_pdl": false
    },
@@ -21600,89 +20529,755 @@
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "NEWTUSDT": {
+   "PIXELUSDT": {
     "state": "BEARISH",
-    "pdh": 0.03782,
-    "pdl": 0.03361,
-    "dsh": 0.03782,
-    "dsl": 0.03361,
+    "pdh": 0.003879,
+    "pdl": 0.003217,
+    "dsh": 0.003879,
+    "dsl": 0.003217,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CUSDT": {
+   "AVAAIUSDT": {
     "state": "BEARISH",
-    "pdh": 0.07144,
-    "pdl": 0.06123,
-    "dsh": 0.07144,
-    "dsl": 0.06123,
+    "pdh": 0.006619,
+    "pdl": 0.005507,
+    "dsh": 0.006619,
+    "dsl": 0.005507,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ETHWUSDT": {
+   "LIGHTUSDT": {
     "state": "BEARISH",
-    "pdh": 0.2046,
-    "pdl": 0.1715,
-    "dsh": 0.2046,
-    "dsl": 0.1715,
+    "pdh": 0.246,
+    "pdl": 0.2271,
+    "dsh": 0.252,
+    "dsl": 0.2122,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "BROCCOLI714USDT": {
+    "state": "BEARISH",
+    "pdh": 0.0159,
+    "pdl": 0.01334,
+    "dsh": 0.0159,
+    "dsl": 0.01334,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "GOATUSDT": {
+   "MOODENGUSDT": {
     "state": "BEARISH",
-    "pdh": 0.01203,
-    "pdl": 0.01029,
-    "dsh": 0.01203,
-    "dsl": 0.01029,
+    "pdh": 0.03019,
+    "pdl": 0.02566,
+    "dsh": 0.03019,
+    "dsl": 0.02566,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "BNTUSDT": {
+   "SPACEUSDT": {
     "state": "BEARISH",
-    "pdh": 0.247,
-    "pdl": 0.218,
-    "dsh": 0.247,
-    "dsl": 0.218,
+    "pdh": 0.003149,
+    "pdl": 0.002592,
+    "dsh": 0.003336,
+    "dsl": 0.002592,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GENIUSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.279,
+    "pdl": 0.2588,
+    "dsh": 0.279,
+    "dsl": 0.2588,
     "swept_pdh": false,
     "swept_pdl": true
    },
-   "MAVUSDT": {
+   "BSBUSDT": {
     "state": "BEARISH",
-    "pdh": 0.007441,
-    "pdl": 0.006406,
-    "dsh": 0.007441,
-    "dsl": 0.006406,
+    "pdh": 0.08256,
+    "pdl": 0.06673,
+    "dsh": 0.08256,
+    "dsl": 0.06673,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "CROSSUSDT": {
+   "HEIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.08415,
+    "pdl": 0.07194,
+    "dsh": 0.08415,
+    "dsl": 0.07194,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MANTAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04689,
+    "pdl": 0.03919,
+    "dsh": 0.04689,
+    "dsl": 0.03919,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ROBOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004403,
+    "pdl": 0.003586,
+    "dsh": 0.004403,
+    "dsl": 0.003586,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ZRXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0871,
+    "pdl": 0.0752,
+    "dsh": 0.0871,
+    "dsl": 0.0752,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KNCUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1049,
+    "pdl": 0.0908,
+    "dsh": 0.1049,
+    "dsl": 0.0908,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "METISUSDT": {
+    "state": "BEARISH",
+    "pdh": 2.524,
+    "pdl": 2.168,
+    "dsh": 2.524,
+    "dsl": 2.168,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SWARMSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.006778,
+    "pdl": 0.005392,
+    "dsh": 0.006778,
+    "dsl": 0.005392,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1000RATSUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01275,
+    "pdl": 0.01077,
+    "dsh": 0.01524,
+    "dsl": 0.01077,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "BICOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01286,
+    "pdl": 0.01083,
+    "dsh": 0.01286,
+    "dsl": 0.01083,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "EDUUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04543,
+    "pdl": 0.03987,
+    "dsh": 0.04659,
+    "dsl": 0.03987,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CLOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03403,
+    "pdl": 0.02915,
+    "dsh": 0.04476,
+    "dsl": 0.02915,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ANKRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.003476,
+    "pdl": 0.003067,
+    "dsh": 0.003476,
+    "dsl": 0.003067,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1MBABYDOGEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.000277,
+    "pdl": 0.0002414,
+    "dsh": 0.000277,
+    "dsl": 0.0002414,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SPELLUSDT": {
+    "state": "BEARISH",
+    "pdh": 6.77e-05,
+    "pdl": 6.04e-05,
+    "dsh": 6.77e-05,
+    "dsl": 6.04e-05,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DRIFTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01126,
+    "pdl": 0.00932,
+    "dsh": 0.01126,
+    "dsl": 0.00932,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ZEREBROUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.023169,
+    "pdl": 0.019722,
+    "dsh": 0.023169,
+    "dsl": 0.019722,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "WCTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0292,
+    "pdl": 0.02489,
+    "dsh": 0.0292,
+    "dsl": 0.02489,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LUNA2USDT": {
+    "state": "BEARISH",
+    "pdh": 0.03438,
+    "pdl": 0.02954,
+    "dsh": 0.03438,
+    "dsl": 0.02954,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "INUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02355,
+    "pdl": 0.02028,
+    "dsh": 0.02355,
+    "dsl": 0.02028,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SSVUSDT": {
+    "state": "BEARISH",
+    "pdh": 2.012,
+    "pdl": 1.768,
+    "dsh": 2.163,
+    "dsl": 1.768,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MOVEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.005379,
+    "pdl": 0.004635,
+    "dsh": 0.005379,
+    "dsl": 0.004635,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "EDENUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04701,
+    "pdl": 0.04092,
+    "dsh": 0.04875,
+    "dsl": 0.04092,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CKBUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.000935,
+    "pdl": 0.0007774,
+    "dsh": 0.000935,
+    "dsl": 0.0007774,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "POLYXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02934,
+    "pdl": 0.02507,
+    "dsh": 0.03113,
+    "dsl": 0.02507,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "BLUAIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.007054,
+    "pdl": 0.005613,
+    "dsh": 0.007054,
+    "dsl": 0.005613,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "WOOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01023,
+    "pdl": 0.00877,
+    "dsh": 0.01023,
+    "dsl": 0.00877,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "YGGUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02055,
+    "pdl": 0.01766,
+    "dsh": 0.02055,
+    "dsl": 0.01766,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "MTLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2353,
+    "pdl": 0.2065,
+    "dsh": 0.2353,
+    "dsl": 0.2065,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "GRIFFAINUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01027,
+    "pdl": 0.008908,
+    "dsh": 0.011269,
+    "dsl": 0.008908,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AZTECUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01163,
+    "pdl": 0.00993,
+    "dsh": 0.01163,
+    "dsl": 0.00993,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "GASUSDT": {
+    "state": "BEARISH",
+    "pdh": 1.009,
+    "pdl": 0.9,
+    "dsh": 1.009,
+    "dsl": 0.9,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "NAORISUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02977,
+    "pdl": 0.02388,
+    "dsh": 0.02977,
+    "dsl": 0.02301,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ACHUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004085,
+    "pdl": 0.003554,
+    "dsh": 0.004085,
+    "dsl": 0.003554,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ANIMEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.002254,
+    "pdl": 0.001957,
+    "dsh": 0.002254,
+    "dsl": 0.001957,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "XAIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.006162,
+    "pdl": 0.005159,
+    "dsh": 0.006162,
+    "dsl": 0.005159,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BIGTIMEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004943,
+    "pdl": 0.004283,
+    "dsh": 0.004943,
+    "dsl": 0.004283,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "PUNDIXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.07904,
+    "pdl": 0.06783,
+    "dsh": 0.07904,
+    "dsl": 0.06783,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LQTYUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1614,
+    "pdl": 0.1376,
+    "dsh": 0.1614,
+    "dsl": 0.1376,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "INXUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.003861,
+    "pdl": 0.003167,
+    "dsh": 0.003861,
+    "dsl": 0.003167,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "1000CATUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.00155,
+    "pdl": 0.001349,
+    "dsh": 0.00155,
+    "dsl": 0.001349,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ZKPUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.03329,
+    "pdl": 0.02815,
+    "dsh": 0.03329,
+    "dsl": 0.02815,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "LAYERUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04901,
+    "pdl": 0.04163,
+    "dsh": 0.04901,
+    "dsl": 0.04163,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HYPERUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04623,
+    "pdl": 0.03917,
+    "dsh": 0.04623,
+    "dsl": 0.03917,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "VANAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.7158,
+    "pdl": 0.6026,
+    "dsh": 0.7158,
+    "dsl": 0.6026,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "OUSDT": {
     "state": "BULLISH",
-    "pdh": 0.11243,
-    "pdl": 0.1057,
-    "dsh": 0.11441,
-    "dsl": 0.09619,
+    "pdh": 0.5194,
+    "pdl": 0.4849,
+    "dsh": 0.5215,
+    "dsl": 0.3988,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "ASRUSDT": {
+   "MIRAUSDT": {
     "state": "BEARISH",
-    "pdh": 0.7216,
-    "pdl": 0.6283,
-    "dsh": 0.7429,
-    "dsl": 0.6283,
+    "pdh": 0.03369,
+    "pdl": 0.02867,
+    "dsh": 0.03369,
+    "dsl": 0.02867,
     "swept_pdh": false,
     "swept_pdl": false
    },
-   "WAXPUSDT": {
+   "FRAXUSDT": {
     "state": "BEARISH",
-    "pdh": 0.003661,
-    "pdl": 0.003261,
-    "dsh": 0.003661,
-    "dsl": 0.003261,
+    "pdh": 0.2171,
+    "pdl": 0.2017,
+    "dsh": 0.2367,
+    "dsl": 0.2017,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "UMAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.2961,
+    "pdl": 0.252,
+    "dsh": 0.2961,
+    "dsl": 0.252,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "XVGUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.001922,
+    "pdl": 0.001619,
+    "dsh": 0.001922,
+    "dsl": 0.001619,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AWEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.06076,
+    "pdl": 0.05239,
+    "dsh": 0.06474,
+    "dsl": 0.05239,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "WETUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04355,
+    "pdl": 0.03668,
+    "dsh": 0.04355,
+    "dsl": 0.03668,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "STEEMUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0461,
+    "pdl": 0.04037,
+    "dsh": 0.0461,
+    "dsl": 0.04037,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "AEVOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01807,
+    "pdl": 0.01549,
+    "dsh": 0.01919,
+    "dsl": 0.01549,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "KERNELUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04424,
+    "pdl": 0.0367,
+    "dsh": 0.04675,
+    "dsl": 0.0367,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "RIFUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0552,
+    "pdl": 0.0476,
+    "dsh": 0.0552,
+    "dsl": 0.0476,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "XNYUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004983,
+    "pdl": 0.004143,
+    "dsh": 0.004983,
+    "dsl": 0.004143,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HOLOUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.05171,
+    "pdl": 0.04252,
+    "dsh": 0.05171,
+    "dsl": 0.04252,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CTSIUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02438,
+    "pdl": 0.02061,
+    "dsh": 0.02524,
+    "dsl": 0.02061,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "STABLEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02682,
+    "pdl": 0.02419,
+    "dsh": 0.03112,
+    "dsl": 0.02419,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "OGUSDT": {
+    "state": "BEARISH",
+    "pdh": 2.102,
+    "pdl": 1.779,
+    "dsh": 2.102,
+    "dsl": 1.779,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "BANDUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1657,
+    "pdl": 0.1405,
+    "dsh": 0.1657,
+    "dsl": 0.1405,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "RECALLUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.02795,
+    "pdl": 0.02337,
+    "dsh": 0.02795,
+    "dsl": 0.02337,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CTRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.014471,
+    "pdl": 0.014166,
+    "dsh": 0.01522,
+    "dsl": 0.014051,
+    "swept_pdh": true,
+    "swept_pdl": false
+   },
+   "BUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1061,
+    "pdl": 0.0908,
+    "dsh": 0.1375,
+    "dsl": 0.0908,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "CGPTUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01704,
+    "pdl": 0.0145,
+    "dsh": 0.01704,
+    "dsl": 0.0145,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "RONINUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04241,
+    "pdl": 0.03583,
+    "dsh": 0.04241,
+    "dsl": 0.03583,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "SAFEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.0825,
+    "pdl": 0.06948,
+    "dsh": 0.09023,
+    "dsl": 0.06948,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DEEPUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.01393,
+    "pdl": 0.01179,
+    "dsh": 0.01393,
+    "dsl": 0.01179,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "TAGUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.000634,
+    "pdl": 0.000523,
+    "dsh": 0.0007721,
+    "dsl": 0.000523,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "DIAUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1253,
+    "pdl": 0.1104,
+    "dsh": 0.1253,
+    "dsl": 0.1104,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "FUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.002297,
+    "pdl": 0.001986,
+    "dsh": 0.002297,
+    "dsl": 0.001986,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "HIVEUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.04266,
+    "pdl": 0.0374,
+    "dsh": 0.04266,
+    "dsl": 0.0374,
+    "swept_pdh": false,
+    "swept_pdl": true
+   },
+   "ASTRUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.004895,
+    "pdl": 0.004231,
+    "dsh": 0.004895,
+    "dsl": 0.004231,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "ACUUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.1283,
+    "pdl": 0.11272,
+    "dsh": 0.1283,
+    "dsl": 0.11272,
+    "swept_pdh": false,
+    "swept_pdl": false
+   },
+   "AGLDUSDT": {
+    "state": "BEARISH",
+    "pdh": 0.147,
+    "pdl": 0.1257,
+    "dsh": 0.147,
+    "dsl": 0.1257,
     "swept_pdh": false,
     "swept_pdl": false
    }
   },
-  "t": "2026-11-16 03:01"
+  "t": "2026-11-16 03:05"
  },
- "updated": "2026-11-16 03:01:20.194209+05:30"
+ "updated": "2026-11-16 03:05:01.788836+05:30"
 }
