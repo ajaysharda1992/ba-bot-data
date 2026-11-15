@@ -4389,7 +4389,7 @@
     "f240": 52.20388021472593
    }
   ],
-  "t": "2026-11-15 09:31"
+  "t": "2026-11-15 09:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 258
    }
   ],
-  "t": "2026-11-15 09:31"
+  "t": "2026-11-15 09:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13922,68 +13922,18 @@
   "history": [],
   "funnel": {
    "evaluated": 495,
-   "magnet_no_sweep": 333,
-   "stale_bos": 103,
-   "not_in_zone": 49,
-   "no_4h_structure": 4,
+   "stale_bos": 120,
+   "magnet_no_sweep": 316,
+   "not_in_zone": 48,
+   "no_4h_structure": 5,
    "no_choch_fresh": 1,
-   "magnet_overshoot": 1,
-   "no_choch_struct": 2,
+   "no_choch_struct": 3,
    "risk_wide": 1,
-   "t": "2026-11-15 09:19",
+   "t": "2026-11-15 09:34",
    "signals": 1,
    "universe": 495
   },
   "feed": [
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "GASUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.9245 rr 1.92 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "TAKEUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0587 rr 1.67 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "ANIMEUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.002008 rr 2.24 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "FIDAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.013135 rr 2.17 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "CHRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.012265 rr 2.08 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "TLMUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.00089 rr 2.22 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 09:05",
-    "kind": "CROSS",
-    "sym": "LQTYUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.14155 rr 2.59 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-15 09:05",
     "kind": "CROSS",
@@ -14214,6 +14164,55 @@
     "sym": "WOOUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.00892 rr 2.7 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "RADAR",
+    "sym": "JUPUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.2662 | px 0.2614"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "RADAR",
+    "sym": "VVVUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 19.717 | px 19.345"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "CROSS",
+    "sym": "LSKUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.148015 rr 5.26 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "RADAR",
+    "sym": "GPSUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.008564 | px 0.008039"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "RADAR",
+    "sym": "TRIAUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.002761 | px 0.002301"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "CROSS",
+    "sym": "SENTUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.016285 rr 1.53 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 09:34",
+    "kind": "RADAR",
+    "sym": "CTRUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.01477 | px 0.014527"
    }
   ],
   "radar_state": {
@@ -15083,9 +15082,9 @@
     "ts": 1794661474.0203948
    },
    "TRIAUSDT": {
-    "key": "LONG:0.002303",
-    "stage": "SWEEPING",
-    "ts": 1794665979.625831
+    "key": "SHORT:0.002761",
+    "stage": "APPROACHING",
+    "ts": 1794715472.5554605
    },
    "OPENUSDT": {
     "key": "LONG:0.0883",
@@ -15113,9 +15112,9 @@
     "ts": 1794697474.346797
    },
    "JUPUSDT": {
-    "key": "LONG:0.2252",
-    "stage": "APPROACHING",
-    "ts": 1794708277.1058912
+    "key": "SHORT:0.2662",
+    "stage": "IN_ZONE",
+    "ts": 1794715472.5554605
    },
    "GRIFFAINUSDT": {
     "key": "SHORT:0.011269",
@@ -15153,14 +15152,24 @@
     "ts": 1794707368.2445688
    },
    "GPSUSDT": {
-    "key": "SHORT:0.008152",
-    "stage": "APPROACHING",
-    "ts": 1794714579.0349052
+    "key": "SHORT:0.008564",
+    "stage": "IN_ZONE",
+    "ts": 1794715472.5554605
    },
    "HMSTRUSDT": {
     "key": "SHORT:0.0001451",
     "stage": "APPROACHING",
     "ts": 1794711878.8667881
+   },
+   "VVVUSDT": {
+    "key": "SHORT:19.717",
+    "stage": "APPROACHING",
+    "ts": 1794715472.5554605
+   },
+   "CTRUSDT": {
+    "key": "SHORT:0.01477",
+    "stage": "IN_ZONE",
+    "ts": 1794715472.5554605
    }
   },
   "cross_state": {
@@ -16165,8 +16174,8 @@
     "ts": 1794713669.123368
    },
    "SENTUSDT": {
-    "key": "SENTUSDT|SHORT|1794680999999",
-    "ts": 1794685767.775364
+    "key": "SENTUSDT|LONG|1794710699999",
+    "ts": 1794715472.5554605
    },
    "ATUSDT": {
     "key": "ATUSDT|SHORT|1794658499999",
@@ -16833,8 +16842,8 @@
     "ts": 1794709162.2006571
    },
    "LSKUSDT": {
-    "key": "LSKUSDT|LONG|1794700799999",
-    "ts": 1794701079.6656299
+    "key": "LSKUSDT|SHORT|1794715199999",
+    "ts": 1794715472.5554605
    },
    "RVNUSDT": {
     "key": "RVNUSDT|LONG|1794709799999",
@@ -21567,7 +21576,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-15 09:31"
+  "t": "2026-11-15 09:34"
  },
- "updated": "2026-11-15 09:31:20.202483+05:30"
+ "updated": "2026-11-15 09:34:37.269399+05:30"
 }
