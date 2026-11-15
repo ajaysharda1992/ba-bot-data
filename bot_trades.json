@@ -4389,7 +4389,7 @@
     "f240": 47.307253968888716
    }
   ],
-  "t": "2026-11-15 06:16"
+  "t": "2026-11-15 06:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 289
    }
   ],
-  "t": "2026-11-15 06:16"
+  "t": "2026-11-15 06:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-15",
@@ -13924,44 +13924,16 @@
    "evaluated": 470,
    "magnet_no_sweep": 315,
    "stale_bos": 97,
-   "no_choch_fresh": 2,
+   "no_choch_struct": 3,
    "not_in_zone": 47,
    "no_4h_structure": 4,
-   "no_choch_struct": 3,
+   "no_choch_fresh": 2,
    "magnet_overshoot": 1,
-   "t": "2026-11-15 06:04",
+   "t": "2026-11-15 06:19",
    "signals": 1,
    "universe": 470
   },
   "feed": [
-   {
-    "t": "2026-11-15 05:36",
-    "kind": "CROSS",
-    "sym": "STEEMUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.04099 rr 5.42 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 05:36",
-    "kind": "CROSS",
-    "sym": "GASUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.9165 rr 3.37 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 05:36",
-    "kind": "CROSS",
-    "sym": "ANKRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0031395 rr 2.96 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-15 05:36",
-    "kind": "CROSS",
-    "sym": "AGLDUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.12825 rr 4.07 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-15 05:36",
     "kind": "CROSS",
@@ -14213,6 +14185,34 @@
     "sym": "BILLUSDT",
     "dir": "LONG",
     "text": "MAGNET APPROACHING 0.004042 | px 0.004103"
+   },
+   {
+    "t": "2026-11-15 06:19",
+    "kind": "CROSS",
+    "sym": "DODOXUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0315565 rr 3.06 (no 4H structure - LTF scalp)"
+   },
+   {
+    "t": "2026-11-15 06:19",
+    "kind": "RADAR",
+    "sym": "APRUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.03943 | px 0.03446"
+   },
+   {
+    "t": "2026-11-15 06:19",
+    "kind": "RADAR",
+    "sym": "JELLYJELLYUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 0.04169 | px 0.04112"
+   },
+   {
+    "t": "2026-11-15 06:19",
+    "kind": "CROSS",
+    "sym": "SWARMSUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.005647 rr 2.71 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -15140,6 +15140,16 @@
     "key": "LONG:0.0679",
     "stage": "REJECTING",
     "ts": 1794701079.6656299
+   },
+   "APRUSDT": {
+    "key": "SHORT:0.03943",
+    "stage": "APPROACHING",
+    "ts": 1794703763.1705406
+   },
+   "JELLYJELLYUSDT": {
+    "key": "SHORT:0.04169",
+    "stage": "APPROACHING",
+    "ts": 1794703763.1705406
    }
   },
   "cross_state": {
@@ -15604,8 +15614,8 @@
     "ts": 1794701975.8101428
    },
    "SWARMSUSDT": {
-    "key": "SWARMSUSDT|SHORT|1794662099999",
-    "ts": 1794664173.804783
+    "key": "SWARMSUSDT|LONG|1794700799999",
+    "ts": 1794703763.1705406
    },
    "PROVEUSDT": {
     "key": "PROVEUSDT|LONG|1794699899999",
@@ -15708,8 +15718,8 @@
     "ts": 1794701079.6656299
    },
    "DODOXUSDT": {
-    "key": "DODOXUSDT|SHORT|1794689099999",
-    "ts": 1794692060.8981655
+    "key": "DODOXUSDT|LONG|1794703499999",
+    "ts": 1794703763.1705406
    },
    "ONUSDT": {
     "key": "ONUSDT|SHORT|1794690899999",
@@ -21249,7 +21259,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-15 06:16"
+  "t": "2026-11-15 06:19"
  },
- "updated": "2026-11-15 06:16:25.453049+05:30"
+ "updated": "2026-11-15 06:19:25.891649+05:30"
 }
