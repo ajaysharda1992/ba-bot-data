@@ -4389,7 +4389,7 @@
     "f240": 51.673612522626286
    }
   ],
-  "t": "2026-11-16 08:31"
+  "t": "2026-11-16 08:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 228
    }
   ],
-  "t": "2026-11-16 08:31"
+  "t": "2026-11-16 08:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-16",
@@ -13929,46 +13929,11 @@
    "no_choch_struct": 2,
    "no_4h_structure": 3,
    "no_choch_fresh": 1,
-   "t": "2026-11-16 08:19",
+   "t": "2026-11-16 08:34",
    "signals": 0,
    "universe": 450
   },
   "feed": [
-   {
-    "t": "2026-11-16 07:49",
-    "kind": "CROSS",
-    "sym": "RAVEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.1035 rr 4.04 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 07:49",
-    "kind": "RADAR",
-    "sym": "TREEUSDT",
-    "dir": "SHORT",
-    "text": "IN ZONE 0.03098 | px 0.02892"
-   },
-   {
-    "t": "2026-11-16 07:49",
-    "kind": "CROSS",
-    "sym": "ESPUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 0.071 rr 4.72 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 07:49",
-    "kind": "CROSS",
-    "sym": "PIXELUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 0.003379 rr 4.03 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-16 08:04",
-    "kind": "CROSS",
-    "sym": "XMRUSDT",
-    "dir": "SHORT",
-    "text": "EM3 entry 500.35 rr 2.87 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-16 08:04",
     "kind": "RADAR",
@@ -14213,6 +14178,41 @@
     "sym": "GENIUSUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.266 rr 1.62 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 08:34",
+    "kind": "CROSS",
+    "sym": "FFUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.10001 rr 1.84 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 08:34",
+    "kind": "CROSS",
+    "sym": "LSKUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.14687 rr 1.57 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 08:34",
+    "kind": "CROSS",
+    "sym": "CCUSDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.08412 rr 1.62 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 08:34",
+    "kind": "RADAR",
+    "sym": "LYNUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.02148 | px 0.01832"
+   },
+   {
+    "t": "2026-11-16 08:34",
+    "kind": "CROSS",
+    "sym": "AEVOUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.01696 rr 1.54 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -14762,9 +14762,9 @@
     "ts": 1794561567.6076303
    },
    "LYNUSDT": {
-    "key": "SHORT:0.02522",
+    "key": "SHORT:0.02148",
     "stage": "APPROACHING",
-    "ts": 1794562460.2721145
+    "ts": 1794798261.4675045
    },
    "USUSDT": {
     "key": "SHORT:0.004183",
@@ -16413,8 +16413,8 @@
     "ts": 1794788375.530696
    },
    "FFUSDT": {
-    "key": "FFUSDT|LONG|1794780899999",
-    "ts": 1794781162.1195562
+    "key": "FFUSDT|LONG|1794795299999",
+    "ts": 1794798261.4675045
    },
    "FARTCOINUSDT": {
     "key": "FARTCOINUSDT|SHORT|1794789899999",
@@ -16481,8 +16481,8 @@
     "ts": 1794774869.5843043
    },
    "CCUSDT": {
-    "key": "CCUSDT|LONG|1794782699999",
-    "ts": 1794785663.9581864
+    "key": "CCUSDT|LONG|1794796199999",
+    "ts": 1794798261.4675045
    },
    "RONINUSDT": {
     "key": "RONINUSDT|LONG|1794774599999",
@@ -16917,8 +16917,8 @@
     "ts": 1794791071.9350593
    },
    "LSKUSDT": {
-    "key": "LSKUSDT|SHORT|1794788999999",
-    "ts": 1794789259.8402255
+    "key": "LSKUSDT|LONG|1794796199999",
+    "ts": 1794798261.4675045
    },
    "RVNUSDT": {
     "key": "RVNUSDT|LONG|1794786299999",
@@ -17065,8 +17065,8 @@
     "ts": 1794795560.7213047
    },
    "AEVOUSDT": {
-    "key": "AEVOUSDT|SHORT|1794792599999",
-    "ts": 1794792862.4172387
+    "key": "AEVOUSDT|LONG|1794795299999",
+    "ts": 1794798261.4675045
    },
    "UMAUSDT": {
     "key": "UMAUSDT|LONG|1794775499999",
@@ -21306,7 +21306,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-16 08:31"
+  "t": "2026-11-16 08:34"
  },
- "updated": "2026-11-16 08:31:16.920838+05:30"
+ "updated": "2026-11-16 08:34:24.768642+05:30"
 }
