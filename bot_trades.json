@@ -4389,7 +4389,7 @@
     "f240": 47.265733516719656
    }
   ],
-  "t": "2026-11-16 21:16"
+  "t": "2026-11-16 21:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 241
    }
   ],
-  "t": "2026-11-16 21:16"
+  "t": "2026-11-16 21:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-16",
@@ -13923,39 +13923,18 @@
   "funnel": {
    "evaluated": 389,
    "stale_bos": 189,
-   "not_in_zone": 35,
+   "not_in_zone": 36,
    "magnet_no_sweep": 154,
-   "no_choch_struct": 4,
+   "no_choch_struct": 3,
    "no_4h_structure": 3,
-   "risk_wide": 2,
+   "risk_wide": 1,
    "magnet_overshoot": 1,
    "poi_misaligned": 1,
-   "t": "2026-11-16 21:04",
-   "signals": 0,
+   "t": "2026-11-16 21:19",
+   "signals": 1,
    "universe": 389
   },
   "feed": [
-   {
-    "t": "2026-11-16 20:19",
-    "kind": "CROSS",
-    "sym": "PRLUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.065715 rr 3.01 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-16 20:19",
-    "kind": "RADAR",
-    "sym": "TREEUSDT",
-    "dir": "SHORT",
-    "text": "IN ZONE 0.03098 | px 0.02882"
-   },
-   {
-    "t": "2026-11-16 20:19",
-    "kind": "CROSS",
-    "sym": "DYMUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.01228 rr 1.67 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-16 20:19",
     "kind": "CROSS",
@@ -14214,6 +14193,27 @@
     "sym": "BROCCOLI714USDT",
     "dir": "LONG",
     "text": "EM3 entry 0.01462 rr 3.99 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 21:19",
+    "kind": "CROSS",
+    "sym": "BANANAS31USDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0047355 rr 2.15 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-16 21:19",
+    "kind": "CROSS",
+    "sym": "AIOUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.034435 rr 1.6 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-16 21:19",
+    "kind": "RADAR",
+    "sym": "TRIAUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.002761 | px 0.002344"
    }
   ],
   "radar_state": {
@@ -15084,8 +15084,8 @@
    },
    "TRIAUSDT": {
     "key": "SHORT:0.002761",
-    "stage": "IN_ZONE",
-    "ts": 1794843271.641234
+    "stage": "APPROACHING",
+    "ts": 1794844160.6373675
    },
    "OPENUSDT": {
     "key": "LONG:0.0883",
@@ -15539,8 +15539,8 @@
     "ts": 1794825259.6834488
    },
    "AIOUSDT": {
-    "key": "AIOUSDT|LONG|1794821399999",
-    "ts": 1794823472.500944
+    "key": "AIOUSDT|LONG|1794843899999",
+    "ts": 1794844160.6373675
    },
    "ENJUSDT": {
     "key": "ENJUSDT|LONG|1794826799999",
@@ -16775,8 +16775,8 @@
     "ts": 1794806364.6937273
    },
    "BANANAS31USDT": {
-    "key": "BANANAS31USDT|SHORT|1794836699999",
-    "ts": 1794838767.7642019
+    "key": "BANANAS31USDT|LONG|1794843899999",
+    "ts": 1794844160.6373675
    },
    "ETHUSDT": {
     "key": "ETHUSDT|SHORT|1794832199999",
@@ -20803,7 +20803,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-16 21:16"
+  "t": "2026-11-16 21:19"
  },
- "updated": "2026-11-16 21:16:24.099300+05:30"
+ "updated": "2026-11-16 21:19:22.857343+05:30"
 }
