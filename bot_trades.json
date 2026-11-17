@@ -4389,7 +4389,7 @@
     "f240": 40.61954738153468
    }
   ],
-  "t": "2026-11-17 11:16"
+  "t": "2026-11-17 11:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 246
    }
   ],
-  "t": "2026-11-17 11:16"
+  "t": "2026-11-17 11:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-17",
@@ -13927,53 +13927,11 @@
    "no_4h_structure": 2,
    "magnet_no_sweep": 81,
    "no_choch_struct": 1,
-   "t": "2026-11-17 11:04",
+   "t": "2026-11-17 11:19",
    "signals": 0,
    "universe": 385
   },
   "feed": [
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "CROSS",
-    "sym": "ETHFIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.4693 rr 1.74 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "CROSS",
-    "sym": "ONEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.00130715 rr 6.3 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "CROSS",
-    "sym": "BASEDUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.03815 rr 3.08 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "RADAR",
-    "sym": "SIRENUSDT",
-    "dir": "SHORT",
-    "text": "APPROACHING 0.0287 | px 0.02632"
-   },
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "RADAR",
-    "sym": "HMSTRUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET APPROACHING 0.0001451 | px 0.0001436"
-   },
-   {
-    "t": "2026-11-17 10:34",
-    "kind": "CROSS",
-    "sym": "COTIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0085325 rr 1.65 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-17 10:34",
     "kind": "CROSS",
@@ -14211,6 +14169,48 @@
     "sym": "XNYUSDT",
     "dir": "SHORT",
     "text": "EM3 entry 0.004671 rr 9.11 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "CROSS",
+    "sym": "CLUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 83.735 rr 4.42 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "CROSS",
+    "sym": "BZUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 89.26 rr 4.16 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "RADAR",
+    "sym": "LITUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 3.0675 | px 3.0091"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "CROSS",
+    "sym": "MORPHOUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 1.7439 rr 1.64 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "CROSS",
+    "sym": "BATUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.095645 rr 1.59 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 11:19",
+    "kind": "RADAR",
+    "sym": "TRIAUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.002761 | px 0.002358"
    }
   ],
   "radar_state": {
@@ -14241,8 +14241,8 @@
    },
    "LITUSDT": {
     "key": "SHORT:3.0675",
-    "stage": "REJECTING",
-    "ts": 1794892760.8341098
+    "stage": "APPROACHING",
+    "ts": 1794894562.8312109
    },
    "BTWUSDT": {
     "key": "LONG:0.8706",
@@ -15081,8 +15081,8 @@
    },
    "TRIAUSDT": {
     "key": "SHORT:0.002761",
-    "stage": "APPROACHING",
-    "ts": 1794892760.8341098
+    "stage": "IN_ZONE",
+    "ts": 1794894562.8312109
    },
    "OPENUSDT": {
     "key": "LONG:0.0883",
@@ -15340,16 +15340,16 @@
     "ts": 1794842359.6450582
    },
    "CLUSDT": {
-    "key": "CLUSDT|LONG|1794808799999",
-    "ts": 1794809073.5307965
+    "key": "CLUSDT|LONG|1794894299999",
+    "ts": 1794894562.8312109
    },
    "XAGUSDT": {
     "key": "XAGUSDT|LONG|1794873599999",
     "ts": 1794873860.2723505
    },
    "BZUSDT": {
-    "key": "BZUSDT|LONG|1794808799999",
-    "ts": 1794809073.5307965
+    "key": "BZUSDT|LONG|1794894299999",
+    "ts": 1794894562.8312109
    },
    "NEARUSDT": {
     "key": "NEARUSDT|LONG|1794885299999",
@@ -15484,8 +15484,8 @@
     "ts": 1794831560.104599
    },
    "BATUSDT": {
-    "key": "BATUSDT|LONG|1794878099999",
-    "ts": 1794878372.3235357
+    "key": "BATUSDT|LONG|1794889799999",
+    "ts": 1794894562.8312109
    },
    "SOPHUSDT": {
     "key": "SOPHUSDT|LONG|1794887099999",
@@ -15960,8 +15960,8 @@
     "ts": 1794860365.7322297
    },
    "MORPHOUSDT": {
-    "key": "MORPHOUSDT|LONG|1794867299999",
-    "ts": 1794867565.9316163
+    "key": "MORPHOUSDT|LONG|1794888899999",
+    "ts": 1794894562.8312109
    },
    "ORDIUSDT": {
     "key": "ORDIUSDT|LONG|1794885299999",
@@ -20804,7 +20804,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-17 11:16"
+  "t": "2026-11-17 11:19"
  },
- "updated": "2026-11-17 11:16:18.139443+05:30"
+ "updated": "2026-11-17 11:19:26.991746+05:30"
 }
