@@ -4389,7 +4389,7 @@
     "f240": 52.461510972860296
    }
   ],
-  "t": "2026-11-17 13:01"
+  "t": "2026-11-17 13:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 238
    }
   ],
-  "t": "2026-11-17 13:01"
+  "t": "2026-11-17 13:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-17",
@@ -13928,53 +13928,11 @@
    "magnet_no_sweep": 81,
    "no_choch_fresh": 1,
    "no_choch_struct": 1,
-   "t": "2026-11-17 12:49",
+   "t": "2026-11-17 13:04",
    "signals": 0,
    "universe": 385
   },
   "feed": [
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "TRBUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 13.1505 rr 9.6 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "CHZUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.00977 rr 6.18 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "BIOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.016425 rr 4.78 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "LYNUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0168 rr 4.1 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "ORCAUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 1.1775 rr 9.87 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-17 12:19",
-    "kind": "CROSS",
-    "sym": "IOTAUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.031845 rr 8.41 (with 4H trend)"
-   },
    {
     "t": "2026-11-17 12:19",
     "kind": "CROSS",
@@ -14212,6 +14170,48 @@
     "sym": "UBUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.10688 rr 1.51 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "CROSS",
+    "sym": "BARDUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0986 rr 1.51 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "CROSS",
+    "sym": "USDCUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 1.00037 rr 56.67 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "CROSS",
+    "sym": "BLUAIUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.0060135 rr 1.99 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "CROSS",
+    "sym": "GRVTUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.1639 rr 1.92 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "RADAR",
+    "sym": "NOTUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.0003471 | px 0.0003079"
+   },
+   {
+    "t": "2026-11-17 13:04",
+    "kind": "CROSS",
+    "sym": "GWEIUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.01527 rr 1.72 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -14818,7 +14818,7 @@
    "NOTUSDT": {
     "key": "SHORT:0.0003471",
     "stage": "APPROACHING",
-    "ts": 1794870274.8005693
+    "ts": 1794900864.5055752
    },
    "PLUMEUSDT": {
     "key": "SHORT:0.01408",
@@ -15578,8 +15578,8 @@
     "ts": 1794890964.761703
    },
    "GRVTUSDT": {
-    "key": "GRVTUSDT|SHORT|1794882599999",
-    "ts": 1794888269.710625
+    "key": "GRVTUSDT|SHORT|1794896099999",
+    "ts": 1794900864.5055752
    },
    "AIOUSDT": {
     "key": "AIOUSDT|SHORT|1794896999999",
@@ -16102,8 +16102,8 @@
     "ts": 1794896359.8396852
    },
    "USDCUSDT": {
-    "key": "USDCUSDT|LONG|1794886199999",
-    "ts": 1794890074.9534245
+    "key": "USDCUSDT|SHORT|1794900599999",
+    "ts": 1794900864.5055752
    },
    "SNXUSDT": {
     "key": "SNXUSDT|SHORT|1794896999999",
@@ -16162,8 +16162,8 @@
     "ts": 1794895467.973618
    },
    "BLUAIUSDT": {
-    "key": "BLUAIUSDT|SHORT|1794870899999",
-    "ts": 1794871161.296772
+    "key": "BLUAIUSDT|LONG|1794900599999",
+    "ts": 1794900864.5055752
    },
    "ZKUSDT": {
     "key": "ZKUSDT|SHORT|1794897899999",
@@ -16346,8 +16346,8 @@
     "ts": 1794882875.381
    },
    "GWEIUSDT": {
-    "key": "GWEIUSDT|LONG|1794863699999",
-    "ts": 1794865775.5009232
+    "key": "GWEIUSDT|LONG|1794899699999",
+    "ts": 1794900864.5055752
    },
    "CTUSDT": {
     "key": "CTUSDT|LONG|1794864599999",
@@ -17090,8 +17090,8 @@
     "ts": 1794760462.8803024
    },
    "BARDUSDT": {
-    "key": "BARDUSDT|LONG|1794878099999",
-    "ts": 1794878372.3235357
+    "key": "BARDUSDT|SHORT|1794896999999",
+    "ts": 1794900864.5055752
    },
    "BTWUSDT": {
     "key": "BTWUSDT|LONG|1794845699999",
@@ -20810,7 +20810,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-17 13:01"
+  "t": "2026-11-17 13:04"
  },
- "updated": "2026-11-17 13:01:07.741297+05:30"
+ "updated": "2026-11-17 13:04:28.669267+05:30"
 }
