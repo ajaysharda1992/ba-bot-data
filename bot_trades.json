@@ -4804,7 +4804,7 @@
   "gate_tg_pause": 167,
   "shadow_opened": 155,
   "shadow_closed": 143,
-  "liq_shadow_opened": 22280,
+  "liq_shadow_opened": 22282,
   "gate_countertrend": 7
  },
  "pairs": [
@@ -5323,7 +5323,7 @@
   "open": 3
  },
  "liqsim": {
-  "equity": 328.8300000000005,
+  "equity": 330.7100000000005,
   "positions": [
    {
     "sym": "1000FLOKIUSDT",
@@ -5333,9 +5333,9 @@
     "tp": 0.01718226,
     "sl_hard": 0.0174564871,
     "risk_usdt": 8.11,
-    "ts": 1795017599999,
+    "ts": 1795018499999,
     "filled": false,
-    "wait": 28,
+    "wait": 29,
     "t_open": "2026-11-18 14:46"
    },
    {
@@ -5346,24 +5346,10 @@
     "tp": 0.008798198,
     "sl_hard": 0.0088765276,
     "risk_usdt": 8.08,
-    "ts": 1795017599999,
+    "ts": 1795018499999,
     "filled": false,
-    "wait": 20,
+    "wait": 21,
     "t_open": "2026-11-18 17:01"
-   },
-   {
-    "sym": "AGTUSDT",
-    "dir": "SHORT",
-    "entry": 0.02588,
-    "sl": 0.025112275,
-    "tp": 0.02434455,
-    "sl_hard": 0.0246058464,
-    "risk_usdt": 8.08,
-    "ts": 1795016699999,
-    "filled": true,
-    "wait": 19,
-    "t_open": "2026-11-18 17:31",
-    "fill_ts": 1795017599999
    },
    {
     "sym": "APRUSDT",
@@ -5373,10 +5359,23 @@
     "tp": 0.02745136,
     "sl_hard": 0.0275610371,
     "risk_usdt": 8.06,
-    "ts": 1795017599999,
+    "ts": 1795018499999,
     "filled": false,
-    "wait": 12,
+    "wait": 13,
     "t_open": "2026-11-18 19:31"
+   },
+   {
+    "sym": "AGTUSDT",
+    "dir": "SHORT",
+    "entry": 0.02588,
+    "sl": 0.025112275,
+    "tp": 0.02434455,
+    "sl_hard": 0.0248779893,
+    "risk_usdt": 8.27,
+    "ts": 1795013999999,
+    "filled": false,
+    "wait": 0,
+    "t_open": "2026-11-18 21:46"
    },
    {
     "sym": "AIOTUSDT",
@@ -5385,50 +5384,14 @@
     "sl": 0.079810105,
     "tp": 0.07606021000000002,
     "sl_hard": 0.0787586764,
-    "risk_usdt": 8.22,
+    "risk_usdt": 8.27,
     "ts": 1795013999999,
     "filled": false,
     "wait": 0,
-    "t_open": "2026-11-18 21:31"
+    "t_open": "2026-11-18 21:46"
    }
   ],
   "history": [
-   {
-    "sym": "1000RATSUSDT",
-    "dir": "SHORT",
-    "entry": 0.013795,
-    "sl": 0.013549645,
-    "tp": 0.013304290000000002,
-    "sl_hard": 0.013457502100000001,
-    "risk_usdt": 6.73,
-    "ts": 1794383999999,
-    "filled": true,
-    "wait": 0,
-    "t_open": "2026-11-11 14:31",
-    "fill_ts": 1794385799999,
-    "resultR": 0.18,
-    "pnl": 1.21,
-    "exit_kind": "CLOSE_STOP",
-    "exitTime": "2026-11-11 14:46"
-   },
-   {
-    "sym": "1000SHIBUSDT",
-    "dir": "SHORT",
-    "entry": 0.004426,
-    "sl": 0.0043155170000000005,
-    "tp": 0.004205034000000002,
-    "sl_hard": 0.0042970884,
-    "risk_usdt": 6.73,
-    "ts": 1794383999999,
-    "filled": true,
-    "wait": 0,
-    "t_open": "2026-11-11 14:31",
-    "fill_ts": 1794385799999,
-    "resultR": -0.06,
-    "pnl": -0.4,
-    "exit_kind": "CLOSE_STOP",
-    "exitTime": "2026-11-11 14:46"
-   },
    {
     "sym": "1000RATSUSDT",
     "dir": "SHORT",
@@ -10792,9 +10755,45 @@
     "pnl": 1.64,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-11-18 21:31"
+   },
+   {
+    "sym": "AGTUSDT",
+    "dir": "SHORT",
+    "entry": 0.02588,
+    "sl": 0.025112275,
+    "tp": 0.02434455,
+    "sl_hard": 0.0246058464,
+    "risk_usdt": 8.08,
+    "ts": 1795016699999,
+    "filled": true,
+    "wait": 19,
+    "t_open": "2026-11-18 17:31",
+    "fill_ts": 1795017599999,
+    "resultR": 0.03,
+    "pnl": 0.24,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-18 21:46"
+   },
+   {
+    "sym": "AIOTUSDT",
+    "dir": "SHORT",
+    "entry": 0.08356,
+    "sl": 0.079810105,
+    "tp": 0.07606021000000002,
+    "sl_hard": 0.0787586764,
+    "risk_usdt": 8.22,
+    "ts": 1795013999999,
+    "filled": true,
+    "wait": 0,
+    "t_open": "2026-11-18 21:31",
+    "fill_ts": 1795014899999,
+    "resultR": 0.2,
+    "pnl": 1.64,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-18 21:46"
    }
   ],
-  "day": -6.350000000000005,
+  "day": -6.1200000000000045,
   "cur_day": "2026-11-18"
  },
  "sweepsim": {
@@ -21323,5 +21322,5 @@
   },
   "t": "2026-11-18 21:46"
  },
- "updated": "2026-11-18 21:46:10.642118+05:30"
+ "updated": "2026-11-18 21:46:14.881817+05:30"
 }
