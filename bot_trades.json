@@ -4389,7 +4389,7 @@
     "f240": 37.76228073536567
    }
   ],
-  "t": "2026-11-20 22:01"
+  "t": "2026-11-20 22:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 245
    }
   ],
-  "t": "2026-11-20 22:01"
+  "t": "2026-11-20 22:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-20",
@@ -13925,55 +13925,13 @@
    "magnet_no_sweep": 208,
    "stale_bos": 80,
    "no_4h_structure": 5,
-   "not_in_zone": 138,
-   "no_choch_struct": 6,
-   "t": "2026-11-20 21:49",
+   "not_in_zone": 137,
+   "no_choch_struct": 7,
+   "t": "2026-11-20 22:04",
    "signals": 0,
    "universe": 437
   },
   "feed": [
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "ROBOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0035045 rr 3.02 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "YFIUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 1663.5 rr 3.42 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "BLUAIUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0054455 rr 2.82 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "MEMEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.00030255 rr 2.16 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "CYSUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.052125 rr 2.96 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-20 21:35",
-    "kind": "CROSS",
-    "sym": "AVAUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.20105 rr 2.15 (with 4H trend)"
-   },
    {
     "t": "2026-11-20 21:35",
     "kind": "RADAR",
@@ -14211,6 +14169,48 @@
     "sym": "EDUUSDT",
     "dir": "LONG",
     "text": "APPROACHING 0.03987 | px 0.04425"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "CROSS",
+    "sym": "SKYUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.043755 rr 6.4 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "RADAR",
+    "sym": "CTUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.14628 | px 0.12262"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "RADAR",
+    "sym": "FHEUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.01302 | px 0.01635"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "RADAR",
+    "sym": "KGENUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.07028 | px 0.07919"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "CROSS",
+    "sym": "XVGUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0015405 rr 1.52 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-20 22:04",
+    "kind": "RADAR",
+    "sym": "OPNUSDT",
+    "dir": "LONG",
+    "text": "MAGNET REJECTING 0.02849 | px 0.02892"
    }
   ],
   "radar_state": {
@@ -14996,8 +14996,8 @@
    },
    "CTUSDT": {
     "key": "SHORT:0.14628",
-    "stage": "IN_ZONE",
-    "ts": 1795182569.6830838
+    "stage": "APPROACHING",
+    "ts": 1795192476.3426578
    },
    "KAVAUSDT": {
     "key": "LONG:0.06545",
@@ -15546,8 +15546,8 @@
    },
    "FHEUSDT": {
     "key": "LONG:0.01302",
-    "stage": "APPROACHING",
-    "ts": 1795191563.6622617
+    "stage": "IN_ZONE",
+    "ts": 1795192476.3426578
    },
    "REUSDT": {
     "key": "LONG:0.2142",
@@ -16001,8 +16001,8 @@
    },
    "KGENUSDT": {
     "key": "LONG:0.07028",
-    "stage": "APPROACHING",
-    "ts": 1795191563.6622617
+    "stage": "IN_ZONE",
+    "ts": 1795192476.3426578
    },
    "VANAUSDT": {
     "key": "LONG:0.6121",
@@ -16066,8 +16066,8 @@
    },
    "OPNUSDT": {
     "key": "LONG:0.02849",
-    "stage": "APPROACHING",
-    "ts": 1795190680.7025356
+    "stage": "REJECTING",
+    "ts": 1795192476.3426578
    },
    "ACTUSDT": {
     "key": "SHORT:0.009172",
@@ -16917,8 +16917,8 @@
     "ts": 1795189762.451713
    },
    "SKYUSDT": {
-    "key": "SKYUSDT|LONG|1795185899999",
-    "ts": 1795186175.674651
+    "key": "SKYUSDT|SHORT|1795192199999",
+    "ts": 1795192476.3426578
    },
    "REZUSDT": {
     "key": "REZUSDT|SHORT|1795187699999",
@@ -17413,8 +17413,8 @@
     "ts": 1795187974.465527
    },
    "XVGUSDT": {
-    "key": "XVGUSDT|LONG|1795160699999",
-    "ts": 1795160977.030822
+    "key": "XVGUSDT|SHORT|1795187699999",
+    "ts": 1795192476.3426578
    },
    "BUSDT": {
     "key": "BUSDT|SHORT|1795187699999",
@@ -22021,7 +22021,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-20 22:01"
+  "t": "2026-11-20 22:04"
  },
- "updated": "2026-11-20 22:01:23.514345+05:30"
+ "updated": "2026-11-20 22:04:40.673572+05:30"
 }
