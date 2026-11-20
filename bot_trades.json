@@ -4389,7 +4389,7 @@
     "f240": 48.41707574012772
    }
   ],
-  "t": "2026-11-21 00:16"
+  "t": "2026-11-21 00:19"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 291
    }
   ],
-  "t": "2026-11-21 00:16"
+  "t": "2026-11-21 00:19"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-20",
@@ -13924,51 +13924,16 @@
    "evaluated": 465,
    "magnet_no_sweep": 220,
    "stale_bos": 83,
-   "not_in_zone": 147,
+   "not_in_zone": 149,
    "no_4h_structure": 5,
-   "no_choch_struct": 4,
+   "no_choch_struct": 2,
    "no_choch_fresh": 4,
    "magnet_overshoot": 1,
-   "t": "2026-11-21 00:04",
+   "t": "2026-11-21 00:19",
    "signals": 1,
    "universe": 465
   },
   "feed": [
-   {
-    "t": "2026-11-21 00:04",
-    "kind": "RADAR",
-    "sym": "LABUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 0.03002 | px 0.03092"
-   },
-   {
-    "t": "2026-11-21 00:04",
-    "kind": "CROSS",
-    "sym": "CARVUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.02416 rr 7.25 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 00:04",
-    "kind": "CROSS",
-    "sym": "STXUSDT",
-    "dir": "LONG",
-    "text": "EM3 entry 0.2404 rr 3.97 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 00:04",
-    "kind": "CROSS",
-    "sym": "ZKPUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.029195 rr 4.64 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 00:04",
-    "kind": "CROSS",
-    "sym": "OUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.5599 rr 2.77 (with 4H trend)"
-   },
    {
     "t": "2026-11-21 00:04",
     "kind": "CROSS",
@@ -14213,6 +14178,41 @@
     "sym": "GOATUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.010095 rr 4.48 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 00:19",
+    "kind": "RADAR",
+    "sym": "DOSUSDT",
+    "dir": "LONG",
+    "text": "APPROACHING 0.1432 | px 0.1741"
+   },
+   {
+    "t": "2026-11-21 00:19",
+    "kind": "RADAR",
+    "sym": "AIGENSYNUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 0.01415 | px 0.014"
+   },
+   {
+    "t": "2026-11-21 00:19",
+    "kind": "RADAR",
+    "sym": "FHEUSDT",
+    "dir": "LONG",
+    "text": "APPROACHING 0.01302 | px 0.01657"
+   },
+   {
+    "t": "2026-11-21 00:19",
+    "kind": "CROSS",
+    "sym": "CAPUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.096145 rr 3.9 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 00:19",
+    "kind": "CROSS",
+    "sym": "B2USDT",
+    "dir": "LONG",
+    "text": "EM3 entry 0.3584 rr 2.06 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -14847,9 +14847,9 @@
     "ts": 1795129458.5336452
    },
    "AIGENSYNUSDT": {
-    "key": "SHORT:0.01456",
+    "key": "SHORT:0.01415",
     "stage": "APPROACHING",
-    "ts": 1794616459.8963046
+    "ts": 1795200561.2848902
    },
    "LAYERUSDT": {
     "key": "SHORT:0.0525",
@@ -15548,8 +15548,8 @@
    },
    "FHEUSDT": {
     "key": "LONG:0.01302",
-    "stage": "IN_ZONE",
-    "ts": 1795192476.3426578
+    "stage": "APPROACHING",
+    "ts": 1795200561.2848902
    },
    "REUSDT": {
     "key": "LONG:0.2142",
@@ -16083,8 +16083,8 @@
    },
    "DOSUSDT": {
     "key": "LONG:0.1432",
-    "stage": "IN_ZONE",
-    "ts": 1795198789.3919744
+    "stage": "APPROACHING",
+    "ts": 1795200561.2848902
    },
    "BANUSDT": {
     "key": "SHORT:0.0407",
@@ -16331,8 +16331,8 @@
     "ts": 1795186175.674651
    },
    "B2USDT": {
-    "key": "B2USDT|SHORT|1795194899999",
-    "ts": 1795195165.8287406
+    "key": "B2USDT|LONG|1795200299999",
+    "ts": 1795200561.2848902
    },
    "AVAUSDT": {
     "key": "AVAUSDT|SHORT|1795185899999",
@@ -16615,8 +16615,8 @@
     "ts": 1795175369.1736479
    },
    "CAPUSDT": {
-    "key": "CAPUSDT|LONG|1795183199999",
-    "ts": 1795185276.816942
+    "key": "CAPUSDT|SHORT|1795200299999",
+    "ts": 1795200561.2848902
    },
    "REUSDT": {
     "key": "REUSDT|SHORT|1795185899999",
@@ -22295,7 +22295,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-21 00:16"
+  "t": "2026-11-21 00:19"
  },
- "updated": "2026-11-21 00:16:27.283994+05:30"
+ "updated": "2026-11-21 00:19:24.742469+05:30"
 }
