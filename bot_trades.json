@@ -4389,7 +4389,7 @@
     "f240": 45.58318909675311
    }
   ],
-  "t": "2026-11-21 14:01"
+  "t": "2026-11-21 14:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 241
    }
   ],
-  "t": "2026-11-21 14:01"
+  "t": "2026-11-21 14:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-21",
@@ -13924,52 +13924,18 @@
    "evaluated": 490,
    "magnet_no_sweep": 312,
    "stale_bos": 86,
-   "not_in_zone": 74,
+   "not_in_zone": 75,
    "no_4h_structure": 5,
    "no_choch_fresh": 7,
    "end_of_move": 1,
-   "no_choch_struct": 3,
+   "poi_misaligned": 1,
    "risk_wide": 1,
-   "t": "2026-11-21 13:49",
+   "no_choch_struct": 1,
+   "t": "2026-11-21 14:04",
    "signals": 1,
    "universe": 490
   },
   "feed": [
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "RADAR",
-    "sym": "GRIFFAINUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET SWEEPING 0.009224 | px 0.009234"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "GRIFFAINUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.008635 rr 1.72 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "ZESTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.10974 rr 1.88 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "1000RATSUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.01007 rr 3.17 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "MANTAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.038885 rr 1.67 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-21 12:34",
     "kind": "CROSS",
@@ -14214,6 +14180,41 @@
     "sym": "EDUUSDT",
     "dir": "LONG",
     "text": "IN ZONE 0.03987 | px 0.04402"
+   },
+   {
+    "t": "2026-11-21 14:04",
+    "kind": "CROSS",
+    "sym": "AUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.064045 rr 2.74 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 14:04",
+    "kind": "CROSS",
+    "sym": "RESOLVUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.01402 rr 3.4 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 14:04",
+    "kind": "RADAR",
+    "sym": "TRUTHUSDT",
+    "dir": "LONG",
+    "text": "APPROACHING 0.01319 | px 0.014776"
+   },
+   {
+    "t": "2026-11-21 14:04",
+    "kind": "CROSS",
+    "sym": "BANANAUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 2.409 rr 1.6 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 14:04",
+    "kind": "CROSS",
+    "sym": "TURTLEUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 0.02839 rr 1.65 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15588,9 +15589,9 @@
     "ts": 1795131275.6402743
    },
    "TRUTHUSDT": {
-    "key": "SHORT:0.015287",
-    "stage": "REJECTING",
-    "ts": 1795073668.0047219
+    "key": "LONG:0.01319",
+    "stage": "APPROACHING",
+    "ts": 1795250079.3322804
    },
    "HEIUSDT": {
     "key": "SHORT:0.09221",
@@ -16840,8 +16841,8 @@
     "ts": 1795210461.4411523
    },
    "AUSDT": {
-    "key": "AUSDT|LONG|1795243499999",
-    "ts": 1795243786.9741
+    "key": "AUSDT|SHORT|1795248899999",
+    "ts": 1795250079.3322804
    },
    "LPTUSDT": {
     "key": "LPTUSDT|SHORT|1795231799999",
@@ -17856,8 +17857,8 @@
     "ts": 1795244667.14969
    },
    "BANANAUSDT": {
-    "key": "BANANAUSDT|LONG|1795243499999",
-    "ts": 1795243786.9741
+    "key": "BANANAUSDT|SHORT|1795249799999",
+    "ts": 1795250079.3322804
    },
    "CTSIUSDT": {
     "key": "CTSIUSDT|LONG|1795243499999",
@@ -17952,8 +17953,8 @@
     "ts": 1795233869.1606178
    },
    "RESOLVUSDT": {
-    "key": "RESOLVUSDT|LONG|1795244399999",
-    "ts": 1795244667.14969
+    "key": "RESOLVUSDT|SHORT|1795249799999",
+    "ts": 1795250079.3322804
    },
    "AEVOUSDT": {
     "key": "AEVOUSDT|SHORT|1795231799999",
@@ -18040,8 +18041,8 @@
     "ts": 1795233869.1606178
    },
    "TURTLEUSDT": {
-    "key": "TURTLEUSDT|LONG|1795243499999",
-    "ts": 1795243786.9741
+    "key": "TURTLEUSDT|SHORT|1795249799999",
+    "ts": 1795250079.3322804
    },
    "ASRUSDT": {
     "key": "ASRUSDT|LONG|1795243499999",
@@ -22565,7 +22566,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-21 14:01"
+  "t": "2026-11-21 14:04"
  },
- "updated": "2026-11-21 14:01:26.879268+05:30"
+ "updated": "2026-11-21 14:04:42.839166+05:30"
 }
