@@ -4389,7 +4389,7 @@
     "f240": 45.00101026893614
    }
   ],
-  "t": "2026-11-21 22:46"
+  "t": "2026-11-21 22:49"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 248
    }
   ],
-  "t": "2026-11-21 22:46"
+  "t": "2026-11-21 22:49"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-21",
@@ -13922,45 +13922,18 @@
   "history": [],
   "funnel": {
    "evaluated": 492,
-   "magnet_no_sweep": 308,
+   "magnet_no_sweep": 307,
    "stale_bos": 94,
-   "not_in_zone": 73,
+   "not_in_zone": 72,
    "no_4h_structure": 5,
    "no_choch_fresh": 7,
-   "no_choch_struct": 3,
-   "t": "2026-11-21 22:34",
+   "magnet_overshoot": 1,
+   "no_choch_struct": 4,
+   "t": "2026-11-21 22:49",
    "signals": 2,
    "universe": 492
   },
   "feed": [
-   {
-    "t": "2026-11-21 22:19",
-    "kind": "CROSS",
-    "sym": "PLAYUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0074685 rr 4.73 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 22:19",
-    "kind": "CROSS",
-    "sym": "CELOUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.05499 rr 7.54 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 22:19",
-    "kind": "CROSS",
-    "sym": "C98USDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.00886 rr 7.5 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 22:19",
-    "kind": "CROSS",
-    "sym": "XANUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.007592 rr 7.61 (with 4H trend)"
-   },
    {
     "t": "2026-11-21 22:19",
     "kind": "CROSS",
@@ -14212,6 +14185,34 @@
     "sym": "RONINUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.034875 rr 9.75 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 22:49",
+    "kind": "RADAR",
+    "sym": "ADAUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.1565 | px 0.1448"
+   },
+   {
+    "t": "2026-11-21 22:49",
+    "kind": "CROSS",
+    "sym": "NAORISUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.034165 rr 4.01 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 22:49",
+    "kind": "CROSS",
+    "sym": "HMSTRUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.00014605 rr 2.68 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 22:49",
+    "kind": "CROSS",
+    "sym": "TAUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.093865 rr 5.17 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -15242,8 +15243,8 @@
    },
    "ADAUSDT": {
     "key": "SHORT:0.1565",
-    "stage": "APPROACHING",
-    "ts": 1795275264.2435172
+    "stage": "IN_ZONE",
+    "ts": 1795281577.14773
    },
    "OUSDT": {
     "key": "SHORT:0.596",
@@ -16760,8 +16761,8 @@
     "ts": 1795275264.2435172
    },
    "TAUSDT": {
-    "key": "TAUSDT|LONG|1795220999999",
-    "ts": 1795221285.6381643
+    "key": "TAUSDT|LONG|1795281299999",
+    "ts": 1795281577.14773
    },
    "MINAUSDT": {
     "key": "MINAUSDT|LONG|1795261499999",
@@ -17356,8 +17357,8 @@
     "ts": 1795266278.090274
    },
    "HMSTRUSDT": {
-    "key": "HMSTRUSDT|SHORT|1795273199999",
-    "ts": 1795277075.0481303
+    "key": "HMSTRUSDT|SHORT|1795278599999",
+    "ts": 1795281577.14773
    },
    "DUSKUSDT": {
     "key": "DUSKUSDT|SHORT|1795278599999",
@@ -17972,8 +17973,8 @@
     "ts": 1795264479.7838864
    },
    "NAORISUSDT": {
-    "key": "NAORISUSDT|LONG|1795236299999",
-    "ts": 1795236568.778119
+    "key": "NAORISUSDT|LONG|1795277699999",
+    "ts": 1795281577.14773
    },
    "BELUSDT": {
     "key": "BELUSDT|SHORT|1795279499999",
@@ -22671,7 +22672,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-21 22:46"
+  "t": "2026-11-21 22:49"
  },
- "updated": "2026-11-21 22:46:09.368837+05:30"
+ "updated": "2026-11-21 22:49:40.162180+05:30"
 }
