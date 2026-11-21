@@ -4389,7 +4389,7 @@
     "f240": 54.84259166915994
    }
   ],
-  "t": "2026-11-21 05:46"
+  "t": "2026-11-21 05:49"
  },
  "liq": {
   "setups": [
@@ -4399,17 +4399,35 @@
     "state": "ACTIVE",
     "chg": 3.47,
     "nc": 4,
-    "volX": 2.7,
+    "volX": 3.0,
     "entry": 0.11055,
     "fvg_lo": 0.1102,
     "fvg_hi": 0.1109,
     "eq": 0.11035,
-    "atr": 0.0011571429,
+    "atr": 0.001,
     "sl": 0.1082374,
     "tp": 0.10592479999999999,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 277
+    "_candle_ts": 1795219199999,
+    "_leg_end": 273
+   },
+   {
+    "sym": "1000000MOGUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.35,
+    "nc": 5,
+    "volX": 1.84,
+    "entry": 0.075375,
+    "fvg_lo": 0.0753,
+    "fvg_hi": 0.07545,
+    "eq": 0.075325,
+    "atr": 0.0005585714,
+    "sl": 0.074318355,
+    "tp": 0.07326171000000001,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 282
    },
    {
     "sym": "1000FLOKIUSDT",
@@ -4417,17 +4435,17 @@
     "state": "ACTIVE",
     "chg": 2.9,
     "nc": 5,
-    "volX": 1.52,
+    "volX": 1.69,
     "entry": 0.01605,
     "fvg_lo": 0.01602,
     "fvg_hi": 0.01608,
     "eq": 0.015945,
-    "atr": 0.0001485714,
+    "atr": 0.0001257143,
     "sl": 0.015686435,
     "tp": 0.015322869999999995,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 285
+    "_candle_ts": 1795219199999,
+    "_leg_end": 281
    },
    {
     "sym": "1000PEPEUSDT",
@@ -4435,17 +4453,17 @@
     "state": "ACTIVE",
     "chg": 6.13,
     "nc": 5,
-    "volX": 3.69,
+    "volX": 4.44,
     "entry": 0.0034422,
     "fvg_lo": 0.0034104,
     "fvg_hi": 0.003474,
     "eq": 0.00343985,
-    "atr": 3.29214e-05,
+    "atr": 2.94571e-05,
     "sl": 0.0033260035000000003,
     "tp": 0.0032098070000000003,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 270
+    "_candle_ts": 1795219199999,
+    "_leg_end": 266
    },
    {
     "sym": "1000RATSUSDT",
@@ -4453,17 +4471,17 @@
     "state": "ACTIVE",
     "chg": 2.69,
     "nc": 5,
-    "volX": 1.59,
+    "volX": 1.64,
     "entry": 0.01069,
     "fvg_lo": 0.01067,
     "fvg_hi": 0.01071,
     "eq": 0.010645,
-    "atr": 0.0001128571,
+    "atr": 9.92857e-05,
     "sl": 0.01048425,
     "tp": 0.0102785,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 277
+    "_candle_ts": 1795219199999,
+    "_leg_end": 273
    },
    {
     "sym": "1000SATSUSDT",
@@ -4471,17 +4489,71 @@
     "state": "ACTIVE",
     "chg": 6.39,
     "nc": 5,
-    "volX": 3.64,
+    "volX": 4.08,
     "entry": 7.12e-06,
     "fvg_lo": 7.08e-06,
     "fvg_hi": 7.16e-06,
     "eq": 7.115e-06,
-    "atr": 7.43e-08,
+    "atr": 6.21e-08,
     "sl": 6.869680000000001e-06,
     "tp": 6.619360000000002e-06,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
+    "_candle_ts": 1795219199999,
+    "_leg_end": 267
+   },
+   {
+    "sym": "1INCHUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.0,
+    "nc": 4,
+    "volX": 1.53,
+    "entry": 0.06105,
+    "fvg_lo": 0.06088,
+    "fvg_hi": 0.06122,
+    "eq": 0.060885,
+    "atr": 0.0003957143,
+    "sl": 0.060179595,
+    "tp": 0.05930919000000001,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 273
+   },
+   {
+    "sym": "2ZUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.83,
+    "nc": 5,
+    "volX": 1.67,
+    "entry": 0.015355,
+    "fvg_lo": 0.01528,
+    "fvg_hi": 0.01543,
+    "eq": 0.01533,
+    "atr": 0.0001521429,
+    "sl": 0.015087335,
+    "tp": 0.01481967,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 272
+   },
+   {
+    "sym": "4USDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.19,
+    "nc": 5,
+    "volX": 1.52,
+    "entry": 0.008677,
+    "fvg_lo": 0.008667,
+    "fvg_hi": 0.008687,
+    "eq": 0.008662,
+    "atr": 7.34286e-05,
+    "sl": 0.008553151000000002,
+    "tp": 0.008429302000000003,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 224
    },
    {
     "sym": "ACTUSDT",
@@ -4489,35 +4561,53 @@
     "state": "ACTIVE",
     "chg": 6.83,
     "nc": 5,
-    "volX": 6.26,
+    "volX": 6.96,
     "entry": 0.008927,
     "fvg_lo": 0.008867,
     "fvg_hi": 0.008987,
     "eq": 0.0088165,
-    "atr": 9.68571e-05,
+    "atr": 8.5e-05,
     "sl": 0.0084922425,
     "tp": 0.008057485,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
+    "_candle_ts": 1795219199999,
+    "_leg_end": 267
    },
    {
     "sym": "AEROUSDT",
     "dir": "SHORT",
     "state": "ACTIVE",
     "chg": 3.37,
-    "nc": 4,
-    "volX": 1.58,
+    "nc": 5,
+    "volX": 1.62,
     "entry": 0.41185,
     "fvg_lo": 0.4092,
     "fvg_hi": 0.4145,
     "eq": 0.41075,
-    "atr": 0.0042,
+    "atr": 0.00345,
     "sl": 0.40309445000000005,
     "tp": 0.3943389000000001,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 261
+    "_candle_ts": 1795219199999,
+    "_leg_end": 258
+   },
+   {
+    "sym": "AGLDUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.02,
+    "nc": 5,
+    "volX": 1.55,
+    "entry": 0.1277,
+    "fvg_lo": 0.1274,
+    "fvg_hi": 0.128,
+    "eq": 0.1273,
+    "atr": 0.0009785714,
+    "sl": 0.125811,
+    "tp": 0.123922,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 274
    },
    {
     "sym": "AIOTUSDT",
@@ -4525,17 +4615,17 @@
     "state": "ACTIVE",
     "chg": 2.45,
     "nc": 5,
-    "volX": 2.05,
+    "volX": 2.23,
     "entry": 0.080715,
     "fvg_lo": 0.08036,
     "fvg_hi": 0.08107,
     "eq": 0.08048,
-    "atr": 0.0007692857,
+    "atr": 0.0007321429,
     "sl": 0.07936078,
     "tp": 0.07800656,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 228
+    "_candle_ts": 1795219199999,
+    "_leg_end": 224
    },
    {
     "sym": "AIOUSDT",
@@ -4543,17 +4633,17 @@
     "state": "ACTIVE",
     "chg": 3.76,
     "nc": 5,
-    "volX": 2.23,
+    "volX": 2.2,
     "entry": 0.03224,
     "fvg_lo": 0.03217,
     "fvg_hi": 0.03231,
     "eq": 0.032125,
-    "atr": 0.0003264286,
+    "atr": 0.0002692857,
     "sl": 0.031462735000000006,
     "tp": 0.030685470000000013,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 244
+    "_candle_ts": 1795219199999,
+    "_leg_end": 240
    },
    {
     "sym": "ALCHUSDT",
@@ -4561,17 +4651,35 @@
     "state": "ACTIVE",
     "chg": 5.93,
     "nc": 5,
-    "volX": 2.99,
+    "volX": 3.46,
     "entry": 0.028065,
     "fvg_lo": 0.02792,
     "fvg_hi": 0.02821,
     "eq": 0.027965,
-    "atr": 0.0002878571,
+    "atr": 0.0002614286,
     "sl": 0.027069335,
     "tp": 0.02607367,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
+    "_candle_ts": 1795219199999,
+    "_leg_end": 267
+   },
+   {
+    "sym": "ALLOUSDT",
+    "dir": "SHORT",
+    "state": "ACTIVE",
+    "chg": 2.76,
+    "nc": 4,
+    "volX": 1.92,
+    "entry": 0.123965,
+    "fvg_lo": 0.12355,
+    "fvg_hi": 0.12438,
+    "eq": 0.123815,
+    "atr": 0.0012221429,
+    "sl": 0.12189688,
+    "tp": 0.11982876,
+    "rr": 2.0,
+    "_candle_ts": 1795219199999,
+    "_leg_end": 273
    },
    {
     "sym": "ALTUSDT",
@@ -4579,17 +4687,17 @@
     "state": "ACTIVE",
     "chg": 5.43,
     "nc": 5,
-    "volX": 2.99,
+    "volX": 3.12,
     "entry": 0.0043325,
     "fvg_lo": 0.004317,
     "fvg_hi": 0.004348,
     "eq": 0.0042815,
-    "atr": 4.62857e-05,
+    "atr": 3.88571e-05,
     "sl": 0.004155757,
     "tp": 0.003979014000000001,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 270
+    "_candle_ts": 1795219199999,
+    "_leg_end": 266
    },
    {
     "sym": "APEUSDT",
@@ -4597,17 +4705,17 @@
     "state": "ACTIVE",
     "chg": 2.59,
     "nc": 3,
-    "volX": 1.74,
+    "volX": 2.0,
     "entry": 0.07245,
     "fvg_lo": 0.0721,
     "fvg_hi": 0.0728,
     "eq": 0.07245,
-    "atr": 0.0008357143,
+    "atr": 0.0006642857,
     "sl": 0.07139275,
     "tp": 0.07033550000000001,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 276
+    "_candle_ts": 1795219199999,
+    "_leg_end": 272
    },
    {
     "sym": "API3USDT",
@@ -4615,17 +4723,17 @@
     "state": "ACTIVE",
     "chg": 4.94,
     "nc": 5,
-    "volX": 2.88,
+    "volX": 2.95,
     "entry": 0.1584,
     "fvg_lo": 0.1577,
     "fvg_hi": 0.1591,
     "eq": 0.158,
-    "atr": 0.0016928571,
+    "atr": 0.0013928571,
     "sl": 0.15376900000000002,
     "tp": 0.14913800000000005,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
+    "_candle_ts": 1795219199999,
+    "_leg_end": 267
    },
    {
     "sym": "APRUSDT",
@@ -4633,128 +4741,20 @@
     "state": "ACTIVE",
     "chg": 4.41,
     "nc": 4,
-    "volX": 1.58,
+    "volX": 1.62,
     "entry": 0.0262,
     "fvg_lo": 0.02607,
     "fvg_hi": 0.02633,
     "eq": 0.02615,
-    "atr": 0.0003821429,
+    "atr": 0.0003778571,
     "sl": 0.02552166,
     "tp": 0.024843320000000002,
     "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 292
-   },
-   {
-    "sym": "ARIAUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 5.6,
-    "nc": 5,
-    "volX": 1.53,
-    "entry": 0.245345,
-    "fvg_lo": 0.24414,
-    "fvg_hi": 0.24655,
-    "eq": 0.242075,
-    "atr": 0.0037507143,
-    "sl": 0.23474735000000002,
-    "tp": 0.22414970000000006,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 250
-   },
-   {
-    "sym": "ARKMUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 5.25,
-    "nc": 5,
-    "volX": 3.79,
-    "entry": 0.0787,
-    "fvg_lo": 0.0784,
-    "fvg_hi": 0.079,
-    "eq": 0.0779,
-    "atr": 0.0007785714,
-    "sl": 0.07568630000000001,
-    "tp": 0.07267260000000003,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 270
-   },
-   {
-    "sym": "ARXUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 4.88,
-    "nc": 4,
-    "volX": 1.96,
-    "entry": 0.1713,
-    "fvg_lo": 0.1707,
-    "fvg_hi": 0.1719,
-    "eq": 0.16985,
-    "atr": 0.0024214286,
-    "sl": 0.16535160000000002,
-    "tp": 0.15940320000000002,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 291
-   },
-   {
-    "sym": "ASTRUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 4.65,
-    "nc": 5,
-    "volX": 2.27,
-    "entry": 0.004225,
-    "fvg_lo": 0.00421,
-    "fvg_hi": 0.00424,
-    "eq": 0.0042235,
-    "atr": 4.22143e-05,
-    "sl": 0.0041168155,
-    "tp": 0.004008631,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
-   },
-   {
-    "sym": "AUCTIONUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 4.67,
-    "nc": 5,
-    "volX": 3.38,
-    "entry": 2.496,
-    "fvg_lo": 2.484,
-    "fvg_hi": 2.508,
-    "eq": 2.468,
-    "atr": 0.0222142857,
-    "sl": 2.4053865,
-    "tp": 2.314773,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 270
-   },
-   {
-    "sym": "AVNTUSDT",
-    "dir": "SHORT",
-    "state": "ACTIVE",
-    "chg": 6.04,
-    "nc": 5,
-    "volX": 2.52,
-    "entry": 0.06312,
-    "fvg_lo": 0.06276,
-    "fvg_hi": 0.06348,
-    "eq": 0.06296,
-    "atr": 0.0006557143,
-    "sl": 0.060908500000000004,
-    "tp": 0.05869700000000001,
-    "rr": 2.0,
-    "_candle_ts": 1795215599999,
-    "_leg_end": 271
+    "_candle_ts": 1795219199999,
+    "_leg_end": 288
    }
   ],
-  "t": "2026-11-21 05:46"
+  "t": "2026-11-21 05:49"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-21",
@@ -4804,7 +4804,7 @@
   "gate_tg_pause": 167,
   "shadow_opened": 155,
   "shadow_closed": 143,
-  "liq_shadow_opened": 31572,
+  "liq_shadow_opened": 31579,
   "gate_countertrend": 7
  },
  "pairs": [
@@ -5317,10 +5317,10 @@
  "pairs_live": true,
  "liq_shadow": {
   "n": 500,
-  "wins": 491,
-  "avg_r": 0.84,
-  "total_r": 418.7,
-  "open": 7
+  "wins": 487,
+  "avg_r": 0.73,
+  "total_r": 363.0,
+  "open": 9
  },
  "liqsim": {
   "equity": 303.21000000000066,
@@ -13928,123 +13928,11 @@
    "no_4h_structure": 5,
    "no_choch_fresh": 9,
    "no_choch_struct": 1,
-   "t": "2026-11-21 05:34",
+   "t": "2026-11-21 05:49",
    "signals": 1,
    "universe": 465
   },
   "feed": [
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "ASTERUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.49655 rr 1.67 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "CRVUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.17585 rr 3.53 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "EDGEUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.2353 rr 4.04 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "MINAUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.041415 rr 2.29 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "GRVTUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.1613 rr 2.87 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "REZUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0024065 rr 4.33 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "XPINUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.00072825 rr 2.05 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "RADAR",
-    "sym": "SUSHIUSDT",
-    "dir": "SHORT",
-    "text": "APPROACHING 0.1597 | px 0.1497"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "HEMIUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0032465 rr 2.79 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "NOMUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0011695 rr 4.45 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "DATAIPUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.08235 rr 2.3 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 04:49",
-    "kind": "CROSS",
-    "sym": "4USDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.008055 rr 4.34 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 05:04",
-    "kind": "CROSS",
-    "sym": "DOTUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.67125 rr 1.73 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 05:04",
-    "kind": "CROSS",
-    "sym": "FARTCOINUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.07675 rr 2.54 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 05:04",
-    "kind": "CROSS",
-    "sym": "ONEUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0010588 rr 2.1 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 05:04",
-    "kind": "RADAR",
-    "sym": "CTUSDT",
-    "dir": "SHORT",
-    "text": "APPROACHING 0.14628 | px 0.1222"
-   },
    {
     "t": "2026-11-21 05:04",
     "kind": "RADAR",
@@ -14212,6 +14100,118 @@
     "sym": "TAKEUSDT",
     "dir": "SHORT",
     "text": "IN ZONE 0.0661 | px 0.06062"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "PHAROSUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.56515 rr 7.26 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "ENSOUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.4197 rr 2.81 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "RADAR",
+    "sym": "AIGENSYNUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET SWEEPING 0.01415 | px 0.01417"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "CARVUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.024695 rr 1.61 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "BILLUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0040115 rr 3.87 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "MUBARAKUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.02127 rr 9.74 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "OUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.5747 rr 3.03 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "GIGGLEUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 20.66 rr 3.64 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "SKYAIUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.029205 rr 4.64 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "NEIROUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 4.5675e-05 rr 2.44 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "ZBTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.04871 rr 2.12 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "TUTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.012255 rr 1.73 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "ROSEUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.004366 rr 3.4 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "TUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0036125 rr 2.51 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "RESOLVUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.01391 rr 2.11 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-21 05:49",
+    "kind": "CROSS",
+    "sym": "TURTLEUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.028845 rr 3.26 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -14847,8 +14847,8 @@
    },
    "AIGENSYNUSDT": {
     "key": "SHORT:0.01415",
-    "stage": "APPROACHING",
-    "ts": 1795219470.6705792
+    "stage": "SWEEPING",
+    "ts": 1795220360.6220992
    },
    "LAYERUSDT": {
     "key": "SHORT:0.0525",
@@ -16763,8 +16763,8 @@
     "ts": 1795176268.3906052
    },
    "SKYAIUSDT": {
-    "key": "SKYAIUSDT|LONG|1795214699999",
-    "ts": 1795214962.2965648
+    "key": "SKYAIUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "SLXUSDT": {
     "key": "SLXUSDT|LONG|1795211099999",
@@ -16791,8 +16791,8 @@
     "ts": 1795197862.1056683
    },
    "BILLUSDT": {
-    "key": "BILLUSDT|LONG|1795211999999",
-    "ts": 1795212266.5811129
+    "key": "BILLUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "ORCAUSDT": {
     "key": "ORCAUSDT|LONG|1795211099999",
@@ -16875,12 +16875,12 @@
     "ts": 1795211368.9201818
    },
    "NEIROUSDT": {
-    "key": "NEIROUSDT|LONG|1795212899999",
-    "ts": 1795215876.4290042
+    "key": "NEIROUSDT|LONG|1795215599999",
+    "ts": 1795220360.6220992
    },
    "ZBTUSDT": {
-    "key": "ZBTUSDT|SHORT|1795185899999",
-    "ts": 1795188872.1456187
+    "key": "ZBTUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "NMRUSDT": {
     "key": "NMRUSDT|SHORT|1795180499999",
@@ -17011,8 +17011,8 @@
     "ts": 1795215876.4290042
    },
    "ROSEUSDT": {
-    "key": "ROSEUSDT|SHORT|1795207499999",
-    "ts": 1795211368.9201818
+    "key": "ROSEUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "ONTUSDT": {
     "key": "ONTUSDT|SHORT|1795207499999",
@@ -17195,8 +17195,8 @@
     "ts": 1795191563.6622617
    },
    "MUBARAKUSDT": {
-    "key": "MUBARAKUSDT|LONG|1795211099999",
-    "ts": 1795211368.9201818
+    "key": "MUBARAKUSDT|LONG|1795220099999",
+    "ts": 1795220360.6220992
    },
    "RLCUSDT": {
     "key": "RLCUSDT|LONG|1795211099999",
@@ -17307,8 +17307,8 @@
     "ts": 1795213177.3103042
    },
    "ENSOUSDT": {
-    "key": "ENSOUSDT|SHORT|1795202999999",
-    "ts": 1795205973.7293599
+    "key": "ENSOUSDT|LONG|1795220099999",
+    "ts": 1795220360.6220992
    },
    "TURBOUSDT": {
     "key": "TURBOUSDT|SHORT|1795187699999",
@@ -17431,8 +17431,8 @@
     "ts": 1795211368.9201818
    },
    "OUSDT": {
-    "key": "OUSDT|LONG|1795212899999",
-    "ts": 1795213177.3103042
+    "key": "OUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "TWTUSDT": {
     "key": "TWTUSDT|LONG|1795211099999",
@@ -17543,8 +17543,8 @@
     "ts": 1795211368.9201818
    },
    "TUSDT": {
-    "key": "TUSDT|LONG|1795163399999",
-    "ts": 1795163676.6430922
+    "key": "TUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "SYNUSDT": {
     "key": "SYNUSDT|LONG|1795213799999",
@@ -17643,8 +17643,8 @@
     "ts": 1795166365.7371223
    },
    "GIGGLEUSDT": {
-    "key": "GIGGLEUSDT|SHORT|1795175099999",
-    "ts": 1795175369.1736479
+    "key": "GIGGLEUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "ARIAUSDT": {
     "key": "ARIAUSDT|SHORT|1795197599999",
@@ -17719,8 +17719,8 @@
     "ts": 1795213177.3103042
    },
    "TUTUSDT": {
-    "key": "TUTUSDT|LONG|1795211099999",
-    "ts": 1795211368.9201818
+    "key": "TUTUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "JASMYUSDT": {
     "key": "JASMYUSDT|SHORT|1795173299999",
@@ -17935,8 +17935,8 @@
     "ts": 1795213177.3103042
    },
    "RESOLVUSDT": {
-    "key": "RESOLVUSDT|LONG|1795196699999",
-    "ts": 1795196971.2987483
+    "key": "RESOLVUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "AEVOUSDT": {
     "key": "AEVOUSDT|SHORT|1795207499999",
@@ -18023,8 +18023,8 @@
     "ts": 1794767673.1986587
    },
    "TURTLEUSDT": {
-    "key": "TURTLEUSDT|SHORT|1795207499999",
-    "ts": 1795211368.9201818
+    "key": "TURTLEUSDT|SHORT|1795220099999",
+    "ts": 1795220360.6220992
    },
    "ASRUSDT": {
     "key": "ASRUSDT|LONG|1794760199999",
@@ -18039,8 +18039,8 @@
     "ts": 1794771273.1198244
    },
    "CARVUSDT": {
-    "key": "CARVUSDT|SHORT|1795206599999",
-    "ts": 1795206864.8813865
+    "key": "CARVUSDT|LONG|1795220099999",
+    "ts": 1795220360.6220992
    },
    "AUCTIONUSDT": {
     "key": "AUCTIONUSDT|LONG|1795212899999",
@@ -18119,8 +18119,8 @@
     "ts": 1795034968.0437489
    },
    "PHAROSUSDT": {
-    "key": "PHAROSUSDT|LONG|1795212899999",
-    "ts": 1795214962.2965648
+    "key": "PHAROSUSDT|LONG|1795220099999",
+    "ts": 1795220360.6220992
    }
   },
   "daily": {
@@ -22319,7 +22319,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-21 05:46"
+  "t": "2026-11-21 05:49"
  },
- "updated": "2026-11-21 05:46:06.312287+05:30"
+ "updated": "2026-11-21 05:49:31.208229+05:30"
 }
