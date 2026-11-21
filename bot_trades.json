@@ -4389,7 +4389,7 @@
     "f240": 45.924158209623116
    }
   ],
-  "t": "2026-11-21 11:01"
+  "t": "2026-11-21 11:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 251
    }
   ],
-  "t": "2026-11-21 11:01"
+  "t": "2026-11-21 11:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-21",
@@ -13922,40 +13922,19 @@
   "history": [],
   "funnel": {
    "evaluated": 477,
-   "magnet_no_sweep": 333,
+   "magnet_no_sweep": 332,
    "stale_bos": 67,
-   "not_in_zone": 59,
+   "not_in_zone": 58,
    "no_4h_structure": 5,
-   "no_choch_struct": 7,
+   "no_choch_struct": 8,
    "magnet_overshoot": 1,
-   "no_choch_fresh": 3,
+   "no_choch_fresh": 4,
    "protected_broken": 1,
-   "t": "2026-11-21 10:49",
+   "t": "2026-11-21 11:04",
    "signals": 1,
    "universe": 477
   },
   "feed": [
-   {
-    "t": "2026-11-21 09:49",
-    "kind": "CROSS",
-    "sym": "BARDUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.09035 rr 1.55 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-21 09:49",
-    "kind": "RADAR",
-    "sym": "NATGASUSDT",
-    "dir": "SHORT",
-    "text": "IN ZONE 3.811 | px 3.781"
-   },
-   {
-    "t": "2026-11-21 09:49",
-    "kind": "RADAR",
-    "sym": "VVVUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 16.701 | px 19.888"
-   },
    {
     "t": "2026-11-21 09:49",
     "kind": "CROSS",
@@ -14214,6 +14193,27 @@
     "sym": "PLAYUSDT",
     "dir": "LONG",
     "text": "APPROACHING 0.00694 | px 0.007778"
+   },
+   {
+    "t": "2026-11-21 11:04",
+    "kind": "RADAR",
+    "sym": "PARTIUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 0.03555 | px 0.03551"
+   },
+   {
+    "t": "2026-11-21 11:04",
+    "kind": "RADAR",
+    "sym": "SNXUSDT",
+    "dir": "LONG",
+    "text": "REJECTING 0.1394 | px 0.142"
+   },
+   {
+    "t": "2026-11-21 11:04",
+    "kind": "RADAR",
+    "sym": "PLAYUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.00694 | px 0.007736"
    }
   ],
   "radar_state": {
@@ -14554,8 +14554,8 @@
    },
    "PLAYUSDT": {
     "key": "LONG:0.00694",
-    "stage": "APPROACHING",
-    "ts": 1795238363.986864
+    "stage": "IN_ZONE",
+    "ts": 1795239271.0357323
    },
    "FFUSDT": {
     "key": "LONG:0.08383",
@@ -14579,8 +14579,8 @@
    },
    "SNXUSDT": {
     "key": "LONG:0.1394",
-    "stage": "IN_ZONE",
-    "ts": 1795238363.986864
+    "stage": "REJECTING",
+    "ts": 1795239271.0357323
    },
    "SWARMSUSDT": {
     "key": "LONG:0.0057",
@@ -15128,9 +15128,9 @@
     "ts": 1794827971.3943243
    },
    "PARTIUSDT": {
-    "key": "SHORT:0.03677",
+    "key": "SHORT:0.03555",
     "stage": "APPROACHING",
-    "ts": 1795187974.465527
+    "ts": 1795239271.0357323
    },
    "BRUSDT": {
     "key": "SHORT:0.4711",
@@ -22438,7 +22438,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-21 11:01"
+  "t": "2026-11-21 11:04"
  },
- "updated": "2026-11-21 11:01:30.636815+05:30"
+ "updated": "2026-11-21 11:04:33.388127+05:30"
 }
