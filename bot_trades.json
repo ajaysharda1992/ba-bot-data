@@ -4389,7 +4389,7 @@
     "f240": 45.8830308601565
    }
   ],
-  "t": "2026-11-21 13:01"
+  "t": "2026-11-21 13:04"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 288
    }
   ],
-  "t": "2026-11-21 13:01"
+  "t": "2026-11-21 13:04"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-21",
@@ -13924,53 +13924,18 @@
    "evaluated": 490,
    "magnet_no_sweep": 341,
    "stale_bos": 67,
-   "not_in_zone": 61,
+   "not_in_zone": 62,
    "no_4h_structure": 5,
-   "no_choch_fresh": 6,
+   "no_choch_fresh": 8,
    "end_of_move": 1,
-   "no_choch_struct": 6,
+   "no_choch_struct": 3,
    "magnet_overshoot": 1,
    "protected_broken": 1,
-   "t": "2026-11-21 12:49",
+   "t": "2026-11-21 13:04",
    "signals": 1,
    "universe": 490
   },
   "feed": [
-   {
-    "t": "2026-11-21 12:21",
-    "kind": "CROSS",
-    "sym": "SLPUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.0003873 rr 2.21 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:21",
-    "kind": "CROSS",
-    "sym": "ASRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.57845 rr 2.75 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:21",
-    "kind": "CROSS",
-    "sym": "SCRUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.01629 rr 2.78 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "ETHUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 1576.23 rr 1.78 (COUNTER 4H trend - LTF scalp)"
-   },
-   {
-    "t": "2026-11-21 12:34",
-    "kind": "CROSS",
-    "sym": "INITUSDT",
-    "dir": "LONG",
-    "text": "EM1 entry 0.086145 rr 3.3 (COUNTER 4H trend - LTF scalp)"
-   },
    {
     "t": "2026-11-21 12:34",
     "kind": "CROSS",
@@ -14215,6 +14180,41 @@
     "sym": "TAKEUSDT",
     "dir": "SHORT",
     "text": "APPROACHING 0.0661 | px 0.0603"
+   },
+   {
+    "t": "2026-11-21 13:04",
+    "kind": "CROSS",
+    "sym": "HOTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.0003303 rr 2.15 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-21 13:04",
+    "kind": "RADAR",
+    "sym": "ZAMAUSDT",
+    "dir": "LONG",
+    "text": "IN ZONE 0.05097 | px 0.05705"
+   },
+   {
+    "t": "2026-11-21 13:04",
+    "kind": "RADAR",
+    "sym": "YGGUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 0.01851 | px 0.01835"
+   },
+   {
+    "t": "2026-11-21 13:04",
+    "kind": "RADAR",
+    "sym": "LYNUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.01815 | px 0.01672"
+   },
+   {
+    "t": "2026-11-21 13:04",
+    "kind": "RADAR",
+    "sym": "AGLDUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET REJECTING 0.1337 | px 0.1333"
    }
   ],
   "radar_state": {
@@ -14765,8 +14765,8 @@
    },
    "LYNUSDT": {
     "key": "SHORT:0.01815",
-    "stage": "IN_ZONE",
-    "ts": 1795244667.14969
+    "stage": "APPROACHING",
+    "ts": 1795246462.4859293
    },
    "USUSDT": {
     "key": "LONG:0.003294",
@@ -15540,8 +15540,8 @@
    },
    "ZAMAUSDT": {
     "key": "LONG:0.05097",
-    "stage": "APPROACHING",
-    "ts": 1795244667.14969
+    "stage": "IN_ZONE",
+    "ts": 1795246462.4859293
    },
    "IDOLUSDT": {
     "key": "LONG:0.0162",
@@ -15599,9 +15599,9 @@
     "ts": 1795002560.8606708
    },
    "YGGUSDT": {
-    "key": "SHORT:0.0219",
+    "key": "SHORT:0.01851",
     "stage": "APPROACHING",
-    "ts": 1795003468.554264
+    "ts": 1795246462.4859293
    },
    "NATGASUSDT": {
     "key": "SHORT:3.811",
@@ -16125,8 +16125,8 @@
    },
    "AGLDUSDT": {
     "key": "SHORT:0.1337",
-    "stage": "SWEEPING",
-    "ts": 1795244667.14969
+    "stage": "REJECTING",
+    "ts": 1795246462.4859293
    },
    "INUSDT": {
     "key": "SHORT:0.02408",
@@ -16272,8 +16272,8 @@
     "ts": 1795224868.6755295
    },
    "HOTUSDT": {
-    "key": "HOTUSDT|SHORT|1795232699999",
-    "ts": 1795232979.246201
+    "key": "HOTUSDT|SHORT|1795240799999",
+    "ts": 1795246462.4859293
    },
    "LDOUSDT": {
     "key": "LDOUSDT|SHORT|1795224599999",
@@ -22561,7 +22561,7 @@
     "swept_pdl": true
    }
   },
-  "t": "2026-11-21 13:01"
+  "t": "2026-11-21 13:04"
  },
- "updated": "2026-11-21 13:01:28.822940+05:30"
+ "updated": "2026-11-21 13:04:26.176570+05:30"
 }
