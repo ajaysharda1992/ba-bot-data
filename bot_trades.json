@@ -4389,7 +4389,7 @@
     "f240": 43.11050844476586
    }
   ],
-  "t": "2026-11-22 09:46"
+  "t": "2026-11-22 09:49"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 296
    }
   ],
-  "t": "2026-11-22 09:46"
+  "t": "2026-11-22 09:49"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-22",
@@ -13923,44 +13923,17 @@
   "funnel": {
    "evaluated": 460,
    "magnet_no_sweep": 280,
-   "not_in_zone": 65,
+   "not_in_zone": 64,
    "stale_bos": 103,
    "no_4h_structure": 4,
    "no_choch_struct": 2,
-   "no_choch_fresh": 3,
-   "t": "2026-11-22 09:34",
-   "signals": 3,
+   "no_choch_fresh": 2,
+   "risk_wide": 1,
+   "t": "2026-11-22 09:49",
+   "signals": 4,
    "universe": 460
   },
   "feed": [
-   {
-    "t": "2026-11-22 09:04",
-    "kind": "CROSS",
-    "sym": "USUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0035645 rr 8.42 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-22 09:04",
-    "kind": "CROSS",
-    "sym": "COTIUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.0077725 rr 7.87 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-22 09:04",
-    "kind": "CROSS",
-    "sym": "STEEMUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.043725 rr 7.49 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-22 09:04",
-    "kind": "CROSS",
-    "sym": "JELLYJELLYUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.03659 rr 2.42 (with 4H trend)"
-   },
    {
     "t": "2026-11-22 09:04",
     "kind": "CROSS",
@@ -14212,6 +14185,34 @@
     "sym": "FIDAUSDT",
     "dir": "SHORT",
     "text": "EM1 entry 0.01266 rr 9.5 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-22 09:49",
+    "kind": "RADAR",
+    "sym": "BLESSUSDT",
+    "dir": "SHORT",
+    "text": "APPROACHING 0.01969 | px 0.013561"
+   },
+   {
+    "t": "2026-11-22 09:49",
+    "kind": "RADAR",
+    "sym": "BULLAUSDT",
+    "dir": "SHORT",
+    "text": "IN ZONE 0.01657 | px 0.01453"
+   },
+   {
+    "t": "2026-11-22 09:49",
+    "kind": "CROSS",
+    "sym": "CAPUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.09125 rr 4.06 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-22 09:49",
+    "kind": "CROSS",
+    "sym": "CGPTUSDT",
+    "dir": "LONG",
+    "text": "EM1 entry 0.01293 rr 3.45 (COUNTER 4H trend - LTF scalp)"
    }
   ],
   "radar_state": {
@@ -14277,8 +14278,8 @@
    },
    "BULLAUSDT": {
     "key": "SHORT:0.01657",
-    "stage": "APPROACHING",
-    "ts": 1795319377.8408165
+    "stage": "IN_ZONE",
+    "ts": 1795321164.474808
    },
    "HANAUSDT": {
     "key": "SHORT:0.01497",
@@ -15071,9 +15072,9 @@
     "ts": 1795162765.9214478
    },
    "BLESSUSDT": {
-    "key": "LONG:0.01124",
+    "key": "SHORT:0.01969",
     "stage": "APPROACHING",
-    "ts": 1795268065.756667
+    "ts": 1795321164.474808
    },
    "TUSDT": {
     "key": "LONG:0.003784",
@@ -16754,8 +16755,8 @@
     "ts": 1795305866.3603923
    },
    "CAPUSDT": {
-    "key": "CAPUSDT|SHORT|1795313699999",
-    "ts": 1795313979.6830552
+    "key": "CAPUSDT|SHORT|1795320899999",
+    "ts": 1795321164.474808
    },
    "REUSDT": {
     "key": "REUSDT|SHORT|1795310999999",
@@ -17150,8 +17151,8 @@
     "ts": 1795314869.1526024
    },
    "CGPTUSDT": {
-    "key": "CGPTUSDT|SHORT|1795313699999",
-    "ts": 1795313979.6830552
+    "key": "CGPTUSDT|LONG|1795320899999",
+    "ts": 1795321164.474808
    },
    "EDENUSDT": {
     "key": "EDENUSDT|SHORT|1795315499999",
@@ -22393,7 +22394,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-22 09:46"
+  "t": "2026-11-22 09:49"
  },
- "updated": "2026-11-22 09:46:15.716000+05:30"
+ "updated": "2026-11-22 09:49:27.532002+05:30"
 }
