@@ -4389,7 +4389,7 @@
     "f240": 47.251381815281476
    }
   ],
-  "t": "2026-11-22 18:31"
+  "t": "2026-11-22 18:34"
  },
  "liq": {
   "setups": [
@@ -4754,7 +4754,7 @@
     "_leg_end": 291
    }
   ],
-  "t": "2026-11-22 18:31"
+  "t": "2026-11-22 18:34"
  },
  "day_r": 0.0,
  "cur_day": "2026-11-22",
@@ -13926,55 +13926,13 @@
    "stale_bos": 119,
    "no_4h_structure": 5,
    "not_in_zone": 44,
-   "no_choch_struct": 11,
-   "no_choch_fresh": 2,
-   "t": "2026-11-22 18:19",
+   "no_choch_struct": 8,
+   "no_choch_fresh": 5,
+   "t": "2026-11-22 18:34",
    "signals": 2,
    "universe": 386
   },
   "feed": [
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "CROSS",
-    "sym": "ZECUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 794.84 rr 6.94 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "RADAR",
-    "sym": "PIEVERSEUSDT",
-    "dir": "LONG",
-    "text": "IN ZONE 2.4605 | px 3.844"
-   },
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "RADAR",
-    "sym": "LINKUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET REJECTING 8.841 | px 8.773"
-   },
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "CROSS",
-    "sym": "ASTERUSDT",
-    "dir": "SHORT",
-    "text": "EM1 entry 0.5044 rr 4.81 (with 4H trend)"
-   },
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "RADAR",
-    "sym": "RENDERUSDT",
-    "dir": "SHORT",
-    "text": "APPROACHING 1.494 | px 1.34"
-   },
-   {
-    "t": "2026-11-22 18:04",
-    "kind": "RADAR",
-    "sym": "NIGHTUSDT",
-    "dir": "SHORT",
-    "text": "MAGNET REJECTING 0.04716 | px 0.04651"
-   },
    {
     "t": "2026-11-22 18:04",
     "kind": "CROSS",
@@ -14212,6 +14170,48 @@
     "sym": "TRUTHUSDT",
     "dir": "LONG",
     "text": "EM1 entry 0.014267 rr 6.57 (with 4H trend)"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "CROSS",
+    "sym": "VVVUSDT",
+    "dir": "SHORT",
+    "text": "EM3 entry 25.432 rr 1.55 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "RADAR",
+    "sym": "LINKUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 8.841 | px 8.79"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "RADAR",
+    "sym": "VELVETUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET REJECTING 0.07187 | px 0.07136"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "CROSS",
+    "sym": "JSTUSDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.146425 rr 1.52 (COUNTER 4H trend - LTF scalp)"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "RADAR",
+    "sym": "MORPHOUSDT",
+    "dir": "SHORT",
+    "text": "MAGNET APPROACHING 1.5919 | px 1.5782"
+   },
+   {
+    "t": "2026-11-22 18:34",
+    "kind": "CROSS",
+    "sym": "B2USDT",
+    "dir": "SHORT",
+    "text": "EM1 entry 0.3752 rr 18.38 (with 4H trend)"
    }
   ],
   "radar_state": {
@@ -15027,8 +15027,8 @@
    },
    "VELVETUSDT": {
     "key": "SHORT:0.07187",
-    "stage": "SWEEPING",
-    "ts": 1795350859.237191
+    "stage": "REJECTING",
+    "ts": 1795352667.725466
    },
    "ATOMUSDT": {
     "key": "SHORT:1.442",
@@ -16142,8 +16142,8 @@
    },
    "MORPHOUSDT": {
     "key": "SHORT:1.5919",
-    "stage": "REJECTING",
-    "ts": 1795350859.237191
+    "stage": "APPROACHING",
+    "ts": 1795352667.725466
    },
    "WOOUSDT": {
     "key": "SHORT:0.00931",
@@ -16152,8 +16152,8 @@
    },
    "LINKUSDT": {
     "key": "SHORT:8.841",
-    "stage": "REJECTING",
-    "ts": 1795350859.237191
+    "stage": "APPROACHING",
+    "ts": 1795352667.725466
    },
    "XRPUSDT": {
     "key": "SHORT:1.0073",
@@ -16475,8 +16475,8 @@
     "ts": 1795344562.320908
    },
    "B2USDT": {
-    "key": "B2USDT|SHORT|1795333499999",
-    "ts": 1795333765.3771935
+    "key": "B2USDT|SHORT|1795352399999",
+    "ts": 1795352667.725466
    },
    "AVAUSDT": {
     "key": "AVAUSDT|LONG|1795335299999",
@@ -17299,8 +17299,8 @@
     "ts": 1795345468.4702942
    },
    "JSTUSDT": {
-    "key": "JSTUSDT|LONG|1795337099999",
-    "ts": 1795337362.2377403
+    "key": "JSTUSDT|SHORT|1795350599999",
+    "ts": 1795352667.725466
    },
    "MOCAUSDT": {
     "key": "MOCAUSDT|LONG|1795341599999",
@@ -17351,8 +17351,8 @@
     "ts": 1795306765.7569404
    },
    "VVVUSDT": {
-    "key": "VVVUSDT|LONG|1795263299999",
-    "ts": 1795266278.090274
+    "key": "VVVUSDT|SHORT|1795350599999",
+    "ts": 1795352667.725466
    },
    "COPPERUSDT": {
     "key": "COPPERUSDT|SHORT|1795314599999",
@@ -21732,7 +21732,7 @@
     "swept_pdl": false
    }
   },
-  "t": "2026-11-22 18:31"
+  "t": "2026-11-22 18:34"
  },
- "updated": "2026-11-22 18:31:21.863316+05:30"
+ "updated": "2026-11-22 18:34:31.926142+05:30"
 }
