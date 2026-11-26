@@ -4804,7 +4804,7 @@
   "gate_tg_pause": 167,
   "shadow_opened": 155,
   "shadow_closed": 143,
-  "liq_shadow_opened": 50068,
+  "liq_shadow_opened": 50074,
   "gate_countertrend": 7
  },
  "pairs": [
@@ -5323,7 +5323,7 @@
   "open": 21
  },
  "liqsim": {
-  "equity": 494.05000000000024,
+  "equity": 496.64000000000027,
   "positions": [
    {
     "sym": "1000BONKUSDT",
@@ -5333,9 +5333,9 @@
     "tp": 0.002199477,
     "sl_hard": 0.0021725956,
     "risk_usdt": 11.75,
-    "ts": 1795676399999,
+    "ts": 1795677299999,
     "filled": false,
-    "wait": 28,
+    "wait": 29,
     "t_open": "2026-11-26 06:31"
    },
    {
@@ -5346,9 +5346,9 @@
     "tp": 0.08161611000000002,
     "sl_hard": 0.08083126930000001,
     "risk_usdt": 11.94,
-    "ts": 1795676399999,
+    "ts": 1795677299999,
     "filled": false,
-    "wait": 8,
+    "wait": 9,
     "t_open": "2026-11-26 11:31"
    },
    {
@@ -5358,11 +5358,11 @@
     "sl": 0.046179165,
     "tp": 0.04679833,
     "sl_hard": 0.0465063079,
-    "risk_usdt": 12.35,
+    "risk_usdt": 12.42,
     "ts": 1795672799999,
     "filled": false,
     "wait": 0,
-    "t_open": "2026-11-26 12:31"
+    "t_open": "2026-11-26 12:46"
    },
    {
     "sym": "1000PEPEUSDT",
@@ -5371,11 +5371,11 @@
     "sl": 0.0035677436,
     "tp": 0.0036375372000000002,
     "sl_hard": 0.0035952579,
-    "risk_usdt": 12.35,
+    "risk_usdt": 12.42,
     "ts": 1795672799999,
     "filled": false,
     "wait": 0,
-    "t_open": "2026-11-26 12:31"
+    "t_open": "2026-11-26 12:46"
    },
    {
     "sym": "1000SATSUSDT",
@@ -5384,68 +5384,14 @@
     "sl": 7.3710400000000005e-06,
     "tp": 7.477080000000001e-06,
     "sl_hard": 7.3996400000000005e-06,
-    "risk_usdt": 12.35,
+    "risk_usdt": 12.42,
     "ts": 1795672799999,
     "filled": false,
     "wait": 0,
-    "t_open": "2026-11-26 12:31"
+    "t_open": "2026-11-26 12:46"
    }
   ],
   "history": [
-   {
-    "sym": "ALPINEUSDT",
-    "dir": "SHORT",
-    "entry": 0.25925,
-    "sl": 0.2552166,
-    "tp": 0.25118320000000005,
-    "sl_hard": 0.25332374290000004,
-    "risk_usdt": 6.76,
-    "ts": 1795114799999,
-    "filled": true,
-    "wait": 0,
-    "t_open": "2026-11-20 00:46",
-    "fill_ts": 1795116599999,
-    "resultR": 0.06,
-    "pnl": 0.41,
-    "exit_kind": "CLOSE_STOP",
-    "exitTime": "2026-11-20 01:16"
-   },
-   {
-    "sym": "AGLDUSDT",
-    "dir": "SHORT",
-    "entry": 0.13645,
-    "sl": 0.1343981,
-    "tp": 0.1323462,
-    "sl_hard": 0.13343381429999998,
-    "risk_usdt": 6.76,
-    "ts": 1795116599999,
-    "filled": true,
-    "wait": 2,
-    "t_open": "2026-11-20 00:46",
-    "fill_ts": 1795117499999,
-    "resultR": -0.02,
-    "pnl": -0.14,
-    "exit_kind": "CLOSE_STOP",
-    "exitTime": "2026-11-20 01:31"
-   },
-   {
-    "sym": "ALPINEUSDT",
-    "dir": "SHORT",
-    "entry": 0.25925,
-    "sl": 0.2552166,
-    "tp": 0.25118320000000005,
-    "sl_hard": 0.25332374290000004,
-    "risk_usdt": 6.77,
-    "ts": 1795114799999,
-    "filled": true,
-    "wait": 0,
-    "t_open": "2026-11-20 01:16",
-    "fill_ts": 1795116599999,
-    "resultR": 0.06,
-    "pnl": 0.41,
-    "exit_kind": "CLOSE_STOP",
-    "exitTime": "2026-11-20 01:31"
-   },
    {
     "sym": "AGLDUSDT",
     "dir": "SHORT",
@@ -10791,9 +10737,63 @@
     "pnl": -0.61,
     "exit_kind": "CLOSE_STOP",
     "exitTime": "2026-11-26 12:31"
+   },
+   {
+    "sym": "1000LUNCUSDT",
+    "dir": "LONG",
+    "entry": 0.04556,
+    "sl": 0.046179165,
+    "tp": 0.04679833,
+    "sl_hard": 0.0465063079,
+    "risk_usdt": 12.35,
+    "ts": 1795672799999,
+    "filled": true,
+    "wait": 0,
+    "t_open": "2026-11-26 12:31",
+    "fill_ts": 1795673699999,
+    "resultR": 0.58,
+    "pnl": 7.16,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-26 12:46"
+   },
+   {
+    "sym": "1000PEPEUSDT",
+    "dir": "LONG",
+    "entry": 0.00349795,
+    "sl": 0.0035677436,
+    "tp": 0.0036375372000000002,
+    "sl_hard": 0.0035952579,
+    "risk_usdt": 12.35,
+    "ts": 1795672799999,
+    "filled": true,
+    "wait": 0,
+    "t_open": "2026-11-26 12:31",
+    "fill_ts": 1795675499999,
+    "resultR": -0.32,
+    "pnl": -3.95,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-26 12:46"
+   },
+   {
+    "sym": "1000SATSUSDT",
+    "dir": "LONG",
+    "entry": 7.265e-06,
+    "sl": 7.3710400000000005e-06,
+    "tp": 7.477080000000001e-06,
+    "sl_hard": 7.3996400000000005e-06,
+    "risk_usdt": 12.35,
+    "ts": 1795672799999,
+    "filled": true,
+    "wait": 0,
+    "t_open": "2026-11-26 12:31",
+    "fill_ts": 1795673699999,
+    "resultR": -0.05,
+    "pnl": -0.62,
+    "exit_kind": "CLOSE_STOP",
+    "exitTime": "2026-11-26 12:46"
    }
   ],
-  "day": 1.09,
+  "day": 1.2999999999999998,
   "cur_day": "2026-11-26"
  },
  "sweepsim": {
@@ -22587,5 +22587,5 @@
   },
   "t": "2026-11-26 12:46"
  },
- "updated": "2026-11-26 12:46:04.596433+05:30"
+ "updated": "2026-11-26 12:46:08.158486+05:30"
 }
